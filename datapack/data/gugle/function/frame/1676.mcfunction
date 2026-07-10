@@ -1,9 +1,9 @@
 fill ~102 ~1 ~40 ~105 ~1 ~40 minecraft:air
 fill ~110 ~1 ~40 ~112 ~1 ~40 minecraft:air
-fill ~100 ~1 ~41 ~103 ~1 ~41 minecraft:air
+fill ~100 ~1 ~41 ~101 ~1 ~44 minecraft:air
+fill ~102 ~1 ~41 ~103 ~1 ~41 minecraft:air
 fill ~120 ~1 ~41 ~123 ~1 ~41 minecraft:air
-fill ~99 ~1 ~42 ~101 ~1 ~42 minecraft:air
-fill ~99 ~1 ~43 ~101 ~1 ~43 minecraft:air
-fill ~100 ~1 ~44 ~102 ~1 ~44 minecraft:air
-fill ~102 ~1 ~45 ~103 ~1 ~45 minecraft:air
+fill ~99 ~1 ~42 ~99 ~1 ~43 minecraft:air
+fill ~102 ~1 ~44 ~102 ~1 ~45 minecraft:air
+setblock ~103 ~1 ~45 minecraft:air
 fill ~106 ~1 ~46 ~127 ~1 ~46 minecraft:redstone_block

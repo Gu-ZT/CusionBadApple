@@ -46,4 +46,7 @@ Run `setup` at the lower north-west corner of the screen. The screen occupies
 positive X and positive Z, with redstone blocks at Y+1 and lamps at Y+2.
 
 Frame functions contain only pixels that changed since the previous frame.
-Adjacent changes are combined into `fill` commands to reduce command count.
+Adjacent changes are combined into two-dimensional `fill` rectangles to reduce
+command count. `setup` also raises `max_command_forks` and
+`max_command_sequence_length` so busy frames cannot cut off the next scheduled
+tick.

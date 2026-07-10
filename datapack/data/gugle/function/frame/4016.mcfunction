@@ -10,7 +10,6 @@ setblock ~54 ~1 ~62 minecraft:redstone_block
 setblock ~52 ~1 ~69 minecraft:redstone_block
 setblock ~75 ~1 ~69 minecraft:redstone_block
 setblock ~52 ~1 ~71 minecraft:redstone_block
-setblock ~75 ~1 ~72 minecraft:redstone_block
-setblock ~75 ~1 ~73 minecraft:redstone_block
+fill ~75 ~1 ~72 ~75 ~1 ~73 minecraft:redstone_block
 setblock ~51 ~1 ~83 minecraft:redstone_block
 setblock ~49 ~1 ~95 minecraft:redstone_block

@@ -1,4 +1,4 @@
-execute if score $frame gugle_badapple matches 2316 run function gugle:frame/2316
-execute if score $frame gugle_badapple matches 2317 run function gugle:frame/2317
-execute if score $frame gugle_badapple matches 2318 run function gugle:frame/2318
-execute if score $frame gugle_badapple matches 2319 run function gugle:frame/2319
+execute if score $render gugle_badapple matches 2316 run function gugle:frame/2316
+execute if score $render gugle_badapple matches 2317 run function gugle:frame/2317
+execute if score $render gugle_badapple matches 2318 run function gugle:frame/2318
+execute if score $render gugle_badapple matches 2319 run function gugle:frame/2319

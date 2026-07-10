@@ -1,50 +1,29 @@
-fill ~118 ~1 ~25 ~119 ~1 ~25 minecraft:air
-fill ~123 ~1 ~25 ~127 ~1 ~25 minecraft:air
-fill ~117 ~1 ~26 ~127 ~1 ~26 minecraft:air
-fill ~114 ~1 ~27 ~127 ~1 ~27 minecraft:air
-fill ~112 ~1 ~28 ~127 ~1 ~28 minecraft:air
-fill ~112 ~1 ~29 ~127 ~1 ~29 minecraft:air
-fill ~112 ~1 ~30 ~127 ~1 ~30 minecraft:air
-fill ~112 ~1 ~31 ~127 ~1 ~31 minecraft:air
-fill ~111 ~1 ~32 ~127 ~1 ~32 minecraft:air
-fill ~111 ~1 ~33 ~127 ~1 ~33 minecraft:air
-fill ~110 ~1 ~34 ~127 ~1 ~34 minecraft:air
-fill ~109 ~1 ~35 ~127 ~1 ~35 minecraft:air
-fill ~109 ~1 ~36 ~127 ~1 ~36 minecraft:air
-fill ~108 ~1 ~37 ~127 ~1 ~37 minecraft:air
-fill ~108 ~1 ~38 ~127 ~1 ~38 minecraft:air
-fill ~107 ~1 ~39 ~127 ~1 ~39 minecraft:air
-fill ~107 ~1 ~40 ~127 ~1 ~40 minecraft:air
-fill ~107 ~1 ~41 ~127 ~1 ~41 minecraft:air
-fill ~107 ~1 ~42 ~127 ~1 ~42 minecraft:air
-fill ~107 ~1 ~43 ~127 ~1 ~43 minecraft:air
-fill ~107 ~1 ~44 ~127 ~1 ~44 minecraft:air
-fill ~108 ~1 ~45 ~127 ~1 ~45 minecraft:air
-fill ~109 ~1 ~46 ~127 ~1 ~46 minecraft:air
-fill ~110 ~1 ~47 ~127 ~1 ~47 minecraft:air
-fill ~111 ~1 ~48 ~127 ~1 ~48 minecraft:air
-fill ~112 ~1 ~49 ~127 ~1 ~49 minecraft:air
-fill ~112 ~1 ~50 ~127 ~1 ~50 minecraft:air
-fill ~112 ~1 ~51 ~127 ~1 ~51 minecraft:air
-fill ~111 ~1 ~52 ~127 ~1 ~52 minecraft:air
-fill ~111 ~1 ~53 ~127 ~1 ~53 minecraft:air
-fill ~112 ~1 ~54 ~127 ~1 ~54 minecraft:air
-fill ~111 ~1 ~55 ~127 ~1 ~55 minecraft:air
-fill ~113 ~1 ~56 ~127 ~1 ~56 minecraft:air
-setblock ~113 ~1 ~57 minecraft:air
+fill ~118 ~1 ~25 ~119 ~1 ~57 minecraft:air
+fill ~123 ~1 ~25 ~127 ~1 ~58 minecraft:air
+fill ~117 ~1 ~26 ~117 ~1 ~56 minecraft:air
+fill ~120 ~1 ~26 ~122 ~1 ~58 minecraft:air
+fill ~114 ~1 ~27 ~116 ~1 ~56 minecraft:air
+fill ~112 ~1 ~28 ~113 ~1 ~55 minecraft:air
+fill ~111 ~1 ~32 ~111 ~1 ~48 minecraft:air
+fill ~110 ~1 ~34 ~110 ~1 ~47 minecraft:air
+fill ~109 ~1 ~35 ~109 ~1 ~46 minecraft:air
+fill ~108 ~1 ~37 ~108 ~1 ~45 minecraft:air
+fill ~107 ~1 ~39 ~107 ~1 ~44 minecraft:air
+fill ~111 ~1 ~52 ~111 ~1 ~53 minecraft:air
+setblock ~111 ~1 ~55 minecraft:air
+fill ~113 ~1 ~56 ~113 ~1 ~60 minecraft:air
 fill ~115 ~1 ~57 ~116 ~1 ~57 minecraft:air
-fill ~118 ~1 ~57 ~127 ~1 ~57 minecraft:air
-setblock ~113 ~1 ~58 minecraft:air
-fill ~120 ~1 ~58 ~127 ~1 ~58 minecraft:air
-fill ~113 ~1 ~59 ~114 ~1 ~59 minecraft:air
-fill ~121 ~1 ~59 ~124 ~1 ~59 minecraft:air
-fill ~112 ~1 ~60 ~115 ~1 ~60 minecraft:air
-fill ~117 ~1 ~60 ~124 ~1 ~60 minecraft:air
-setblock ~126 ~1 ~60 minecraft:air
-fill ~115 ~1 ~61 ~116 ~1 ~61 minecraft:air
-fill ~119 ~1 ~61 ~126 ~1 ~61 minecraft:air
-fill ~116 ~1 ~62 ~117 ~1 ~62 minecraft:air
-fill ~124 ~1 ~62 ~127 ~1 ~62 minecraft:air
-fill ~117 ~1 ~63 ~118 ~1 ~63 minecraft:air
-fill ~126 ~1 ~63 ~127 ~1 ~63 minecraft:air
+fill ~114 ~1 ~59 ~114 ~1 ~60 minecraft:air
+fill ~121 ~1 ~59 ~124 ~1 ~61 minecraft:air
+setblock ~112 ~1 ~60 minecraft:air
+fill ~115 ~1 ~60 ~115 ~1 ~61 minecraft:air
+fill ~117 ~1 ~60 ~120 ~1 ~60 minecraft:air
+fill ~126 ~1 ~60 ~126 ~1 ~63 minecraft:air
+fill ~116 ~1 ~61 ~116 ~1 ~62 minecraft:air
+fill ~119 ~1 ~61 ~120 ~1 ~61 minecraft:air
+fill ~125 ~1 ~61 ~125 ~1 ~62 minecraft:air
+fill ~117 ~1 ~62 ~117 ~1 ~63 minecraft:air
+setblock ~124 ~1 ~62 minecraft:air
+fill ~127 ~1 ~62 ~127 ~1 ~63 minecraft:air
+setblock ~118 ~1 ~63 minecraft:air
 setblock ~119 ~1 ~64 minecraft:air

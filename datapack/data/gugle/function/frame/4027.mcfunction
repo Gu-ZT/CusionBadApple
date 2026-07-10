@@ -3,8 +3,7 @@ fill ~53 ~1 ~30 ~57 ~1 ~30 minecraft:redstone_block
 fill ~61 ~1 ~30 ~64 ~1 ~30 minecraft:redstone_block
 fill ~66 ~1 ~30 ~67 ~1 ~30 minecraft:redstone_block
 setblock ~52 ~1 ~33 minecraft:redstone_block
-setblock ~56 ~1 ~42 minecraft:redstone_block
-setblock ~56 ~1 ~43 minecraft:redstone_block
+fill ~56 ~1 ~42 ~56 ~1 ~43 minecraft:redstone_block
 setblock ~55 ~1 ~48 minecraft:redstone_block
 setblock ~54 ~1 ~49 minecraft:redstone_block
 setblock ~70 ~1 ~49 minecraft:redstone_block

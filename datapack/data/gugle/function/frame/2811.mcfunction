@@ -1,5 +1,6 @@
-fill ~61 ~1 ~23 ~66 ~1 ~23 minecraft:redstone_block
-fill ~55 ~1 ~24 ~71 ~1 ~24 minecraft:redstone_block
+fill ~61 ~1 ~23 ~66 ~1 ~24 minecraft:redstone_block
+fill ~55 ~1 ~24 ~60 ~1 ~24 minecraft:redstone_block
+fill ~67 ~1 ~24 ~71 ~1 ~24 minecraft:redstone_block
 fill ~52 ~1 ~25 ~56 ~1 ~25 minecraft:redstone_block
 fill ~70 ~1 ~25 ~74 ~1 ~25 minecraft:redstone_block
 fill ~50 ~1 ~26 ~53 ~1 ~26 minecraft:redstone_block

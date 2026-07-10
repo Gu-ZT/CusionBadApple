@@ -15,28 +15,10 @@ setblock ~23 ~1 ~67 minecraft:air
 setblock ~49 ~1 ~67 minecraft:air
 setblock ~52 ~1 ~67 minecraft:redstone_block
 setblock ~25 ~1 ~68 minecraft:redstone_block
-setblock ~48 ~1 ~69 minecraft:air
-setblock ~48 ~1 ~70 minecraft:air
-setblock ~48 ~1 ~71 minecraft:air
-setblock ~48 ~1 ~72 minecraft:air
+fill ~48 ~1 ~69 ~48 ~1 ~72 minecraft:air
 setblock ~21 ~1 ~74 minecraft:air
-setblock ~53 ~1 ~75 minecraft:redstone_block
+fill ~53 ~1 ~75 ~53 ~1 ~89 minecraft:redstone_block
 setblock ~45 ~1 ~76 minecraft:redstone_block
-setblock ~53 ~1 ~76 minecraft:redstone_block
 setblock ~46 ~1 ~77 minecraft:redstone_block
-setblock ~48 ~1 ~77 minecraft:air
-setblock ~53 ~1 ~77 minecraft:redstone_block
+fill ~48 ~1 ~77 ~48 ~1 ~78 minecraft:air
 setblock ~47 ~1 ~78 minecraft:redstone_block
-setblock ~48 ~1 ~78 minecraft:air
-setblock ~53 ~1 ~78 minecraft:redstone_block
-setblock ~53 ~1 ~79 minecraft:redstone_block
-setblock ~53 ~1 ~80 minecraft:redstone_block
-setblock ~53 ~1 ~81 minecraft:redstone_block
-setblock ~53 ~1 ~82 minecraft:redstone_block
-setblock ~53 ~1 ~83 minecraft:redstone_block
-setblock ~53 ~1 ~84 minecraft:redstone_block
-setblock ~53 ~1 ~85 minecraft:redstone_block
-setblock ~53 ~1 ~86 minecraft:redstone_block
-setblock ~53 ~1 ~87 minecraft:redstone_block
-setblock ~53 ~1 ~88 minecraft:redstone_block
-setblock ~53 ~1 ~89 minecraft:redstone_block

@@ -2,8 +2,7 @@ setblock ~55 ~1 ~4 minecraft:redstone_block
 setblock ~71 ~1 ~4 minecraft:redstone_block
 setblock ~73 ~1 ~5 minecraft:redstone_block
 setblock ~80 ~1 ~11 minecraft:redstone_block
-setblock ~87 ~1 ~20 minecraft:redstone_block
-setblock ~87 ~1 ~21 minecraft:redstone_block
+fill ~87 ~1 ~20 ~87 ~1 ~21 minecraft:redstone_block
 setblock ~80 ~1 ~25 minecraft:air
 setblock ~87 ~1 ~26 minecraft:redstone_block
 setblock ~49 ~1 ~28 minecraft:redstone_block
@@ -22,10 +21,9 @@ setblock ~13 ~1 ~47 minecraft:redstone_block
 setblock ~15 ~1 ~48 minecraft:redstone_block
 setblock ~108 ~1 ~49 minecraft:air
 setblock ~125 ~1 ~49 minecraft:redstone_block
-setblock ~8 ~1 ~50 minecraft:air
+fill ~8 ~1 ~50 ~8 ~1 ~51 minecraft:air
 setblock ~26 ~1 ~50 minecraft:air
 setblock ~126 ~1 ~50 minecraft:redstone_block
-setblock ~8 ~1 ~51 minecraft:air
 setblock ~28 ~1 ~51 minecraft:air
 setblock ~43 ~1 ~51 minecraft:air
 setblock ~83 ~1 ~51 minecraft:air
@@ -40,11 +38,10 @@ setblock ~20 ~1 ~53 minecraft:air
 setblock ~100 ~1 ~53 minecraft:redstone_block
 setblock ~117 ~1 ~53 minecraft:air
 setblock ~40 ~1 ~55 minecraft:air
-setblock ~45 ~1 ~55 minecraft:redstone_block
+fill ~45 ~1 ~55 ~45 ~1 ~56 minecraft:redstone_block
 setblock ~97 ~1 ~55 minecraft:air
 setblock ~127 ~1 ~55 minecraft:air
 setblock ~3 ~1 ~56 minecraft:redstone_block
-setblock ~45 ~1 ~56 minecraft:redstone_block
 setblock ~10 ~1 ~57 minecraft:air
 setblock ~36 ~1 ~57 minecraft:redstone_block
 setblock ~96 ~1 ~57 minecraft:air
@@ -60,11 +57,10 @@ setblock ~36 ~1 ~65 minecraft:redstone_block
 setblock ~7 ~1 ~66 minecraft:redstone_block
 setblock ~40 ~1 ~67 minecraft:air
 setblock ~101 ~1 ~68 minecraft:air
-setblock ~37 ~1 ~70 minecraft:redstone_block
+fill ~37 ~1 ~70 ~37 ~1 ~71 minecraft:redstone_block
 setblock ~39 ~1 ~70 minecraft:air
 setblock ~90 ~1 ~70 minecraft:redstone_block
 setblock ~26 ~1 ~71 minecraft:redstone_block
-setblock ~37 ~1 ~71 minecraft:redstone_block
 setblock ~88 ~1 ~71 minecraft:air
 fill ~50 ~1 ~72 ~51 ~1 ~72 minecraft:redstone_block
 setblock ~75 ~1 ~73 minecraft:air

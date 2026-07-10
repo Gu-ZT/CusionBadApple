@@ -1,5 +1,5 @@
-execute if score $frame gugle_badapple matches 3843 run function gugle:frame/3843
-execute if score $frame gugle_badapple matches 3844 run function gugle:frame/3844
-execute if score $frame gugle_badapple matches 3845 run function gugle:frame/3845
-execute if score $frame gugle_badapple matches 3846 run function gugle:frame/3846
-execute if score $frame gugle_badapple matches 3847 run function gugle:frame/3847
+execute if score $render gugle_badapple matches 3843 run function gugle:frame/3843
+execute if score $render gugle_badapple matches 3844 run function gugle:frame/3844
+execute if score $render gugle_badapple matches 3845 run function gugle:frame/3845
+execute if score $render gugle_badapple matches 3846 run function gugle:frame/3846
+execute if score $render gugle_badapple matches 3847 run function gugle:frame/3847

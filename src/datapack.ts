@@ -21,41 +21,71 @@ function coordinate(value: number): string {
     return value === 0 ? "~" : `~${value}`;
 }
 
-function changedRuns(
+function changedRectangles(
     current: Uint8Array,
     previous: Uint8Array,
     width: number,
     height: number,
 ): string[] {
     const commands: string[] = [];
+    const changed = new Int8Array(current.length);
+    changed.fill(-1);
+
+    for (let index = 0; index < current.length; index += 1) {
+        if (current[index] !== previous[index]) {
+            changed[index] = current[index];
+        }
+    }
 
     for (let z = 0; z < height; z += 1) {
-        let x = 0;
-        while (x < width) {
+        for (let x = 0; x < width; x += 1) {
             const index = z * width + x;
-            if (current[index] === previous[index]) {
-                x += 1;
+            const state = changed[index];
+            if (state < 0) {
                 continue;
             }
 
-            const state = current[index];
-            const start = x;
-            x += 1;
-            while (
-                x < width &&
-                current[z * width + x] !== previous[z * width + x] &&
-                current[z * width + x] === state
-            ) {
-                x += 1;
+            let rowWidth = 0;
+            while (x + rowWidth < width && changed[index + rowWidth] === state) {
+                rowWidth += 1;
             }
 
-            const end = x - 1;
+            let minimumWidth = rowWidth;
+            let bestWidth = rowWidth;
+            let bestHeight = 1;
+            let bestArea = rowWidth;
+
+            for (let endZ = z + 1; endZ < height; endZ += 1) {
+                let nextWidth = 0;
+                while (
+                    nextWidth < minimumWidth &&
+                    changed[endZ * width + x + nextWidth] === state
+                ) {
+                    nextWidth += 1;
+                }
+                if (nextWidth === 0) {
+                    break;
+                }
+
+                minimumWidth = nextWidth;
+                const area = minimumWidth * (endZ - z + 1);
+                if (area > bestArea) {
+                    bestArea = area;
+                    bestWidth = minimumWidth;
+                    bestHeight = endZ - z + 1;
+                }
+            }
+
+            for (let clearZ = z; clearZ < z + bestHeight; clearZ += 1) {
+                changed.fill(-1, clearZ * width + x, clearZ * width + x + bestWidth);
+            }
+
             const block = state === 1 ? "minecraft:redstone_block" : "minecraft:air";
-            if (start === end) {
-                commands.push(`setblock ${coordinate(start)} ~1 ${coordinate(z)} ${block}`);
+            if (bestWidth === 1 && bestHeight === 1) {
+                commands.push(`setblock ${coordinate(x)} ~1 ${coordinate(z)} ${block}`);
             } else {
                 commands.push(
-                    `fill ${coordinate(start)} ~1 ${coordinate(z)} ${coordinate(end)} ~1 ${coordinate(z)} ${block}`,
+                    `fill ${coordinate(x)} ~1 ${coordinate(z)} ${coordinate(x + bestWidth - 1)} ~1 ${coordinate(z + bestHeight - 1)} ${block}`,
                 );
             }
         }
@@ -92,7 +122,7 @@ export class DatapackBuilder {
         current: Uint8Array,
         previous: Uint8Array,
     ): Promise<number> {
-        const commands = changedRuns(current, previous, this.width, this.height);
+        const commands = changedRectangles(current, previous, this.width, this.height);
         const contents = commands.length > 0
             ? `${commands.join("\n")}\n`
             : "# No pixels changed in this frame.\n";
@@ -148,7 +178,7 @@ export class DatapackBuilder {
         if (end - start + 1 <= DISPATCH_LEAF_SIZE) {
             for (let frame = start; frame <= end; frame += 1) {
                 commands.push(
-                    `execute if score $frame ${OBJECTIVE} matches ${frame} run function ${NAMESPACE}:frame/${frame}`,
+                    `execute if score $render ${OBJECTIVE} matches ${frame} run function ${NAMESPACE}:frame/${frame}`,
                 );
             }
         } else {
@@ -158,8 +188,8 @@ export class DatapackBuilder {
             await this.writeDispatchNode(start, middle, leftName);
             await this.writeDispatchNode(middle + 1, end, rightName);
             commands.push(
-                `execute if score $frame ${OBJECTIVE} matches ${start}..${middle} run function ${NAMESPACE}:dispatch/${leftName}`,
-                `execute if score $frame ${OBJECTIVE} matches ${middle + 1}..${end} run function ${NAMESPACE}:dispatch/${rightName}`,
+                `execute if score $render ${OBJECTIVE} matches ${start}..${middle} run function ${NAMESPACE}:dispatch/${leftName}`,
+                `execute if score $render ${OBJECTIVE} matches ${middle + 1}..${end} run function ${NAMESPACE}:dispatch/${rightName}`,
             );
         }
         await writeFile(
@@ -172,10 +202,13 @@ export class DatapackBuilder {
     private async writeControlFunctions(frameCount: number): Promise<void> {
         const lastFrame = frameCount - 1;
         const setup: string[] = [
+            "gamerule max_command_forks 65536",
+            "gamerule max_command_sequence_length 65536",
             `scoreboard objectives add ${OBJECTIVE} dummy`,
             `function ${NAMESPACE}:remove`,
             `scoreboard players set $playing ${OBJECTIVE} 0`,
             `scoreboard players set $frame ${OBJECTIVE} 0`,
+            `scoreboard players set $render ${OBJECTIVE} 0`,
             `scoreboard players set $starts ${OBJECTIVE} 0`,
             `summon minecraft:marker ~ ~ ~ {Tags:["${ORIGIN_TAG}"]}`,
             `fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
@@ -195,6 +228,7 @@ export class DatapackBuilder {
                 `schedule clear ${NAMESPACE}:tick`,
                 `scoreboard players set $playing ${OBJECTIVE} 0`,
                 `scoreboard players set $frame ${OBJECTIVE} 0`,
+                `scoreboard players set $render ${OBJECTIVE} 0`,
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} minecraft:air`,
                 `kill @e[type=minecraft:cushion,tag=${PIXEL_TAG}]`,
@@ -204,9 +238,12 @@ export class DatapackBuilder {
                 `execute unless score $playing ${OBJECTIVE} matches 1 run function ${NAMESPACE}:restart`,
             ],
             restart: [
+                "gamerule max_command_forks 65536",
+                "gamerule max_command_sequence_length 65536",
                 `schedule clear ${NAMESPACE}:tick`,
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $frame ${OBJECTIVE} 0`,
+                `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $render ${OBJECTIVE} 0`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players add $starts ${OBJECTIVE} 1`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $playing ${OBJECTIVE} 1`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run function ${NAMESPACE}:tick`,
@@ -229,10 +266,12 @@ export class DatapackBuilder {
                 `tellraw @s [{"text":"BadApple frame: "},{"score":{"name":"$frame","objective":"${OBJECTIVE}"}},{"text":"/${lastFrame}, playing: "},{"score":{"name":"$playing","objective":"${OBJECTIVE}"}},{"text":", starts: "},{"score":{"name":"$starts","objective":"${OBJECTIVE}"}}]`,
             ],
             tick: [
-                `execute if score $playing ${OBJECTIVE} matches 1 if score $frame ${OBJECTIVE} matches 0..${lastFrame} at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run function ${NAMESPACE}:dispatch/root`,
-                `execute if score $playing ${OBJECTIVE} matches 1 run scoreboard players add $frame ${OBJECTIVE} 1`,
-                `execute if score $playing ${OBJECTIVE} matches 1 if score $frame ${OBJECTIVE} matches ${frameCount}.. run scoreboard players set $playing ${OBJECTIVE} 0`,
                 `execute if score $playing ${OBJECTIVE} matches 1 run schedule function ${NAMESPACE}:tick 1t replace`,
+                `execute if score $playing ${OBJECTIVE} matches 1 run scoreboard players operation $render ${OBJECTIVE} = $frame ${OBJECTIVE}`,
+                `execute if score $playing ${OBJECTIVE} matches 1 run scoreboard players add $frame ${OBJECTIVE} 1`,
+                `execute if score $playing ${OBJECTIVE} matches 1 if score $render ${OBJECTIVE} matches 0..${lastFrame} at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run function ${NAMESPACE}:dispatch/root`,
+                `execute if score $playing ${OBJECTIVE} matches 1 if score $frame ${OBJECTIVE} matches ${frameCount}.. run scoreboard players set $playing ${OBJECTIVE} 0`,
+                `execute unless score $playing ${OBJECTIVE} matches 1 run schedule clear ${NAMESPACE}:tick`,
             ],
         };
 
