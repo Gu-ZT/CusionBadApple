@@ -37,6 +37,14 @@ function frame(width: number, height: number, frame: number, frames: number) {
     const _FRAME_PATH = FUNCTION_PATH + `_frame_${frame}.mcfunction`
     const SCOREBOARD_COMMAND = `scoreboard players set $pause gugle_badapple ${frame}`
     const NEXT_FRAME_COMMAND = `schedule function gugle:frame_${frame + 1} 1t`
+    // setblock ~ ~ ~ minecraft:redstone_block
+    for (let i = 0; i < width; i++) {
+        for (let j = 0; j < height; j++) {
+            // if(...)
+            const SET_BLCOK_COMMAND = `setblock ~${i} ~1 ~${j} minecraft:redstone_block`
+            fs.appendFileSync(_FRAME_PATH, SET_BLCOK_COMMAND + '\n')
+        }
+    }
 }
 
 
