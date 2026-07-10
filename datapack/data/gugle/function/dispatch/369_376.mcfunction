@@ -1,0 +1,8 @@
+execute if score $frame gugle_badapple matches 369 run function gugle:frame/369
+execute if score $frame gugle_badapple matches 370 run function gugle:frame/370
+execute if score $frame gugle_badapple matches 371 run function gugle:frame/371
+execute if score $frame gugle_badapple matches 372 run function gugle:frame/372
+execute if score $frame gugle_badapple matches 373 run function gugle:frame/373
+execute if score $frame gugle_badapple matches 374 run function gugle:frame/374
+execute if score $frame gugle_badapple matches 375 run function gugle:frame/375
+execute if score $frame gugle_badapple matches 376 run function gugle:frame/376

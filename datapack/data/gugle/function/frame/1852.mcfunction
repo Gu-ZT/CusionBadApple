@@ -1,0 +1,12 @@
+fill ~36 ~1 ~55 ~39 ~1 ~55 minecraft:air
+fill ~36 ~1 ~56 ~40 ~1 ~56 minecraft:air
+fill ~36 ~1 ~57 ~41 ~1 ~57 minecraft:air
+fill ~36 ~1 ~58 ~41 ~1 ~58 minecraft:air
+fill ~36 ~1 ~59 ~41 ~1 ~59 minecraft:air
+fill ~37 ~1 ~60 ~40 ~1 ~60 minecraft:air
+fill ~37 ~1 ~61 ~40 ~1 ~61 minecraft:air
+fill ~37 ~1 ~62 ~41 ~1 ~62 minecraft:air
+fill ~37 ~1 ~63 ~41 ~1 ~63 minecraft:air
+fill ~37 ~1 ~64 ~41 ~1 ~64 minecraft:air
+fill ~38 ~1 ~65 ~40 ~1 ~65 minecraft:air
+fill ~11 ~1 ~95 ~14 ~1 ~95 minecraft:air

@@ -1,0 +1,16 @@
+fill ~113 ~1 ~ ~121 ~1 ~ minecraft:redstone_block
+fill ~113 ~1 ~1 ~122 ~1 ~1 minecraft:redstone_block
+fill ~113 ~1 ~2 ~124 ~1 ~2 minecraft:redstone_block
+fill ~114 ~1 ~3 ~126 ~1 ~3 minecraft:redstone_block
+fill ~116 ~1 ~4 ~127 ~1 ~4 minecraft:redstone_block
+fill ~117 ~1 ~5 ~127 ~1 ~5 minecraft:redstone_block
+fill ~118 ~1 ~6 ~127 ~1 ~6 minecraft:redstone_block
+fill ~119 ~1 ~7 ~127 ~1 ~7 minecraft:redstone_block
+fill ~119 ~1 ~8 ~127 ~1 ~8 minecraft:redstone_block
+fill ~119 ~1 ~9 ~127 ~1 ~9 minecraft:redstone_block
+fill ~120 ~1 ~10 ~127 ~1 ~10 minecraft:redstone_block
+fill ~121 ~1 ~11 ~127 ~1 ~11 minecraft:redstone_block
+fill ~121 ~1 ~12 ~127 ~1 ~12 minecraft:redstone_block
+fill ~122 ~1 ~13 ~127 ~1 ~13 minecraft:redstone_block
+fill ~123 ~1 ~14 ~127 ~1 ~14 minecraft:redstone_block
+fill ~125 ~1 ~15 ~127 ~1 ~15 minecraft:redstone_block

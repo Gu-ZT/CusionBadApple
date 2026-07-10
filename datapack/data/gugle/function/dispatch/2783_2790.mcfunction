@@ -1,0 +1,8 @@
+execute if score $frame gugle_badapple matches 2783 run function gugle:frame/2783
+execute if score $frame gugle_badapple matches 2784 run function gugle:frame/2784
+execute if score $frame gugle_badapple matches 2785 run function gugle:frame/2785
+execute if score $frame gugle_badapple matches 2786 run function gugle:frame/2786
+execute if score $frame gugle_badapple matches 2787 run function gugle:frame/2787
+execute if score $frame gugle_badapple matches 2788 run function gugle:frame/2788
+execute if score $frame gugle_badapple matches 2789 run function gugle:frame/2789
+execute if score $frame gugle_badapple matches 2790 run function gugle:frame/2790

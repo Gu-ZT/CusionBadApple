@@ -1,0 +1,12 @@
+{
+  "input": "input\\Bad Apple but it's in 4k 60fps.mp4",
+  "fps": 20,
+  "mode": "binary",
+  "threshold": 128,
+  "inverted": false,
+  "commands": 708531,
+  "width": 128,
+  "height": 96,
+  "frames": 4381,
+  "durationSeconds": 219.05
+}

@@ -1,0 +1,16 @@
+fill ~113 ~1 ~ ~127 ~1 ~ minecraft:air
+fill ~113 ~1 ~1 ~127 ~1 ~1 minecraft:air
+fill ~113 ~1 ~2 ~127 ~1 ~2 minecraft:air
+fill ~114 ~1 ~3 ~127 ~1 ~3 minecraft:air
+fill ~116 ~1 ~4 ~127 ~1 ~4 minecraft:air
+fill ~117 ~1 ~5 ~127 ~1 ~5 minecraft:air
+fill ~118 ~1 ~6 ~127 ~1 ~6 minecraft:air
+fill ~119 ~1 ~7 ~127 ~1 ~7 minecraft:air
+fill ~119 ~1 ~8 ~127 ~1 ~8 minecraft:air
+fill ~119 ~1 ~9 ~127 ~1 ~9 minecraft:air
+fill ~120 ~1 ~10 ~127 ~1 ~10 minecraft:air
+fill ~121 ~1 ~11 ~127 ~1 ~11 minecraft:air
+fill ~121 ~1 ~12 ~127 ~1 ~12 minecraft:air
+fill ~122 ~1 ~13 ~127 ~1 ~13 minecraft:air
+fill ~123 ~1 ~14 ~127 ~1 ~14 minecraft:air
+fill ~125 ~1 ~15 ~127 ~1 ~15 minecraft:air

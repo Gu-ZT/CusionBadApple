@@ -1,0 +1,109 @@
+fill ~57 ~1 ~25 ~58 ~1 ~25 minecraft:redstone_block
+fill ~57 ~1 ~26 ~59 ~1 ~26 minecraft:redstone_block
+fill ~57 ~1 ~27 ~60 ~1 ~27 minecraft:redstone_block
+fill ~52 ~1 ~28 ~53 ~1 ~28 minecraft:redstone_block
+fill ~57 ~1 ~28 ~60 ~1 ~28 minecraft:redstone_block
+fill ~52 ~1 ~29 ~61 ~1 ~29 minecraft:redstone_block
+fill ~53 ~1 ~30 ~62 ~1 ~30 minecraft:redstone_block
+fill ~53 ~1 ~31 ~55 ~1 ~31 minecraft:redstone_block
+fill ~57 ~1 ~31 ~63 ~1 ~31 minecraft:redstone_block
+fill ~52 ~1 ~32 ~54 ~1 ~32 minecraft:redstone_block
+fill ~58 ~1 ~32 ~63 ~1 ~32 minecraft:redstone_block
+fill ~52 ~1 ~33 ~54 ~1 ~33 minecraft:redstone_block
+fill ~59 ~1 ~33 ~62 ~1 ~33 minecraft:redstone_block
+fill ~76 ~1 ~33 ~78 ~1 ~33 minecraft:redstone_block
+fill ~51 ~1 ~34 ~54 ~1 ~34 minecraft:redstone_block
+fill ~60 ~1 ~34 ~62 ~1 ~34 minecraft:redstone_block
+fill ~75 ~1 ~34 ~79 ~1 ~34 minecraft:redstone_block
+setblock ~50 ~1 ~35 minecraft:air
+fill ~60 ~1 ~35 ~63 ~1 ~35 minecraft:redstone_block
+fill ~74 ~1 ~35 ~79 ~1 ~35 minecraft:redstone_block
+fill ~61 ~1 ~36 ~64 ~1 ~36 minecraft:redstone_block
+fill ~73 ~1 ~36 ~77 ~1 ~36 minecraft:redstone_block
+fill ~62 ~1 ~37 ~66 ~1 ~37 minecraft:redstone_block
+fill ~72 ~1 ~37 ~76 ~1 ~37 minecraft:redstone_block
+fill ~62 ~1 ~38 ~73 ~1 ~38 minecraft:redstone_block
+fill ~77 ~1 ~38 ~81 ~1 ~38 minecraft:redstone_block
+setblock ~50 ~1 ~39 minecraft:air
+fill ~62 ~1 ~39 ~72 ~1 ~39 minecraft:redstone_block
+fill ~77 ~1 ~39 ~80 ~1 ~39 minecraft:redstone_block
+setblock ~50 ~1 ~40 minecraft:air
+fill ~62 ~1 ~40 ~71 ~1 ~40 minecraft:redstone_block
+fill ~76 ~1 ~40 ~78 ~1 ~40 minecraft:redstone_block
+fill ~50 ~1 ~41 ~51 ~1 ~41 minecraft:air
+fill ~62 ~1 ~41 ~70 ~1 ~41 minecraft:redstone_block
+fill ~75 ~1 ~41 ~78 ~1 ~41 minecraft:redstone_block
+fill ~80 ~1 ~41 ~81 ~1 ~41 minecraft:redstone_block
+fill ~50 ~1 ~42 ~51 ~1 ~42 minecraft:air
+fill ~64 ~1 ~42 ~68 ~1 ~42 minecraft:redstone_block
+fill ~74 ~1 ~42 ~81 ~1 ~42 minecraft:redstone_block
+fill ~49 ~1 ~43 ~51 ~1 ~43 minecraft:air
+setblock ~67 ~1 ~43 minecraft:redstone_block
+setblock ~74 ~1 ~43 minecraft:redstone_block
+setblock ~80 ~1 ~43 minecraft:redstone_block
+fill ~50 ~1 ~44 ~52 ~1 ~44 minecraft:air
+fill ~78 ~1 ~44 ~80 ~1 ~44 minecraft:redstone_block
+fill ~98 ~1 ~44 ~101 ~1 ~44 minecraft:redstone_block
+fill ~50 ~1 ~45 ~53 ~1 ~45 minecraft:air
+fill ~77 ~1 ~45 ~80 ~1 ~45 minecraft:redstone_block
+fill ~94 ~1 ~45 ~104 ~1 ~45 minecraft:redstone_block
+fill ~50 ~1 ~46 ~54 ~1 ~46 minecraft:air
+fill ~77 ~1 ~46 ~80 ~1 ~46 minecraft:redstone_block
+fill ~90 ~1 ~46 ~105 ~1 ~46 minecraft:redstone_block
+fill ~50 ~1 ~47 ~56 ~1 ~47 minecraft:air
+setblock ~79 ~1 ~47 minecraft:redstone_block
+fill ~86 ~1 ~47 ~106 ~1 ~47 minecraft:redstone_block
+fill ~51 ~1 ~48 ~57 ~1 ~48 minecraft:air
+fill ~79 ~1 ~48 ~95 ~1 ~48 minecraft:redstone_block
+fill ~99 ~1 ~48 ~107 ~1 ~48 minecraft:redstone_block
+fill ~51 ~1 ~49 ~58 ~1 ~49 minecraft:air
+fill ~79 ~1 ~49 ~91 ~1 ~49 minecraft:redstone_block
+fill ~101 ~1 ~49 ~107 ~1 ~49 minecraft:redstone_block
+fill ~52 ~1 ~50 ~59 ~1 ~50 minecraft:air
+fill ~78 ~1 ~50 ~88 ~1 ~50 minecraft:redstone_block
+fill ~103 ~1 ~50 ~107 ~1 ~50 minecraft:redstone_block
+fill ~53 ~1 ~51 ~62 ~1 ~51 minecraft:air
+fill ~78 ~1 ~51 ~84 ~1 ~51 minecraft:redstone_block
+fill ~104 ~1 ~51 ~107 ~1 ~51 minecraft:redstone_block
+fill ~54 ~1 ~52 ~62 ~1 ~52 minecraft:air
+fill ~78 ~1 ~52 ~79 ~1 ~52 minecraft:redstone_block
+fill ~104 ~1 ~52 ~107 ~1 ~52 minecraft:redstone_block
+fill ~56 ~1 ~53 ~63 ~1 ~53 minecraft:air
+fill ~104 ~1 ~53 ~107 ~1 ~53 minecraft:redstone_block
+fill ~57 ~1 ~54 ~65 ~1 ~54 minecraft:air
+fill ~105 ~1 ~54 ~107 ~1 ~54 minecraft:redstone_block
+fill ~58 ~1 ~55 ~66 ~1 ~55 minecraft:air
+fill ~105 ~1 ~55 ~107 ~1 ~55 minecraft:redstone_block
+fill ~61 ~1 ~56 ~66 ~1 ~56 minecraft:air
+fill ~105 ~1 ~56 ~107 ~1 ~56 minecraft:redstone_block
+fill ~62 ~1 ~57 ~68 ~1 ~57 minecraft:air
+fill ~105 ~1 ~57 ~106 ~1 ~57 minecraft:redstone_block
+fill ~63 ~1 ~58 ~69 ~1 ~58 minecraft:air
+fill ~104 ~1 ~58 ~106 ~1 ~58 minecraft:redstone_block
+fill ~64 ~1 ~59 ~69 ~1 ~59 minecraft:air
+setblock ~105 ~1 ~59 minecraft:redstone_block
+fill ~65 ~1 ~60 ~70 ~1 ~60 minecraft:air
+fill ~104 ~1 ~60 ~108 ~1 ~60 minecraft:redstone_block
+fill ~66 ~1 ~61 ~71 ~1 ~61 minecraft:air
+fill ~104 ~1 ~61 ~107 ~1 ~61 minecraft:redstone_block
+fill ~68 ~1 ~62 ~72 ~1 ~62 minecraft:air
+fill ~103 ~1 ~62 ~106 ~1 ~62 minecraft:redstone_block
+fill ~68 ~1 ~63 ~74 ~1 ~63 minecraft:air
+fill ~69 ~1 ~64 ~77 ~1 ~64 minecraft:air
+fill ~70 ~1 ~65 ~79 ~1 ~65 minecraft:air
+fill ~71 ~1 ~66 ~82 ~1 ~66 minecraft:air
+setblock ~103 ~1 ~66 minecraft:redstone_block
+fill ~73 ~1 ~67 ~84 ~1 ~67 minecraft:air
+fill ~102 ~1 ~67 ~107 ~1 ~67 minecraft:redstone_block
+fill ~76 ~1 ~68 ~87 ~1 ~68 minecraft:air
+fill ~101 ~1 ~68 ~107 ~1 ~68 minecraft:redstone_block
+fill ~79 ~1 ~69 ~89 ~1 ~69 minecraft:air
+setblock ~101 ~1 ~69 minecraft:redstone_block
+fill ~105 ~1 ~69 ~106 ~1 ~69 minecraft:redstone_block
+fill ~82 ~1 ~70 ~91 ~1 ~70 minecraft:air
+fill ~104 ~1 ~70 ~105 ~1 ~70 minecraft:air
+fill ~85 ~1 ~71 ~92 ~1 ~71 minecraft:air
+fill ~97 ~1 ~71 ~104 ~1 ~71 minecraft:air
+fill ~87 ~1 ~72 ~103 ~1 ~72 minecraft:air
+fill ~90 ~1 ~73 ~99 ~1 ~73 minecraft:air
+fill ~92 ~1 ~74 ~94 ~1 ~74 minecraft:air

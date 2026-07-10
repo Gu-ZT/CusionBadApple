@@ -1,0 +1,12 @@
+fill ~ ~1 ~49 ~3 ~1 ~49 minecraft:air
+fill ~108 ~1 ~49 ~109 ~1 ~49 minecraft:redstone_block
+fill ~6 ~1 ~50 ~19 ~1 ~50 minecraft:air
+fill ~23 ~1 ~50 ~30 ~1 ~50 minecraft:redstone_block
+fill ~104 ~1 ~50 ~120 ~1 ~50 minecraft:air
+fill ~18 ~1 ~51 ~28 ~1 ~51 minecraft:air
+fill ~99 ~1 ~51 ~106 ~1 ~51 minecraft:air
+fill ~26 ~1 ~52 ~35 ~1 ~52 minecraft:air
+fill ~95 ~1 ~52 ~99 ~1 ~52 minecraft:air
+fill ~35 ~1 ~53 ~40 ~1 ~53 minecraft:air
+fill ~92 ~1 ~53 ~93 ~1 ~53 minecraft:air
+fill ~43 ~1 ~54 ~44 ~1 ~54 minecraft:air

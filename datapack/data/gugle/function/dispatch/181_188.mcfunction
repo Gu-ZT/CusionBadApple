@@ -1,0 +1,8 @@
+execute if score $frame gugle_badapple matches 181 run function gugle:frame/181
+execute if score $frame gugle_badapple matches 182 run function gugle:frame/182
+execute if score $frame gugle_badapple matches 183 run function gugle:frame/183
+execute if score $frame gugle_badapple matches 184 run function gugle:frame/184
+execute if score $frame gugle_badapple matches 185 run function gugle:frame/185
+execute if score $frame gugle_badapple matches 186 run function gugle:frame/186
+execute if score $frame gugle_badapple matches 187 run function gugle:frame/187
+execute if score $frame gugle_badapple matches 188 run function gugle:frame/188

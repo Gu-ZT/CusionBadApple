@@ -6,6 +6,7 @@
   "packageManager": "pnpm@11.10.0+",
   "scripts": {
     "build": "tsc",
+    "check": "tsc --noEmit",
     "start": "tsc && node dist/index.js"
   },
   "dependencies": {
