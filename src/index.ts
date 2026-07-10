@@ -13,7 +13,9 @@ function writeFileSync(path: string, data: string) {
 function setup(width: number, height: number) {
     const SETUP_PATH = FUNCTION_PATH + 'setup.mcfunction'
     const FILL_COMMAND = `fill ~ ~2 ~ ~${width - 1} ~2 ~${height - 1} minecraft:redstone_lamp`
+    const SCOREBOARD_COMMAND = "scoreboard objectives add gugle_badapple dummy"
     writeFileSync(SETUP_PATH, FILL_COMMAND + '\n')
+    fs.appendFileSync(SETUP_PATH, SCOREBOARD_COMMAND + '\n')
     for (let i = 0; i < width; i++) {
         for (let j = 0; j < height; j++) {
             const SUMMON_COMMAND = `summon minecraft:cushion ~${i} ~2.26 ~${j}`
@@ -28,6 +30,27 @@ function remove(width: number, height: number) {
     const KILL_COMMAND = `kill @e[type=minecraft:cushion]`
     writeFileSync(REMOVE_PATH, FILL_AIR_COMMAND + '\n')
     fs.appendFileSync(REMOVE_PATH, KILL_COMMAND + '\n')
+}
+
+function frame(width: number, height: number, frame: number, frames: number) {
+    const FRAME_PATH = FUNCTION_PATH + `frame_${frame}.mcfunction`
+    const _FRAME_PATH = FUNCTION_PATH + `_frame_${frame}.mcfunction`
+    const SCOREBOARD_COMMAND = `scoreboard players set $pause gugle_badapple ${frame}`
+    const NEXT_FRAME_COMMAND = `schedule function gugle:frame_${frame + 1} 1t`
+}
+
+
+function start() {
+}
+
+
+function pause() {
+    //scoreboard players set $pause gugle_badapple 1
+}
+
+
+function stop() {
+    //scoreboard players set $stop gugle_badapple 1
 }
 
 function main() {
