@@ -20,6 +20,7 @@ export interface CliOptions {
     output: string;
     startSeconds: number;
     endSeconds?: number;
+    macroStorage: boolean;
     width: number;
     height: number;
     mode: ConversionMode;
@@ -60,6 +61,7 @@ export function parseCli(args: string[]): CliOptions {
         help: false,
         output: "datapack",
         startSeconds: 0,
+        macroStorage: false,
         width: 128,
         height: 96,
         mode: "binary",
@@ -77,6 +79,9 @@ export function parseCli(args: string[]): CliOptions {
                 break;
             case "--invert":
                 options.invert = true;
+                break;
+            case "--macro-storage":
+                options.macroStorage = true;
                 break;
             case "--input": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
@@ -159,6 +164,9 @@ export function parseCli(args: string[]): CliOptions {
     if (options.endSeconds !== undefined && options.endSeconds <= options.startSeconds) {
         throw new Error("--end must be greater than --start.");
     }
+    if (options.macroStorage && !isCushionColorMode(options.mode)) {
+        throw new Error("--macro-storage is only available with color-nearest or color-dither.");
+    }
 
     return options;
 }
@@ -181,6 +189,8 @@ Options:
   --width <blocks>     Screen width (default: 128)
   --height <blocks>    Screen height (default: 96)
   --invert             Invert lit and unlit pixels
+  --macro-storage      Use one entity selector and per-frame storage mappings
+                       (16-color modes only)
   --max-frames <count> Convert only the first N frames (useful for testing)
   --help               Show this help
 

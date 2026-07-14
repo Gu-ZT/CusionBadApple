@@ -27,6 +27,7 @@ interface BuildMetadata {
     brightnessLevels?: number[];
     clipStartSeconds: number;
     clipEndSeconds?: number;
+    macroStorage: boolean;
     commands: number;
 }
 
@@ -130,12 +131,14 @@ export class DatapackBuilder {
     private readonly temporaryDispatchRoot: string;
     private readonly temporarySetupChunkRoot: string;
     private readonly temporarySetupDispatchRoot: string;
+    private readonly temporaryMacroStateRoot: string;
 
     public constructor(
         private readonly datapackRoot: string,
         private readonly width: number,
         private readonly height: number,
         private readonly displayMode: DisplayMode,
+        private readonly macroStorage: boolean,
     ) {
         this.functionRoot = path.join(datapackRoot, "data", NAMESPACE, "function");
         this.temporaryRoot = path.join(datapackRoot, ".build", "function");
@@ -143,6 +146,7 @@ export class DatapackBuilder {
         this.temporaryDispatchRoot = path.join(this.temporaryRoot, "dispatch");
         this.temporarySetupChunkRoot = path.join(this.temporaryRoot, "setup_chunk");
         this.temporarySetupDispatchRoot = path.join(this.temporaryRoot, "setup_dispatch");
+        this.temporaryMacroStateRoot = path.join(this.temporaryRoot, "macro_state");
     }
 
     public async prepare(): Promise<void> {
@@ -162,6 +166,9 @@ export class DatapackBuilder {
         await mkdir(this.temporaryDispatchRoot, { recursive: true });
         await mkdir(this.temporarySetupChunkRoot, { recursive: true });
         await mkdir(this.temporarySetupDispatchRoot, { recursive: true });
+        if (this.macroStorage) {
+            await mkdir(this.temporaryMacroStateRoot, { recursive: true });
+        }
     }
 
     public async writeFrame(
@@ -169,7 +176,9 @@ export class DatapackBuilder {
         current: Uint8Array,
         previous: Uint8Array,
     ): Promise<number> {
-        const commands = this.displayMode === "cushion-color"
+        const commands = this.displayMode === "cushion-color" && this.macroStorage
+            ? this.macroStorageFrameCommands(current, previous)
+            : this.displayMode === "cushion-color"
             ? [
                 ...changedRectangles(
                     current,
@@ -193,6 +202,38 @@ export class DatapackBuilder {
             : "# No pixels changed in this frame.\n";
         await writeFile(path.join(this.temporaryFrameRoot, `${frame}.mcfunction`), contents, "utf8");
         return commands.length;
+    }
+
+    private macroStorageFrameCommands(
+        current: Uint8Array,
+        previous: Uint8Array,
+    ): string[] {
+        const commands = ["data modify storage gugle:video current set value {}"];
+        let hasChanges = false;
+
+        for (let z = 0; z < this.height; z += 1) {
+            const entries: string[] = [];
+            for (let x = 0; x < this.width; x += 1) {
+                const index = z * this.width + x;
+                if (current[index] !== previous[index]) {
+                    entries.push(`p_${x}_${z}:{s:${current[index]}}`);
+                    hasChanges = true;
+                }
+            }
+            if (entries.length > 0) {
+                commands.push(
+                    `data modify storage gugle:video current merge value {${entries.join(",")}}`,
+                );
+            }
+        }
+
+        if (hasChanges) {
+            commands.push(
+                `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
+                    `run function ${NAMESPACE}:macro_lookup with entity @s`,
+            );
+        }
+        return commands;
     }
 
     private colorRectangleCommand(rectangle: ChangedRectangle): string {
@@ -256,13 +297,28 @@ export class DatapackBuilder {
             "setup_chunk",
             "setup_dispatch",
         );
+        if (this.macroStorage) {
+            await this.writeMacroStateFunctions();
+        }
         await this.writeControlFunctions(frameCount);
         await mkdir(this.functionRoot, { recursive: true });
 
-        for (const directory of ["frame", "dispatch", "setup_chunk", "setup_dispatch"]) {
+        const generatedDirectories = ["frame", "dispatch", "setup_chunk", "setup_dispatch"];
+        if (this.macroStorage) {
+            generatedDirectories.push("macro_state");
+        }
+        for (const directory of [
+            "frame",
+            "dispatch",
+            "setup_chunk",
+            "setup_dispatch",
+            "macro_state",
+        ]) {
             const destination = path.join(this.functionRoot, directory);
             await rm(destination, { recursive: true, force: true });
-            await rename(path.join(this.temporaryRoot, directory), destination);
+            if (generatedDirectories.includes(directory)) {
+                await rename(path.join(this.temporaryRoot, directory), destination);
+            }
         }
 
         const generatedFiles = [
@@ -278,6 +334,12 @@ export class DatapackBuilder {
             "tick",
             "setup_tick",
         ];
+        if (this.macroStorage) {
+            generatedFiles.push("macro_lookup", "macro_apply");
+        } else {
+            await rm(path.join(this.functionRoot, "macro_lookup.mcfunction"), { force: true });
+            await rm(path.join(this.functionRoot, "macro_apply.mcfunction"), { force: true });
+        }
         for (const name of generatedFiles) {
             await rename(
                 path.join(this.temporaryRoot, `${name}.mcfunction`),
@@ -297,6 +359,23 @@ export class DatapackBuilder {
             "utf8",
         );
         await rm(path.join(this.datapackRoot, ".build"), { recursive: true, force: true });
+    }
+
+    private async writeMacroStateFunctions(): Promise<void> {
+        for (let brightness = 0; brightness < BRIGHTNESS_TIERS.length; brightness += 1) {
+            for (let color = 0; color < CUSHION_COLOR_PALETTE.length; color += 1) {
+                const state = brightness * CUSHION_COLOR_PALETTE.length + color;
+                const commands = [
+                    `data modify entity @s color set value "${CUSHION_COLOR_PALETTE[color].name}"`,
+                    `execute at @s run setblock ~ ~ ~ ${BRIGHTNESS_TIERS[brightness].block}`,
+                ];
+                await writeFile(
+                    path.join(this.temporaryMacroStateRoot, `${state}.mcfunction`),
+                    `${commands.join("\n")}\n`,
+                    "utf8",
+                );
+            }
+        }
     }
 
     private async writeDispatchNode(
@@ -354,12 +433,13 @@ export class DatapackBuilder {
 
     private async writeControlFunctions(frameCount: number): Promise<void> {
         const lastFrame = frameCount - 1;
+        const commandSequenceLimit = this.macroStorage ? 131072 : 65536;
         await this.writeSetupChunks();
         const setup: string[] = [
             "gamerule max_command_forks 65536",
-            "gamerule max_command_sequence_length 65536",
+            `gamerule max_command_sequence_length ${commandSequenceLimit}`,
             `scoreboard objectives add ${OBJECTIVE} dummy`,
-            ...(this.displayMode === "cushion-color"
+            ...(this.displayMode === "cushion-color" && !this.macroStorage
                 ? [
                     `scoreboard objectives add ${PIXEL_X_OBJECTIVE} dummy`,
                     `scoreboard objectives add ${PIXEL_Z_OBJECTIVE} dummy`,
@@ -384,6 +464,9 @@ export class DatapackBuilder {
 
         const resetDisplay = this.displayMode === "cushion-color"
             ? [
+                ...(this.macroStorage
+                    ? ["data modify storage gugle:video current set value {}"]
+                    : []),
                 `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
                     "run data modify entity @s color set value \"black\"",
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] ` +
@@ -418,7 +501,7 @@ export class DatapackBuilder {
             ],
             restart: [
                 "gamerule max_command_forks 65536",
-                "gamerule max_command_sequence_length 65536",
+                `gamerule max_command_sequence_length ${commandSequenceLimit}`,
                 `schedule clear ${NAMESPACE}:tick`,
                 ...resetDisplay,
                 `function ${NAMESPACE}:play`,
@@ -468,6 +551,15 @@ export class DatapackBuilder {
             ],
         };
 
+        if (this.macroStorage) {
+            files.macro_lookup = [
+                `$function ${NAMESPACE}:macro_apply with storage gugle:video current.$(CustomName)`,
+            ];
+            files.macro_apply = [
+                `$function ${NAMESPACE}:macro_state/$(s)`,
+            ];
+        }
+
         for (const [name, commands] of Object.entries(files)) {
             await writeFile(
                 path.join(this.temporaryRoot, `${name}.mcfunction`),
@@ -485,10 +577,14 @@ export class DatapackBuilder {
                     ? rgbwCushionColor(x, z)
                     : this.displayMode === "cushion-color" ? "black" : undefined;
                 const colorNbt = color ? `,color:"${color}"` : "";
+                const macroNameNbt = this.macroStorage
+                    ? `,CustomName:'"p_${x}_${z}"'`
+                    : "";
                 commands.push(
-                    `summon minecraft:cushion ~${x} ~2.26 ~${z} {Tags:["${PIXEL_TAG}"]${colorNbt}}`,
+                    `summon minecraft:cushion ~${x} ~2.26 ~${z} ` +
+                        `{Tags:["${PIXEL_TAG}"]${colorNbt}${macroNameNbt}}`,
                 );
-                if (this.displayMode === "cushion-color") {
+                if (this.displayMode === "cushion-color" && !this.macroStorage) {
                     const cushionSelector =
                         `@e[type=minecraft:cushion,tag=${PIXEL_TAG},sort=nearest,limit=1,distance=..0.1]`;
                     commands.push(

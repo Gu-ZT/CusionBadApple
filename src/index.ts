@@ -30,6 +30,7 @@ async function main(): Promise<void> {
         options.width,
         options.height,
         displayMode,
+        options.macroStorage,
     );
 
     await builder.prepare();
@@ -109,6 +110,7 @@ async function main(): Promise<void> {
         brightnessLevels: cushionColor
             ? BRIGHTNESS_TIERS.map((tier) => tier.level)
             : undefined,
+        macroStorage: options.macroStorage,
         clipStartSeconds: options.startSeconds,
         clipEndSeconds: options.endSeconds,
         commands: commandCount,

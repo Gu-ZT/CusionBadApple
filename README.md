@@ -37,6 +37,12 @@ Generate only a time range with `--start` (inclusive) and `--end` (exclusive):
 pnpm start -- --input "input/video.mp4" --output datapack-clip --mode color-nearest --start 0 --end 5
 ```
 
+Prototype the storage/function-macro renderer for a color clip:
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-macro-clip --mode color-nearest --macro-storage --start 0 --end 5
+```
+
 Direct 16-color cushion rendering is available without RGBW subpixels:
 
 ```powershell
