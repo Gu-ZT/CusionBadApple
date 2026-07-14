@@ -1,0 +1,122 @@
+data modify entity 6775676c-652d-4000-8000-000000188044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019003d color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019003e color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019003f color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000190040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000190041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000190047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019803b color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019803c color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019803d color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019803e color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019803f color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198042 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198043 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a003a color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a003b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a003c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a003d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a003e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a003f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0042 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0043 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0044 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0045 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0046 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0047 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0048 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8038 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8039 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a803a color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a803b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a803c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a803d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a803e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a803f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8042 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8043 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8044 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8045 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8046 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8047 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a8048 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0036 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0037 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0038 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0039 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b003a color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b003b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b003c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b003d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b003e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b003f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0042 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0043 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0044 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0045 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0046 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0048 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8036 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8039 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b803a color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b803b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b803c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b803d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b803e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b803f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8042 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8043 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8044 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c003a color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c003b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c003c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c003d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c003e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c003f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c0040 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c0041 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c0042 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0046 color set value "white"
+fill ~68 ~2 ~49 ~69 ~2 ~49 minecraft:magma_block
+fill ~61 ~2 ~50 ~65 ~2 ~56 minecraft:stone
+setblock ~71 ~2 ~50 minecraft:magma_block
+fill ~54 ~2 ~51 ~55 ~2 ~51 minecraft:magma_block
+fill ~59 ~2 ~51 ~60 ~2 ~56 minecraft:stone
+fill ~66 ~2 ~51 ~67 ~2 ~55 minecraft:stone
+fill ~58 ~2 ~52 ~58 ~2 ~56 minecraft:stone
+fill ~68 ~2 ~52 ~72 ~2 ~53 minecraft:stone
+setblock ~54 ~2 ~53 minecraft:magma_block
+fill ~56 ~2 ~53 ~57 ~2 ~54 minecraft:stone
+fill ~54 ~2 ~54 ~55 ~2 ~54 minecraft:stone
+fill ~68 ~2 ~54 ~70 ~2 ~54 minecraft:stone
+setblock ~71 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~72 ~2 ~54 minecraft:stone
+setblock ~54 ~2 ~55 minecraft:stone
+fill ~55 ~2 ~55 ~56 ~2 ~55 minecraft:magma_block
+setblock ~57 ~2 ~55 minecraft:stone
+setblock ~68 ~2 ~55 minecraft:stone
+setblock ~69 ~2 ~55 minecraft:magma_block
+setblock ~71 ~2 ~55 minecraft:magma_block
+setblock ~66 ~2 ~56 minecraft:stone
+setblock ~68 ~2 ~56 minecraft:magma_block
+setblock ~70 ~2 ~58 minecraft:magma_block

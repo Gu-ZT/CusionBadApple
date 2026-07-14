@@ -11,6 +11,7 @@ const PIXEL_TAG = "gugle_badapple_pixel";
 const PIXEL_X_OBJECTIVE = "gugle_px";
 const PIXEL_Z_OBJECTIVE = "gugle_pz";
 const DISPATCH_LEAF_SIZE = 8;
+const PIXEL_UUID_STRIDE = 32768;
 
 export type DisplayMode = "redstone" | "rgbw" | "cushion-color";
 
@@ -28,7 +29,13 @@ interface BuildMetadata {
     clipStartSeconds: number;
     clipEndSeconds?: number;
     macroStorage: boolean;
+    uuidEntities: boolean;
     commands: number;
+}
+
+interface PixelUuid {
+    nbt: string;
+    target: string;
 }
 
 type RgbwCushionColor = "red" | "green" | "blue" | "white";
@@ -42,6 +49,28 @@ function rgbwCushionColor(x: number, z: number): RgbwCushionColor {
 
 function coordinate(value: number): string {
     return value === 0 ? "~" : `~${value}`;
+}
+
+function hexadecimal(value: number, width: number): string {
+    return (value >>> 0).toString(16).slice(-width).padStart(width, "0");
+}
+
+function pixelUuid(x: number, z: number): PixelUuid {
+    const coordinateId = z * PIXEL_UUID_STRIDE + x;
+    const parts = [
+        0x6775676c | 0,
+        0x652d4000 | 0,
+        0x80000000 | 0,
+        coordinateId | 0,
+    ];
+    const target =
+        `${hexadecimal(parts[0], 8)}-${hexadecimal(parts[1] >>> 16, 4)}-` +
+        `${hexadecimal(parts[1], 4)}-${hexadecimal(parts[2] >>> 16, 4)}-` +
+        `${hexadecimal(parts[2], 4)}${hexadecimal(parts[3], 8)}`;
+    return {
+        nbt: `[I;${parts.join(",")}]`,
+        target,
+    };
 }
 
 interface ChangedRectangle {
@@ -132,6 +161,7 @@ export class DatapackBuilder {
     private readonly temporarySetupChunkRoot: string;
     private readonly temporarySetupDispatchRoot: string;
     private readonly temporaryMacroStateRoot: string;
+    private readonly pixelUuids: PixelUuid[];
 
     public constructor(
         private readonly datapackRoot: string,
@@ -139,7 +169,11 @@ export class DatapackBuilder {
         private readonly height: number,
         private readonly displayMode: DisplayMode,
         private readonly macroStorage: boolean,
+        private readonly uuidEntities: boolean,
     ) {
+        if (macroStorage && uuidEntities) {
+            throw new Error("Macro storage and fixed-UUID rendering cannot be enabled together.");
+        }
         this.functionRoot = path.join(datapackRoot, "data", NAMESPACE, "function");
         this.temporaryRoot = path.join(datapackRoot, ".build", "function");
         this.temporaryFrameRoot = path.join(this.temporaryRoot, "frame");
@@ -147,6 +181,11 @@ export class DatapackBuilder {
         this.temporarySetupChunkRoot = path.join(this.temporaryRoot, "setup_chunk");
         this.temporarySetupDispatchRoot = path.join(this.temporaryRoot, "setup_dispatch");
         this.temporaryMacroStateRoot = path.join(this.temporaryRoot, "macro_state");
+        this.pixelUuids = uuidEntities
+            ? Array.from({ length: width * height }, (_, index) =>
+                pixelUuid(index % width, Math.floor(index / width)),
+            )
+            : [];
     }
 
     public async prepare(): Promise<void> {
@@ -180,13 +219,15 @@ export class DatapackBuilder {
             ? this.macroStorageFrameCommands(current, previous)
             : this.displayMode === "cushion-color"
             ? [
-                ...changedRectangles(
-                    current,
-                    previous,
-                    this.width,
-                    this.height,
-                    (state) => state % CUSHION_COLOR_PALETTE.length,
-                ).map((rectangle) => this.colorRectangleCommand(rectangle)),
+                ...(this.uuidEntities
+                    ? this.uuidColorCommands(current, previous)
+                    : changedRectangles(
+                        current,
+                        previous,
+                        this.width,
+                        this.height,
+                        (state) => state % CUSHION_COLOR_PALETTE.length,
+                    ).map((rectangle) => this.colorRectangleCommand(rectangle))),
                 ...changedRectangles(
                     current,
                     previous,
@@ -241,6 +282,25 @@ export class DatapackBuilder {
             `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
                 `run function ${NAMESPACE}:macro_lookup with entity @s`,
         ];
+    }
+
+    private uuidColorCommands(current: Uint8Array, previous: Uint8Array): string[] {
+        const commands: string[] = [];
+        for (let index = 0; index < current.length; index += 1) {
+            const colorIndex = current[index] % CUSHION_COLOR_PALETTE.length;
+            if (colorIndex === previous[index] % CUSHION_COLOR_PALETTE.length) {
+                continue;
+            }
+            const color = CUSHION_COLOR_PALETTE[colorIndex];
+            const uuid = this.pixelUuids[index];
+            if (!color || !uuid) {
+                throw new Error(`Invalid fixed-UUID color pixel index: ${index}.`);
+            }
+            commands.push(
+                `data modify entity ${uuid.target} color set value "${color.name}"`,
+            );
+        }
+        return commands;
     }
 
     private colorRectangleCommand(rectangle: ChangedRectangle): string {
@@ -446,7 +506,9 @@ export class DatapackBuilder {
             "gamerule max_command_forks 65536",
             `gamerule max_command_sequence_length ${commandSequenceLimit}`,
             `scoreboard objectives add ${OBJECTIVE} dummy`,
-            ...(this.displayMode === "cushion-color" && !this.macroStorage
+            ...(this.displayMode === "cushion-color" &&
+                !this.macroStorage &&
+                !this.uuidEntities
                 ? [
                     `scoreboard objectives add ${PIXEL_X_OBJECTIVE} dummy`,
                     `scoreboard objectives add ${PIXEL_Z_OBJECTIVE} dummy`,
@@ -587,11 +649,19 @@ export class DatapackBuilder {
                 const macroNameNbt = this.macroStorage
                     ? `,CustomName:'"p_${x}_${z}"'`
                     : "";
+                const uuid = this.uuidEntities
+                    ? this.pixelUuids[z * this.width + x]
+                    : undefined;
+                const uuidNbt = uuid ? `,UUID:${uuid.nbt}` : "";
                 commands.push(
                     `summon minecraft:cushion ~${x} ~2.26 ~${z} ` +
-                        `{Tags:["${PIXEL_TAG}"]${colorNbt}${macroNameNbt}}`,
+                        `{Tags:["${PIXEL_TAG}"]${colorNbt}${macroNameNbt}${uuidNbt}}`,
                 );
-                if (this.displayMode === "cushion-color" && !this.macroStorage) {
+                if (
+                    this.displayMode === "cushion-color" &&
+                    !this.macroStorage &&
+                    !this.uuidEntities
+                ) {
                     const cushionSelector =
                         `@e[type=minecraft:cushion,tag=${PIXEL_TAG},sort=nearest,limit=1,distance=..0.1]`;
                     commands.push(

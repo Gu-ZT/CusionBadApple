@@ -1,0 +1,25 @@
+data modify entity 6775676c-652d-4000-8000-000000000000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000000001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000008000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000008001 color set value "white"
+fill ~ ~2 ~ ~1 ~2 ~30 minecraft:copper_bulb[lit=true]
+fill ~110 ~2 ~ ~121 ~2 ~10 minecraft:copper_bulb[lit=true]
+fill ~122 ~2 ~ ~125 ~2 ~6 minecraft:copper_bulb[lit=true]
+fill ~126 ~2 ~ ~127 ~2 ~2 minecraft:copper_bulb[lit=true]
+fill ~2 ~2 ~2 ~2 ~2 ~29 minecraft:copper_bulb[lit=true]
+fill ~126 ~2 ~3 ~126 ~2 ~4 minecraft:copper_bulb[lit=true]
+fill ~3 ~2 ~5 ~3 ~2 ~28 minecraft:copper_bulb[lit=true]
+fill ~122 ~2 ~7 ~123 ~2 ~8 minecraft:copper_bulb[lit=true]
+setblock ~124 ~2 ~7 minecraft:copper_bulb[lit=true]
+fill ~4 ~2 ~8 ~4 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~110 ~2 ~11 ~120 ~2 ~11 minecraft:copper_bulb[lit=true]
+fill ~111 ~2 ~12 ~117 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~118 ~2 ~12 ~118 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~5 ~2 ~13 ~5 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~112 ~2 ~15 ~115 ~2 ~15 minecraft:copper_bulb[lit=true]
+fill ~6 ~2 ~16 ~6 ~2 ~22 minecraft:copper_bulb[lit=true]
+fill ~ ~2 ~31 ~ ~2 ~32 minecraft:copper_bulb[lit=true]
+fill ~ ~2 ~87 ~ ~2 ~95 minecraft:copper_bulb[lit=true]
+fill ~1 ~2 ~88 ~1 ~2 ~95 minecraft:copper_bulb[lit=true]
+fill ~2 ~2 ~92 ~2 ~2 ~95 minecraft:copper_bulb[lit=true]
+setblock ~3 ~2 ~95 minecraft:copper_bulb[lit=true]

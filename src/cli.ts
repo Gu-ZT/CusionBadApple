@@ -21,6 +21,7 @@ export interface CliOptions {
     startSeconds: number;
     endSeconds?: number;
     macroStorage: boolean;
+    uuidEntities: boolean;
     width: number;
     height: number;
     mode: ConversionMode;
@@ -62,6 +63,7 @@ export function parseCli(args: string[]): CliOptions {
         output: "datapack",
         startSeconds: 0,
         macroStorage: false,
+        uuidEntities: false,
         width: 128,
         height: 96,
         mode: "binary",
@@ -82,6 +84,9 @@ export function parseCli(args: string[]): CliOptions {
                 break;
             case "--macro-storage":
                 options.macroStorage = true;
+                break;
+            case "--uuid-entities":
+                options.uuidEntities = true;
                 break;
             case "--input": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
@@ -167,6 +172,12 @@ export function parseCli(args: string[]): CliOptions {
     if (options.macroStorage && !isCushionColorMode(options.mode)) {
         throw new Error("--macro-storage is only available with color-nearest or color-dither.");
     }
+    if (options.uuidEntities && !isCushionColorMode(options.mode)) {
+        throw new Error("--uuid-entities is only available with color-nearest or color-dither.");
+    }
+    if (options.macroStorage && options.uuidEntities) {
+        throw new Error("--macro-storage and --uuid-entities cannot be used together.");
+    }
 
     return options;
 }
@@ -191,6 +202,8 @@ Options:
   --invert             Invert lit and unlit pixels
   --macro-storage      Use one entity selector and per-frame storage mappings
                        (16-color modes only)
+  --uuid-entities      Give cushions fixed UUIDs and update colors by UUID
+                       without function macros (16-color modes only)
   --max-frames <count> Convert only the first N frames (useful for testing)
   --help               Show this help
 

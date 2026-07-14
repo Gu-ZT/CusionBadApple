@@ -43,6 +43,12 @@ Prototype the storage/function-macro renderer for a color clip:
 pnpm start -- --input "input/video.mp4" --output datapack-macro-clip --mode color-nearest --macro-storage --start 0 --end 5
 ```
 
+Generate cushions with deterministic UUIDs and update changed colors directly by UUID:
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-uuid-clip --mode color-nearest --uuid-entities --start 0 --end 5
+```
+
 Direct 16-color cushion rendering is available without RGBW subpixels:
 
 ```powershell

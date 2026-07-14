@@ -1,0 +1,21 @@
+data modify entity 6775676c-652d-4000-8000-000000188000 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188001 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188002 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188003 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188004 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188005 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188006 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188073 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188074 color set value "black"
+fill ~ ~2 ~48 ~40 ~2 ~48 minecraft:crying_obsidian
+fill ~41 ~2 ~48 ~59 ~2 ~48 minecraft:respawn_anchor[charges=3]
+fill ~60 ~2 ~48 ~68 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+setblock ~69 ~2 ~48 minecraft:furnace[lit=true]
+fill ~70 ~2 ~48 ~76 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+fill ~77 ~2 ~48 ~127 ~2 ~48 minecraft:furnace[lit=true]
+fill ~ ~2 ~49 ~6 ~2 ~49 minecraft:stone
+fill ~115 ~2 ~49 ~116 ~2 ~49 minecraft:stone
+fill ~126 ~2 ~49 ~127 ~2 ~49 minecraft:magma_block
+fill ~ ~2 ~50 ~110 ~2 ~50 minecraft:crying_obsidian
+fill ~111 ~2 ~50 ~123 ~2 ~50 minecraft:respawn_anchor[charges=3]
+fill ~124 ~2 ~50 ~127 ~2 ~50 minecraft:exposed_copper_bulb[lit=true]

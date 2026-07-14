@@ -31,6 +31,7 @@ async function main(): Promise<void> {
         options.height,
         displayMode,
         options.macroStorage,
+        options.uuidEntities,
     );
 
     await builder.prepare();
@@ -111,6 +112,7 @@ async function main(): Promise<void> {
             ? BRIGHTNESS_TIERS.map((tier) => tier.level)
             : undefined,
         macroStorage: options.macroStorage,
+        uuidEntities: options.uuidEntities,
         clipStartSeconds: options.startSeconds,
         clipEndSeconds: options.endSeconds,
         commands: commandCount,

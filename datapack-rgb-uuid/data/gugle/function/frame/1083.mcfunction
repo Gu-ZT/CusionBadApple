@@ -1,0 +1,2155 @@
+data modify entity 6775676c-652d-4000-8000-000000030040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000003803b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000003803c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000003803d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000038040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000038041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000038042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000038043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000040044 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000040045 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000040046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000040047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000040048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000048037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000048048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000050036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000005004b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000050051 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000058035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000005804c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000060035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000006804e color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000068058 color set value "red"
+data modify entity 6775676c-652d-4000-8000-00000007004e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000078033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007804e color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000078058 color set value "red"
+data modify entity 6775676c-652d-4000-8000-00000008003e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000008003f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000080043 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000088030 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000008803c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000090039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000009003d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000009004d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000098030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098058 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000000a002f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000000a0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a004a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a004d color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000a0058 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000a8050 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000b002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0037 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000000b0046 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000000b0047 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000000b0052 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000b803a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000b803b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000b803f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000b8051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c003e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c0054 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c802f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8031 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8047 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c8052 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000c8053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000d0045 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0052 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000d0053 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000000e0045 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000e0049 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e0052 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e0053 color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-0000000e803f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000e8042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8049 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e8053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000f0053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000f8031 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000000f803c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000f803d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000f8053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000100030 color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-000000100047 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000100053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000108031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000108038 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000108053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000110030 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000011802f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000118031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000118038 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000118046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000120038 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000120054 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000128044 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000128045 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000128054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000130030 color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-000000130043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000013004f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000130050 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000013802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000138034 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000138040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000013804a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000013804d color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000013804f color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000138055 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000140033 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000140050 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000148011 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000148032 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000148033 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000148035 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000148037 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000148039 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000014803a color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000014804b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000014804d color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000148050 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000148055 color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-000000148070 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000148073 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000015003a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000150046 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000150047 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000150049 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000150050 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000015006f color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000150071 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000015804b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000158050 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000015806d color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000016004c color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000160051 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000016006b color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000016006c color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000160072 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000016800a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000016803f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000016804d color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000016804f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000168056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000168069 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000016806d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000168070 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000170009 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000017000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017000d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000170015 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000170033 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000017003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017003e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000017004e color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000170056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000170067 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000017006a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000017006b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170071 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000017800a color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000178014 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178016 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178019 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000178050 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000178055 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000178056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178065 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000178073 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000018000a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180017 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000018003c color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000180050 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000180053 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000180054 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000180067 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000180068 color set value "red"
+data modify entity 6775676c-652d-4000-8000-00000018006b color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000180073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180074 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000180075 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000188032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000018804f color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000188054 color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-000000188055 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000188062 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000188065 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000188068 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000018806d color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000188071 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000190003 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000019003a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000190046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190048 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000190053 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000190055 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000019005f color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000190068 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000019006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190072 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000190075 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000190076 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000190077 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000198003 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198004 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198010 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000198012 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198013 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019803d color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000198047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000198048 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000019804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198050 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198052 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198053 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198055 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198058 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019805d color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000019806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198071 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198077 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000198078 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0009 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a000b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a000c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0014 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a0015 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a0022 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a002f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a0030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a005d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a005e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001a0060 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001a0068 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0079 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8002 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a800c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a800d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8014 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a8015 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a8016 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001a802b color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001a8035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8036 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001a8049 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001a804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8057 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001a805a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a805b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a805c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8061 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001a806f color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001a8076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8078 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001a807b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0001 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b000c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0012 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b0015 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b0017 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b0051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0057 color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-0000001b005e color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001b0061 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b0063 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001b006f color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001b0077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b007a color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b007b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b007e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8009 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b800c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8012 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b8017 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001b801e color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001b801f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001b8026 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b8028 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001b802c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b8036 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001b8054 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001b805a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8062 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8064 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b806f color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001b8073 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b807a color set value "cyan"
+data modify entity 6775676c-652d-4000-8000-0000001b807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c000a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c000b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c000d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0014 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c0016 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c001a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c001c color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c0025 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0026 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c0027 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c002a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c0036 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c004b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0054 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001c0056 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c0063 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c0065 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c0068 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c006a color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001c0071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0072 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c007a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c007e color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c007f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c8007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c800a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c800c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8015 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c801a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c801c color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c8025 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c8027 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c8028 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c802d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c804c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c8051 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001c8054 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c8055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8058 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001c8059 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c805b color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001c8069 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c806b color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001c8073 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c807f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d0009 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d000c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0013 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d0015 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d001a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d001c color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d0026 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d0027 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d002b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d002d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d0031 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d004a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0053 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d0054 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d0055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0057 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d0059 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d005b color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d0061 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d0064 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d0065 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001d006a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d006b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d006c color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d006d color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001d0072 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0079 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d8003 color set value "cyan"
+data modify entity 6775676c-652d-4000-8000-0000001d8009 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d800a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d800b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8013 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d8014 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d801a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d801c color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d8026 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d8027 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d802c color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d802f color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d803c color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d8044 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d8050 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8053 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d8054 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001d8055 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d8059 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d805b color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d8065 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001d806b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d806d color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001d8073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d8075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d8079 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001d807d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e000a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0013 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e001a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e001c color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e0026 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e0027 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e002a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e002b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e002c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001e0032 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001e0033 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001e0055 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001e0059 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e005a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e005b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e0074 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0079 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001e007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8000 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8001 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e800a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8013 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e801a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e801c color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001e801d color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e8026 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e8027 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e802a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001e802b color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001e8030 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001e804f color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e8054 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001e8056 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e8059 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001e805a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e805b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001e805f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001e806c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001e8070 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001e8074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e807b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0009 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0010 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001f0012 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f001a color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001f001c color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001f0026 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f0027 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f0028 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001f0029 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f002b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001f0033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f004f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0055 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001f0057 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f005a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f005b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f0060 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f006d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f0070 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001f0075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0079 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001f007a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f007b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8009 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8010 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001f8011 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f801c color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001f8026 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001f8027 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f8028 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001f8029 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f802b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001f8034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f804f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8056 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001f8057 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f805a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000001f805b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f8062 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-0000001f806e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f8070 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000001f8076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f807a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f807c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f807d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200008 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200026 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000020002a color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000020004a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000200056 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000200058 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000020005a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000020005b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000200063 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000200064 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000020006e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000020006f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000200070 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000200077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020007c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020007d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208000 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000208026 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000208027 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208029 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000020802a color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000208035 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208057 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000208059 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000020805a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000020805b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000208062 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-000000208063 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000208064 color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000020806f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208079 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020807a color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000020807c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020807d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020807e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020807f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000210001 color set value "cyan"
+data modify entity 6775676c-652d-4000-8000-00000021001b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210026 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000210027 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210028 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210029 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000210058 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000210059 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000021005a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000021005b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000210063 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210066 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000210078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021007f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000218000 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021801b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000021801c color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000218027 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000218028 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000218029 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000021802e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000218034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000021803b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000021804a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000218058 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000218059 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000021805a color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000021805b color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000218064 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000218065 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000218066 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000021807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022001b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220027 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220029 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000220037 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000022003c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000022003d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220040 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000220041 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000022004a color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000220050 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220059 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000022005a color set value "orange"
+data modify entity 6775676c-652d-4000-8000-00000022005b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000022005c color set value "brown"
+data modify entity 6775676c-652d-4000-8000-000000220064 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000220066 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000022007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022803e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228048 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000022805a color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000022805b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000022805c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000022807f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000238033 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000238051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000240028 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000240032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000240048 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000024004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000240052 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000024804b color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000248052 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000025004a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000025004c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000250053 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000025804c color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000025804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000258053 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026001c color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000026001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000260020 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000026002d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000260033 color set value "red"
+data modify entity 6775676c-652d-4000-8000-00000026004c color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000026004d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000260053 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000260054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026804c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000026804d color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000268053 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000268054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000270029 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027004e color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000270054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278027 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278031 color set value "red"
+data modify entity 6775676c-652d-4000-8000-00000027804e color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000027804f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000278054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278055 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000280019 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000028004e color set value "brown"
+data modify entity 6775676c-652d-4000-8000-00000028004f color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000280054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288016 color set value "black"
+data modify entity 6775676c-652d-4000-8000-00000028804f color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000288050 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000288055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000290022 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000290050 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000290051 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000290055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000290056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298014 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000298016 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298017 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298020 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298050 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000298051 color set value "black"
+data modify entity 6775676c-652d-4000-8000-000000298055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298057 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002a0016 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002a0019 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a001b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a001d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a0050 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002a0051 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002a0052 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002a0055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a0056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a0057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a8051 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002a8052 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002a8056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a8057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a8058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a805e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002a805f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b002d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002b0052 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002b0053 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002b0056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b0057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b0058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b0059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b005a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b005b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b005c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b005d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b005e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b005f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b8052 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002b8053 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002b8054 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002b8056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b8057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b8058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b8059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b805a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b805b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b805c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b805d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b805e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002b805f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002c0052 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002c0053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002c0054 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002c0057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c0058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c0059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c005a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c005b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c005c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c005d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c802b color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002c8052 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002c8053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002c8054 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002c8055 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002c8057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c8058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c8059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c805a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c805b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c805c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c805d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c805e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002c805f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d0053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002d0054 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002d0055 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002d0056 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002d0057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d0058 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002d0059 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002d005a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d005b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d005c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d005d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d005e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d005f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d8053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002d8054 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002d8055 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002d8056 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002d8057 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d8058 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002d8059 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002d805a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d805b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d805c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d805d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d805e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002d805f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002e0029 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002e0053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e0054 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e0055 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e0056 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002e0058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e0059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e005a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e005b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e005c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e005d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e005e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e005f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002e8053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e8054 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e8055 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e8056 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002e8057 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002e8059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e805a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e805b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e805c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e805d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002e805e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002f0053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f0054 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f0055 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f0056 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f0057 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f0058 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002f0059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002f005a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002f005b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002f005c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000002f005d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000002f8026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000002f8029 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002f8052 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f8053 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f8054 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f8055 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f8056 color set value "brown"
+data modify entity 6775676c-652d-4000-8000-0000002f8057 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000002f8059 color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002f805b color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002f805c color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002f805d color set value "black"
+data modify entity 6775676c-652d-4000-8000-0000002f805e color set value "black"
+setblock ~64 ~2 ~6 minecraft:magma_block
+setblock ~59 ~2 ~7 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~60 ~2 ~7 minecraft:weathered_copper_bulb[lit=true]
+setblock ~61 ~2 ~7 minecraft:respawn_anchor[charges=3]
+setblock ~62 ~2 ~7 minecraft:exposed_copper_bulb[lit=true]
+fill ~63 ~2 ~7 ~65 ~2 ~8 minecraft:furnace[lit=true]
+setblock ~66 ~2 ~7 minecraft:exposed_copper_bulb[lit=true]
+setblock ~67 ~2 ~7 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~7 minecraft:weathered_copper_bulb[lit=true]
+setblock ~69 ~2 ~7 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~57 ~2 ~8 minecraft:weathered_copper_bulb[lit=true]
+setblock ~58 ~2 ~8 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~8 minecraft:copper_bulb[lit=true]
+setblock ~62 ~2 ~8 minecraft:furnace[lit=true]
+setblock ~66 ~2 ~8 minecraft:furnace[lit=true]
+setblock ~69 ~2 ~8 minecraft:copper_bulb[lit=true]
+fill ~70 ~2 ~8 ~70 ~2 ~9 minecraft:furnace[lit=true]
+setblock ~71 ~2 ~8 minecraft:weathered_copper_bulb[lit=true]
+setblock ~72 ~2 ~8 minecraft:magma_block
+setblock ~84 ~2 ~8 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~85 ~2 ~8 minecraft:respawn_anchor[charges=2]
+setblock ~86 ~2 ~8 minecraft:sculk_catalyst[bloom=true]
+setblock ~72 ~2 ~9 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~9 minecraft:respawn_anchor[charges=2]
+setblock ~83 ~2 ~9 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~74 ~2 ~10 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~10 minecraft:magma_block
+setblock ~81 ~2 ~10 minecraft:stone
+setblock ~82 ~2 ~10 minecraft:weathered_copper_bulb[lit=true]
+setblock ~83 ~2 ~10 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~10 minecraft:respawn_anchor[charges=3]
+fill ~86 ~2 ~10 ~86 ~2 ~11 minecraft:respawn_anchor[charges=2]
+fill ~87 ~2 ~10 ~87 ~2 ~11 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~54 ~2 ~11 minecraft:copper_bulb[lit=true]
+setblock ~75 ~2 ~11 minecraft:furnace[lit=true]
+setblock ~76 ~2 ~11 minecraft:magma_block
+setblock ~80 ~2 ~11 minecraft:magma_block
+setblock ~81 ~2 ~11 minecraft:sculk_catalyst[bloom=true]
+setblock ~85 ~2 ~11 minecraft:crying_obsidian
+setblock ~76 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~12 minecraft:weathered_copper_bulb[lit=true]
+setblock ~51 ~2 ~13 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~13 minecraft:crying_obsidian
+setblock ~78 ~2 ~13 minecraft:stone
+setblock ~79 ~2 ~13 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~83 ~2 ~13 minecraft:crying_obsidian
+fill ~88 ~2 ~13 ~88 ~2 ~14 minecraft:redstone_ore[lit=true]
+setblock ~50 ~2 ~14 minecraft:respawn_anchor[charges=2]
+setblock ~77 ~2 ~14 minecraft:copper_bulb[lit=true]
+setblock ~78 ~2 ~14 minecraft:crying_obsidian
+setblock ~79 ~2 ~14 minecraft:respawn_anchor[charges=2]
+setblock ~80 ~2 ~14 minecraft:crying_obsidian
+setblock ~81 ~2 ~14 minecraft:redstone_ore[lit=true]
+setblock ~86 ~2 ~14 minecraft:crying_obsidian
+setblock ~65 ~2 ~15 minecraft:furnace[lit=true]
+setblock ~76 ~2 ~15 minecraft:furnace[lit=true]
+setblock ~78 ~2 ~15 minecraft:respawn_anchor[charges=3]
+fill ~80 ~2 ~15 ~80 ~2 ~16 minecraft:weathered_copper_bulb[lit=true]
+setblock ~81 ~2 ~15 minecraft:respawn_anchor[charges=2]
+setblock ~88 ~2 ~15 minecraft:weathered_copper_bulb[lit=true]
+setblock ~89 ~2 ~15 minecraft:sculk_catalyst[bloom=true]
+setblock ~49 ~2 ~16 minecraft:sculk_catalyst[bloom=true]
+setblock ~70 ~2 ~16 minecraft:exposed_copper_bulb[lit=true]
+setblock ~77 ~2 ~16 minecraft:exposed_copper_bulb[lit=true]
+setblock ~89 ~2 ~16 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~48 ~2 ~17 minecraft:stone
+setblock ~49 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+setblock ~60 ~2 ~17 minecraft:crying_obsidian
+setblock ~65 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~66 ~2 ~17 minecraft:crying_obsidian
+setblock ~68 ~2 ~17 minecraft:weathered_copper_bulb[lit=true]
+setblock ~69 ~2 ~17 minecraft:respawn_anchor[charges=3]
+setblock ~72 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+setblock ~73 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~77 ~2 ~17 minecraft:crying_obsidian
+setblock ~88 ~2 ~17 minecraft:sculk_catalyst[bloom=true]
+setblock ~48 ~2 ~18 minecraft:weathered_copper_bulb[lit=true]
+setblock ~61 ~2 ~18 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~18 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~18 minecraft:weathered_copper_bulb[lit=true]
+setblock ~81 ~2 ~18 minecraft:respawn_anchor[charges=2]
+setblock ~85 ~2 ~18 minecraft:redstone_ore[lit=true]
+fill ~87 ~2 ~18 ~87 ~2 ~19 minecraft:redstone_ore[lit=true]
+setblock ~61 ~2 ~19 minecraft:redstone_ore[lit=true]
+setblock ~65 ~2 ~19 minecraft:crying_obsidian
+setblock ~70 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~19 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~19 minecraft:respawn_anchor[charges=2]
+fill ~88 ~2 ~19 ~88 ~2 ~20 minecraft:magma_block
+setblock ~47 ~2 ~20 minecraft:stone
+setblock ~48 ~2 ~20 minecraft:respawn_anchor[charges=3]
+fill ~64 ~2 ~20 ~66 ~2 ~20 minecraft:respawn_anchor[charges=3]
+setblock ~70 ~2 ~20 minecraft:copper_bulb[lit=true]
+setblock ~75 ~2 ~20 minecraft:weathered_copper_bulb[lit=true]
+setblock ~76 ~2 ~20 minecraft:crying_obsidian
+setblock ~77 ~2 ~20 minecraft:respawn_anchor[charges=2]
+setblock ~82 ~2 ~20 minecraft:crying_obsidian
+setblock ~85 ~2 ~20 minecraft:redstone_ore[lit=true]
+fill ~87 ~2 ~20 ~87 ~2 ~22 minecraft:crying_obsidian
+setblock ~48 ~2 ~21 minecraft:weathered_copper_bulb[lit=true]
+fill ~49 ~2 ~21 ~49 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~62 ~2 ~21 minecraft:respawn_anchor[charges=3]
+setblock ~69 ~2 ~21 minecraft:furnace[lit=true]
+setblock ~74 ~2 ~21 minecraft:respawn_anchor[charges=3]
+setblock ~76 ~2 ~21 minecraft:furnace[lit=true]
+fill ~79 ~2 ~21 ~80 ~2 ~21 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~21 minecraft:respawn_anchor[charges=2]
+setblock ~84 ~2 ~21 minecraft:crying_obsidian
+setblock ~46 ~2 ~22 minecraft:magma_block
+setblock ~47 ~2 ~22 minecraft:crying_obsidian
+setblock ~55 ~2 ~22 minecraft:respawn_anchor[charges=3]
+setblock ~60 ~2 ~22 minecraft:respawn_anchor[charges=3]
+setblock ~62 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~78 ~2 ~22 minecraft:copper_bulb[lit=true]
+setblock ~79 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~82 ~2 ~22 minecraft:respawn_anchor[charges=3]
+fill ~84 ~2 ~22 ~84 ~2 ~24 minecraft:weathered_copper_bulb[lit=true]
+fill ~46 ~2 ~23 ~46 ~2 ~24 minecraft:respawn_anchor[charges=3]
+setblock ~59 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~63 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+fill ~68 ~2 ~23 ~69 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~23 minecraft:respawn_anchor[charges=3]
+setblock ~83 ~2 ~23 minecraft:respawn_anchor[charges=3]
+setblock ~85 ~2 ~23 minecraft:sculk_catalyst[bloom=true]
+setblock ~87 ~2 ~23 minecraft:redstone_ore[lit=true]
+setblock ~48 ~2 ~24 minecraft:crying_obsidian
+setblock ~49 ~2 ~24 minecraft:respawn_anchor[charges=3]
+setblock ~58 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~24 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~24 minecraft:crying_obsidian
+setblock ~81 ~2 ~24 minecraft:exposed_copper_bulb[lit=true]
+setblock ~82 ~2 ~24 minecraft:crying_obsidian
+setblock ~85 ~2 ~24 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~46 ~2 ~25 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~47 ~2 ~25 minecraft:crying_obsidian
+setblock ~52 ~2 ~25 minecraft:respawn_anchor[charges=3]
+setblock ~62 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~64 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~76 ~2 ~25 minecraft:respawn_anchor[charges=3]
+setblock ~58 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~63 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~66 ~2 ~26 minecraft:exposed_copper_bulb[lit=true]
+fill ~83 ~2 ~26 ~83 ~2 ~29 minecraft:sculk_catalyst[bloom=true]
+setblock ~47 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~48 ~2 ~27 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~27 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~27 ~58 ~2 ~27 minecraft:weathered_copper_bulb[lit=true]
+setblock ~68 ~2 ~27 minecraft:exposed_copper_bulb[lit=true]
+setblock ~69 ~2 ~27 minecraft:weathered_copper_bulb[lit=true]
+setblock ~70 ~2 ~27 minecraft:respawn_anchor[charges=2]
+fill ~79 ~2 ~27 ~79 ~2 ~29 minecraft:respawn_anchor[charges=3]
+setblock ~46 ~2 ~28 minecraft:sculk_catalyst[bloom=true]
+setblock ~47 ~2 ~28 minecraft:crying_obsidian
+setblock ~55 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~28 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~57 ~2 ~28 minecraft:sculk_catalyst[bloom=true]
+setblock ~63 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~67 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+setblock ~68 ~2 ~28 minecraft:sculk_catalyst[bloom=true]
+setblock ~70 ~2 ~28 minecraft:weathered_copper_bulb[lit=true]
+fill ~72 ~2 ~28 ~72 ~2 ~29 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~51 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~56 ~2 ~29 minecraft:sculk_catalyst[bloom=true]
+setblock ~58 ~2 ~29 minecraft:crying_obsidian
+setblock ~61 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+setblock ~70 ~2 ~29 minecraft:redstone_ore[lit=true]
+setblock ~73 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+setblock ~76 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~78 ~2 ~29 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~30 minecraft:redstone_ore[lit=true]
+setblock ~56 ~2 ~30 minecraft:respawn_anchor[charges=3]
+fill ~58 ~2 ~30 ~59 ~2 ~30 minecraft:redstone_ore[lit=true]
+setblock ~62 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~30 minecraft:crying_obsidian
+fill ~69 ~2 ~30 ~70 ~2 ~30 minecraft:respawn_anchor[charges=3]
+fill ~83 ~2 ~30 ~83 ~2 ~33 minecraft:respawn_anchor[charges=2]
+fill ~50 ~2 ~31 ~50 ~2 ~32 minecraft:respawn_anchor[charges=3]
+setblock ~59 ~2 ~31 minecraft:exposed_copper_bulb[lit=true]
+setblock ~65 ~2 ~31 minecraft:respawn_anchor[charges=3]
+setblock ~66 ~2 ~31 minecraft:furnace[lit=true]
+setblock ~77 ~2 ~31 minecraft:exposed_copper_bulb[lit=true]
+setblock ~49 ~2 ~32 minecraft:magma_block
+setblock ~51 ~2 ~32 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~32 minecraft:exposed_copper_bulb[lit=true]
+setblock ~76 ~2 ~32 minecraft:crying_obsidian
+setblock ~79 ~2 ~32 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~33 minecraft:sculk_catalyst[bloom=true]
+setblock ~50 ~2 ~33 minecraft:furnace[lit=true]
+fill ~72 ~2 ~33 ~72 ~2 ~34 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~33 minecraft:crying_obsidian
+setblock ~74 ~2 ~33 minecraft:exposed_copper_bulb[lit=true]
+setblock ~48 ~2 ~34 minecraft:magma_block
+setblock ~49 ~2 ~34 minecraft:respawn_anchor[charges=3]
+setblock ~53 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~71 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+fill ~75 ~2 ~34 ~75 ~2 ~35 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~83 ~2 ~34 minecraft:redstone_ore[lit=true]
+fill ~48 ~2 ~35 ~48 ~2 ~37 minecraft:redstone_ore[lit=true]
+setblock ~51 ~2 ~35 minecraft:furnace[lit=true]
+setblock ~70 ~2 ~35 minecraft:copper_bulb[lit=true]
+setblock ~80 ~2 ~35 minecraft:exposed_copper_bulb[lit=true]
+setblock ~83 ~2 ~35 minecraft:crying_obsidian
+fill ~49 ~2 ~36 ~49 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~52 ~2 ~36 minecraft:crying_obsidian
+setblock ~57 ~2 ~36 minecraft:respawn_anchor[charges=3]
+setblock ~59 ~2 ~36 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~36 minecraft:furnace[lit=true]
+setblock ~69 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~70 ~2 ~36 minecraft:respawn_anchor[charges=3]
+setblock ~78 ~2 ~36 minecraft:exposed_copper_bulb[lit=true]
+setblock ~83 ~2 ~36 minecraft:exposed_copper_bulb[lit=true]
+setblock ~84 ~2 ~36 minecraft:magma_block
+setblock ~47 ~2 ~37 minecraft:magma_block
+setblock ~50 ~2 ~37 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~68 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~69 ~2 ~37 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~37 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~37 minecraft:respawn_anchor[charges=3]
+setblock ~83 ~2 ~37 minecraft:furnace[lit=true]
+setblock ~48 ~2 ~38 minecraft:weathered_copper_bulb[lit=true]
+setblock ~50 ~2 ~38 minecraft:respawn_anchor[charges=3]
+setblock ~51 ~2 ~38 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~54 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~60 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~62 ~2 ~38 minecraft:copper_bulb[lit=true]
+fill ~63 ~2 ~38 ~63 ~2 ~39 minecraft:furnace[lit=true]
+setblock ~67 ~2 ~38 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~38 minecraft:respawn_anchor[charges=3]
+setblock ~79 ~2 ~38 minecraft:weathered_copper_bulb[lit=true]
+setblock ~80 ~2 ~38 minecraft:sculk_catalyst[bloom=true]
+fill ~83 ~2 ~38 ~83 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~84 ~2 ~38 minecraft:sculk_catalyst[bloom=true]
+setblock ~50 ~2 ~39 minecraft:redstone_ore[lit=true]
+setblock ~61 ~2 ~39 minecraft:crying_obsidian
+setblock ~64 ~2 ~39 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~39 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~39 minecraft:redstone_ore[lit=true]
+setblock ~71 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~74 ~2 ~39 minecraft:redstone_ore[lit=true]
+setblock ~76 ~2 ~39 minecraft:respawn_anchor[charges=2]
+setblock ~77 ~2 ~39 minecraft:weathered_copper_bulb[lit=true]
+setblock ~78 ~2 ~39 minecraft:crying_obsidian
+setblock ~79 ~2 ~39 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~80 ~2 ~39 minecraft:magma_block
+setblock ~81 ~2 ~39 minecraft:respawn_anchor[charges=3]
+setblock ~84 ~2 ~39 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~39 minecraft:magma_block
+setblock ~49 ~2 ~40 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~50 ~2 ~40 minecraft:respawn_anchor[charges=2]
+setblock ~54 ~2 ~40 minecraft:respawn_anchor[charges=2]
+setblock ~58 ~2 ~40 minecraft:redstone_ore[lit=true]
+setblock ~67 ~2 ~40 minecraft:crying_obsidian
+setblock ~69 ~2 ~40 minecraft:crying_obsidian
+setblock ~73 ~2 ~40 minecraft:crying_obsidian
+setblock ~75 ~2 ~40 minecraft:respawn_anchor[charges=2]
+setblock ~78 ~2 ~40 minecraft:respawn_anchor[charges=2]
+setblock ~81 ~2 ~40 minecraft:crying_obsidian
+setblock ~84 ~2 ~40 minecraft:respawn_anchor[charges=3]
+setblock ~51 ~2 ~41 minecraft:magma_block
+setblock ~57 ~2 ~41 minecraft:redstone_ore[lit=true]
+setblock ~59 ~2 ~41 minecraft:respawn_anchor[charges=2]
+setblock ~60 ~2 ~41 minecraft:crying_obsidian
+setblock ~63 ~2 ~41 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~41 minecraft:redstone_ore[lit=true]
+setblock ~69 ~2 ~41 minecraft:weathered_copper_bulb[lit=true]
+setblock ~72 ~2 ~41 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~41 minecraft:sculk_catalyst[bloom=true]
+setblock ~75 ~2 ~41 minecraft:magma_block
+setblock ~77 ~2 ~41 minecraft:oxidized_copper_bulb[lit=true]
+fill ~80 ~2 ~41 ~80 ~2 ~43 minecraft:stone
+fill ~81 ~2 ~41 ~81 ~2 ~43 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+setblock ~85 ~2 ~41 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~112 ~2 ~41 minecraft:stone
+setblock ~113 ~2 ~41 minecraft:magma_block
+setblock ~115 ~2 ~41 minecraft:magma_block
+setblock ~14 ~2 ~42 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~55 ~2 ~42 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~58 ~2 ~42 minecraft:weathered_copper_bulb[lit=true]
+setblock ~71 ~2 ~42 minecraft:sculk_catalyst[bloom=true]
+setblock ~72 ~2 ~42 minecraft:respawn_anchor[charges=2]
+setblock ~84 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~42 minecraft:respawn_anchor[charges=2]
+setblock ~111 ~2 ~42 minecraft:stone
+setblock ~113 ~2 ~42 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~19 ~2 ~43 minecraft:oxidized_copper_bulb[lit=true]
+fill ~56 ~2 ~43 ~57 ~2 ~43 minecraft:respawn_anchor[charges=3]
+setblock ~71 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~43 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~74 ~2 ~43 minecraft:copper_bulb[lit=true]
+setblock ~75 ~2 ~43 minecraft:magma_block
+setblock ~85 ~2 ~43 minecraft:redstone_ore[lit=true]
+setblock ~109 ~2 ~43 minecraft:stone
+setblock ~110 ~2 ~43 minecraft:magma_block
+setblock ~12 ~2 ~44 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~53 ~2 ~44 minecraft:magma_block
+setblock ~58 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~59 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~69 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~71 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~75 ~2 ~44 minecraft:weathered_copper_bulb[lit=true]
+setblock ~76 ~2 ~44 minecraft:stone
+setblock ~80 ~2 ~44 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~81 ~2 ~44 minecraft:crying_obsidian
+setblock ~82 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~84 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~85 ~2 ~44 minecraft:crying_obsidian
+fill ~107 ~2 ~44 ~108 ~2 ~44 minecraft:stone
+fill ~109 ~2 ~44 ~109 ~2 ~45 minecraft:magma_block
+setblock ~114 ~2 ~44 minecraft:stone
+setblock ~10 ~2 ~45 minecraft:magma_block
+setblock ~21 ~2 ~45 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~22 ~2 ~45 minecraft:weathered_copper_bulb[lit=true]
+setblock ~52 ~2 ~45 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~53 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~63 ~2 ~45 minecraft:crying_obsidian
+setblock ~67 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~75 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~76 ~2 ~45 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~45 minecraft:stone
+setblock ~79 ~2 ~45 minecraft:magma_block
+setblock ~80 ~2 ~45 minecraft:weathered_copper_bulb[lit=true]
+setblock ~84 ~2 ~45 minecraft:redstone_ore[lit=true]
+fill ~86 ~2 ~45 ~86 ~2 ~47 minecraft:magma_block
+setblock ~105 ~2 ~45 minecraft:stone
+fill ~106 ~2 ~45 ~107 ~2 ~45 minecraft:magma_block
+setblock ~108 ~2 ~45 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~9 ~2 ~46 minecraft:magma_block
+setblock ~12 ~2 ~46 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~13 ~2 ~46 minecraft:magma_block
+setblock ~22 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~51 ~2 ~46 minecraft:stone
+setblock ~52 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+setblock ~60 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~61 ~2 ~46 minecraft:copper_bulb[lit=true]
+setblock ~62 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+setblock ~64 ~2 ~46 minecraft:crying_obsidian
+setblock ~66 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~46 minecraft:weathered_copper_bulb[lit=true]
+setblock ~80 ~2 ~46 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~81 ~2 ~46 minecraft:respawn_anchor[charges=2]
+setblock ~84 ~2 ~46 minecraft:sculk_catalyst[bloom=true]
+setblock ~103 ~2 ~46 minecraft:stone
+fill ~104 ~2 ~46 ~105 ~2 ~46 minecraft:magma_block
+setblock ~107 ~2 ~46 minecraft:magma_block
+setblock ~113 ~2 ~46 minecraft:magma_block
+setblock ~10 ~2 ~47 minecraft:stone
+setblock ~12 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~13 ~2 ~47 minecraft:weathered_copper_bulb[lit=true]
+setblock ~20 ~2 ~47 minecraft:respawn_anchor[charges=2]
+setblock ~21 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~22 ~2 ~47 minecraft:redstone_ore[lit=true]
+setblock ~25 ~2 ~47 minecraft:stone
+setblock ~51 ~2 ~47 minecraft:sculk_catalyst[bloom=true]
+setblock ~53 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~61 ~2 ~47 minecraft:weathered_copper_bulb[lit=true]
+setblock ~66 ~2 ~47 minecraft:redstone_ore[lit=true]
+setblock ~71 ~2 ~47 minecraft:furnace[lit=true]
+setblock ~78 ~2 ~47 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~80 ~2 ~47 minecraft:stone
+setblock ~81 ~2 ~47 minecraft:crying_obsidian
+setblock ~83 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~101 ~2 ~47 minecraft:stone
+setblock ~102 ~2 ~47 minecraft:magma_block
+setblock ~104 ~2 ~47 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~105 ~2 ~47 minecraft:crying_obsidian
+setblock ~106 ~2 ~47 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~10 ~2 ~48 minecraft:magma_block
+setblock ~11 ~2 ~48 minecraft:redstone_ore[lit=true]
+setblock ~19 ~2 ~48 minecraft:crying_obsidian
+setblock ~51 ~2 ~48 minecraft:respawn_anchor[charges=3]
+setblock ~52 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~58 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~48 minecraft:copper_bulb[lit=true]
+fill ~72 ~2 ~48 ~73 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~48 minecraft:oxidized_copper_bulb[lit=true]
+fill ~81 ~2 ~48 ~82 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+setblock ~83 ~2 ~48 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~48 minecraft:stone
+setblock ~85 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+setblock ~101 ~2 ~48 minecraft:magma_block
+setblock ~102 ~2 ~48 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~103 ~2 ~48 minecraft:magma_block
+setblock ~106 ~2 ~48 minecraft:respawn_anchor[charges=2]
+setblock ~107 ~2 ~48 minecraft:magma_block
+setblock ~114 ~2 ~48 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~9 ~2 ~49 minecraft:sculk_catalyst[bloom=true]
+setblock ~10 ~2 ~49 minecraft:furnace[lit=true]
+setblock ~12 ~2 ~49 minecraft:copper_bulb[lit=true]
+setblock ~19 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~22 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~23 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~50 ~2 ~49 minecraft:magma_block
+setblock ~54 ~2 ~49 minecraft:crying_obsidian
+setblock ~55 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~58 ~2 ~49 minecraft:copper_bulb[lit=true]
+fill ~59 ~2 ~49 ~59 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+setblock ~65 ~2 ~49 minecraft:crying_obsidian
+setblock ~73 ~2 ~49 minecraft:crying_obsidian
+setblock ~74 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~78 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~79 ~2 ~49 minecraft:stone
+fill ~80 ~2 ~49 ~80 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~82 ~2 ~49 minecraft:redstone_ore[lit=true]
+fill ~83 ~2 ~49 ~84 ~2 ~49 minecraft:magma_block
+setblock ~85 ~2 ~49 minecraft:respawn_anchor[charges=2]
+setblock ~99 ~2 ~49 minecraft:magma_block
+setblock ~100 ~2 ~49 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~104 ~2 ~49 minecraft:stone
+setblock ~105 ~2 ~49 minecraft:redstone_ore[lit=true]
+fill ~107 ~2 ~49 ~107 ~2 ~50 minecraft:exposed_copper_bulb[lit=true]
+setblock ~108 ~2 ~49 minecraft:sculk_catalyst[bloom=true]
+setblock ~109 ~2 ~49 minecraft:stone
+setblock ~113 ~2 ~49 minecraft:stone
+setblock ~115 ~2 ~49 minecraft:crying_obsidian
+setblock ~3 ~2 ~50 minecraft:magma_block
+setblock ~9 ~2 ~50 minecraft:copper_bulb[lit=true]
+setblock ~12 ~2 ~50 minecraft:exposed_copper_bulb[lit=true]
+fill ~17 ~2 ~50 ~17 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+setblock ~23 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~50 minecraft:magma_block
+setblock ~50 ~2 ~50 minecraft:exposed_copper_bulb[lit=true]
+setblock ~57 ~2 ~50 minecraft:copper_bulb[lit=true]
+setblock ~60 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~62 ~2 ~50 minecraft:respawn_anchor[charges=3]
+fill ~71 ~2 ~50 ~72 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~50 minecraft:respawn_anchor[charges=2]
+setblock ~78 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~50 minecraft:redstone_ore[lit=true]
+setblock ~81 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~83 ~2 ~50 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~84 ~2 ~50 minecraft:respawn_anchor[charges=2]
+setblock ~85 ~2 ~50 minecraft:magma_block
+setblock ~95 ~2 ~50 minecraft:stone
+setblock ~97 ~2 ~50 minecraft:magma_block
+setblock ~104 ~2 ~50 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~109 ~2 ~50 minecraft:crying_obsidian
+setblock ~110 ~2 ~50 minecraft:magma_block
+setblock ~114 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+setblock ~115 ~2 ~50 minecraft:exposed_copper_bulb[lit=true]
+setblock ~116 ~2 ~50 minecraft:sculk_catalyst[bloom=true]
+setblock ~117 ~2 ~50 minecraft:stone
+setblock ~118 ~2 ~50 minecraft:magma_block
+setblock ~119 ~2 ~50 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~4 ~2 ~51 minecraft:stone
+setblock ~9 ~2 ~51 minecraft:redstone_ore[lit=true]
+setblock ~11 ~2 ~51 minecraft:exposed_copper_bulb[lit=true]
+setblock ~14 ~2 ~51 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~16 ~2 ~51 minecraft:magma_block
+setblock ~22 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+setblock ~24 ~2 ~51 minecraft:magma_block
+setblock ~48 ~2 ~51 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~49 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~50 ~2 ~51 minecraft:copper_bulb[lit=true]
+setblock ~57 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~63 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~70 ~2 ~51 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+setblock ~73 ~2 ~51 minecraft:redstone_ore[lit=true]
+setblock ~81 ~2 ~51 minecraft:oxidized_copper_bulb[lit=true]
+fill ~82 ~2 ~51 ~83 ~2 ~51 minecraft:sculk_catalyst[bloom=true]
+setblock ~88 ~2 ~51 minecraft:stone
+setblock ~93 ~2 ~51 minecraft:stone
+fill ~94 ~2 ~51 ~95 ~2 ~51 minecraft:magma_block
+setblock ~97 ~2 ~51 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~104 ~2 ~51 minecraft:respawn_anchor[charges=2]
+setblock ~105 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~107 ~2 ~51 minecraft:crying_obsidian
+fill ~108 ~2 ~51 ~109 ~2 ~51 minecraft:redstone_ore[lit=true]
+setblock ~110 ~2 ~51 minecraft:sculk_catalyst[bloom=true]
+setblock ~113 ~2 ~51 minecraft:stone
+setblock ~115 ~2 ~51 minecraft:copper_bulb[lit=true]
+setblock ~117 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~118 ~2 ~51 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~119 ~2 ~51 minecraft:stone
+setblock ~3 ~2 ~52 minecraft:sculk_catalyst[bloom=true]
+setblock ~7 ~2 ~52 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~14 ~2 ~52 minecraft:respawn_anchor[charges=2]
+setblock ~23 ~2 ~52 minecraft:weathered_copper_bulb[lit=true]
+setblock ~34 ~2 ~52 minecraft:stone
+setblock ~41 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~47 ~2 ~52 minecraft:stone
+setblock ~48 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~49 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~71 ~2 ~52 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~52 minecraft:respawn_anchor[charges=3]
+setblock ~80 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~82 ~2 ~52 minecraft:magma_block
+fill ~85 ~2 ~52 ~86 ~2 ~52 minecraft:oxidized_copper_bulb[lit=true]
+fill ~90 ~2 ~52 ~91 ~2 ~53 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~92 ~2 ~52 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~95 ~2 ~52 minecraft:crying_obsidian
+setblock ~104 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~108 ~2 ~52 minecraft:sculk_catalyst[bloom=true]
+setblock ~110 ~2 ~52 minecraft:respawn_anchor[charges=2]
+setblock ~117 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~119 ~2 ~52 minecraft:respawn_anchor[charges=2]
+setblock ~121 ~2 ~52 minecraft:magma_block
+setblock ~2 ~2 ~53 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~4 ~2 ~53 minecraft:magma_block
+setblock ~8 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~10 ~2 ~53 minecraft:oxidized_copper_bulb[lit=true]
+fill ~13 ~2 ~53 ~14 ~2 ~53 minecraft:weathered_copper_bulb[lit=true]
+setblock ~32 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~40 ~2 ~53 minecraft:respawn_anchor[charges=2]
+setblock ~43 ~2 ~53 minecraft:magma_block
+fill ~47 ~2 ~53 ~47 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~54 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+setblock ~60 ~2 ~53 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~53 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~86 ~2 ~53 minecraft:respawn_anchor[charges=3]
+setblock ~87 ~2 ~53 minecraft:magma_block
+setblock ~93 ~2 ~53 minecraft:magma_block
+setblock ~95 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+setblock ~96 ~2 ~53 minecraft:crying_obsidian
+setblock ~97 ~2 ~53 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~106 ~2 ~53 minecraft:respawn_anchor[charges=2]
+setblock ~107 ~2 ~53 minecraft:sculk_catalyst[bloom=true]
+setblock ~109 ~2 ~53 minecraft:sculk_catalyst[bloom=true]
+setblock ~113 ~2 ~53 minecraft:sculk_catalyst[bloom=true]
+fill ~116 ~2 ~53 ~116 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~117 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+setblock ~118 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~120 ~2 ~53 minecraft:stone
+setblock ~1 ~2 ~54 minecraft:magma_block
+setblock ~2 ~2 ~54 minecraft:respawn_anchor[charges=3]
+fill ~7 ~2 ~54 ~7 ~2 ~55 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~14 ~2 ~54 minecraft:sculk_catalyst[bloom=true]
+setblock ~17 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~19 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~21 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~39 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~40 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~43 ~2 ~54 minecraft:respawn_anchor[charges=2]
+setblock ~48 ~2 ~54 minecraft:copper_bulb[lit=true]
+fill ~58 ~2 ~54 ~59 ~2 ~54 minecraft:crying_obsidian
+setblock ~67 ~2 ~54 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~54 minecraft:crying_obsidian
+setblock ~77 ~2 ~54 minecraft:furnace[lit=true]
+fill ~78 ~2 ~54 ~78 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~54 minecraft:magma_block
+setblock ~85 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~86 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+setblock ~88 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~95 ~2 ~54 minecraft:respawn_anchor[charges=3]
+setblock ~97 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~98 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~99 ~2 ~54 minecraft:magma_block
+setblock ~104 ~2 ~54 minecraft:crying_obsidian
+setblock ~107 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~111 ~2 ~54 minecraft:magma_block
+setblock ~113 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~115 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+setblock ~117 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~118 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+fill ~120 ~2 ~54 ~120 ~2 ~55 minecraft:magma_block
+fill ~122 ~2 ~54 ~123 ~2 ~54 minecraft:stone
+setblock ~126 ~2 ~54 minecraft:stone
+setblock ~ ~2 ~55 minecraft:respawn_anchor[charges=2]
+fill ~1 ~2 ~55 ~2 ~2 ~55 minecraft:furnace[lit=true]
+fill ~8 ~2 ~55 ~8 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~12 ~2 ~55 minecraft:oxidized_copper_bulb[lit=true]
+fill ~21 ~2 ~55 ~22 ~2 ~55 minecraft:weathered_copper_bulb[lit=true]
+setblock ~23 ~2 ~55 minecraft:magma_block
+fill ~27 ~2 ~55 ~27 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~33 ~2 ~55 minecraft:sculk_catalyst[bloom=true]
+setblock ~38 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~39 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~40 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~43 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~44 ~2 ~55 minecraft:stone
+setblock ~48 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~55 ~2 ~55 minecraft:weathered_copper_bulb[lit=true]
+setblock ~58 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~59 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~67 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~55 minecraft:crying_obsidian
+setblock ~75 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~76 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~77 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~55 minecraft:respawn_anchor[charges=2]
+setblock ~84 ~2 ~55 minecraft:stone
+setblock ~85 ~2 ~55 minecraft:respawn_anchor[charges=3]
+fill ~89 ~2 ~55 ~89 ~2 ~56 minecraft:crying_obsidian
+setblock ~90 ~2 ~55 minecraft:magma_block
+setblock ~94 ~2 ~55 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~96 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~99 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~104 ~2 ~55 minecraft:respawn_anchor[charges=2]
+fill ~105 ~2 ~55 ~105 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~106 ~2 ~55 minecraft:oxidized_copper_bulb[lit=true]
+fill ~111 ~2 ~55 ~111 ~2 ~56 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~113 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~114 ~2 ~55 minecraft:respawn_anchor[charges=3]
+setblock ~115 ~2 ~55 minecraft:respawn_anchor[charges=2]
+setblock ~116 ~2 ~55 minecraft:weathered_copper_bulb[lit=true]
+fill ~119 ~2 ~55 ~119 ~2 ~60 minecraft:respawn_anchor[charges=3]
+setblock ~122 ~2 ~55 minecraft:magma_block
+setblock ~123 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~55 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~ ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~11 ~2 ~56 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~13 ~2 ~56 minecraft:oxidized_copper_bulb[lit=true]
+fill ~19 ~2 ~56 ~20 ~2 ~56 minecraft:respawn_anchor[charges=2]
+setblock ~21 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~22 ~2 ~56 minecraft:magma_block
+fill ~26 ~2 ~56 ~26 ~2 ~62 minecraft:magma_block
+setblock ~29 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~31 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~32 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~33 ~2 ~56 minecraft:redstone_ore[lit=true]
+fill ~37 ~2 ~56 ~37 ~2 ~57 minecraft:magma_block
+setblock ~38 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~40 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~43 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~44 ~2 ~56 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~48 ~2 ~56 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~49 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+setblock ~51 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~54 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~58 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~59 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~75 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+setblock ~76 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~79 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~84 ~2 ~56 minecraft:magma_block
+setblock ~85 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+setblock ~86 ~2 ~56 minecraft:furnace[lit=true]
+fill ~90 ~2 ~56 ~90 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+setblock ~94 ~2 ~56 minecraft:sculk_catalyst[bloom=true]
+setblock ~96 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~97 ~2 ~56 ~98 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~99 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~100 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~101 ~2 ~56 minecraft:magma_block
+setblock ~104 ~2 ~56 minecraft:magma_block
+setblock ~106 ~2 ~56 minecraft:respawn_anchor[charges=2]
+setblock ~107 ~2 ~56 minecraft:oxidized_copper_bulb[lit=true]
+fill ~110 ~2 ~56 ~110 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~113 ~2 ~56 minecraft:sculk_catalyst[bloom=true]
+setblock ~115 ~2 ~56 minecraft:sculk_catalyst[bloom=true]
+fill ~120 ~2 ~56 ~120 ~2 ~57 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~124 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~125 ~2 ~56 minecraft:magma_block
+setblock ~126 ~2 ~56 minecraft:stone
+setblock ~127 ~2 ~56 minecraft:magma_block
+setblock ~1 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~11 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~12 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~18 ~2 ~57 minecraft:crying_obsidian
+setblock ~19 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+fill ~20 ~2 ~57 ~20 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~21 ~2 ~57 minecraft:respawn_anchor[charges=2]
+fill ~27 ~2 ~57 ~27 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~28 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~30 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~38 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~39 ~2 ~57 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~40 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~42 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~43 ~2 ~57 minecraft:crying_obsidian
+setblock ~44 ~2 ~57 minecraft:respawn_anchor[charges=2]
+fill ~45 ~2 ~57 ~45 ~2 ~58 minecraft:stone
+setblock ~47 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~74 ~2 ~57 minecraft:crying_obsidian
+setblock ~75 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~76 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+setblock ~77 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+setblock ~81 ~2 ~57 minecraft:stone
+setblock ~84 ~2 ~57 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~86 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~87 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~88 ~2 ~57 minecraft:respawn_anchor[charges=2]
+fill ~89 ~2 ~57 ~89 ~2 ~60 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~91 ~2 ~57 minecraft:magma_block
+fill ~94 ~2 ~57 ~94 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~97 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~98 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~105 ~2 ~57 minecraft:magma_block
+setblock ~106 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~107 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~109 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~111 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~114 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~115 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~116 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~118 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~123 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~125 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~127 ~2 ~57 minecraft:stone
+setblock ~2 ~2 ~58 minecraft:crying_obsidian
+setblock ~4 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~5 ~2 ~58 minecraft:oxidized_copper_bulb[lit=true]
+fill ~7 ~2 ~58 ~7 ~2 ~63 minecraft:sculk_catalyst[bloom=true]
+setblock ~10 ~2 ~58 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~11 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~12 ~2 ~58 minecraft:magma_block
+setblock ~19 ~2 ~58 minecraft:crying_obsidian
+setblock ~21 ~2 ~58 minecraft:magma_block
+setblock ~28 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~29 ~2 ~58 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~32 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+fill ~38 ~2 ~58 ~38 ~2 ~59 minecraft:crying_obsidian
+fill ~39 ~2 ~58 ~39 ~2 ~59 minecraft:sculk_catalyst[bloom=true]
+setblock ~40 ~2 ~58 minecraft:magma_block
+setblock ~43 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~44 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+setblock ~47 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~53 ~2 ~58 minecraft:crying_obsidian
+setblock ~55 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~58 ~2 ~58 minecraft:crying_obsidian
+setblock ~68 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~74 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~75 ~2 ~58 minecraft:furnace[lit=true]
+fill ~83 ~2 ~58 ~83 ~2 ~59 minecraft:stone
+setblock ~84 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+setblock ~85 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~86 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~87 ~2 ~58 minecraft:respawn_anchor[charges=2]
+fill ~90 ~2 ~58 ~90 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~91 ~2 ~58 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~95 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~96 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+fill ~101 ~2 ~58 ~101 ~2 ~59 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~106 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+setblock ~107 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~108 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+fill ~111 ~2 ~58 ~111 ~2 ~59 minecraft:respawn_anchor[charges=2]
+setblock ~114 ~2 ~58 minecraft:magma_block
+setblock ~115 ~2 ~58 minecraft:crying_obsidian
+setblock ~116 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~117 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~118 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~120 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+fill ~121 ~2 ~58 ~121 ~2 ~60 minecraft:stone
+setblock ~122 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+setblock ~124 ~2 ~58 minecraft:furnace[lit=true]
+fill ~125 ~2 ~58 ~126 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~127 ~2 ~58 minecraft:respawn_anchor[charges=3]
+setblock ~5 ~2 ~59 minecraft:sculk_catalyst[bloom=true]
+fill ~8 ~2 ~59 ~8 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~9 ~2 ~59 minecraft:oxidized_copper_bulb[lit=true]
+fill ~10 ~2 ~59 ~10 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~11 ~2 ~59 minecraft:sculk_catalyst[bloom=true]
+setblock ~19 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+setblock ~20 ~2 ~59 minecraft:magma_block
+fill ~28 ~2 ~59 ~28 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+fill ~40 ~2 ~59 ~41 ~2 ~59 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~43 ~2 ~59 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~59 minecraft:magma_block
+setblock ~47 ~2 ~59 minecraft:stone
+setblock ~49 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+fill ~53 ~2 ~59 ~53 ~2 ~60 minecraft:furnace[lit=true]
+fill ~54 ~2 ~59 ~54 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~59 ~2 ~59 minecraft:crying_obsidian
+fill ~60 ~2 ~59 ~61 ~2 ~59 minecraft:redstone_ore[lit=true]
+fill ~63 ~2 ~59 ~64 ~2 ~59 minecraft:furnace[lit=true]
+fill ~65 ~2 ~59 ~66 ~2 ~59 minecraft:respawn_anchor[charges=3]
+setblock ~67 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+setblock ~69 ~2 ~59 minecraft:weathered_copper_bulb[lit=true]
+setblock ~70 ~2 ~59 minecraft:crying_obsidian
+setblock ~79 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~81 ~2 ~59 minecraft:magma_block
+setblock ~84 ~2 ~59 minecraft:respawn_anchor[charges=2]
+setblock ~85 ~2 ~59 minecraft:crying_obsidian
+fill ~86 ~2 ~59 ~86 ~2 ~60 minecraft:sculk_catalyst[bloom=true]
+fill ~91 ~2 ~59 ~91 ~2 ~60 minecraft:sculk_catalyst[bloom=true]
+setblock ~98 ~2 ~59 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~107 ~2 ~59 minecraft:respawn_anchor[charges=2]
+setblock ~115 ~2 ~59 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~116 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+setblock ~117 ~2 ~59 minecraft:respawn_anchor[charges=2]
+fill ~120 ~2 ~59 ~120 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~122 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~123 ~2 ~59 minecraft:furnace[lit=true]
+fill ~126 ~2 ~59 ~127 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~9 ~2 ~60 minecraft:sculk_catalyst[bloom=true]
+setblock ~16 ~2 ~60 minecraft:magma_block
+setblock ~17 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+setblock ~19 ~2 ~60 minecraft:respawn_anchor[charges=2]
+fill ~38 ~2 ~60 ~38 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~39 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~41 ~2 ~60 minecraft:sculk_catalyst[bloom=true]
+setblock ~42 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+setblock ~43 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~44 ~2 ~60 minecraft:stone
+setblock ~49 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~52 ~2 ~60 minecraft:furnace[lit=true]
+fill ~56 ~2 ~60 ~57 ~2 ~60 minecraft:crying_obsidian
+setblock ~59 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+setblock ~64 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~73 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~79 ~2 ~60 minecraft:sculk_catalyst[bloom=true]
+setblock ~84 ~2 ~60 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~85 ~2 ~60 minecraft:redstone_ore[lit=true]
+fill ~90 ~2 ~60 ~90 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~94 ~2 ~60 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~96 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~101 ~2 ~60 minecraft:sculk_catalyst[bloom=true]
+setblock ~108 ~2 ~60 minecraft:exposed_copper_bulb[lit=true]
+setblock ~109 ~2 ~60 minecraft:redstone_ore[lit=true]
+fill ~111 ~2 ~60 ~111 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~116 ~2 ~60 minecraft:crying_obsidian
+fill ~117 ~2 ~60 ~117 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~118 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+setblock ~122 ~2 ~60 minecraft:exposed_copper_bulb[lit=true]
+fill ~124 ~2 ~60 ~125 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~127 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~8 ~2 ~61 minecraft:sculk_catalyst[bloom=true]
+setblock ~9 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~10 ~2 ~61 minecraft:magma_block
+fill ~17 ~2 ~61 ~18 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~19 ~2 ~61 minecraft:magma_block
+setblock ~27 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~28 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~40 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~42 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~43 ~2 ~61 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~50 ~2 ~61 minecraft:furnace[lit=true]
+setblock ~53 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+setblock ~55 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~78 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+setblock ~84 ~2 ~61 minecraft:stone
+setblock ~85 ~2 ~61 minecraft:sculk_catalyst[bloom=true]
+setblock ~86 ~2 ~61 minecraft:crying_obsidian
+setblock ~89 ~2 ~61 minecraft:sculk_catalyst[bloom=true]
+setblock ~91 ~2 ~61 minecraft:respawn_anchor[charges=2]
+setblock ~95 ~2 ~61 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~96 ~2 ~61 minecraft:respawn_anchor[charges=3]
+setblock ~101 ~2 ~61 minecraft:respawn_anchor[charges=2]
+setblock ~108 ~2 ~61 minecraft:sculk_catalyst[bloom=true]
+setblock ~109 ~2 ~61 minecraft:crying_obsidian
+setblock ~110 ~2 ~61 minecraft:redstone_ore[lit=true]
+fill ~112 ~2 ~61 ~112 ~2 ~64 minecraft:stone
+setblock ~116 ~2 ~61 minecraft:magma_block
+setblock ~118 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~119 ~2 ~61 minecraft:crying_obsidian
+fill ~120 ~2 ~61 ~120 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~121 ~2 ~61 minecraft:magma_block
+setblock ~122 ~2 ~61 minecraft:furnace[lit=true]
+fill ~123 ~2 ~61 ~123 ~2 ~62 minecraft:redstone_ore[lit=true]
+fill ~124 ~2 ~61 ~125 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~127 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~ ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~8 ~2 ~62 minecraft:respawn_anchor[charges=2]
+setblock ~9 ~2 ~62 minecraft:sculk_catalyst[bloom=true]
+setblock ~16 ~2 ~62 minecraft:magma_block
+setblock ~17 ~2 ~62 minecraft:crying_obsidian
+setblock ~18 ~2 ~62 minecraft:oxidized_copper_bulb[lit=true]
+fill ~27 ~2 ~62 ~27 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~28 ~2 ~62 minecraft:crying_obsidian
+setblock ~38 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+fill ~39 ~2 ~62 ~39 ~2 ~65 minecraft:crying_obsidian
+fill ~40 ~2 ~62 ~40 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~41 ~2 ~62 minecraft:respawn_anchor[charges=3]
+setblock ~42 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+fill ~43 ~2 ~62 ~43 ~2 ~63 minecraft:stone
+setblock ~48 ~2 ~62 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~49 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~51 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~65 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~79 ~2 ~62 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~85 ~2 ~62 minecraft:stone
+setblock ~86 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~87 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~89 ~2 ~62 minecraft:respawn_anchor[charges=2]
+setblock ~91 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~96 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+fill ~98 ~2 ~62 ~99 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~101 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~109 ~2 ~62 minecraft:sculk_catalyst[bloom=true]
+setblock ~110 ~2 ~62 minecraft:respawn_anchor[charges=3]
+fill ~111 ~2 ~62 ~111 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~117 ~2 ~62 minecraft:magma_block
+setblock ~118 ~2 ~62 minecraft:respawn_anchor[charges=3]
+setblock ~119 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~121 ~2 ~62 minecraft:stone
+setblock ~122 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~124 ~2 ~62 minecraft:respawn_anchor[charges=2]
+setblock ~125 ~2 ~62 minecraft:sculk_catalyst[bloom=true]
+setblock ~ ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~8 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~9 ~2 ~63 minecraft:magma_block
+setblock ~17 ~2 ~63 minecraft:sculk_catalyst[bloom=true]
+setblock ~28 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~38 ~2 ~63 minecraft:sculk_catalyst[bloom=true]
+setblock ~41 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~42 ~2 ~63 minecraft:magma_block
+setblock ~48 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~53 ~2 ~63 minecraft:crying_obsidian
+fill ~78 ~2 ~63 ~78 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~79 ~2 ~63 minecraft:sculk_catalyst[bloom=true]
+setblock ~86 ~2 ~63 minecraft:magma_block
+fill ~87 ~2 ~63 ~88 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~89 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~91 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~97 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~98 ~2 ~63 minecraft:respawn_anchor[charges=3]
+fill ~100 ~2 ~63 ~101 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~110 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~118 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~119 ~2 ~63 minecraft:crying_obsidian
+fill ~121 ~2 ~63 ~121 ~2 ~66 minecraft:magma_block
+setblock ~122 ~2 ~63 minecraft:magma_block
+setblock ~123 ~2 ~63 minecraft:crying_obsidian
+setblock ~124 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~125 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+setblock ~126 ~2 ~63 minecraft:respawn_anchor[charges=2]
+setblock ~2 ~2 ~64 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~8 ~2 ~64 minecraft:sculk_catalyst[bloom=true]
+fill ~27 ~2 ~64 ~27 ~2 ~65 minecraft:weathered_copper_bulb[lit=true]
+setblock ~38 ~2 ~64 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~40 ~2 ~64 minecraft:crying_obsidian
+fill ~42 ~2 ~64 ~42 ~2 ~65 minecraft:stone
+setblock ~48 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~53 ~2 ~64 minecraft:weathered_copper_bulb[lit=true]
+setblock ~74 ~2 ~64 minecraft:redstone_ore[lit=true]
+setblock ~79 ~2 ~64 minecraft:weathered_copper_bulb[lit=true]
+setblock ~86 ~2 ~64 minecraft:stone
+setblock ~87 ~2 ~64 minecraft:magma_block
+setblock ~88 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+fill ~89 ~2 ~64 ~90 ~2 ~64 minecraft:redstone_ore[lit=true]
+fill ~91 ~2 ~64 ~91 ~2 ~66 minecraft:crying_obsidian
+setblock ~98 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~99 ~2 ~64 minecraft:crying_obsidian
+setblock ~101 ~2 ~64 minecraft:crying_obsidian
+setblock ~110 ~2 ~64 minecraft:magma_block
+setblock ~111 ~2 ~64 minecraft:respawn_anchor[charges=2]
+setblock ~119 ~2 ~64 minecraft:weathered_copper_bulb[lit=true]
+fill ~120 ~2 ~64 ~120 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~123 ~2 ~64 minecraft:magma_block
+setblock ~124 ~2 ~64 minecraft:furnace[lit=true]
+fill ~125 ~2 ~64 ~126 ~2 ~64 minecraft:redstone_ore[lit=true]
+setblock ~1 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~7 ~2 ~65 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~28 ~2 ~65 minecraft:respawn_anchor[charges=3]
+fill ~38 ~2 ~65 ~38 ~2 ~66 minecraft:magma_block
+setblock ~40 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~65 minecraft:sculk_catalyst[bloom=true]
+setblock ~54 ~2 ~65 minecraft:weathered_copper_bulb[lit=true]
+setblock ~74 ~2 ~65 minecraft:respawn_anchor[charges=2]
+setblock ~79 ~2 ~65 minecraft:crying_obsidian
+setblock ~87 ~2 ~65 minecraft:stone
+setblock ~88 ~2 ~65 minecraft:respawn_anchor[charges=2]
+setblock ~90 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~98 ~2 ~65 minecraft:sculk_catalyst[bloom=true]
+setblock ~99 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~100 ~2 ~65 minecraft:crying_obsidian
+fill ~101 ~2 ~65 ~101 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~111 ~2 ~65 minecraft:magma_block
+setblock ~119 ~2 ~65 minecraft:magma_block
+setblock ~122 ~2 ~65 minecraft:stone
+setblock ~124 ~2 ~65 minecraft:weathered_copper_bulb[lit=true]
+setblock ~125 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~126 ~2 ~65 minecraft:crying_obsidian
+setblock ~127 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~ ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~1 ~2 ~66 minecraft:magma_block
+fill ~27 ~2 ~66 ~27 ~2 ~67 minecraft:redstone_ore[lit=true]
+fill ~39 ~2 ~66 ~39 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~41 ~2 ~66 minecraft:magma_block
+setblock ~47 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+setblock ~51 ~2 ~66 minecraft:furnace[lit=true]
+setblock ~52 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~60 ~2 ~66 minecraft:redstone_ore[lit=true]
+setblock ~74 ~2 ~66 minecraft:sculk_catalyst[bloom=true]
+fill ~78 ~2 ~66 ~78 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~66 minecraft:respawn_anchor[charges=3]
+fill ~88 ~2 ~66 ~88 ~2 ~67 minecraft:stone
+setblock ~89 ~2 ~66 minecraft:respawn_anchor[charges=2]
+setblock ~90 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~99 ~2 ~66 minecraft:sculk_catalyst[bloom=true]
+setblock ~100 ~2 ~66 minecraft:exposed_copper_bulb[lit=true]
+fill ~102 ~2 ~66 ~102 ~2 ~67 minecraft:stone
+setblock ~120 ~2 ~66 minecraft:magma_block
+setblock ~125 ~2 ~66 minecraft:redstone_ore[lit=true]
+fill ~126 ~2 ~66 ~126 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+setblock ~ ~2 ~67 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~40 ~2 ~67 minecraft:sculk_catalyst[bloom=true]
+fill ~41 ~2 ~67 ~41 ~2 ~68 minecraft:stone
+setblock ~46 ~2 ~67 minecraft:magma_block
+setblock ~47 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+setblock ~52 ~2 ~67 minecraft:weathered_copper_bulb[lit=true]
+setblock ~55 ~2 ~67 minecraft:respawn_anchor[charges=2]
+setblock ~57 ~2 ~67 minecraft:respawn_anchor[charges=3]
+setblock ~59 ~2 ~67 minecraft:crying_obsidian
+setblock ~62 ~2 ~67 minecraft:crying_obsidian
+setblock ~74 ~2 ~67 minecraft:magma_block
+setblock ~75 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~67 minecraft:furnace[lit=true]
+fill ~89 ~2 ~67 ~89 ~2 ~68 minecraft:stone
+setblock ~90 ~2 ~67 minecraft:crying_obsidian
+setblock ~91 ~2 ~67 minecraft:respawn_anchor[charges=3]
+setblock ~100 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~127 ~2 ~67 minecraft:crying_obsidian
+setblock ~27 ~2 ~68 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~39 ~2 ~68 minecraft:sculk_catalyst[bloom=true]
+setblock ~40 ~2 ~68 minecraft:magma_block
+setblock ~45 ~2 ~68 minecraft:sculk_catalyst[bloom=true]
+setblock ~61 ~2 ~68 minecraft:respawn_anchor[charges=3]
+setblock ~63 ~2 ~68 minecraft:crying_obsidian
+fill ~65 ~2 ~68 ~66 ~2 ~68 minecraft:crying_obsidian
+fill ~71 ~2 ~68 ~72 ~2 ~68 minecraft:redstone_ore[lit=true]
+setblock ~73 ~2 ~68 minecraft:respawn_anchor[charges=2]
+setblock ~74 ~2 ~68 minecraft:stone
+setblock ~75 ~2 ~68 minecraft:respawn_anchor[charges=3]
+setblock ~76 ~2 ~68 minecraft:copper_bulb[lit=true]
+setblock ~79 ~2 ~68 minecraft:copper_bulb[lit=true]
+setblock ~80 ~2 ~68 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~90 ~2 ~68 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~91 ~2 ~68 minecraft:crying_obsidian
+fill ~92 ~2 ~68 ~92 ~2 ~69 minecraft:magma_block
+setblock ~100 ~2 ~68 minecraft:magma_block
+setblock ~101 ~2 ~68 minecraft:redstone_ore[lit=true]
+setblock ~126 ~2 ~68 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~127 ~2 ~68 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~69 minecraft:redstone_ore[lit=true]
+setblock ~51 ~2 ~69 minecraft:respawn_anchor[charges=3]
+setblock ~55 ~2 ~69 minecraft:magma_block
+setblock ~56 ~2 ~69 minecraft:crying_obsidian
+fill ~58 ~2 ~69 ~59 ~2 ~69 minecraft:redstone_ore[lit=true]
+fill ~61 ~2 ~69 ~62 ~2 ~69 minecraft:crying_obsidian
+setblock ~69 ~2 ~69 minecraft:respawn_anchor[charges=3]
+setblock ~72 ~2 ~69 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~75 ~2 ~69 minecraft:redstone_ore[lit=true]
+setblock ~80 ~2 ~69 minecraft:crying_obsidian
+setblock ~90 ~2 ~69 minecraft:stone
+setblock ~91 ~2 ~69 minecraft:oxidized_copper_bulb[lit=true]
+fill ~101 ~2 ~69 ~102 ~2 ~69 minecraft:magma_block
+setblock ~127 ~2 ~69 minecraft:sculk_catalyst[bloom=true]
+setblock ~43 ~2 ~70 minecraft:respawn_anchor[charges=3]
+setblock ~51 ~2 ~70 minecraft:respawn_anchor[charges=2]
+setblock ~56 ~2 ~70 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~68 ~2 ~70 minecraft:sculk_catalyst[bloom=true]
+setblock ~75 ~2 ~70 minecraft:respawn_anchor[charges=2]
+setblock ~79 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~70 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~70 minecraft:sculk_catalyst[bloom=true]
+setblock ~42 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~50 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~51 ~2 ~71 minecraft:magma_block
+setblock ~70 ~2 ~71 minecraft:sculk_catalyst[bloom=true]
+setblock ~75 ~2 ~71 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~81 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~40 ~2 ~72 minecraft:magma_block
+setblock ~41 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+setblock ~42 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~72 minecraft:respawn_anchor[charges=3]
+setblock ~50 ~2 ~72 minecraft:magma_block
+setblock ~67 ~2 ~72 minecraft:respawn_anchor[charges=2]
+fill ~70 ~2 ~72 ~71 ~2 ~72 minecraft:respawn_anchor[charges=2]
+setblock ~72 ~2 ~72 minecraft:magma_block
+setblock ~75 ~2 ~72 minecraft:magma_block
+setblock ~76 ~2 ~72 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~72 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~82 ~2 ~72 minecraft:respawn_anchor[charges=2]
+setblock ~39 ~2 ~73 minecraft:magma_block
+setblock ~48 ~2 ~73 minecraft:crying_obsidian
+setblock ~67 ~2 ~73 minecraft:weathered_copper_bulb[lit=true]
+setblock ~72 ~2 ~73 minecraft:weathered_copper_bulb[lit=true]
+setblock ~73 ~2 ~73 minecraft:sculk_catalyst[bloom=true]
+setblock ~75 ~2 ~73 minecraft:stone
+setblock ~76 ~2 ~73 minecraft:redstone_ore[lit=true]
+setblock ~77 ~2 ~73 minecraft:copper_bulb[lit=true]
+fill ~81 ~2 ~73 ~81 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~82 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~45 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~47 ~2 ~74 minecraft:weathered_copper_bulb[lit=true]
+setblock ~74 ~2 ~74 minecraft:magma_block
+setblock ~76 ~2 ~74 minecraft:magma_block
+setblock ~82 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~83 ~2 ~74 minecraft:sculk_catalyst[bloom=true]
+setblock ~45 ~2 ~75 minecraft:exposed_copper_bulb[lit=true]
+setblock ~46 ~2 ~75 minecraft:oxidized_copper_bulb[lit=true]
+fill ~76 ~2 ~75 ~76 ~2 ~76 minecraft:stone
+setblock ~77 ~2 ~75 minecraft:weathered_copper_bulb[lit=true]
+setblock ~78 ~2 ~75 minecraft:copper_bulb[lit=true]
+fill ~82 ~2 ~75 ~82 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~83 ~2 ~75 minecraft:crying_obsidian
+setblock ~28 ~2 ~76 minecraft:stone
+setblock ~29 ~2 ~76 minecraft:magma_block
+setblock ~30 ~2 ~76 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~31 ~2 ~76 minecraft:magma_block
+setblock ~32 ~2 ~76 minecraft:stone
+setblock ~44 ~2 ~76 minecraft:weathered_copper_bulb[lit=true]
+setblock ~45 ~2 ~76 minecraft:magma_block
+setblock ~52 ~2 ~76 minecraft:redstone_ore[lit=true]
+setblock ~65 ~2 ~76 minecraft:crying_obsidian
+setblock ~74 ~2 ~76 minecraft:redstone_ore[lit=true]
+setblock ~75 ~2 ~76 minecraft:weathered_copper_bulb[lit=true]
+setblock ~77 ~2 ~76 minecraft:magma_block
+setblock ~83 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~84 ~2 ~76 minecraft:magma_block
+setblock ~26 ~2 ~77 minecraft:weathered_copper_bulb[lit=true]
+fill ~27 ~2 ~77 ~27 ~2 ~78 minecraft:exposed_copper_bulb[lit=true]
+setblock ~32 ~2 ~77 minecraft:exposed_copper_bulb[lit=true]
+setblock ~33 ~2 ~77 minecraft:weathered_copper_bulb[lit=true]
+setblock ~34 ~2 ~77 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~77 minecraft:copper_bulb[lit=true]
+setblock ~42 ~2 ~77 minecraft:crying_obsidian
+setblock ~50 ~2 ~77 minecraft:magma_block
+setblock ~74 ~2 ~77 minecraft:crying_obsidian
+setblock ~76 ~2 ~77 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~77 ~2 ~77 minecraft:stone
+setblock ~78 ~2 ~77 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~83 ~2 ~77 minecraft:copper_bulb[lit=true]
+setblock ~84 ~2 ~77 minecraft:respawn_anchor[charges=2]
+setblock ~25 ~2 ~78 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~26 ~2 ~78 minecraft:furnace[lit=true]
+setblock ~28 ~2 ~78 minecraft:respawn_anchor[charges=3]
+setblock ~32 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~38 ~2 ~78 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~40 ~2 ~78 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~78 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~51 ~2 ~78 minecraft:weathered_copper_bulb[lit=true]
+setblock ~69 ~2 ~78 minecraft:redstone_ore[lit=true]
+setblock ~76 ~2 ~78 minecraft:respawn_anchor[charges=2]
+fill ~78 ~2 ~78 ~78 ~2 ~79 minecraft:stone
+setblock ~79 ~2 ~78 minecraft:crying_obsidian
+setblock ~80 ~2 ~78 minecraft:copper_bulb[lit=true]
+fill ~83 ~2 ~78 ~83 ~2 ~80 minecraft:furnace[lit=true]
+setblock ~84 ~2 ~78 minecraft:respawn_anchor[charges=3]
+setblock ~38 ~2 ~79 minecraft:respawn_anchor[charges=3]
+setblock ~39 ~2 ~79 minecraft:sculk_catalyst[bloom=true]
+setblock ~77 ~2 ~79 minecraft:redstone_ore[lit=true]
+setblock ~79 ~2 ~79 minecraft:magma_block
+setblock ~82 ~2 ~79 minecraft:furnace[lit=true]
+setblock ~84 ~2 ~79 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~79 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~25 ~2 ~80 minecraft:stone
+setblock ~26 ~2 ~80 minecraft:weathered_copper_bulb[lit=true]
+setblock ~48 ~2 ~80 minecraft:magma_block
+setblock ~74 ~2 ~80 minecraft:redstone_ore[lit=true]
+setblock ~77 ~2 ~80 minecraft:crying_obsidian
+setblock ~79 ~2 ~80 minecraft:stone
+setblock ~80 ~2 ~80 minecraft:sculk_catalyst[bloom=true]
+setblock ~84 ~2 ~80 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~80 minecraft:redstone_ore[lit=true]
+setblock ~22 ~2 ~81 minecraft:stone
+setblock ~23 ~2 ~81 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~24 ~2 ~81 minecraft:weathered_copper_bulb[lit=true]
+setblock ~48 ~2 ~81 minecraft:sculk_catalyst[bloom=true]
+setblock ~59 ~2 ~81 minecraft:crying_obsidian
+setblock ~78 ~2 ~81 minecraft:respawn_anchor[charges=2]
+setblock ~79 ~2 ~81 minecraft:oxidized_copper_bulb[lit=true]
+fill ~80 ~2 ~81 ~80 ~2 ~82 minecraft:stone
+setblock ~81 ~2 ~81 minecraft:crying_obsidian
+setblock ~82 ~2 ~81 minecraft:copper_bulb[lit=true]
+fill ~84 ~2 ~81 ~84 ~2 ~83 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~81 minecraft:furnace[lit=true]
+setblock ~86 ~2 ~81 minecraft:magma_block
+fill ~22 ~2 ~82 ~23 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~32 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~33 ~2 ~82 minecraft:weathered_copper_bulb[lit=true]
+setblock ~34 ~2 ~82 minecraft:magma_block
+fill ~55 ~2 ~82 ~55 ~2 ~83 minecraft:crying_obsidian
+setblock ~78 ~2 ~82 minecraft:redstone_ore[lit=true]
+setblock ~81 ~2 ~82 minecraft:magma_block
+fill ~83 ~2 ~82 ~83 ~2 ~83 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~86 ~2 ~82 minecraft:weathered_copper_bulb[lit=true]
+setblock ~20 ~2 ~83 minecraft:magma_block
+setblock ~21 ~2 ~83 minecraft:crying_obsidian
+fill ~22 ~2 ~83 ~23 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~29 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~83 minecraft:exposed_copper_bulb[lit=true]
+setblock ~31 ~2 ~83 minecraft:respawn_anchor[charges=2]
+setblock ~32 ~2 ~83 minecraft:magma_block
+setblock ~79 ~2 ~83 minecraft:redstone_ore[lit=true]
+setblock ~80 ~2 ~83 minecraft:magma_block
+setblock ~81 ~2 ~83 minecraft:stone
+setblock ~82 ~2 ~83 minecraft:respawn_anchor[charges=2]
+fill ~85 ~2 ~83 ~86 ~2 ~87 minecraft:furnace[lit=true]
+setblock ~87 ~2 ~83 minecraft:magma_block
+setblock ~22 ~2 ~84 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~23 ~2 ~84 minecraft:respawn_anchor[charges=2]
+setblock ~24 ~2 ~84 minecraft:crying_obsidian
+setblock ~25 ~2 ~84 minecraft:respawn_anchor[charges=3]
+setblock ~26 ~2 ~84 minecraft:crying_obsidian
+setblock ~27 ~2 ~84 minecraft:redstone_ore[lit=true]
+setblock ~28 ~2 ~84 minecraft:weathered_copper_bulb[lit=true]
+setblock ~29 ~2 ~84 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~79 ~2 ~84 minecraft:crying_obsidian
+setblock ~80 ~2 ~84 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~81 ~2 ~84 minecraft:magma_block
+fill ~82 ~2 ~84 ~82 ~2 ~86 minecraft:stone
+setblock ~83 ~2 ~84 minecraft:crying_obsidian
+fill ~84 ~2 ~84 ~84 ~2 ~85 minecraft:copper_bulb[lit=true]
+setblock ~87 ~2 ~84 minecraft:respawn_anchor[charges=2]
+setblock ~46 ~2 ~85 minecraft:sculk_catalyst[bloom=true]
+setblock ~48 ~2 ~85 minecraft:crying_obsidian
+fill ~58 ~2 ~85 ~58 ~2 ~86 minecraft:redstone_ore[lit=true]
+setblock ~80 ~2 ~85 minecraft:respawn_anchor[charges=2]
+setblock ~81 ~2 ~85 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~83 ~2 ~85 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~87 ~2 ~85 minecraft:exposed_copper_bulb[lit=true]
+setblock ~88 ~2 ~85 minecraft:magma_block
+setblock ~94 ~2 ~85 minecraft:magma_block
+setblock ~95 ~2 ~85 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~45 ~2 ~86 minecraft:stone
+setblock ~59 ~2 ~86 minecraft:weathered_copper_bulb[lit=true]
+setblock ~60 ~2 ~86 minecraft:redstone_ore[lit=true]
+setblock ~80 ~2 ~86 minecraft:weathered_copper_bulb[lit=true]
+fill ~83 ~2 ~86 ~83 ~2 ~87 minecraft:stone
+setblock ~84 ~2 ~86 minecraft:redstone_ore[lit=true]
+fill ~87 ~2 ~86 ~88 ~2 ~88 minecraft:furnace[lit=true]
+setblock ~89 ~2 ~86 minecraft:exposed_copper_bulb[lit=true]
+setblock ~90 ~2 ~86 minecraft:respawn_anchor[charges=3]
+setblock ~91 ~2 ~86 minecraft:redstone_ore[lit=true]
+setblock ~92 ~2 ~86 minecraft:sculk_catalyst[bloom=true]
+setblock ~93 ~2 ~86 minecraft:weathered_copper_bulb[lit=true]
+setblock ~94 ~2 ~86 minecraft:exposed_copper_bulb[lit=true]
+setblock ~95 ~2 ~86 minecraft:respawn_anchor[charges=2]
+setblock ~45 ~2 ~87 minecraft:oxidized_copper_bulb[lit=true]
+fill ~60 ~2 ~87 ~60 ~2 ~88 minecraft:respawn_anchor[charges=2]
+setblock ~61 ~2 ~87 minecraft:weathered_copper_bulb[lit=true]
+fill ~62 ~2 ~87 ~63 ~2 ~87 minecraft:crying_obsidian
+setblock ~64 ~2 ~87 minecraft:weathered_copper_bulb[lit=true]
+fill ~78 ~2 ~87 ~79 ~2 ~87 minecraft:redstone_ore[lit=true]
+setblock ~81 ~2 ~87 minecraft:redstone_ore[lit=true]
+setblock ~82 ~2 ~87 minecraft:magma_block
+setblock ~84 ~2 ~87 minecraft:magma_block
+fill ~89 ~2 ~87 ~92 ~2 ~88 minecraft:furnace[lit=true]
+setblock ~93 ~2 ~87 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~87 minecraft:crying_obsidian
+setblock ~95 ~2 ~87 minecraft:magma_block
+setblock ~44 ~2 ~88 minecraft:sculk_catalyst[bloom=true]
+fill ~46 ~2 ~88 ~47 ~2 ~88 minecraft:crying_obsidian
+setblock ~63 ~2 ~88 minecraft:weathered_copper_bulb[lit=true]
+setblock ~64 ~2 ~88 minecraft:respawn_anchor[charges=2]
+setblock ~66 ~2 ~88 minecraft:weathered_copper_bulb[lit=true]
+fill ~80 ~2 ~88 ~81 ~2 ~88 minecraft:crying_obsidian
+setblock ~82 ~2 ~88 minecraft:sculk_catalyst[bloom=true]
+setblock ~83 ~2 ~88 minecraft:oxidized_copper_bulb[lit=true]
+fill ~84 ~2 ~88 ~84 ~2 ~89 minecraft:stone
+setblock ~85 ~2 ~88 minecraft:respawn_anchor[charges=2]
+setblock ~86 ~2 ~88 minecraft:furnace[lit=true]
+setblock ~93 ~2 ~88 minecraft:respawn_anchor[charges=3]
+fill ~68 ~2 ~89 ~69 ~2 ~89 minecraft:crying_obsidian
+fill ~80 ~2 ~89 ~80 ~2 ~94 minecraft:redstone_ore[lit=true]
+fill ~82 ~2 ~89 ~83 ~2 ~89 minecraft:weathered_copper_bulb[lit=true]
+setblock ~85 ~2 ~89 minecraft:magma_block
+fill ~86 ~2 ~89 ~89 ~2 ~89 minecraft:exposed_copper_bulb[lit=true]
+setblock ~90 ~2 ~89 minecraft:furnace[lit=true]
+fill ~91 ~2 ~89 ~92 ~2 ~89 minecraft:exposed_copper_bulb[lit=true]
+setblock ~93 ~2 ~89 minecraft:redstone_ore[lit=true]
+fill ~94 ~2 ~89 ~95 ~2 ~89 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~65 ~2 ~90 minecraft:sculk_catalyst[bloom=true]
+fill ~81 ~2 ~90 ~81 ~2 ~94 minecraft:redstone_ore[lit=true]
+fill ~82 ~2 ~90 ~83 ~2 ~90 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~90 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~85 ~2 ~90 minecraft:stone
+setblock ~86 ~2 ~90 minecraft:weathered_copper_bulb[lit=true]
+fill ~87 ~2 ~90 ~87 ~2 ~91 minecraft:exposed_copper_bulb[lit=true]
+fill ~88 ~2 ~90 ~89 ~2 ~90 minecraft:respawn_anchor[charges=3]
+setblock ~90 ~2 ~90 minecraft:exposed_copper_bulb[lit=true]
+fill ~91 ~2 ~90 ~91 ~2 ~93 minecraft:furnace[lit=true]
+setblock ~92 ~2 ~90 minecraft:exposed_copper_bulb[lit=true]
+fill ~93 ~2 ~90 ~93 ~2 ~93 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~90 minecraft:furnace[lit=true]
+setblock ~95 ~2 ~90 minecraft:weathered_copper_bulb[lit=true]
+setblock ~59 ~2 ~91 minecraft:redstone_ore[lit=true]
+setblock ~61 ~2 ~91 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~91 minecraft:crying_obsidian
+fill ~83 ~2 ~91 ~83 ~2 ~93 minecraft:redstone_ore[lit=true]
+fill ~84 ~2 ~91 ~84 ~2 ~92 minecraft:respawn_anchor[charges=2]
+setblock ~85 ~2 ~91 minecraft:magma_block
+setblock ~86 ~2 ~91 minecraft:sculk_catalyst[bloom=true]
+fill ~88 ~2 ~91 ~89 ~2 ~92 minecraft:exposed_copper_bulb[lit=true]
+fill ~90 ~2 ~91 ~90 ~2 ~93 minecraft:furnace[lit=true]
+fill ~92 ~2 ~91 ~92 ~2 ~93 minecraft:furnace[lit=true]
+fill ~94 ~2 ~91 ~94 ~2 ~92 minecraft:exposed_copper_bulb[lit=true]
+fill ~95 ~2 ~91 ~95 ~2 ~92 minecraft:magma_block
+setblock ~41 ~2 ~92 minecraft:stone
+setblock ~43 ~2 ~92 minecraft:weathered_copper_bulb[lit=true]
+setblock ~61 ~2 ~92 minecraft:redstone_ore[lit=true]
+fill ~66 ~2 ~92 ~66 ~2 ~94 minecraft:crying_obsidian
+fill ~82 ~2 ~92 ~82 ~2 ~93 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~92 minecraft:respawn_anchor[charges=2]
+fill ~86 ~2 ~92 ~86 ~2 ~93 minecraft:magma_block
+setblock ~67 ~2 ~93 minecraft:crying_obsidian
+setblock ~84 ~2 ~93 minecraft:weathered_copper_bulb[lit=true]
+setblock ~85 ~2 ~93 minecraft:redstone_ore[lit=true]
+setblock ~87 ~2 ~93 minecraft:magma_block
+setblock ~88 ~2 ~93 minecraft:respawn_anchor[charges=3]
+setblock ~89 ~2 ~93 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~93 minecraft:crying_obsidian
+setblock ~40 ~2 ~94 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~62 ~2 ~94 minecraft:respawn_anchor[charges=2]
+fill ~68 ~2 ~94 ~69 ~2 ~94 minecraft:redstone_ore[lit=true]
+fill ~78 ~2 ~94 ~79 ~2 ~94 minecraft:crying_obsidian
+fill ~82 ~2 ~94 ~83 ~2 ~94 minecraft:crying_obsidian
+setblock ~84 ~2 ~94 minecraft:redstone_ore[lit=true]
+fill ~85 ~2 ~94 ~85 ~2 ~95 minecraft:weathered_copper_bulb[lit=true]
+fill ~86 ~2 ~94 ~86 ~2 ~95 minecraft:respawn_anchor[charges=2]
+setblock ~87 ~2 ~94 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~88 ~2 ~94 minecraft:stone
+setblock ~89 ~2 ~94 minecraft:respawn_anchor[charges=2]
+fill ~90 ~2 ~94 ~91 ~2 ~94 minecraft:crying_obsidian
+setblock ~92 ~2 ~94 minecraft:sculk_catalyst[bloom=true]
+setblock ~93 ~2 ~94 minecraft:magma_block
+setblock ~63 ~2 ~95 minecraft:respawn_anchor[charges=2]
+fill ~82 ~2 ~95 ~83 ~2 ~95 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~95 minecraft:weathered_copper_bulb[lit=true]
+setblock ~87 ~2 ~95 minecraft:respawn_anchor[charges=2]
+setblock ~88 ~2 ~95 minecraft:magma_block
+setblock ~89 ~2 ~95 minecraft:stone
+fill ~91 ~2 ~95 ~94 ~2 ~95 minecraft:stone
