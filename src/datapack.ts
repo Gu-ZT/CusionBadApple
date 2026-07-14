@@ -208,8 +208,7 @@ export class DatapackBuilder {
         current: Uint8Array,
         previous: Uint8Array,
     ): string[] {
-        const commands = ["data modify storage gugle:video current set value {}"];
-        let hasChanges = false;
+        const rows: string[] = [];
 
         for (let z = 0; z < this.height; z += 1) {
             const entries: string[] = [];
@@ -217,23 +216,31 @@ export class DatapackBuilder {
                 const index = z * this.width + x;
                 if (current[index] !== previous[index]) {
                     entries.push(`p_${x}_${z}:{s:${current[index]}}`);
-                    hasChanges = true;
                 }
             }
             if (entries.length > 0) {
-                commands.push(
-                    `data modify storage gugle:video current merge value {${entries.join(",")}}`,
-                );
+                rows.push(entries.join(","));
             }
         }
 
-        if (hasChanges) {
-            commands.push(
-                `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
-                    `run function ${NAMESPACE}:macro_lookup with entity @s`,
-            );
+        if (rows.length === 0) {
+            return ["data modify storage gugle:video current set value {}"];
         }
-        return commands;
+
+        const continuedRows = rows.map((row, index) =>
+            `${row}${index < rows.length - 1 ? "," : ""}\\`,
+        );
+        const storageCommand = [
+            "data modify storage gugle:video current set value {\\",
+            ...continuedRows,
+            "}",
+        ].join("\n");
+
+        return [
+            storageCommand,
+            `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
+                `run function ${NAMESPACE}:macro_lookup with entity @s`,
+        ];
     }
 
     private colorRectangleCommand(rectangle: ChangedRectangle): string {

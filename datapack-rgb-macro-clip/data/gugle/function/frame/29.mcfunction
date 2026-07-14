@@ -1,74 +1,75 @@
-data modify storage gugle:video current set value {}
-data modify storage gugle:video current merge value {p_125_0:{s:49},p_126_0:{s:145},p_127_0:{s:177}}
-data modify storage gugle:video current merge value {p_125_1:{s:65},p_126_1:{s:161},p_127_1:{s:177}}
-data modify storage gugle:video current merge value {p_125_2:{s:65},p_126_2:{s:161},p_127_2:{s:177}}
-data modify storage gugle:video current merge value {p_125_3:{s:65},p_126_3:{s:161},p_127_3:{s:177}}
-data modify storage gugle:video current merge value {p_125_4:{s:65},p_126_4:{s:161},p_127_4:{s:177}}
-data modify storage gugle:video current merge value {p_125_5:{s:65},p_126_5:{s:161},p_127_5:{s:177}}
-data modify storage gugle:video current merge value {p_125_6:{s:65},p_126_6:{s:161},p_127_6:{s:177}}
-data modify storage gugle:video current merge value {p_125_7:{s:65},p_126_7:{s:161},p_127_7:{s:177}}
-data modify storage gugle:video current merge value {p_125_8:{s:49},p_126_8:{s:161},p_127_8:{s:177}}
-data modify storage gugle:video current merge value {p_125_9:{s:49},p_126_9:{s:161},p_127_9:{s:177}}
-data modify storage gugle:video current merge value {p_125_10:{s:49},p_126_10:{s:145},p_127_10:{s:177}}
-data modify storage gugle:video current merge value {p_125_11:{s:49},p_126_11:{s:145},p_127_11:{s:177}}
-data modify storage gugle:video current merge value {p_125_12:{s:49},p_126_12:{s:145},p_127_12:{s:177}}
-data modify storage gugle:video current merge value {p_125_13:{s:49},p_126_13:{s:145},p_127_13:{s:177}}
-data modify storage gugle:video current merge value {p_125_14:{s:49},p_126_14:{s:145},p_127_14:{s:177}}
-data modify storage gugle:video current merge value {p_125_15:{s:49},p_126_15:{s:145},p_127_15:{s:177}}
-data modify storage gugle:video current merge value {p_125_16:{s:49},p_126_16:{s:145},p_127_16:{s:177}}
-data modify storage gugle:video current merge value {p_125_17:{s:49},p_126_17:{s:145},p_127_17:{s:177}}
-data modify storage gugle:video current merge value {p_125_18:{s:49},p_126_18:{s:145},p_127_18:{s:177}}
-data modify storage gugle:video current merge value {p_125_19:{s:49},p_126_19:{s:145},p_127_19:{s:177}}
-data modify storage gugle:video current merge value {p_125_20:{s:49},p_126_20:{s:145},p_127_20:{s:177}}
-data modify storage gugle:video current merge value {p_125_21:{s:65},p_126_21:{s:161},p_127_21:{s:177}}
-data modify storage gugle:video current merge value {p_125_22:{s:65},p_126_22:{s:161},p_127_22:{s:177}}
-data modify storage gugle:video current merge value {p_125_23:{s:81},p_126_23:{s:161},p_127_23:{s:177}}
-data modify storage gugle:video current merge value {p_124_24:{s:17},p_125_24:{s:81},p_126_24:{s:161},p_127_24:{s:177}}
-data modify storage gugle:video current merge value {p_124_25:{s:17},p_125_25:{s:81},p_126_25:{s:161},p_127_25:{s:177}}
-data modify storage gugle:video current merge value {p_124_26:{s:17},p_125_26:{s:97},p_126_26:{s:177},p_127_26:{s:177}}
-data modify storage gugle:video current merge value {p_124_27:{s:17},p_125_27:{s:113},p_126_27:{s:177},p_127_27:{s:177}}
-data modify storage gugle:video current merge value {p_124_28:{s:17},p_125_28:{s:129},p_126_28:{s:177},p_127_28:{s:177}}
-data modify storage gugle:video current merge value {p_124_29:{s:33},p_125_29:{s:129},p_126_29:{s:177},p_127_29:{s:177}}
-data modify storage gugle:video current merge value {p_124_30:{s:33},p_125_30:{s:129},p_126_30:{s:177},p_127_30:{s:177}}
-data modify storage gugle:video current merge value {p_124_31:{s:33},p_125_31:{s:145},p_126_31:{s:177},p_127_31:{s:177}}
-data modify storage gugle:video current merge value {p_124_32:{s:33},p_125_32:{s:145},p_126_32:{s:177},p_127_32:{s:177}}
-data modify storage gugle:video current merge value {p_124_33:{s:49},p_125_33:{s:161},p_126_33:{s:177},p_127_33:{s:177}}
-data modify storage gugle:video current merge value {p_124_34:{s:49},p_125_34:{s:161},p_126_34:{s:177},p_127_34:{s:177}}
-data modify storage gugle:video current merge value {p_124_35:{s:49},p_125_35:{s:161},p_126_35:{s:177},p_127_35:{s:177}}
-data modify storage gugle:video current merge value {p_124_36:{s:65},p_125_36:{s:161},p_126_36:{s:177},p_127_36:{s:177}}
-data modify storage gugle:video current merge value {p_124_37:{s:81},p_125_37:{s:161},p_126_37:{s:177},p_127_37:{s:177}}
-data modify storage gugle:video current merge value {p_124_38:{s:81},p_125_38:{s:177},p_126_38:{s:177},p_127_38:{s:177}}
-data modify storage gugle:video current merge value {p_123_39:{s:17},p_124_39:{s:97},p_125_39:{s:177},p_126_39:{s:177},p_127_39:{s:177}}
-data modify storage gugle:video current merge value {p_123_40:{s:33},p_124_40:{s:129},p_125_40:{s:177},p_126_40:{s:177},p_127_40:{s:177}}
-data modify storage gugle:video current merge value {p_123_41:{s:49},p_124_41:{s:145},p_125_41:{s:177},p_126_41:{s:177},p_127_41:{s:177}}
-data modify storage gugle:video current merge value {p_123_42:{s:81},p_124_42:{s:161},p_125_42:{s:177},p_126_42:{s:177},p_127_42:{s:177}}
-data modify storage gugle:video current merge value {p_122_43:{s:17},p_123_43:{s:97},p_124_43:{s:177},p_125_43:{s:177},p_126_43:{s:177},p_127_43:{s:177}}
-data modify storage gugle:video current merge value {p_122_44:{s:33},p_123_44:{s:129},p_124_44:{s:177},p_125_44:{s:177},p_126_44:{s:177},p_127_44:{s:177}}
-data modify storage gugle:video current merge value {p_122_45:{s:49},p_123_45:{s:161},p_124_45:{s:177},p_125_45:{s:177},p_126_45:{s:177},p_127_45:{s:177}}
-data modify storage gugle:video current merge value {p_122_46:{s:81},p_123_46:{s:161},p_124_46:{s:177},p_125_46:{s:177},p_126_46:{s:177},p_127_46:{s:177}}
-data modify storage gugle:video current merge value {p_121_47:{s:17},p_122_47:{s:97},p_123_47:{s:177},p_124_47:{s:177},p_125_47:{s:177},p_126_47:{s:177},p_127_47:{s:177}}
-data modify storage gugle:video current merge value {p_121_48:{s:33},p_122_48:{s:129},p_123_48:{s:177},p_124_48:{s:177},p_125_48:{s:177},p_126_48:{s:177},p_127_48:{s:177}}
-data modify storage gugle:video current merge value {p_121_49:{s:49},p_122_49:{s:145},p_123_49:{s:177},p_124_49:{s:177},p_125_49:{s:177},p_126_49:{s:177},p_127_49:{s:177}}
-data modify storage gugle:video current merge value {p_121_50:{s:65},p_122_50:{s:145},p_123_50:{s:161},p_124_50:{s:177},p_125_50:{s:177},p_126_50:{s:177},p_127_50:{s:177}}
-data modify storage gugle:video current merge value {p_120_51:{s:17},p_121_51:{s:97},p_122_51:{s:145},p_123_51:{s:161},p_124_51:{s:177},p_125_51:{s:177},p_126_51:{s:177},p_127_51:{s:177}}
-data modify storage gugle:video current merge value {p_120_52:{s:33},p_121_52:{s:113},p_122_52:{s:145},p_123_52:{s:177},p_124_52:{s:177},p_125_52:{s:177},p_126_52:{s:177},p_127_52:{s:177}}
-data modify storage gugle:video current merge value {p_120_53:{s:49},p_121_53:{s:129},p_122_53:{s:145},p_123_53:{s:177},p_124_53:{s:177},p_125_53:{s:177},p_126_53:{s:177},p_127_53:{s:177}}
-data modify storage gugle:video current merge value {p_120_54:{s:65},p_121_54:{s:145},p_122_54:{s:161},p_123_54:{s:177},p_124_54:{s:177},p_125_54:{s:177},p_126_54:{s:177},p_127_54:{s:177}}
-data modify storage gugle:video current merge value {p_120_55:{s:65},p_121_55:{s:145},p_122_55:{s:161},p_123_55:{s:177},p_124_55:{s:177},p_125_55:{s:177},p_126_55:{s:177},p_127_55:{s:177}}
-data modify storage gugle:video current merge value {p_120_56:{s:65},p_121_56:{s:161},p_122_56:{s:177},p_123_56:{s:177},p_124_56:{s:177},p_125_56:{s:177},p_126_56:{s:177},p_127_56:{s:177}}
-data modify storage gugle:video current merge value {p_120_57:{s:65},p_121_57:{s:161},p_122_57:{s:177},p_123_57:{s:177},p_124_57:{s:177},p_125_57:{s:177},p_126_57:{s:177},p_127_57:{s:177}}
-data modify storage gugle:video current merge value {p_120_58:{s:49},p_121_58:{s:161},p_122_58:{s:177},p_123_58:{s:177},p_124_58:{s:177},p_125_58:{s:177},p_126_58:{s:177},p_127_58:{s:177}}
-data modify storage gugle:video current merge value {p_120_59:{s:49},p_121_59:{s:177},p_122_59:{s:177},p_123_59:{s:177},p_124_59:{s:177},p_125_59:{s:177},p_126_59:{s:177},p_127_59:{s:177}}
-data modify storage gugle:video current merge value {p_120_60:{s:49},p_121_60:{s:177},p_122_60:{s:177},p_123_60:{s:177},p_124_60:{s:177},p_125_60:{s:177},p_126_60:{s:177},p_127_60:{s:177}}
-data modify storage gugle:video current merge value {p_120_61:{s:49},p_121_61:{s:177},p_122_61:{s:177},p_123_61:{s:177},p_124_61:{s:177},p_125_61:{s:177},p_126_61:{s:177},p_127_61:{s:177}}
-data modify storage gugle:video current merge value {p_117_62:{s:17},p_120_62:{s:49},p_121_62:{s:177},p_122_62:{s:177},p_123_62:{s:177},p_124_62:{s:177},p_125_62:{s:177},p_126_62:{s:177},p_127_62:{s:177}}
-data modify storage gugle:video current merge value {p_117_63:{s:49},p_118_63:{s:17},p_120_63:{s:49},p_121_63:{s:177},p_122_63:{s:177},p_123_63:{s:177},p_124_63:{s:177},p_125_63:{s:177},p_126_63:{s:177},p_127_63:{s:177}}
-data modify storage gugle:video current merge value {p_117_64:{s:97},p_118_64:{s:49},p_120_64:{s:49},p_121_64:{s:177},p_122_64:{s:177},p_123_64:{s:177},p_124_64:{s:177},p_125_64:{s:177},p_126_64:{s:177},p_127_64:{s:177}}
-data modify storage gugle:video current merge value {p_116_65:{s:17},p_117_65:{s:129},p_118_65:{s:97},p_120_65:{s:49},p_121_65:{s:177},p_122_65:{s:177},p_123_65:{s:177},p_124_65:{s:177},p_125_65:{s:177},p_126_65:{s:177},p_127_65:{s:177}}
-data modify storage gugle:video current merge value {p_117_66:{s:17},p_118_66:{s:49},p_120_66:{s:33},p_121_66:{s:177},p_122_66:{s:177},p_123_66:{s:177},p_124_66:{s:177},p_125_66:{s:177},p_126_66:{s:177},p_127_66:{s:177}}
-data modify storage gugle:video current merge value {p_120_67:{s:17},p_121_67:{s:161},p_122_67:{s:177},p_123_67:{s:177},p_124_67:{s:177},p_125_67:{s:177},p_126_67:{s:177},p_127_67:{s:177}}
-data modify storage gugle:video current merge value {p_121_68:{s:17},p_122_68:{s:97},p_123_68:{s:177},p_124_68:{s:177},p_125_68:{s:177},p_126_68:{s:177},p_127_68:{s:177}}
-data modify storage gugle:video current merge value {p_123_69:{s:17},p_124_69:{s:113},p_125_69:{s:177},p_126_69:{s:177},p_127_69:{s:177}}
-data modify storage gugle:video current merge value {p_125_70:{s:17},p_126_70:{s:129},p_127_70:{s:177}}
-data modify storage gugle:video current merge value {p_127_71:{s:33}}
+data modify storage gugle:video current set value {\
+p_125_0:{s:49},p_126_0:{s:145},p_127_0:{s:177},\
+p_125_1:{s:65},p_126_1:{s:161},p_127_1:{s:177},\
+p_125_2:{s:65},p_126_2:{s:161},p_127_2:{s:177},\
+p_125_3:{s:65},p_126_3:{s:161},p_127_3:{s:177},\
+p_125_4:{s:65},p_126_4:{s:161},p_127_4:{s:177},\
+p_125_5:{s:65},p_126_5:{s:161},p_127_5:{s:177},\
+p_125_6:{s:65},p_126_6:{s:161},p_127_6:{s:177},\
+p_125_7:{s:65},p_126_7:{s:161},p_127_7:{s:177},\
+p_125_8:{s:49},p_126_8:{s:161},p_127_8:{s:177},\
+p_125_9:{s:49},p_126_9:{s:161},p_127_9:{s:177},\
+p_125_10:{s:49},p_126_10:{s:145},p_127_10:{s:177},\
+p_125_11:{s:49},p_126_11:{s:145},p_127_11:{s:177},\
+p_125_12:{s:49},p_126_12:{s:145},p_127_12:{s:177},\
+p_125_13:{s:49},p_126_13:{s:145},p_127_13:{s:177},\
+p_125_14:{s:49},p_126_14:{s:145},p_127_14:{s:177},\
+p_125_15:{s:49},p_126_15:{s:145},p_127_15:{s:177},\
+p_125_16:{s:49},p_126_16:{s:145},p_127_16:{s:177},\
+p_125_17:{s:49},p_126_17:{s:145},p_127_17:{s:177},\
+p_125_18:{s:49},p_126_18:{s:145},p_127_18:{s:177},\
+p_125_19:{s:49},p_126_19:{s:145},p_127_19:{s:177},\
+p_125_20:{s:49},p_126_20:{s:145},p_127_20:{s:177},\
+p_125_21:{s:65},p_126_21:{s:161},p_127_21:{s:177},\
+p_125_22:{s:65},p_126_22:{s:161},p_127_22:{s:177},\
+p_125_23:{s:81},p_126_23:{s:161},p_127_23:{s:177},\
+p_124_24:{s:17},p_125_24:{s:81},p_126_24:{s:161},p_127_24:{s:177},\
+p_124_25:{s:17},p_125_25:{s:81},p_126_25:{s:161},p_127_25:{s:177},\
+p_124_26:{s:17},p_125_26:{s:97},p_126_26:{s:177},p_127_26:{s:177},\
+p_124_27:{s:17},p_125_27:{s:113},p_126_27:{s:177},p_127_27:{s:177},\
+p_124_28:{s:17},p_125_28:{s:129},p_126_28:{s:177},p_127_28:{s:177},\
+p_124_29:{s:33},p_125_29:{s:129},p_126_29:{s:177},p_127_29:{s:177},\
+p_124_30:{s:33},p_125_30:{s:129},p_126_30:{s:177},p_127_30:{s:177},\
+p_124_31:{s:33},p_125_31:{s:145},p_126_31:{s:177},p_127_31:{s:177},\
+p_124_32:{s:33},p_125_32:{s:145},p_126_32:{s:177},p_127_32:{s:177},\
+p_124_33:{s:49},p_125_33:{s:161},p_126_33:{s:177},p_127_33:{s:177},\
+p_124_34:{s:49},p_125_34:{s:161},p_126_34:{s:177},p_127_34:{s:177},\
+p_124_35:{s:49},p_125_35:{s:161},p_126_35:{s:177},p_127_35:{s:177},\
+p_124_36:{s:65},p_125_36:{s:161},p_126_36:{s:177},p_127_36:{s:177},\
+p_124_37:{s:81},p_125_37:{s:161},p_126_37:{s:177},p_127_37:{s:177},\
+p_124_38:{s:81},p_125_38:{s:177},p_126_38:{s:177},p_127_38:{s:177},\
+p_123_39:{s:17},p_124_39:{s:97},p_125_39:{s:177},p_126_39:{s:177},p_127_39:{s:177},\
+p_123_40:{s:33},p_124_40:{s:129},p_125_40:{s:177},p_126_40:{s:177},p_127_40:{s:177},\
+p_123_41:{s:49},p_124_41:{s:145},p_125_41:{s:177},p_126_41:{s:177},p_127_41:{s:177},\
+p_123_42:{s:81},p_124_42:{s:161},p_125_42:{s:177},p_126_42:{s:177},p_127_42:{s:177},\
+p_122_43:{s:17},p_123_43:{s:97},p_124_43:{s:177},p_125_43:{s:177},p_126_43:{s:177},p_127_43:{s:177},\
+p_122_44:{s:33},p_123_44:{s:129},p_124_44:{s:177},p_125_44:{s:177},p_126_44:{s:177},p_127_44:{s:177},\
+p_122_45:{s:49},p_123_45:{s:161},p_124_45:{s:177},p_125_45:{s:177},p_126_45:{s:177},p_127_45:{s:177},\
+p_122_46:{s:81},p_123_46:{s:161},p_124_46:{s:177},p_125_46:{s:177},p_126_46:{s:177},p_127_46:{s:177},\
+p_121_47:{s:17},p_122_47:{s:97},p_123_47:{s:177},p_124_47:{s:177},p_125_47:{s:177},p_126_47:{s:177},p_127_47:{s:177},\
+p_121_48:{s:33},p_122_48:{s:129},p_123_48:{s:177},p_124_48:{s:177},p_125_48:{s:177},p_126_48:{s:177},p_127_48:{s:177},\
+p_121_49:{s:49},p_122_49:{s:145},p_123_49:{s:177},p_124_49:{s:177},p_125_49:{s:177},p_126_49:{s:177},p_127_49:{s:177},\
+p_121_50:{s:65},p_122_50:{s:145},p_123_50:{s:161},p_124_50:{s:177},p_125_50:{s:177},p_126_50:{s:177},p_127_50:{s:177},\
+p_120_51:{s:17},p_121_51:{s:97},p_122_51:{s:145},p_123_51:{s:161},p_124_51:{s:177},p_125_51:{s:177},p_126_51:{s:177},p_127_51:{s:177},\
+p_120_52:{s:33},p_121_52:{s:113},p_122_52:{s:145},p_123_52:{s:177},p_124_52:{s:177},p_125_52:{s:177},p_126_52:{s:177},p_127_52:{s:177},\
+p_120_53:{s:49},p_121_53:{s:129},p_122_53:{s:145},p_123_53:{s:177},p_124_53:{s:177},p_125_53:{s:177},p_126_53:{s:177},p_127_53:{s:177},\
+p_120_54:{s:65},p_121_54:{s:145},p_122_54:{s:161},p_123_54:{s:177},p_124_54:{s:177},p_125_54:{s:177},p_126_54:{s:177},p_127_54:{s:177},\
+p_120_55:{s:65},p_121_55:{s:145},p_122_55:{s:161},p_123_55:{s:177},p_124_55:{s:177},p_125_55:{s:177},p_126_55:{s:177},p_127_55:{s:177},\
+p_120_56:{s:65},p_121_56:{s:161},p_122_56:{s:177},p_123_56:{s:177},p_124_56:{s:177},p_125_56:{s:177},p_126_56:{s:177},p_127_56:{s:177},\
+p_120_57:{s:65},p_121_57:{s:161},p_122_57:{s:177},p_123_57:{s:177},p_124_57:{s:177},p_125_57:{s:177},p_126_57:{s:177},p_127_57:{s:177},\
+p_120_58:{s:49},p_121_58:{s:161},p_122_58:{s:177},p_123_58:{s:177},p_124_58:{s:177},p_125_58:{s:177},p_126_58:{s:177},p_127_58:{s:177},\
+p_120_59:{s:49},p_121_59:{s:177},p_122_59:{s:177},p_123_59:{s:177},p_124_59:{s:177},p_125_59:{s:177},p_126_59:{s:177},p_127_59:{s:177},\
+p_120_60:{s:49},p_121_60:{s:177},p_122_60:{s:177},p_123_60:{s:177},p_124_60:{s:177},p_125_60:{s:177},p_126_60:{s:177},p_127_60:{s:177},\
+p_120_61:{s:49},p_121_61:{s:177},p_122_61:{s:177},p_123_61:{s:177},p_124_61:{s:177},p_125_61:{s:177},p_126_61:{s:177},p_127_61:{s:177},\
+p_117_62:{s:17},p_120_62:{s:49},p_121_62:{s:177},p_122_62:{s:177},p_123_62:{s:177},p_124_62:{s:177},p_125_62:{s:177},p_126_62:{s:177},p_127_62:{s:177},\
+p_117_63:{s:49},p_118_63:{s:17},p_120_63:{s:49},p_121_63:{s:177},p_122_63:{s:177},p_123_63:{s:177},p_124_63:{s:177},p_125_63:{s:177},p_126_63:{s:177},p_127_63:{s:177},\
+p_117_64:{s:97},p_118_64:{s:49},p_120_64:{s:49},p_121_64:{s:177},p_122_64:{s:177},p_123_64:{s:177},p_124_64:{s:177},p_125_64:{s:177},p_126_64:{s:177},p_127_64:{s:177},\
+p_116_65:{s:17},p_117_65:{s:129},p_118_65:{s:97},p_120_65:{s:49},p_121_65:{s:177},p_122_65:{s:177},p_123_65:{s:177},p_124_65:{s:177},p_125_65:{s:177},p_126_65:{s:177},p_127_65:{s:177},\
+p_117_66:{s:17},p_118_66:{s:49},p_120_66:{s:33},p_121_66:{s:177},p_122_66:{s:177},p_123_66:{s:177},p_124_66:{s:177},p_125_66:{s:177},p_126_66:{s:177},p_127_66:{s:177},\
+p_120_67:{s:17},p_121_67:{s:161},p_122_67:{s:177},p_123_67:{s:177},p_124_67:{s:177},p_125_67:{s:177},p_126_67:{s:177},p_127_67:{s:177},\
+p_121_68:{s:17},p_122_68:{s:97},p_123_68:{s:177},p_124_68:{s:177},p_125_68:{s:177},p_126_68:{s:177},p_127_68:{s:177},\
+p_123_69:{s:17},p_124_69:{s:113},p_125_69:{s:177},p_126_69:{s:177},p_127_69:{s:177},\
+p_125_70:{s:17},p_126_70:{s:129},p_127_70:{s:177},\
+p_127_71:{s:33}\
+}
 execute as @e[type=minecraft:cushion,tag=gugle_badapple_pixel] run function gugle:macro_lookup with entity @s
