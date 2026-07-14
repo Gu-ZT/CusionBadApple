@@ -42,6 +42,9 @@ async function main(): Promise<void> {
     console.log(
         `Converting at 20 FPS: ${options.width}x${options.height}, mode=${options.mode}` +
         (rgbw ? `, logical=${logicalWidth}x${logicalHeight}` : "") +
+        (options.startSeconds > 0 || options.endSeconds !== undefined
+            ? `, clip=${options.startSeconds}s..${options.endSeconds ?? "end"}s`
+            : "") +
         (options.invert ? ", inverted" : ""),
     );
 
@@ -50,6 +53,8 @@ async function main(): Promise<void> {
         width: logicalWidth,
         height: logicalHeight,
         pixelFormat: rgbInput ? "rgb24" : "gray",
+        startSeconds: options.startSeconds,
+        endSeconds: options.endSeconds,
         maxFrames: options.maxFrames,
     })) {
         const currentFrame = isCushionColorMode(options.mode)
@@ -104,6 +109,8 @@ async function main(): Promise<void> {
         brightnessLevels: cushionColor
             ? BRIGHTNESS_TIERS.map((tier) => tier.level)
             : undefined,
+        clipStartSeconds: options.startSeconds,
+        clipEndSeconds: options.endSeconds,
         commands: commandCount,
     });
 

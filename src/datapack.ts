@@ -1,4 +1,4 @@
-import { mkdir, rename, rm, writeFile } from "node:fs/promises";
+import { access, copyFile, mkdir, rename, rm, writeFile } from "node:fs/promises";
 import * as path from "node:path";
 import { BRIGHTNESS_TIERS } from "./brightness";
 import { ConversionMode } from "./cli";
@@ -25,6 +25,8 @@ interface BuildMetadata {
     subpixelLayout?: string;
     palette?: string[];
     brightnessLevels?: number[];
+    clipStartSeconds: number;
+    clipEndSeconds?: number;
     commands: number;
 }
 
@@ -126,6 +128,8 @@ export class DatapackBuilder {
     private readonly temporaryRoot: string;
     private readonly temporaryFrameRoot: string;
     private readonly temporaryDispatchRoot: string;
+    private readonly temporarySetupChunkRoot: string;
+    private readonly temporarySetupDispatchRoot: string;
 
     public constructor(
         private readonly datapackRoot: string,
@@ -137,12 +141,27 @@ export class DatapackBuilder {
         this.temporaryRoot = path.join(datapackRoot, ".build", "function");
         this.temporaryFrameRoot = path.join(this.temporaryRoot, "frame");
         this.temporaryDispatchRoot = path.join(this.temporaryRoot, "dispatch");
+        this.temporarySetupChunkRoot = path.join(this.temporaryRoot, "setup_chunk");
+        this.temporarySetupDispatchRoot = path.join(this.temporaryRoot, "setup_dispatch");
     }
 
     public async prepare(): Promise<void> {
+        await mkdir(this.datapackRoot, { recursive: true });
+        const packMetadataPath = path.join(this.datapackRoot, "pack.mcmeta");
+        try {
+            await access(packMetadataPath);
+        } catch {
+            const templatePath = path.resolve("datapack", "pack.mcmeta");
+            if (path.resolve(packMetadataPath) === templatePath) {
+                throw new Error(`Missing datapack metadata template: ${templatePath}`);
+            }
+            await copyFile(templatePath, packMetadataPath);
+        }
         await rm(path.join(this.datapackRoot, ".build"), { recursive: true, force: true });
         await mkdir(this.temporaryFrameRoot, { recursive: true });
         await mkdir(this.temporaryDispatchRoot, { recursive: true });
+        await mkdir(this.temporarySetupChunkRoot, { recursive: true });
+        await mkdir(this.temporarySetupDispatchRoot, { recursive: true });
     }
 
     public async writeFrame(
@@ -219,11 +238,28 @@ export class DatapackBuilder {
     }
 
     public async finish(frameCount: number, metadata: BuildMetadata): Promise<void> {
-        await this.writeDispatchNode(0, frameCount - 1, "root");
+        await this.writeDispatchNode(
+            0,
+            frameCount - 1,
+            "root",
+            this.temporaryDispatchRoot,
+            "$render",
+            "frame",
+            "dispatch",
+        );
+        await this.writeDispatchNode(
+            0,
+            this.height - 1,
+            "root",
+            this.temporarySetupDispatchRoot,
+            "$setup_row",
+            "setup_chunk",
+            "setup_dispatch",
+        );
         await this.writeControlFunctions(frameCount);
         await mkdir(this.functionRoot, { recursive: true });
 
-        for (const directory of ["frame", "dispatch"]) {
+        for (const directory of ["frame", "dispatch", "setup_chunk", "setup_dispatch"]) {
             const destination = path.join(this.functionRoot, directory);
             await rm(destination, { recursive: true, force: true });
             await rename(path.join(this.temporaryRoot, directory), destination);
@@ -234,11 +270,13 @@ export class DatapackBuilder {
             "remove",
             "start",
             "restart",
+            "play",
             "pause",
             "resume",
             "stop",
             "status",
             "tick",
+            "setup_tick",
         ];
         for (const name of generatedFiles) {
             await rename(
@@ -261,27 +299,54 @@ export class DatapackBuilder {
         await rm(path.join(this.datapackRoot, ".build"), { recursive: true, force: true });
     }
 
-    private async writeDispatchNode(start: number, end: number, name: string): Promise<void> {
+    private async writeDispatchNode(
+        start: number,
+        end: number,
+        name: string,
+        outputRoot: string,
+        scoreHolder: string,
+        leafDirectory: string,
+        branchDirectory: string,
+    ): Promise<void> {
         const commands: string[] = [];
         if (end - start + 1 <= DISPATCH_LEAF_SIZE) {
-            for (let frame = start; frame <= end; frame += 1) {
+            for (let value = start; value <= end; value += 1) {
                 commands.push(
-                    `execute if score $render ${OBJECTIVE} matches ${frame} run function ${NAMESPACE}:frame/${frame}`,
+                    `execute if score ${scoreHolder} ${OBJECTIVE} matches ${value} ` +
+                        `run function ${NAMESPACE}:${leafDirectory}/${value}`,
                 );
             }
         } else {
             const middle = Math.floor((start + end) / 2);
             const leftName = `${start}_${middle}`;
             const rightName = `${middle + 1}_${end}`;
-            await this.writeDispatchNode(start, middle, leftName);
-            await this.writeDispatchNode(middle + 1, end, rightName);
+            await this.writeDispatchNode(
+                start,
+                middle,
+                leftName,
+                outputRoot,
+                scoreHolder,
+                leafDirectory,
+                branchDirectory,
+            );
+            await this.writeDispatchNode(
+                middle + 1,
+                end,
+                rightName,
+                outputRoot,
+                scoreHolder,
+                leafDirectory,
+                branchDirectory,
+            );
             commands.push(
-                `execute if score $render ${OBJECTIVE} matches ${start}..${middle} run function ${NAMESPACE}:dispatch/${leftName}`,
-                `execute if score $render ${OBJECTIVE} matches ${middle + 1}..${end} run function ${NAMESPACE}:dispatch/${rightName}`,
+                `execute if score ${scoreHolder} ${OBJECTIVE} matches ${start}..${middle} ` +
+                    `run function ${NAMESPACE}:${branchDirectory}/${leftName}`,
+                `execute if score ${scoreHolder} ${OBJECTIVE} matches ${middle + 1}..${end} ` +
+                    `run function ${NAMESPACE}:${branchDirectory}/${rightName}`,
             );
         }
         await writeFile(
-            path.join(this.temporaryDispatchRoot, `${name}.mcfunction`),
+            path.join(outputRoot, `${name}.mcfunction`),
             `${commands.join("\n")}\n`,
             "utf8",
         );
@@ -289,6 +354,7 @@ export class DatapackBuilder {
 
     private async writeControlFunctions(frameCount: number): Promise<void> {
         const lastFrame = frameCount - 1;
+        await this.writeSetupChunks();
         const setup: string[] = [
             "gamerule max_command_forks 65536",
             "gamerule max_command_sequence_length 65536",
@@ -304,34 +370,17 @@ export class DatapackBuilder {
             `scoreboard players set $frame ${OBJECTIVE} 0`,
             `scoreboard players set $render ${OBJECTIVE} 0`,
             `scoreboard players set $starts ${OBJECTIVE} 0`,
+            `scoreboard players set $setup_row ${OBJECTIVE} 0`,
+            `scoreboard players set $ready ${OBJECTIVE} 0`,
+            `scoreboard players set $autostart ${OBJECTIVE} 0`,
             `summon minecraft:marker ~ ~ ~ {Tags:["${ORIGIN_TAG}"]}`,
             `fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
             `fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} ` +
                 (this.displayMode === "cushion-color"
                     ? BRIGHTNESS_TIERS[0].block
                     : "minecraft:redstone_lamp"),
+            `function ${NAMESPACE}:setup_tick`,
         ];
-        for (let x = 0; x < this.width; x += 1) {
-            for (let z = 0; z < this.height; z += 1) {
-                const color = this.displayMode === "rgbw"
-                    ? rgbwCushionColor(x, z)
-                    : this.displayMode === "cushion-color" ? "black" : undefined;
-                const colorNbt = color ? `,color:"${color}"` : "";
-                setup.push(
-                    `summon minecraft:cushion ~${x} ~2.26 ~${z} {Tags:["${PIXEL_TAG}"]${colorNbt}}`,
-                );
-                if (this.displayMode === "cushion-color") {
-                    const cushionSelector =
-                        `@e[type=minecraft:cushion,tag=${PIXEL_TAG},sort=nearest,limit=1,distance=..0.1]`;
-                    setup.push(
-                        `execute positioned ~${x} ~2.26 ~${z} as ${cushionSelector} ` +
-                            `run scoreboard players set @s ${PIXEL_X_OBJECTIVE} ${x}`,
-                        `execute positioned ~${x} ~2.26 ~${z} as ${cushionSelector} ` +
-                            `run scoreboard players set @s ${PIXEL_Z_OBJECTIVE} ${z}`,
-                    );
-                }
-            }
-        }
 
         const resetDisplay = this.displayMode === "cushion-color"
             ? [
@@ -350,24 +399,35 @@ export class DatapackBuilder {
             setup,
             remove: [
                 `schedule clear ${NAMESPACE}:tick`,
+                `schedule clear ${NAMESPACE}:setup_tick`,
                 `scoreboard players set $playing ${OBJECTIVE} 0`,
                 `scoreboard players set $frame ${OBJECTIVE} 0`,
                 `scoreboard players set $render ${OBJECTIVE} 0`,
+                `scoreboard players set $setup_row ${OBJECTIVE} 0`,
+                `scoreboard players set $ready ${OBJECTIVE} 0`,
+                `scoreboard players set $autostart ${OBJECTIVE} 0`,
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} minecraft:air`,
                 `kill @e[type=minecraft:cushion,tag=${PIXEL_TAG}]`,
                 `kill @e[type=minecraft:marker,tag=${ORIGIN_TAG}]`,
             ],
             start: [
-                `execute unless score $playing ${OBJECTIVE} matches 1 run function ${NAMESPACE}:restart`,
+                `execute if score $ready ${OBJECTIVE} matches 0 run scoreboard players set $autostart ${OBJECTIVE} 1`,
+                `execute if score $ready ${OBJECTIVE} matches 0 run tellraw @s {"text":"Screen setup in progress; playback queued."}`,
+                `execute if score $ready ${OBJECTIVE} matches 1 unless score $playing ${OBJECTIVE} matches 1 run function ${NAMESPACE}:restart`,
             ],
             restart: [
                 "gamerule max_command_forks 65536",
                 "gamerule max_command_sequence_length 65536",
                 `schedule clear ${NAMESPACE}:tick`,
                 ...resetDisplay,
+                `function ${NAMESPACE}:play`,
+            ],
+            play: [
+                `schedule clear ${NAMESPACE}:tick`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $frame ${OBJECTIVE} 0`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $render ${OBJECTIVE} 0`,
+                `scoreboard players set $autostart ${OBJECTIVE} 0`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players add $starts ${OBJECTIVE} 1`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $playing ${OBJECTIVE} 1`,
                 `execute if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run function ${NAMESPACE}:tick`,
@@ -377,7 +437,7 @@ export class DatapackBuilder {
                 `schedule clear ${NAMESPACE}:tick`,
             ],
             resume: [
-                `execute if score $frame ${OBJECTIVE} matches 0..${lastFrame} if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $playing ${OBJECTIVE} 1`,
+                `execute if score $ready ${OBJECTIVE} matches 1 if score $frame ${OBJECTIVE} matches 0..${lastFrame} if entity @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run scoreboard players set $playing ${OBJECTIVE} 1`,
                 `execute if score $playing ${OBJECTIVE} matches 1 run schedule function ${NAMESPACE}:tick 1t replace`,
             ],
             stop: [
@@ -387,7 +447,7 @@ export class DatapackBuilder {
                 ...resetDisplay,
             ],
             status: [
-                `tellraw @s [{"text":"BadApple frame: "},{"score":{"name":"$frame","objective":"${OBJECTIVE}"}},{"text":"/${lastFrame}, playing: "},{"score":{"name":"$playing","objective":"${OBJECTIVE}"}},{"text":", starts: "},{"score":{"name":"$starts","objective":"${OBJECTIVE}"}}]`,
+                `tellraw @s [{"text":"BadApple frame: "},{"score":{"name":"$frame","objective":"${OBJECTIVE}"}},{"text":"/${lastFrame}, playing: "},{"score":{"name":"$playing","objective":"${OBJECTIVE}"}},{"text":", ready: "},{"score":{"name":"$ready","objective":"${OBJECTIVE}"}},{"text":", setup row: "},{"score":{"name":"$setup_row","objective":"${OBJECTIVE}"}},{"text":"/${this.height}, starts: "},{"score":{"name":"$starts","objective":"${OBJECTIVE}"}}]`,
             ],
             tick: [
                 `execute if score $playing ${OBJECTIVE} matches 1 run schedule function ${NAMESPACE}:tick 1t replace`,
@@ -397,11 +457,50 @@ export class DatapackBuilder {
                 `execute if score $playing ${OBJECTIVE} matches 1 if score $frame ${OBJECTIVE} matches ${frameCount}.. run scoreboard players set $playing ${OBJECTIVE} 0`,
                 `execute unless score $playing ${OBJECTIVE} matches 1 run schedule clear ${NAMESPACE}:tick`,
             ],
+            setup_tick: [
+                `execute if score $ready ${OBJECTIVE} matches 0 run schedule function ${NAMESPACE}:setup_tick 1t replace`,
+                `execute if score $ready ${OBJECTIVE} matches 0 at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run function ${NAMESPACE}:setup_dispatch/root`,
+                `execute if score $ready ${OBJECTIVE} matches 0 run scoreboard players add $setup_row ${OBJECTIVE} 1`,
+                `execute if score $setup_row ${OBJECTIVE} matches ${this.height}.. run scoreboard players set $ready ${OBJECTIVE} 1`,
+                `execute if score $ready ${OBJECTIVE} matches 1 run schedule clear ${NAMESPACE}:setup_tick`,
+                `execute if score $ready ${OBJECTIVE} matches 1 run tellraw @a {"text":"BadApple screen setup complete."}`,
+                `execute if score $ready ${OBJECTIVE} matches 1 if score $autostart ${OBJECTIVE} matches 1 run function ${NAMESPACE}:play`,
+            ],
         };
 
         for (const [name, commands] of Object.entries(files)) {
             await writeFile(
                 path.join(this.temporaryRoot, `${name}.mcfunction`),
+                `${commands.join("\n")}\n`,
+                "utf8",
+            );
+        }
+    }
+
+    private async writeSetupChunks(): Promise<void> {
+        for (let z = 0; z < this.height; z += 1) {
+            const commands: string[] = [];
+            for (let x = 0; x < this.width; x += 1) {
+                const color = this.displayMode === "rgbw"
+                    ? rgbwCushionColor(x, z)
+                    : this.displayMode === "cushion-color" ? "black" : undefined;
+                const colorNbt = color ? `,color:"${color}"` : "";
+                commands.push(
+                    `summon minecraft:cushion ~${x} ~2.26 ~${z} {Tags:["${PIXEL_TAG}"]${colorNbt}}`,
+                );
+                if (this.displayMode === "cushion-color") {
+                    const cushionSelector =
+                        `@e[type=minecraft:cushion,tag=${PIXEL_TAG},sort=nearest,limit=1,distance=..0.1]`;
+                    commands.push(
+                        `execute positioned ~${x} ~2.26 ~${z} as ${cushionSelector} ` +
+                            `run scoreboard players set @s ${PIXEL_X_OBJECTIVE} ${x}`,
+                        `execute positioned ~${x} ~2.26 ~${z} as ${cushionSelector} ` +
+                            `run scoreboard players set @s ${PIXEL_Z_OBJECTIVE} ${z}`,
+                    );
+                }
+            }
+            await writeFile(
+                path.join(this.temporarySetupChunkRoot, `${z}.mcfunction`),
                 `${commands.join("\n")}\n`,
                 "utf8",
             );

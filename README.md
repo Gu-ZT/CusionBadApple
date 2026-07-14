@@ -31,6 +31,12 @@ Use `--input` and `--output` to select an explicit source and a separate datapac
 pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode rgbw-dither
 ```
 
+Generate only a time range with `--start` (inclusive) and `--end` (exclusive):
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-clip --mode color-nearest --start 0 --end 5
+```
+
 Direct 16-color cushion rendering is available without RGBW subpixels:
 
 ```powershell
@@ -81,6 +87,10 @@ Copy/install the generated `datapack/` in a world, then run these functions:
 block triggers do not jump back to frame zero. Use `restart` when an intentional
 restart is needed. `status` prints the current frame, playing state, and restart
 count.
+
+`setup` builds one screen row per tick so large screens do not exceed the command
+sequence limit. Calling `start` before setup finishes queues playback; it starts
+automatically after the final row is ready.
 
 Run `setup` at the lower north-west corner of the screen. The screen occupies
 positive X and positive Z, with redstone blocks at Y+1 and lamps at Y+2.

@@ -18,6 +18,8 @@ export interface CliOptions {
     help: boolean;
     input?: string;
     output: string;
+    startSeconds: number;
+    endSeconds?: number;
     width: number;
     height: number;
     mode: ConversionMode;
@@ -30,6 +32,14 @@ function integer(value: string, option: string, min: number, max: number): numbe
     const parsed = Number(value);
     if (!Number.isInteger(parsed) || parsed < min || parsed > max) {
         throw new Error(`${option} must be an integer between ${min} and ${max}.`);
+    }
+    return parsed;
+}
+
+function decimal(value: string, option: string, min: number): number {
+    const parsed = Number(value);
+    if (!Number.isFinite(parsed) || parsed < min) {
+        throw new Error(`${option} must be a number greater than or equal to ${min}.`);
     }
     return parsed;
 }
@@ -49,6 +59,7 @@ export function parseCli(args: string[]): CliOptions {
     const options: CliOptions = {
         help: false,
         output: "datapack",
+        startSeconds: 0,
         width: 128,
         height: 96,
         mode: "binary",
@@ -76,6 +87,18 @@ export function parseCli(args: string[]): CliOptions {
             case "--output": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
                 options.output = value;
+                index = nextIndex;
+                break;
+            }
+            case "--start": {
+                const [value, nextIndex] = readValue(args, index, inlineValue, name);
+                options.startSeconds = decimal(value, name, 0);
+                index = nextIndex;
+                break;
+            }
+            case "--end": {
+                const [value, nextIndex] = readValue(args, index, inlineValue, name);
+                options.endSeconds = decimal(value, name, 0);
                 index = nextIndex;
                 break;
             }
@@ -133,6 +156,9 @@ export function parseCli(args: string[]): CliOptions {
     if (isRgbwMode(options.mode) && (options.width % 2 !== 0 || options.height % 2 !== 0)) {
         throw new Error("RGBW modes require an even screen width and height.");
     }
+    if (options.endSeconds !== undefined && options.endSeconds <= options.startSeconds) {
+        throw new Error("--end must be greater than --start.");
+    }
 
     return options;
 }
@@ -146,6 +172,8 @@ Usage:
 Options:
   --input <file>       Video path (default: the only video in input/)
   --output <directory> Datapack output directory (default: datapack/)
+  --start <seconds>    Start time, inclusive (default: 0)
+  --end <seconds>      End time, exclusive (default: end of video)
   --mode <mode>        binary, dither, rgbw-nearest, rgbw-dither,
                        color-nearest, or color-dither
                        (default: binary)

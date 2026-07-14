@@ -11,6 +11,8 @@ export interface DecodeOptions {
     width: number;
     height: number;
     pixelFormat?: "gray" | "rgb24";
+    startSeconds?: number;
+    endSeconds?: number;
     maxFrames?: number;
 }
 
@@ -61,11 +63,22 @@ export async function* decodeVideo(options: DecodeOptions): AsyncGenerator<Uint8
     const args = [
         "-hide_banner",
         "-loglevel", "error",
+    ];
+    if (options.startSeconds !== undefined && options.startSeconds > 0) {
+        args.push("-ss", String(options.startSeconds));
+    }
+    args.push(
         "-i", options.inputPath,
+    );
+    if (options.endSeconds !== undefined) {
+        const duration = options.endSeconds - (options.startSeconds ?? 0);
+        args.push("-t", String(duration));
+    }
+    args.push(
         "-map", "0:v:0",
         "-an",
         "-vf", filter,
-    ];
+    );
     if (options.maxFrames !== undefined) {
         args.push("-frames:v", String(options.maxFrames));
     }
