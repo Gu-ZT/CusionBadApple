@@ -1,0 +1,1 @@
+tellraw @s [{"text":"BadApple frame: "},{"score":{"name":"$frame","objective":"gugle_badapple"}},{"text":"/4380, playing: "},{"score":{"name":"$playing","objective":"gugle_badapple"}},{"text":", starts: "},{"score":{"name":"$starts","objective":"gugle_badapple"}}]

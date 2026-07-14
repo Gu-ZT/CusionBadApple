@@ -1,8 +1,23 @@
-export type ConversionMode = "binary" | "dither";
+export type GrayscaleConversionMode = "binary" | "dither";
+export type RgbwConversionMode = "rgbw-nearest" | "rgbw-dither";
+export type CushionColorConversionMode = "color-nearest" | "color-dither";
+export type ConversionMode =
+    | GrayscaleConversionMode
+    | RgbwConversionMode
+    | CushionColorConversionMode;
+
+export function isRgbwMode(mode: ConversionMode): mode is RgbwConversionMode {
+    return mode === "rgbw-nearest" || mode === "rgbw-dither";
+}
+
+export function isCushionColorMode(mode: ConversionMode): mode is CushionColorConversionMode {
+    return mode === "color-nearest" || mode === "color-dither";
+}
 
 export interface CliOptions {
     help: boolean;
     input?: string;
+    output: string;
     width: number;
     height: number;
     mode: ConversionMode;
@@ -33,6 +48,7 @@ function readValue(args: string[], index: number, inlineValue: string | undefine
 export function parseCli(args: string[]): CliOptions {
     const options: CliOptions = {
         help: false,
+        output: "datapack",
         width: 128,
         height: 96,
         mode: "binary",
@@ -54,6 +70,12 @@ export function parseCli(args: string[]): CliOptions {
             case "--input": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
                 options.input = value;
+                index = nextIndex;
+                break;
+            }
+            case "--output": {
+                const [value, nextIndex] = readValue(args, index, inlineValue, name);
+                options.output = value;
                 index = nextIndex;
                 break;
             }
@@ -83,8 +105,18 @@ export function parseCli(args: string[]): CliOptions {
             }
             case "--mode": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
-                if (value !== "binary" && value !== "dither") {
-                    throw new Error("--mode must be either binary or dither.");
+                if (
+                    value !== "binary" &&
+                    value !== "dither" &&
+                    value !== "rgbw-nearest" &&
+                    value !== "rgbw-dither" &&
+                    value !== "color-nearest" &&
+                    value !== "color-dither"
+                ) {
+                    throw new Error(
+                        "--mode must be binary, dither, rgbw-nearest, rgbw-dither, " +
+                        "color-nearest, or color-dither.",
+                    );
                 }
                 options.mode = value;
                 index = nextIndex;
@@ -98,6 +130,9 @@ export function parseCli(args: string[]): CliOptions {
     if (options.width * options.height > 32768) {
         throw new Error("The screen may contain at most 32768 blocks (Minecraft fill limit).");
     }
+    if (isRgbwMode(options.mode) && (options.width % 2 !== 0 || options.height % 2 !== 0)) {
+        throw new Error("RGBW modes require an even screen width and height.");
+    }
 
     return options;
 }
@@ -110,13 +145,18 @@ Usage:
 
 Options:
   --input <file>       Video path (default: the only video in input/)
-  --mode <mode>        binary or dither (default: binary)
-  --threshold <0-255>  Black/white threshold (default: 128)
+  --output <directory> Datapack output directory (default: datapack/)
+  --mode <mode>        binary, dither, rgbw-nearest, rgbw-dither,
+                       color-nearest, or color-dither
+                       (default: binary)
+  --threshold <0-255>  Black/white threshold; grayscale modes only (default: 128)
   --width <blocks>     Screen width (default: 128)
   --height <blocks>    Screen height (default: 96)
   --invert             Invert lit and unlit pixels
   --max-frames <count> Convert only the first N frames (useful for testing)
   --help               Show this help
 
+RGBW modes use a 2x2 R/G/B/W cushion layout for every logical video pixel.
+Color modes use one cushion per pixel and the full 16-color dye palette.
 The generated video always runs at 20 FPS: one frame per Minecraft tick.`);
 }

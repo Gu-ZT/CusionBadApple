@@ -10,6 +10,7 @@ export interface DecodeOptions {
     inputPath: string;
     width: number;
     height: number;
+    pixelFormat?: "gray" | "rgb24";
     maxFrames?: number;
 }
 
@@ -48,12 +49,14 @@ export async function* decodeVideo(options: DecodeOptions): AsyncGenerator<Uint8
         throw new Error(`Input video does not exist: ${options.inputPath}`);
     }
 
-    const frameSize = options.width * options.height;
+    const pixelFormat = options.pixelFormat ?? "gray";
+    const channels = pixelFormat === "rgb24" ? 3 : 1;
+    const frameSize = options.width * options.height * channels;
     const filter = [
         "fps=20",
         `scale=${options.width}:${options.height}:force_original_aspect_ratio=decrease:flags=lanczos`,
         `pad=${options.width}:${options.height}:(ow-iw)/2:(oh-ih)/2:color=black`,
-        "format=gray",
+        `format=${pixelFormat}`,
     ].join(",");
     const args = [
         "-hide_banner",
@@ -66,7 +69,7 @@ export async function* decodeVideo(options: DecodeOptions): AsyncGenerator<Uint8
     if (options.maxFrames !== undefined) {
         args.push("-frames:v", String(options.maxFrames));
     }
-    args.push("-f", "rawvideo", "-pix_fmt", "gray", "pipe:1");
+    args.push("-f", "rawvideo", "-pix_fmt", pixelFormat, "pipe:1");
 
     const ffmpeg = spawn(ffmpegPath, args, { stdio: ["ignore", "pipe", "pipe"] });
     let stderr = "";

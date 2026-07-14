@@ -18,6 +18,46 @@ Floyd-Steinberg dithering is also available:
 pnpm start -- --mode dither
 ```
 
+RGBW 2x2 subpixels support nearest-color matching and color error diffusion:
+
+```powershell
+pnpm start -- --mode rgbw-nearest
+pnpm start -- --mode rgbw-dither
+```
+
+Use `--input` and `--output` to select an explicit source and a separate datapack:
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode rgbw-dither
+```
+
+Direct 16-color cushion rendering is available without RGBW subpixels:
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-nearest
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-dither
+```
+
+These modes use one cushion per video pixel at the full screen resolution. The
+zero-brightness support blocks are stone instead of redstone lamps. Frames update only changed
+cushions with `data modify entity @s color`, using all 16 dye color values.
+The support block also changes independently to represent light levels
+0, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, and 15.
+
+In RGBW modes, a 128 by 96 block screen represents a 64 by 48 pixel video. Each
+logical pixel uses this fixed cushion layout:
+
+```text
+R G
+B W
+```
+
+The generated cushion entities use `color:"red"`, `color:"green"`,
+`color:"blue"`, and `color:"white"` NBT values. Redstone blocks independently
+switch each subpixel on and off. White is represented only by the white
+subpixel; neutral grayscale pixels are dithered exclusively between white and
+off. RGB subpixels are reserved for saturated primary and secondary colors.
+
 The default screen is 128 by 96 blocks. Run `pnpm start -- --help` for threshold,
 size, inversion, explicit input path, and test-frame options. The converter keeps
 the source aspect ratio and pads unused screen space with black.

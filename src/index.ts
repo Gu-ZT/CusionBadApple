@@ -1,7 +1,9 @@
 import * as path from "node:path";
-import { parseCli, printHelp } from "./cli";
-import { convertFrame } from "./converter";
-import { DatapackBuilder } from "./datapack";
+import { BRIGHTNESS_TIERS } from "./brightness";
+import { isCushionColorMode, isRgbwMode, parseCli, printHelp } from "./cli";
+import { CUSHION_COLOR_PALETTE } from "./colors";
+import { convertCushionColorFrame, convertFrame, convertRgbwFrame } from "./converter";
+import { DatapackBuilder, DisplayMode } from "./datapack";
 import { decodeVideo, findInputVideo } from "./video";
 
 async function main(): Promise<void> {
@@ -14,8 +16,21 @@ async function main(): Promise<void> {
     const inputPath = options.input
         ? path.resolve(options.input)
         : await findInputVideo(path.resolve("input"));
-    const datapackPath = path.resolve("datapack");
-    const builder = new DatapackBuilder(datapackPath, options.width, options.height);
+    const datapackPath = path.resolve(options.output);
+    const rgbw = isRgbwMode(options.mode);
+    const cushionColor = isCushionColorMode(options.mode);
+    const rgbInput = rgbw || cushionColor;
+    const logicalWidth = rgbw ? options.width / 2 : options.width;
+    const logicalHeight = rgbw ? options.height / 2 : options.height;
+    const displayMode: DisplayMode = cushionColor
+        ? "cushion-color"
+        : rgbw ? "rgbw" : "redstone";
+    const builder = new DatapackBuilder(
+        datapackPath,
+        options.width,
+        options.height,
+        displayMode,
+    );
 
     await builder.prepare();
 
@@ -26,23 +41,41 @@ async function main(): Promise<void> {
     console.log(`Input: ${inputPath}`);
     console.log(
         `Converting at 20 FPS: ${options.width}x${options.height}, mode=${options.mode}` +
+        (rgbw ? `, logical=${logicalWidth}x${logicalHeight}` : "") +
         (options.invert ? ", inverted" : ""),
     );
 
-    for await (const grayFrame of decodeVideo({
+    for await (const decodedFrame of decodeVideo({
         inputPath,
-        width: options.width,
-        height: options.height,
+        width: logicalWidth,
+        height: logicalHeight,
+        pixelFormat: rgbInput ? "rgb24" : "gray",
         maxFrames: options.maxFrames,
     })) {
-        const currentFrame = convertFrame(
-            grayFrame,
-            options.width,
-            options.height,
-            options.mode,
-            options.threshold,
-            options.invert,
-        );
+        const currentFrame = isCushionColorMode(options.mode)
+            ? convertCushionColorFrame(
+                decodedFrame,
+                logicalWidth,
+                logicalHeight,
+                options.mode,
+                options.invert,
+            )
+            : isRgbwMode(options.mode)
+                ? convertRgbwFrame(
+                    decodedFrame,
+                    logicalWidth,
+                    logicalHeight,
+                    options.mode,
+                    options.invert,
+                )
+                : convertFrame(
+                    decodedFrame,
+                    options.width,
+                    options.height,
+                    options.mode,
+                    options.threshold,
+                    options.invert,
+                );
         commandCount += await builder.writeFrame(frameCount, currentFrame, previousFrame);
         previousFrame = currentFrame;
         frameCount += 1;
@@ -62,11 +95,21 @@ async function main(): Promise<void> {
         mode: options.mode,
         threshold: options.threshold,
         inverted: options.invert,
+        logicalWidth,
+        logicalHeight,
+        subpixelLayout: rgbw ? "R G / B W" : undefined,
+        palette: cushionColor
+            ? CUSHION_COLOR_PALETTE.map((color) => color.name)
+            : undefined,
+        brightnessLevels: cushionColor
+            ? BRIGHTNESS_TIERS.map((tier) => tier.level)
+            : undefined,
         commands: commandCount,
     });
 
     console.log(
-        `Done: ${frameCount} frames (${(frameCount / 20).toFixed(2)} s), ${commandCount} block commands.`,
+        `Done: ${frameCount} frames (${(frameCount / 20).toFixed(2)} s), ` +
+        `${commandCount} frame commands.`,
     );
     console.log(`Datapack: ${datapackPath}`);
 }
