@@ -1,0 +1,6 @@
+setblock ~93 ~2 ~25 minecraft:respawn_anchor[charges=2]
+setblock ~40 ~2 ~36 minecraft:weathered_copper_bulb[lit=true]
+setblock ~64 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~69 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~63 ~2 ~60 minecraft:redstone_ore[lit=true]

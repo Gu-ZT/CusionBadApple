@@ -1,0 +1,11 @@
+data modify entity 6775676c-652d-4000-8000-0000001b0040 color set value "pink"
+setblock ~58 ~2 ~21 minecraft:weathered_copper_bulb[lit=true]
+fill ~32 ~2 ~38 ~33 ~2 ~38 minecraft:weathered_copper_bulb[lit=true]
+setblock ~12 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~39 minecraft:sculk_catalyst[bloom=true]
+setblock ~ ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~72 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~28 ~2 ~58 minecraft:sculk_catalyst[bloom=true]
+setblock ~55 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~74 ~2 ~58 minecraft:sculk_catalyst[bloom=true]

@@ -1,0 +1,15 @@
+data modify entity 6775676c-652d-4000-8000-000000138006 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000160042 color set value "white"
+setblock ~22 ~2 ~37 minecraft:respawn_anchor[charges=2]
+setblock ~17 ~2 ~38 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~83 ~2 ~39 minecraft:respawn_anchor[charges=2]
+setblock ~89 ~2 ~41 minecraft:respawn_anchor[charges=2]
+setblock ~39 ~2 ~42 minecraft:copper_bulb[lit=true]
+setblock ~76 ~2 ~46 minecraft:redstone_ore[lit=true]
+fill ~42 ~2 ~48 ~44 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~31 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~8 ~2 ~58 minecraft:redstone_ore[lit=true]
+fill ~10 ~2 ~58 ~11 ~2 ~58 minecraft:redstone_ore[lit=true]
+fill ~10 ~2 ~59 ~11 ~2 ~59 minecraft:sculk_catalyst[bloom=true]
+setblock ~60 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+setblock ~70 ~2 ~70 minecraft:weathered_copper_bulb[lit=true]

@@ -1,0 +1,5 @@
+setblock ~93 ~2 ~16 minecraft:respawn_anchor[charges=2]
+setblock ~50 ~2 ~33 minecraft:respawn_anchor[charges=3]
+setblock ~50 ~2 ~34 minecraft:respawn_anchor[charges=2]
+setblock ~89 ~2 ~41 minecraft:respawn_anchor[charges=2]
+setblock ~36 ~2 ~70 minecraft:respawn_anchor[charges=2]

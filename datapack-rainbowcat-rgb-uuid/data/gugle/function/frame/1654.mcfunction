@@ -1,0 +1,6 @@
+data modify entity 6775676c-652d-4000-8000-000000068041 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b805d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000013000f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b0038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c804b color set value "gray"

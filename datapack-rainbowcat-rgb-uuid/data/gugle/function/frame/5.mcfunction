@@ -1,0 +1,6 @@
+setblock ~29 ~2 ~34 minecraft:respawn_anchor[charges=3]
+setblock ~89 ~2 ~41 minecraft:respawn_anchor[charges=2]
+fill ~70 ~2 ~73 ~71 ~2 ~73 minecraft:respawn_anchor[charges=2]
+fill ~67 ~2 ~74 ~68 ~2 ~74 minecraft:respawn_anchor[charges=2]
+setblock ~84 ~2 ~82 minecraft:sculk_catalyst[bloom=true]
+setblock ~82 ~2 ~83 minecraft:sculk_catalyst[bloom=true]

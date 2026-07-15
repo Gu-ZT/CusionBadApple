@@ -1,0 +1,12 @@
+data modify entity 6775676c-652d-4000-8000-0000000a805c color set value "blue"
+setblock ~93 ~2 ~22 minecraft:copper_bulb[lit=true]
+setblock ~22 ~2 ~37 minecraft:respawn_anchor[charges=2]
+setblock ~17 ~2 ~38 minecraft:sculk_catalyst[bloom=true]
+setblock ~20 ~2 ~38 minecraft:oxidized_copper_bulb[lit=true]
+fill ~34 ~2 ~38 ~35 ~2 ~38 minecraft:sculk_catalyst[bloom=true]
+setblock ~ ~2 ~53 minecraft:furnace[lit=true]
+setblock ~35 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~67 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+setblock ~122 ~2 ~75 minecraft:sculk_catalyst[bloom=true]
+setblock ~57 ~2 ~79 minecraft:weathered_copper_bulb[lit=true]
+setblock ~120 ~2 ~79 minecraft:oxidized_copper_bulb[lit=true]

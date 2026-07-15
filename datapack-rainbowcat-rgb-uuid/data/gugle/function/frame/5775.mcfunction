@@ -1,0 +1,10 @@
+data modify entity 6775676c-652d-4000-8000-0000001d0039 color set value "gray"
+setblock ~118 ~2 ~13 minecraft:sculk_catalyst[bloom=true]
+setblock ~57 ~2 ~22 minecraft:weathered_copper_bulb[lit=true]
+setblock ~46 ~2 ~28 minecraft:respawn_anchor[charges=2]
+setblock ~20 ~2 ~38 minecraft:sculk_catalyst[bloom=true]
+setblock ~89 ~2 ~41 minecraft:respawn_anchor[charges=2]
+setblock ~78 ~2 ~46 minecraft:sculk_catalyst[bloom=true]
+fill ~10 ~2 ~48 ~11 ~2 ~48 minecraft:furnace[lit=true]
+fill ~42 ~2 ~48 ~43 ~2 ~48 minecraft:copper_bulb[lit=true]
+fill ~8 ~2 ~81 ~9 ~2 ~81 minecraft:sculk_catalyst[bloom=true]

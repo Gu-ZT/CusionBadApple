@@ -1,0 +1,5 @@
+setblock ~90 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~5 ~2 ~22 minecraft:sculk_catalyst[bloom=true]
+fill ~94 ~2 ~23 ~95 ~2 ~23 minecraft:respawn_anchor[charges=2]
+setblock ~54 ~2 ~46 minecraft:sculk_catalyst[bloom=true]
+setblock ~64 ~2 ~51 minecraft:furnace[lit=true]

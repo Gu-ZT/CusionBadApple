@@ -1,0 +1,11 @@
+data modify entity 6775676c-652d-4000-8000-0000001a0032 color set value "light_gray"
+setblock ~51 ~2 ~32 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~34 minecraft:respawn_anchor[charges=2]
+fill ~48 ~2 ~35 ~49 ~2 ~35 minecraft:redstone_ore[lit=true]
+setblock ~51 ~2 ~35 minecraft:respawn_anchor[charges=3]
+setblock ~89 ~2 ~41 minecraft:respawn_anchor[charges=2]
+setblock ~70 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~36 ~2 ~70 minecraft:respawn_anchor[charges=2]
+setblock ~40 ~2 ~70 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~84 ~2 ~81 minecraft:sculk_catalyst[bloom=true]
+setblock ~85 ~2 ~82 minecraft:respawn_anchor[charges=2]

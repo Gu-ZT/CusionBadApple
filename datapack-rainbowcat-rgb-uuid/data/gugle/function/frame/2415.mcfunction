@@ -1,0 +1,5 @@
+setblock ~91 ~2 ~15 minecraft:redstone_ore[lit=true]
+setblock ~51 ~2 ~32 minecraft:respawn_anchor[charges=3]
+setblock ~89 ~2 ~41 minecraft:respawn_anchor[charges=2]
+setblock ~77 ~2 ~54 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~36 ~2 ~70 minecraft:respawn_anchor[charges=2]

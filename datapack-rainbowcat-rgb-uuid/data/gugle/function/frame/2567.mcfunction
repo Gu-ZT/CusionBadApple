@@ -1,0 +1,10 @@
+setblock ~27 ~2 ~22 minecraft:copper_bulb[lit=true]
+setblock ~52 ~2 ~24 minecraft:respawn_anchor[charges=2]
+fill ~32 ~2 ~38 ~33 ~2 ~38 minecraft:respawn_anchor[charges=2]
+setblock ~49 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~ ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~6 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~28 ~2 ~57 minecraft:crying_obsidian
+setblock ~59 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~29 ~2 ~67 minecraft:respawn_anchor[charges=2]
+setblock ~124 ~2 ~71 minecraft:oxidized_copper_bulb[lit=true]
