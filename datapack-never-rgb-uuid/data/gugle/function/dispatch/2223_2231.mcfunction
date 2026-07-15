@@ -1,0 +1,2 @@
+execute if score $render gugle_badapple matches 2223..2227 run function gugle:dispatch/2223_2227
+execute if score $render gugle_badapple matches 2228..2231 run function gugle:dispatch/2228_2231
