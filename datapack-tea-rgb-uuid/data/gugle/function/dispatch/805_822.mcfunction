@@ -1,0 +1,2 @@
+execute if score $render gugle_badapple matches 805..813 run function gugle:dispatch/805_813
+execute if score $render gugle_badapple matches 814..822 run function gugle:dispatch/814_822

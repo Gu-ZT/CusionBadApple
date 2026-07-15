@@ -1,0 +1,7703 @@
+data modify entity 6775676c-652d-4000-8000-000000060014 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000060016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060018 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000060019 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000060028 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006002a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000006002b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000006002c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006002d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060042 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000060043 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000060044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000060045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000060046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000060047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000060048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060049 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006004a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006004c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006004d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000060056 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000060057 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000060058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000060059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000006005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000060077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068017 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000068018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000068026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000068028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000068029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000006802a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006802b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000006802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000006802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006803a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000068041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068042 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000068044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000068045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000006804a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006804b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006804c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000006804d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000006804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000068056 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000068057 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000068058 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000068059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000006805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000006805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000068073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000068074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000070010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070012 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000070014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000070017 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000070025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000070027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000070028 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000070029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007002a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007002b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000070039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007003e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007003f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000070040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000070045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000070048 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000070049 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007004c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000007004d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000007004e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000007004f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000070050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070056 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000070057 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000070058 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000070059 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007006a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000070073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000070074 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000070075 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000007007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078005 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000078006 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007800d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000078016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000078026 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000078027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000007802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000078035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007803a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000078040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000078045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007804a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007804b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000007804c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007804d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000007804e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000007804f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000078050 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000078051 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000078052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000078053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000078054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000078055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000078058 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000078059 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000007805a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000007805b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000007805c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000007805d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000007805e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000007805f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000078066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000078071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000078072 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078074 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000078075 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000078076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000078079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000007807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080005 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080006 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080007 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080008 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000080009 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008000d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000008000f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000080012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000080015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080024 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080025 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008002c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008002d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000080031 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000080038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000080039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000008003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008003e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008003f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000080040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000080045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008004e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008004f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080050 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080051 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000080057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000008005a color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000008005b color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000008005c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000008005d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000008005e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000008005f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000080061 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000080067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008006a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000080071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000080078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000080079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088002 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088003 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088004 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088006 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000088008 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088009 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008800c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008800e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000088010 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008802e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008802f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000088030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088032 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008803a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008804c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000008804d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000008804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088050 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088051 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000088058 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000088059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008805a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008805b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000008805e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000008805f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000088060 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000088061 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000088068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000008806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000088074 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000088075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000088077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000088079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008807a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008807b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000008807f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090004 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090005 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090006 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009000b color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-000000090010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090030 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090031 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009003e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009003f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090050 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090051 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000009005f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000090060 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000090061 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000090062 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000090063 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000090074 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000090076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000090079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098003 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098005 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000098006 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098007 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000009802b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000009802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009803a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009803c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000009803d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000009803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009804e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000009804f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000098053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000098054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000098055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000098056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000098057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000098058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000009805e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000009805f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000098060 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000098061 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000098062 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000098063 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000009806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000009806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000098074 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000098075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000098078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000098079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000009807a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000009807b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000009807c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0004 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0009 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a000f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0010 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000a0011 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000a0012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a003c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a003d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0050 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0057 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0060 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0061 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a0062 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000a0063 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000a0064 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a006c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a0071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0072 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0076 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a0077 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a007d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8002 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8004 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a8008 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8009 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a800f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8010 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000000a8011 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000000a801f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a802a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a802b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a803b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a803c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a803d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8042 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8043 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a8050 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a8055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a8056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000a8057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8061 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000a8062 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000a8063 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000a8064 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a806c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a8075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000a807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000a807f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0002 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0004 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b0008 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0009 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b000f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0011 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000b001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0026 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0027 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b002c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b002d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b002e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b002f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b003a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b003b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b003c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b003d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0042 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0043 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b0055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000b0056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0062 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000b0063 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000b0064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000b0065 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b0074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b0075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8002 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8004 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b8005 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b8009 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b800b color set value "yellow"
+data modify entity 6775676c-652d-4000-8000-0000000b8011 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000b801c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b8026 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8027 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b802e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b802f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b803a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b803b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000b803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8043 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8056 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000b8057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8062 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000000b8063 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000000b8064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000b8065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000b806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b806c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000b8074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b8075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000b807d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c0003 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0004 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000c0006 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0007 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0011 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c001b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c001d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0027 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c002a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c002b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c002c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c002d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c002e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c002f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c003a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c003b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0052 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0053 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0054 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0056 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c0057 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c0058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c0063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000c0064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c0065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c006c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c006e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c0073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8002 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8003 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8004 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c8007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c800d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8010 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000c8018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c802a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8036 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c8038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8039 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c803b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c803d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c804c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c804d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8052 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8053 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8057 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c8058 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000c8059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c8063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000c8064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c8065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000c8066 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8068 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8069 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c806c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c8071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000c807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c807e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000c807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d0004 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0006 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d0007 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d000d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d000e color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000000d0010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d0011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d001a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d0028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d002a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d002b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d003b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d004c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d004d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0052 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0053 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0058 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d0059 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d0063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d0064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000d0065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000d006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d006e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d0072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8005 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8006 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8007 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8008 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8009 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d800a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d800b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d800d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d800e color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000d800f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000d8010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8017 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8018 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8019 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d801a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d801b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d801c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d801d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8024 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d802a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d802b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d803a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d803b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d804c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d804d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8052 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8053 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8054 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8056 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8059 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d805a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000d805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000d8064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000d8065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000d806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d806c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d806d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000d806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000d8076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d8077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d807e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000d807f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0004 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0005 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0006 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0009 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e000a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e000b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e000d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e000e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e000f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000000e0010 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0011 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0014 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0016 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0017 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e001a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e001b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0033 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e0036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e003b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e003e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e003f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0052 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0053 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0054 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e005a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e005b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e0065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e0066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0069 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e006c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e006d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e0076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e0079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8006 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8008 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8009 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e800a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e800b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8010 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8011 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8012 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8013 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8014 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8018 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8030 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8031 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e803c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e803d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e805b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e805c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e805d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000e805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000e8064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e8065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000e8066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000e8076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e8077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e807c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e807d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000e807e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000e807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0011 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000f0012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f0013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f0014 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0015 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0016 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0017 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f001a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f001b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f002e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f002f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f0030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0038 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f003a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f003b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f003c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f004a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f004b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0050 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0051 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f005a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f005b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f005c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f005d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000f005f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000f0063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000f0064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000f0065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000f0066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f006c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f006d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f006e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f0072 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0073 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f0079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8002 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8003 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8004 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8005 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f800c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8011 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8012 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8016 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8017 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f801a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f801b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f801c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f801d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8024 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8025 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8033 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8034 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8035 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8036 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f803c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f803d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f804a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f804b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8054 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f805a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f805b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f805e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f805f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f8064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000f8065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000000f8066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8068 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000000f806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000000f806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000000f8076 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000000f8077 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000100004 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100005 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010000e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000100010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000100012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000100013 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000100014 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000100015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000100016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010001e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010001f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010002c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010002d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000010002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000100030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010003a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010003b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010003c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010004a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000010004b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000010004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000100055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000100056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000100058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010005a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000010005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010005e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000010005f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000100061 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000100062 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000100063 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000100064 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000100065 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000100067 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000100068 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000010006a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010006c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000100071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108006 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010800e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000108010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000108011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108014 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000108015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000108016 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000108017 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000108018 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000108019 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000010801a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000010801b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000010801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010801e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000010801f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000108024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000108037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000108038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010803a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010803b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010803c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010803d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000108042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108054 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000108055 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000108056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000108057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000108058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010805a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000010805b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000010805c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000010805d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000010805e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000010805f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000108060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108062 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000108063 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000108064 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000108065 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000108067 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000108068 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000108069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000010806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000108070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000108072 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000108073 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000010807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000010807f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110006 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011000e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000110010 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000110011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000110017 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000110019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011001c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000011001d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000110022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110024 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000110025 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000110026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011002a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011002b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011005a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000011005b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000011005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000110062 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000110063 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000110064 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000110065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000110079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011007a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011007b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118006 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011800e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000011800f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000118010 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000118011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118017 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000118018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118024 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000118025 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000118026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011802a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011805a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000011805b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000011805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118062 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000118063 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000118064 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000011806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000118078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000118079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000011807a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000011807b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000012000f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000120010 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000120011 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000120012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000120018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012005a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000012005b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000012005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120061 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000120062 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000120063 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000120064 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000120078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000120079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012007a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000012007b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000012007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000012800f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000128010 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000128011 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000128012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000128017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012801a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012805b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000012805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128061 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000128062 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000128063 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000128064 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000128078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000128079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012807a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012807b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000012807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000012807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000012807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000130010 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000130011 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000130013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000130017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013001b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013001f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000130020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013002a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013002b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130042 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000130043 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000013004a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013005b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000013005c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000013005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130061 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000130062 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000130063 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000130064 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130070 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000130071 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000130076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000130078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000130079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013007a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013007b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000013007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000013800e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013800f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000138015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000138016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013801e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000013801f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000138020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000138025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000138028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013802e color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000138033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000138038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013805c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000013805d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000138060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138061 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000138062 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000138063 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000138064 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000138065 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013806a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013806b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000013806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000138078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000138079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013807a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000013807b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014000e color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140010 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000140011 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000140014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000140015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000140016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014002e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014002f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140039 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014005c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000014005d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000014005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140062 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000140063 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000140064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000140065 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000014006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000140078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000140079 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014800c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014800d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000148015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000148016 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148017 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014802e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014802f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148039 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148054 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014805d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000014805e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000014805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000148064 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000148065 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000148066 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148069 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000014806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000148072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000148075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000014807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014807e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000014807f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150002 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150003 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015000e color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000015000f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000150014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000150016 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000150017 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000150018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000015001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150025 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000150026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015002f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150039 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000150043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150054 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000015005f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000150062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000150064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000150065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000150066 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015006f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000150070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000150072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000150076 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000150078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015800c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015800d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000158014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000158015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158016 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000158017 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000158018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000158019 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000015801a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158026 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000158027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000158028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158029 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000015802a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015802b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015803c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000158043 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000158046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158055 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015805a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015805e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000015805f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000158060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000158065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000158066 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000158067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015806f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000158070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000158072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158076 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000158077 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000015807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000015807f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016000e color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000016000f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000160014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000160015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160016 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160017 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160018 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000160019 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000016001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000160029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000016002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016004a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016005c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016005d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016005f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000160060 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000160061 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000160064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000160065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000160066 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000160067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016006b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000016006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000160072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000160075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168006 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016800c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000016800e color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000168013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000168014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000168015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168018 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000168019 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000016801a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016802a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016802b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016803c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000168046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016805a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016805b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016805c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000016805d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168060 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000168061 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000168062 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000168063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000168065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000168066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000168067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000168068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000168069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000016806f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000168078 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000168079 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000016807b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000170000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170007 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170008 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017000a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017000e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000170013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000170014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000170015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170017 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000170043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000170046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017004a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000170053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000170054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017005c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017005d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017005e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017005f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000170062 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000170063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000170064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000170065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000170066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170067 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000017006a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017006b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017006c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017006e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000170070 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170071 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000170072 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170073 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170074 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170075 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170076 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000170077 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000170078 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000170079 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000017007a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017007b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017007c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000017007d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017800b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017800d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000178013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000178014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000178015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000178017 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017801a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017803a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178044 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178045 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000178054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000178055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000178056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178060 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178061 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000178064 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000178065 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000178066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000178067 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000178068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000178069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000017806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000178070 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000178071 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000178072 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000178073 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000178074 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000178075 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000178076 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000178077 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000178078 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000178079 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000017807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000017807c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017807d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000017807f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000180014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000180015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000180017 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000018001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000180041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000180042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000180043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000018004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000180055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000180056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000180057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180064 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000180065 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000180066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000180067 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000180068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000180069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018006a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018006e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000018006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000180071 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000180072 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000180073 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000180074 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000180075 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000180076 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000180077 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000180078 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000180079 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000018007a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000018007b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000018007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018007d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018800b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000188013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000188014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000188015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000018801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188025 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000188026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018803c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018803d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188049 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018804c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018804d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000188055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188058 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188059 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018805a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018805b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018805e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018805f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188063 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000188064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000188066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000188067 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000188068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000018806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000188070 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000188071 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000188072 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000188073 color set value "red"
+data modify entity 6775676c-652d-4000-8000-000000188074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000188079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018807a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000018807b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000018807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000018807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000018807f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019000a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019000e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000190015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000019001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190026 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000190027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019002a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019002b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019003a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190040 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000190041 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000190042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190044 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000190048 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190049 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019004a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019004b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019004c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019004d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190053 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000190054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019005c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000190067 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000019006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019006e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000190070 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000190071 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000190072 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000190073 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000190074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000190079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019007a color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000019007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019007d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000019007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000019800a color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000198015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000198017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000019801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019801e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019801f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000198028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019802a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000198039 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019803c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019803d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019803f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198048 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198049 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019804a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019804b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019804f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000198056 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000198057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019805a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019805b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019805d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000019805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198065 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000198066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000198067 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000019806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000019806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000198070 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000198071 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000198072 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000198073 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000198074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000198079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000019807a color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000019807b color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000019807c color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000019807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019807e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000019807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a000c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001a000d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0028 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0029 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a002e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a002f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0033 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0038 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0039 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a003a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a003b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a003e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a004c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0058 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0059 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a005f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a0065 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001a0066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001a0067 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a0072 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a0073 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a0074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a0079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a007c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a007d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a007e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a800c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a801e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a801f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a802a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a802b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a802e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a802f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8032 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a803a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a803b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a803c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a803d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a803f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a804c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a804d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a8054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a805c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a805d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a805e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001a805f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a8065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a8066 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001a8067 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001a806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001a8072 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a8073 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001a8074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a8079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a807a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a807b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001a807c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a807d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a807e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001a807f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b000c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0014 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0015 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b001a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b001c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b001d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b001f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b002c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b002d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0032 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b003a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b003b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b003e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b003f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b005c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b005d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0060 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0061 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b0065 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b0066 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0067 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b0070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b0072 color set value "red"
+data modify entity 6775676c-652d-4000-8000-0000001b0073 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b0074 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b0076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b0079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b007a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b007b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b007c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b007d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b007e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b800c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b800e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b801a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b801e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b801f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8020 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b802e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b802f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8032 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b805e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8060 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8061 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8062 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b8064 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b8065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001b806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001b8071 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001b8074 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b8075 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b8076 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b8077 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001b8078 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b8079 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b807a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b807b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001b807e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001b807f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c000a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c000c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c000e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0011 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c001a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c001b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0021 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c002c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c002d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0031 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c003b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0040 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0041 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0042 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0043 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c005a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c005b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c005e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c005f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c0062 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0064 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c006a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0070 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c0071 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001c0074 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c0075 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c0076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c0078 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c0079 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c007a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c007b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c007c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c007d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c007e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c007f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c800a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c800b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c800c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c800e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c800f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8011 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8014 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c801a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c801b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c801c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c801d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8022 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8027 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c802c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c802e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c805c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c805d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c805e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c805f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8060 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8061 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8062 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8064 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c806a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c806b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c806c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c8070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001c8071 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001c8076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001c8078 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001c8079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001c807a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001c807b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001c807c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c807d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c807e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001c807f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d000a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d000e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d001b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d001c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d001d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0024 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d004a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0059 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0060 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0061 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0062 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0063 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d0068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d006a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d006b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d0070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d0075 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001d0076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d007a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d007b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d007c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d007d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d800c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d800e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d800f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d801c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d801d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d801e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d801f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8026 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d802e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8031 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8048 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8049 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d8055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d805a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d805b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d805c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d805d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d805e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d805f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d8062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d8068 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8069 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001d806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001d8070 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d8071 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d8072 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001d8073 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001d807c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001d807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001d807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e001a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e001b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e001c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e001d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e001e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0029 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001e002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0031 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e005a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e005b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e005c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e005d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e005f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e0068 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e0070 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0071 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0072 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001e0073 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001e0076 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e0077 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8017 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e801a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e801b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e801c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e801d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e801e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e801f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8028 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001e8029 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001e802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e803b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8048 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001e8049 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001e804a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e805b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e805c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e805d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e805e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e806c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8070 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8071 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8072 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8073 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001e8077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001e807a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e807b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e807c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e807d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001e807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f000f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f0010 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0011 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f002a color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f002b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-0000001f002c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f002d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f003a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f003b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0046 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f0047 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f0048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f005c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f005d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f006c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f006e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f006f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f0070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f0071 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0072 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0073 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0074 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f0075 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f0076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f0079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f801a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f801b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f801e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f801f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f802a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f802b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8032 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f803a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f803b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f803c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f803d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8044 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f8045 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f8046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8053 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f805a color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f805b color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f805c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f805d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f806c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f806d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001f8070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f8071 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8072 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8073 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8074 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-0000001f8075 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-0000001f8076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f8079 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f807a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f807b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-0000001f807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000001f807e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020000e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000200010 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000200011 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000200014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000200015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000200017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000200019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020001a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020001c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020001d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020001e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000200020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000200023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000200028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200032 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000200036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000200038 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000200039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000020003a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000020003b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000020003c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000020003d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000200041 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000200042 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000200043 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000200044 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000200045 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000200046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200049 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200050 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000200051 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000200055 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200057 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020005c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020005d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020006c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020006d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200072 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200073 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000200075 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000200076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000200077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020007d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020800c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020800e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020800f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000208010 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208011 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208012 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208013 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208014 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208019 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020801a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020801b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020801e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000020801f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000208025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020802a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020802e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020802f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208032 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000208033 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000208034 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208035 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000208036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000208039 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000020803a color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000020803b color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000020803c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000020803d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000020803e color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000020803f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000208040 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000208041 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000208042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020804e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020804f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208050 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208051 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208057 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208058 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208059 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020805a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000020805b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000208070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208072 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208073 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000208074 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208075 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000208078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000208079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000020807b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000020807e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021000f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000210010 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210011 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210012 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000210013 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000210015 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021001b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021001c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210022 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000210024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210028 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000210029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021002c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021002d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021002e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021002f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210030 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000210031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210032 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210036 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210037 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000210038 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000210039 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000021003a color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000021003b color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000021003e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000210041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210047 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021004f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210051 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000210052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000210054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000021005f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000210078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000210079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021007a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000021007b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000021007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021007d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021800c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021800d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021800e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021800f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218011 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000218012 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000218013 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000218016 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218017 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218018 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021801a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021801c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021801d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021801f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218020 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218021 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218024 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000218025 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000218028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021802b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021802c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021802d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021802e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021802f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000218033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218038 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000218039 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000021803a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000021803b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000021803e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000021803f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021804c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000218052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000218054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021805e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000218066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021806e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021806f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000218078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000218079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000021807a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021807b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000021807f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022000c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022000d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000220014 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000220015 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000220016 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022001c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022001d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022002a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022002c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022002d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000220032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000220036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220038 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000220039 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000022003a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000022003b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000022003f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000220040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000220041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000220042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000220047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000220052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000220053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000220054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022005e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000220066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022006c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022006d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022006e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022006f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000220078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000220079 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022007d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228004 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228005 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228012 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228014 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228015 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228016 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000228017 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000228018 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022801c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022801d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000022801e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022801f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000228027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022802a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022802b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000022802e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000022802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228030 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000228032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000228037 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000228038 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000228039 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000022803a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000022803b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000022803f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000228040 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228041 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000228054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228061 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228062 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228063 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000228069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022806c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022806d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000228078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000228079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000022807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000022807f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230000 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230001 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230003 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230006 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230007 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230016 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000230017 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000023001b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023001c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023001d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000230028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000023002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000230031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000230033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000230036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000230038 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000230039 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000023003a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000023003b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000023003d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000023003e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000230040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000230052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000230055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000230056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023005d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000230066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000230079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023007d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000238000 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238001 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238008 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238009 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238010 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238011 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238012 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238013 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238014 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000238015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238018 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000238019 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023801a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023801b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023801c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023801e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023801f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000238026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000238028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000238029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000238030 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000238031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000238036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000238037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000238038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238039 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000023803a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000023803b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000023803d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000023803e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000238040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000238053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000238055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000238056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023805c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000023805d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000238065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023806e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023806f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000238070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000238077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000238078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000238079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023807a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000023807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000023807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000240014 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240015 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240016 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024001b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000024001d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000240027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000240028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000240029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000024002a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024002b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000240030 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000240031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000240036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000240037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000240038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240039 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000240041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240042 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000240043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240047 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000240050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000240051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000240054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240056 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000240057 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000240058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024005c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000240065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000240079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024007b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024007c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024007d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248018 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000248019 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000024801b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000024801c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024801d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248027 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000248028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000024802a color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000024802b color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000024802c color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000024802d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000248030 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000248031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000248034 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248035 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000248037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000248038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248039 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000024803a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024803b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248041 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000248042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000248055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000248056 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000248057 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000248058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024805b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000024805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024805f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248072 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248073 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000248075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248078 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000248079 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000024807d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024807f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025000a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250016 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250017 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250018 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000250019 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000025001a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025001b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025001c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025001d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250028 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250029 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025002c color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000025002d color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000025002e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025002f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000250031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000250032 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000250036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000250037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000250038 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000250039 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000025003a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025003b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025004a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250050 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250051 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000250056 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025005a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025005b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250071 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000250072 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000250078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000250079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000025007a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025007b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000025007e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025007f color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025800a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025800b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000258018 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025801a color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000025801b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000258024 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000258026 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000258027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258028 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000258029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025802d color set value "pink"
+data modify entity 6775676c-652d-4000-8000-00000025802e color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000025802f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000258030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000258032 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000258033 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000258034 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000258035 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000258036 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000258037 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000258038 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000258039 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000025803a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000258042 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000258043 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000258044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258046 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258047 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000025804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000258050 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000258051 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000258052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025805a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000025805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000025805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258070 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000258072 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258074 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258075 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000258078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000258079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000025807a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000025807b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026000a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026000b color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000260019 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000260020 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000260021 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000260022 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000260023 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000260024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260028 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000260029 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026002f color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000260030 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000260031 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000260032 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000260033 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000260034 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000260035 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000260038 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000026003e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000026003f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000260040 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000260042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000260047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026004a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026004b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000260050 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000260051 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000260052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260059 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000026005d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000260062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000260077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000026007a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026007b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026007e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000026007f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000026801c color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000268023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268026 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268027 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268028 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000268029 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026802a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026802b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026802e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000026802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000268030 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000268031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000268032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000268033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000268034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000268035 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000268036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000268038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000026803e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000026803f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000268040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268042 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268043 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000268047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026804d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000026804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000026804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000268050 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000268051 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000268052 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000268076 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000268077 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000268078 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000268079 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000026807a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000026807b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000026807c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000026807d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000026807e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000026807f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270008 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270009 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027000a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027000b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027001a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027001b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027001e color set value "purple"
+data modify entity 6775676c-652d-4000-8000-00000027001f color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000270021 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270024 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270025 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000270027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000270028 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000270029 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027002a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027002b color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027002c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027002d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000270030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000270031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000270032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000270033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000270036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270038 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000027003a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027003c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027003d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027003e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027003f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270042 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270043 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027004d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270051 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270053 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270055 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000270056 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000270057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270060 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270061 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270070 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270071 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000270076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000270079 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000027007b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000027007c color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000027007d color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000027007e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278000 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278001 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278008 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278009 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027801a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027801b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027801c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027801e color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000027801f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000278022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278025 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000278026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278028 color set value "purple"
+data modify entity 6775676c-652d-4000-8000-000000278029 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000027802a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027802b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027802e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000027802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000278033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278036 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278037 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000278038 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000278039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027803c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027803d color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278043 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278046 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278047 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027804a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027804b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000027804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000278054 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000278055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278056 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027805e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027805f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278072 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278073 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000278074 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278075 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000278078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000027807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000027807d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280004 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000280005 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028001c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028001e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028001f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280020 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000280022 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000280023 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000280026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000280027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000280028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000280029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000028002a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028002c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280030 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000280033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000280034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280038 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000280039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028003c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028003e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028003f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000280040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000280043 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000280044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000280048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028004a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028004b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028004c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028004d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028004e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028004f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000280050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280052 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000280053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000280054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280057 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028005c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028005d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028005e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000280078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028007a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028007b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028007c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028007d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028007e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000028007f color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000288004 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288005 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028801e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028801f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000288020 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000288021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288026 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000288027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000288028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000288029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000028802a color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028802c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028802d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028802e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000028802f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288030 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000288031 color set value "pink"
+data modify entity 6775676c-652d-4000-8000-000000288032 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288033 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288034 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288035 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288037 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000288038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028803c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028803d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028803e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028803f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288040 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000288041 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000288042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000288043 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000288044 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000288048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028804a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028804b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028804c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028804d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028804e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028804f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000288053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000288054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028805a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028805b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028805c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028805d color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028805e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000028805f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288060 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288061 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000288076 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288077 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000288078 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028807a color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000028807b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028807c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000028807e color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029001d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029001e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029001f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290020 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290021 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290027 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000290028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000290029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029002a color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000029002b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029002c color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000029002d color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000029002e color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-00000029002f color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000290030 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000290031 color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000290032 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290033 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290034 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290035 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290036 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290038 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290039 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029003c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029003d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029003f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290040 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290041 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000290043 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000290044 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000290047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000290048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029004a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029004b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029004c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029004d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029004e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290050 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290051 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290054 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000290055 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290056 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290057 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290058 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290059 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029005a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029005b color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290060 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000290067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029007a color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029007c color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029007f color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029801a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029801b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029801e color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029801f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298020 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298021 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298022 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298023 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298024 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000298025 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000298028 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000298029 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029802a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029802b color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029802c color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000029802d color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000029802e color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-00000029802f color set value "magenta"
+data modify entity 6775676c-652d-4000-8000-000000298030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298032 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000298033 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000298036 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298038 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298039 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029803c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029803d color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029803e color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029803f color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298040 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298041 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298042 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000298043 color set value "blue"
+data modify entity 6775676c-652d-4000-8000-000000298044 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298045 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298046 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298047 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-000000298048 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298049 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-00000029804a color set value "blue"
+data modify entity 6775676c-652d-4000-8000-00000029804b color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029804c color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-00000029804d color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298052 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298053 color set value "light_blue"
+data modify entity 6775676c-652d-4000-8000-000000298058 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000298059 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029805a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029805b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029805e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029805f color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000298062 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298063 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298064 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298065 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298066 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298067 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298068 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298069 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298078 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029807a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029807b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029807c color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029807e color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000029807f color set value "white"
+setblock ~19 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~21 ~2 ~12 minecraft:furnace[lit=true]
+fill ~22 ~2 ~12 ~22 ~2 ~13 minecraft:copper_bulb[lit=true]
+setblock ~25 ~2 ~12 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~40 ~2 ~12 minecraft:furnace[lit=true]
+setblock ~41 ~2 ~12 minecraft:redstone_ore[lit=true]
+setblock ~42 ~2 ~12 minecraft:crying_obsidian
+fill ~43 ~2 ~12 ~44 ~2 ~12 minecraft:respawn_anchor[charges=3]
+fill ~45 ~2 ~12 ~46 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~48 ~2 ~12 ~48 ~2 ~13 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+fill ~50 ~2 ~12 ~50 ~2 ~13 minecraft:furnace[lit=true]
+fill ~52 ~2 ~12 ~53 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+setblock ~54 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~12 ~57 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+fill ~59 ~2 ~12 ~60 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+fill ~61 ~2 ~12 ~61 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~63 ~2 ~12 minecraft:respawn_anchor[charges=3]
+setblock ~67 ~2 ~12 minecraft:furnace[lit=true]
+fill ~69 ~2 ~12 ~69 ~2 ~18 minecraft:furnace[lit=true]
+setblock ~70 ~2 ~12 minecraft:furnace[lit=true]
+fill ~72 ~2 ~12 ~72 ~2 ~13 minecraft:copper_bulb[lit=true]
+setblock ~73 ~2 ~12 minecraft:redstone_ore[lit=true]
+setblock ~74 ~2 ~12 minecraft:weathered_copper_bulb[lit=true]
+setblock ~75 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~77 ~2 ~12 minecraft:weathered_copper_bulb[lit=true]
+fill ~78 ~2 ~12 ~84 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+fill ~86 ~2 ~12 ~88 ~2 ~12 minecraft:furnace[lit=true]
+fill ~89 ~2 ~12 ~94 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~95 ~2 ~12 ~99 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~102 ~2 ~12 minecraft:copper_bulb[lit=true]
+fill ~116 ~2 ~12 ~117 ~2 ~12 minecraft:copper_bulb[lit=true]
+fill ~23 ~2 ~13 ~23 ~2 ~14 minecraft:furnace[lit=true]
+setblock ~24 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+setblock ~38 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~39 ~2 ~13 ~39 ~2 ~14 minecraft:crying_obsidian
+fill ~41 ~2 ~13 ~42 ~2 ~13 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~13 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~13 minecraft:crying_obsidian
+setblock ~49 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~51 ~2 ~13 ~51 ~2 ~14 minecraft:exposed_copper_bulb[lit=true]
+setblock ~52 ~2 ~13 minecraft:respawn_anchor[charges=3]
+setblock ~56 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+setblock ~58 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+setblock ~59 ~2 ~13 minecraft:crying_obsidian
+setblock ~60 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+fill ~63 ~2 ~13 ~63 ~2 ~16 minecraft:furnace[lit=true]
+fill ~64 ~2 ~13 ~64 ~2 ~17 minecraft:crying_obsidian
+setblock ~74 ~2 ~13 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~13 minecraft:weathered_copper_bulb[lit=true]
+fill ~77 ~2 ~13 ~77 ~2 ~15 minecraft:redstone_ore[lit=true]
+setblock ~78 ~2 ~13 minecraft:respawn_anchor[charges=3]
+fill ~79 ~2 ~13 ~81 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~83 ~2 ~13 ~84 ~2 ~13 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~13 minecraft:furnace[lit=true]
+setblock ~86 ~2 ~13 minecraft:respawn_anchor[charges=3]
+fill ~87 ~2 ~13 ~88 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+setblock ~95 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~99 ~2 ~13 ~101 ~2 ~13 minecraft:copper_bulb[lit=true]
+setblock ~104 ~2 ~13 minecraft:copper_bulb[lit=true]
+fill ~115 ~2 ~13 ~115 ~2 ~14 minecraft:copper_bulb[lit=true]
+setblock ~116 ~2 ~13 minecraft:crying_obsidian
+setblock ~117 ~2 ~13 minecraft:exposed_copper_bulb[lit=true]
+fill ~17 ~2 ~14 ~17 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~20 ~2 ~14 ~20 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~37 ~2 ~14 minecraft:furnace[lit=true]
+setblock ~38 ~2 ~14 minecraft:respawn_anchor[charges=3]
+setblock ~40 ~2 ~14 minecraft:crying_obsidian
+fill ~41 ~2 ~14 ~43 ~2 ~14 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~46 ~2 ~14 ~47 ~2 ~14 minecraft:respawn_anchor[charges=3]
+setblock ~48 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~49 ~2 ~14 ~50 ~2 ~14 minecraft:exposed_copper_bulb[lit=true]
+setblock ~52 ~2 ~14 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~14 ~58 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~59 ~2 ~14 ~59 ~2 ~17 minecraft:respawn_anchor[charges=3]
+fill ~70 ~2 ~14 ~71 ~2 ~15 minecraft:furnace[lit=true]
+setblock ~74 ~2 ~14 minecraft:copper_bulb[lit=true]
+setblock ~75 ~2 ~14 minecraft:respawn_anchor[charges=3]
+setblock ~76 ~2 ~14 minecraft:crying_obsidian
+setblock ~78 ~2 ~14 minecraft:weathered_copper_bulb[lit=true]
+setblock ~79 ~2 ~14 minecraft:respawn_anchor[charges=3]
+setblock ~80 ~2 ~14 minecraft:exposed_copper_bulb[lit=true]
+setblock ~85 ~2 ~14 minecraft:copper_bulb[lit=true]
+setblock ~86 ~2 ~14 minecraft:exposed_copper_bulb[lit=true]
+fill ~87 ~2 ~14 ~88 ~2 ~14 minecraft:furnace[lit=true]
+setblock ~99 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~101 ~2 ~14 ~103 ~2 ~14 minecraft:copper_bulb[lit=true]
+fill ~106 ~2 ~14 ~106 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~116 ~2 ~14 minecraft:weathered_copper_bulb[lit=true]
+fill ~117 ~2 ~14 ~117 ~2 ~15 minecraft:crying_obsidian
+fill ~7 ~2 ~15 ~8 ~2 ~15 minecraft:furnace[lit=true]
+fill ~11 ~2 ~15 ~12 ~2 ~15 minecraft:furnace[lit=true]
+fill ~21 ~2 ~15 ~21 ~2 ~16 minecraft:furnace[lit=true]
+setblock ~22 ~2 ~15 minecraft:exposed_copper_bulb[lit=true]
+setblock ~36 ~2 ~15 minecraft:copper_bulb[lit=true]
+fill ~37 ~2 ~15 ~38 ~2 ~15 minecraft:redstone_ore[lit=true]
+setblock ~40 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~44 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~15 minecraft:exposed_copper_bulb[lit=true]
+setblock ~46 ~2 ~15 minecraft:respawn_anchor[charges=3]
+fill ~47 ~2 ~15 ~47 ~2 ~16 minecraft:furnace[lit=true]
+fill ~49 ~2 ~15 ~50 ~2 ~15 minecraft:furnace[lit=true]
+fill ~51 ~2 ~15 ~52 ~2 ~15 minecraft:copper_bulb[lit=true]
+fill ~58 ~2 ~15 ~58 ~2 ~16 minecraft:copper_bulb[lit=true]
+setblock ~62 ~2 ~15 minecraft:furnace[lit=true]
+fill ~67 ~2 ~15 ~67 ~2 ~18 minecraft:furnace[lit=true]
+fill ~75 ~2 ~15 ~76 ~2 ~15 minecraft:copper_bulb[lit=true]
+fill ~78 ~2 ~15 ~79 ~2 ~15 minecraft:redstone_ore[lit=true]
+fill ~80 ~2 ~15 ~81 ~2 ~15 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~15 minecraft:respawn_anchor[charges=2]
+fill ~83 ~2 ~15 ~84 ~2 ~15 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~15 minecraft:respawn_anchor[charges=3]
+setblock ~87 ~2 ~15 minecraft:respawn_anchor[charges=3]
+setblock ~88 ~2 ~15 minecraft:furnace[lit=true]
+fill ~89 ~2 ~15 ~91 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~92 ~2 ~15 minecraft:furnace[lit=true]
+fill ~93 ~2 ~15 ~93 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~94 ~2 ~15 ~94 ~2 ~16 minecraft:furnace[lit=true]
+setblock ~101 ~2 ~15 minecraft:copper_bulb[lit=true]
+fill ~103 ~2 ~15 ~105 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~15 ~114 ~2 ~16 minecraft:copper_bulb[lit=true]
+setblock ~118 ~2 ~15 minecraft:respawn_anchor[charges=3]
+fill ~126 ~2 ~15 ~127 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~5 ~2 ~16 ~7 ~2 ~16 minecraft:furnace[lit=true]
+fill ~8 ~2 ~16 ~9 ~2 ~16 minecraft:copper_bulb[lit=true]
+setblock ~11 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~12 ~2 ~16 ~14 ~2 ~16 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~16 minecraft:copper_bulb[lit=true]
+setblock ~35 ~2 ~16 minecraft:respawn_anchor[charges=3]
+fill ~37 ~2 ~16 ~38 ~2 ~16 minecraft:furnace[lit=true]
+fill ~40 ~2 ~16 ~41 ~2 ~16 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~16 minecraft:redstone_ore[lit=true]
+setblock ~49 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~61 ~2 ~16 ~61 ~2 ~17 minecraft:furnace[lit=true]
+fill ~65 ~2 ~16 ~65 ~2 ~20 minecraft:copper_bulb[lit=true]
+fill ~70 ~2 ~16 ~70 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~76 ~2 ~16 minecraft:copper_bulb[lit=true]
+setblock ~78 ~2 ~16 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~16 minecraft:redstone_ore[lit=true]
+fill ~80 ~2 ~16 ~81 ~2 ~16 minecraft:exposed_copper_bulb[lit=true]
+setblock ~82 ~2 ~16 minecraft:respawn_anchor[charges=3]
+setblock ~83 ~2 ~16 minecraft:crying_obsidian
+setblock ~84 ~2 ~16 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~16 minecraft:weathered_copper_bulb[lit=true]
+fill ~86 ~2 ~16 ~87 ~2 ~16 minecraft:respawn_anchor[charges=2]
+setblock ~88 ~2 ~16 minecraft:redstone_ore[lit=true]
+setblock ~89 ~2 ~16 minecraft:furnace[lit=true]
+setblock ~92 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~96 ~2 ~16 ~96 ~2 ~17 minecraft:furnace[lit=true]
+fill ~108 ~2 ~16 ~108 ~2 ~18 minecraft:copper_bulb[lit=true]
+fill ~113 ~2 ~16 ~113 ~2 ~17 minecraft:copper_bulb[lit=true]
+fill ~115 ~2 ~16 ~115 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+setblock ~116 ~2 ~16 minecraft:crying_obsidian
+setblock ~118 ~2 ~16 minecraft:weathered_copper_bulb[lit=true]
+setblock ~119 ~2 ~16 minecraft:furnace[lit=true]
+fill ~120 ~2 ~16 ~121 ~2 ~16 minecraft:copper_bulb[lit=true]
+fill ~123 ~2 ~16 ~124 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~125 ~2 ~16 minecraft:copper_bulb[lit=true]
+setblock ~5 ~2 ~17 minecraft:respawn_anchor[charges=3]
+setblock ~6 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~13 ~2 ~17 minecraft:copper_bulb[lit=true]
+fill ~18 ~2 ~17 ~18 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~20 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~17 minecraft:copper_bulb[lit=true]
+fill ~40 ~2 ~17 ~41 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~43 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~44 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+setblock ~46 ~2 ~17 minecraft:furnace[lit=true]
+fill ~48 ~2 ~17 ~49 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~51 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~17 minecraft:furnace[lit=true]
+fill ~57 ~2 ~17 ~57 ~2 ~18 minecraft:copper_bulb[lit=true]
+setblock ~60 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~62 ~2 ~17 minecraft:furnace[lit=true]
+fill ~68 ~2 ~17 ~68 ~2 ~21 minecraft:furnace[lit=true]
+fill ~77 ~2 ~17 ~78 ~2 ~17 minecraft:copper_bulb[lit=true]
+fill ~79 ~2 ~17 ~80 ~2 ~17 minecraft:crying_obsidian
+fill ~81 ~2 ~17 ~86 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+setblock ~87 ~2 ~17 minecraft:redstone_ore[lit=true]
+setblock ~88 ~2 ~17 minecraft:crying_obsidian
+fill ~89 ~2 ~17 ~91 ~2 ~19 minecraft:copper_bulb[lit=true]
+fill ~92 ~2 ~17 ~93 ~2 ~17 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~17 minecraft:copper_bulb[lit=true]
+fill ~105 ~2 ~17 ~106 ~2 ~18 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~116 ~2 ~17 minecraft:redstone_ore[lit=true]
+setblock ~117 ~2 ~17 minecraft:respawn_anchor[charges=3]
+setblock ~119 ~2 ~17 minecraft:redstone_ore[lit=true]
+setblock ~120 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+fill ~121 ~2 ~17 ~122 ~2 ~17 minecraft:copper_bulb[lit=true]
+setblock ~5 ~2 ~18 minecraft:furnace[lit=true]
+setblock ~8 ~2 ~18 minecraft:copper_bulb[lit=true]
+setblock ~13 ~2 ~18 minecraft:exposed_copper_bulb[lit=true]
+setblock ~16 ~2 ~18 minecraft:copper_bulb[lit=true]
+fill ~19 ~2 ~18 ~19 ~2 ~19 minecraft:furnace[lit=true]
+fill ~20 ~2 ~18 ~21 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~31 ~2 ~18 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~18 minecraft:furnace[lit=true]
+fill ~50 ~2 ~18 ~50 ~2 ~19 minecraft:furnace[lit=true]
+fill ~52 ~2 ~18 ~52 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~18 minecraft:copper_bulb[lit=true]
+fill ~56 ~2 ~18 ~56 ~2 ~21 minecraft:copper_bulb[lit=true]
+fill ~62 ~2 ~18 ~62 ~2 ~19 minecraft:copper_bulb[lit=true]
+fill ~63 ~2 ~18 ~63 ~2 ~19 minecraft:furnace[lit=true]
+fill ~64 ~2 ~18 ~64 ~2 ~20 minecraft:redstone_ore[lit=true]
+fill ~71 ~2 ~18 ~71 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~18 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~18 minecraft:weathered_copper_bulb[lit=true]
+fill ~82 ~2 ~18 ~85 ~2 ~18 minecraft:exposed_copper_bulb[lit=true]
+setblock ~86 ~2 ~18 minecraft:respawn_anchor[charges=3]
+setblock ~87 ~2 ~18 minecraft:weathered_copper_bulb[lit=true]
+setblock ~88 ~2 ~18 minecraft:respawn_anchor[charges=3]
+fill ~92 ~2 ~18 ~92 ~2 ~21 minecraft:copper_bulb[lit=true]
+fill ~93 ~2 ~18 ~95 ~2 ~18 minecraft:furnace[lit=true]
+setblock ~98 ~2 ~18 minecraft:exposed_copper_bulb[lit=true]
+fill ~107 ~2 ~18 ~107 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~18 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~18 minecraft:exposed_copper_bulb[lit=true]
+setblock ~113 ~2 ~18 minecraft:crying_obsidian
+setblock ~115 ~2 ~18 minecraft:respawn_anchor[charges=3]
+setblock ~117 ~2 ~18 minecraft:exposed_copper_bulb[lit=true]
+setblock ~118 ~2 ~18 minecraft:crying_obsidian
+fill ~119 ~2 ~18 ~120 ~2 ~18 minecraft:weathered_copper_bulb[lit=true]
+setblock ~121 ~2 ~18 minecraft:furnace[lit=true]
+fill ~124 ~2 ~18 ~127 ~2 ~18 minecraft:exposed_copper_bulb[lit=true]
+fill ~3 ~2 ~19 ~4 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~6 ~2 ~19 minecraft:exposed_copper_bulb[lit=true]
+fill ~15 ~2 ~19 ~16 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~17 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~31 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~32 ~2 ~19 minecraft:respawn_anchor[charges=3]
+setblock ~34 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~42 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~43 ~2 ~19 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~58 ~2 ~19 minecraft:exposed_copper_bulb[lit=true]
+setblock ~59 ~2 ~19 minecraft:copper_bulb[lit=true]
+fill ~60 ~2 ~19 ~61 ~2 ~21 minecraft:furnace[lit=true]
+fill ~66 ~2 ~19 ~66 ~2 ~22 minecraft:furnace[lit=true]
+fill ~70 ~2 ~19 ~70 ~2 ~21 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~19 minecraft:respawn_anchor[charges=3]
+setblock ~82 ~2 ~19 minecraft:crying_obsidian
+setblock ~83 ~2 ~19 minecraft:respawn_anchor[charges=3]
+fill ~84 ~2 ~19 ~84 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+fill ~86 ~2 ~19 ~87 ~2 ~19 minecraft:redstone_ore[lit=true]
+setblock ~95 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~19 minecraft:respawn_anchor[charges=3]
+setblock ~97 ~2 ~19 minecraft:exposed_copper_bulb[lit=true]
+setblock ~98 ~2 ~19 minecraft:furnace[lit=true]
+setblock ~106 ~2 ~19 minecraft:copper_bulb[lit=true]
+fill ~109 ~2 ~19 ~110 ~2 ~19 minecraft:copper_bulb[lit=true]
+fill ~111 ~2 ~19 ~112 ~2 ~19 minecraft:crying_obsidian
+fill ~114 ~2 ~19 ~115 ~2 ~19 minecraft:redstone_ore[lit=true]
+fill ~117 ~2 ~19 ~118 ~2 ~19 minecraft:copper_bulb[lit=true]
+setblock ~119 ~2 ~19 minecraft:exposed_copper_bulb[lit=true]
+setblock ~120 ~2 ~19 minecraft:crying_obsidian
+setblock ~121 ~2 ~19 minecraft:sculk_catalyst[bloom=true]
+setblock ~122 ~2 ~19 minecraft:redstone_ore[lit=true]
+fill ~123 ~2 ~19 ~124 ~2 ~19 minecraft:crying_obsidian
+fill ~125 ~2 ~19 ~127 ~2 ~19 minecraft:respawn_anchor[charges=3]
+fill ~3 ~2 ~20 ~3 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+fill ~6 ~2 ~20 ~6 ~2 ~23 minecraft:copper_bulb[lit=true]
+setblock ~15 ~2 ~20 minecraft:furnace[lit=true]
+fill ~16 ~2 ~20 ~16 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+setblock ~18 ~2 ~20 minecraft:respawn_anchor[charges=3]
+fill ~31 ~2 ~20 ~32 ~2 ~20 minecraft:redstone_ore[lit=true]
+setblock ~42 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+setblock ~43 ~2 ~20 minecraft:crying_obsidian
+fill ~44 ~2 ~20 ~44 ~2 ~21 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~20 minecraft:furnace[lit=true]
+fill ~47 ~2 ~20 ~50 ~2 ~20 minecraft:copper_bulb[lit=true]
+setblock ~52 ~2 ~20 minecraft:furnace[lit=true]
+setblock ~57 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+setblock ~58 ~2 ~20 minecraft:respawn_anchor[charges=3]
+setblock ~63 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+fill ~67 ~2 ~20 ~67 ~2 ~21 minecraft:furnace[lit=true]
+fill ~69 ~2 ~20 ~69 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~20 minecraft:copper_bulb[lit=true]
+setblock ~83 ~2 ~20 minecraft:weathered_copper_bulb[lit=true]
+setblock ~85 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+setblock ~86 ~2 ~20 minecraft:respawn_anchor[charges=2]
+setblock ~87 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+fill ~88 ~2 ~20 ~88 ~2 ~21 minecraft:copper_bulb[lit=true]
+fill ~91 ~2 ~20 ~91 ~2 ~21 minecraft:copper_bulb[lit=true]
+fill ~96 ~2 ~20 ~97 ~2 ~20 minecraft:furnace[lit=true]
+setblock ~100 ~2 ~20 minecraft:furnace[lit=true]
+setblock ~109 ~2 ~20 minecraft:copper_bulb[lit=true]
+setblock ~110 ~2 ~20 minecraft:exposed_copper_bulb[lit=true]
+setblock ~111 ~2 ~20 minecraft:crying_obsidian
+setblock ~112 ~2 ~20 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~20 ~114 ~2 ~22 minecraft:copper_bulb[lit=true]
+fill ~115 ~2 ~20 ~115 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~117 ~2 ~20 minecraft:copper_bulb[lit=true]
+fill ~119 ~2 ~20 ~120 ~2 ~20 minecraft:copper_bulb[lit=true]
+setblock ~121 ~2 ~20 minecraft:respawn_anchor[charges=3]
+setblock ~122 ~2 ~20 minecraft:weathered_copper_bulb[lit=true]
+fill ~123 ~2 ~20 ~126 ~2 ~20 minecraft:copper_bulb[lit=true]
+fill ~17 ~2 ~21 ~17 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~18 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+fill ~30 ~2 ~21 ~31 ~2 ~21 minecraft:crying_obsidian
+setblock ~32 ~2 ~21 minecraft:furnace[lit=true]
+fill ~40 ~2 ~21 ~40 ~2 ~23 minecraft:copper_bulb[lit=true]
+setblock ~42 ~2 ~21 minecraft:redstone_ore[lit=true]
+setblock ~46 ~2 ~21 minecraft:furnace[lit=true]
+setblock ~57 ~2 ~21 minecraft:crying_obsidian
+setblock ~58 ~2 ~21 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~21 minecraft:copper_bulb[lit=true]
+fill ~62 ~2 ~21 ~62 ~2 ~22 minecraft:copper_bulb[lit=true]
+fill ~63 ~2 ~21 ~64 ~2 ~21 minecraft:respawn_anchor[charges=3]
+fill ~71 ~2 ~21 ~71 ~2 ~28 minecraft:furnace[lit=true]
+fill ~72 ~2 ~21 ~72 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~82 ~2 ~21 minecraft:copper_bulb[lit=true]
+setblock ~83 ~2 ~21 minecraft:crying_obsidian
+fill ~84 ~2 ~21 ~85 ~2 ~21 minecraft:redstone_ore[lit=true]
+setblock ~86 ~2 ~21 minecraft:sculk_catalyst[bloom=true]
+fill ~87 ~2 ~21 ~87 ~2 ~23 minecraft:copper_bulb[lit=true]
+fill ~89 ~2 ~21 ~89 ~2 ~25 minecraft:copper_bulb[lit=true]
+fill ~93 ~2 ~21 ~93 ~2 ~28 minecraft:copper_bulb[lit=true]
+setblock ~97 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+fill ~98 ~2 ~21 ~99 ~2 ~21 minecraft:furnace[lit=true]
+fill ~100 ~2 ~21 ~100 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+fill ~108 ~2 ~21 ~108 ~2 ~23 minecraft:copper_bulb[lit=true]
+setblock ~110 ~2 ~21 minecraft:redstone_ore[lit=true]
+fill ~112 ~2 ~21 ~112 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~113 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+setblock ~116 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+setblock ~119 ~2 ~21 minecraft:furnace[lit=true]
+setblock ~120 ~2 ~21 minecraft:copper_bulb[lit=true]
+setblock ~123 ~2 ~21 minecraft:respawn_anchor[charges=2]
+setblock ~124 ~2 ~21 minecraft:exposed_copper_bulb[lit=true]
+setblock ~125 ~2 ~21 minecraft:copper_bulb[lit=true]
+setblock ~127 ~2 ~21 minecraft:copper_bulb[lit=true]
+setblock ~3 ~2 ~22 minecraft:respawn_anchor[charges=3]
+setblock ~16 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~41 ~2 ~22 minecraft:respawn_anchor[charges=3]
+setblock ~42 ~2 ~22 minecraft:crying_obsidian
+fill ~43 ~2 ~22 ~43 ~2 ~24 minecraft:copper_bulb[lit=true]
+fill ~44 ~2 ~22 ~45 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~22 minecraft:copper_bulb[lit=true]
+fill ~56 ~2 ~22 ~57 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~58 ~2 ~22 minecraft:copper_bulb[lit=true]
+setblock ~59 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~61 ~2 ~22 minecraft:furnace[lit=true]
+fill ~63 ~2 ~22 ~63 ~2 ~23 minecraft:redstone_ore[lit=true]
+fill ~65 ~2 ~22 ~65 ~2 ~25 minecraft:furnace[lit=true]
+fill ~67 ~2 ~22 ~67 ~2 ~23 minecraft:copper_bulb[lit=true]
+setblock ~83 ~2 ~22 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~22 minecraft:respawn_anchor[charges=2]
+setblock ~86 ~2 ~22 minecraft:respawn_anchor[charges=3]
+fill ~90 ~2 ~22 ~90 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~94 ~2 ~22 ~94 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~97 ~2 ~22 minecraft:furnace[lit=true]
+fill ~98 ~2 ~22 ~99 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~109 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~110 ~2 ~22 minecraft:furnace[lit=true]
+fill ~113 ~2 ~22 ~113 ~2 ~25 minecraft:copper_bulb[lit=true]
+fill ~116 ~2 ~22 ~117 ~2 ~22 minecraft:furnace[lit=true]
+setblock ~121 ~2 ~22 minecraft:furnace[lit=true]
+fill ~123 ~2 ~22 ~123 ~2 ~23 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~22 minecraft:respawn_anchor[charges=2]
+setblock ~125 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~3 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~16 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~27 ~2 ~23 minecraft:copper_bulb[lit=true]
+setblock ~28 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~30 ~2 ~23 minecraft:furnace[lit=true]
+fill ~41 ~2 ~23 ~41 ~2 ~24 minecraft:redstone_ore[lit=true]
+setblock ~42 ~2 ~23 minecraft:furnace[lit=true]
+fill ~54 ~2 ~23 ~54 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~23 minecraft:redstone_ore[lit=true]
+fill ~57 ~2 ~23 ~57 ~2 ~24 minecraft:copper_bulb[lit=true]
+fill ~58 ~2 ~23 ~58 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~23 minecraft:furnace[lit=true]
+fill ~61 ~2 ~23 ~61 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~66 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~68 ~2 ~23 minecraft:furnace[lit=true]
+fill ~70 ~2 ~23 ~70 ~2 ~31 minecraft:furnace[lit=true]
+fill ~73 ~2 ~23 ~73 ~2 ~31 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~23 minecraft:crying_obsidian
+setblock ~86 ~2 ~23 minecraft:redstone_ore[lit=true]
+fill ~88 ~2 ~23 ~88 ~2 ~24 minecraft:copper_bulb[lit=true]
+fill ~91 ~2 ~23 ~91 ~2 ~24 minecraft:copper_bulb[lit=true]
+fill ~95 ~2 ~23 ~95 ~2 ~29 minecraft:copper_bulb[lit=true]
+fill ~98 ~2 ~23 ~100 ~2 ~23 minecraft:furnace[lit=true]
+fill ~109 ~2 ~23 ~109 ~2 ~24 minecraft:respawn_anchor[charges=3]
+fill ~110 ~2 ~23 ~112 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~117 ~2 ~23 ~117 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~23 minecraft:furnace[lit=true]
+setblock ~125 ~2 ~23 minecraft:weathered_copper_bulb[lit=true]
+setblock ~126 ~2 ~23 minecraft:exposed_copper_bulb[lit=true]
+setblock ~3 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~5 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~6 ~2 ~24 minecraft:exposed_copper_bulb[lit=true]
+fill ~25 ~2 ~24 ~26 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~27 ~2 ~24 minecraft:respawn_anchor[charges=3]
+setblock ~28 ~2 ~24 minecraft:weathered_copper_bulb[lit=true]
+fill ~39 ~2 ~24 ~39 ~2 ~25 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~24 minecraft:redstone_ore[lit=true]
+setblock ~59 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~62 ~2 ~24 minecraft:crying_obsidian
+setblock ~63 ~2 ~24 minecraft:exposed_copper_bulb[lit=true]
+fill ~66 ~2 ~24 ~66 ~2 ~26 minecraft:respawn_anchor[charges=3]
+fill ~84 ~2 ~24 ~84 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~24 minecraft:copper_bulb[lit=true]
+setblock ~86 ~2 ~24 minecraft:respawn_anchor[charges=3]
+setblock ~87 ~2 ~24 minecraft:crying_obsidian
+fill ~92 ~2 ~24 ~92 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~96 ~2 ~24 ~96 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~99 ~2 ~24 ~99 ~2 ~30 minecraft:exposed_copper_bulb[lit=true]
+fill ~100 ~2 ~24 ~100 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~108 ~2 ~24 minecraft:crying_obsidian
+fill ~118 ~2 ~24 ~118 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~24 minecraft:exposed_copper_bulb[lit=true]
+setblock ~125 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~24 minecraft:redstone_ore[lit=true]
+setblock ~127 ~2 ~24 minecraft:furnace[lit=true]
+fill ~4 ~2 ~25 ~6 ~2 ~25 minecraft:furnace[lit=true]
+fill ~8 ~2 ~25 ~9 ~2 ~25 minecraft:copper_bulb[lit=true]
+setblock ~15 ~2 ~25 minecraft:exposed_copper_bulb[lit=true]
+fill ~23 ~2 ~25 ~24 ~2 ~25 minecraft:copper_bulb[lit=true]
+setblock ~25 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~26 ~2 ~25 minecraft:respawn_anchor[charges=3]
+setblock ~27 ~2 ~25 minecraft:crying_obsidian
+setblock ~40 ~2 ~25 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~25 minecraft:exposed_copper_bulb[lit=true]
+fill ~43 ~2 ~25 ~43 ~2 ~26 minecraft:furnace[lit=true]
+fill ~45 ~2 ~25 ~45 ~2 ~32 minecraft:furnace[lit=true]
+setblock ~52 ~2 ~25 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~25 minecraft:redstone_ore[lit=true]
+setblock ~55 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~56 ~2 ~25 minecraft:copper_bulb[lit=true]
+fill ~60 ~2 ~25 ~60 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~61 ~2 ~25 minecraft:exposed_copper_bulb[lit=true]
+setblock ~62 ~2 ~25 minecraft:redstone_ore[lit=true]
+fill ~63 ~2 ~25 ~63 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~64 ~2 ~25 ~64 ~2 ~26 minecraft:furnace[lit=true]
+fill ~72 ~2 ~25 ~72 ~2 ~31 minecraft:furnace[lit=true]
+fill ~85 ~2 ~25 ~85 ~2 ~29 minecraft:furnace[lit=true]
+fill ~87 ~2 ~25 ~88 ~2 ~25 minecraft:redstone_ore[lit=true]
+fill ~97 ~2 ~25 ~97 ~2 ~30 minecraft:copper_bulb[lit=true]
+setblock ~108 ~2 ~25 minecraft:redstone_ore[lit=true]
+fill ~109 ~2 ~25 ~109 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~115 ~2 ~25 minecraft:copper_bulb[lit=true]
+setblock ~125 ~2 ~25 minecraft:crying_obsidian
+setblock ~127 ~2 ~25 minecraft:crying_obsidian
+setblock ~5 ~2 ~26 minecraft:respawn_anchor[charges=3]
+setblock ~7 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~12 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~15 ~2 ~26 minecraft:furnace[lit=true]
+fill ~17 ~2 ~26 ~20 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~21 ~2 ~26 ~22 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~23 ~2 ~26 ~24 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~26 minecraft:crying_obsidian
+setblock ~26 ~2 ~26 minecraft:redstone_ore[lit=true]
+setblock ~38 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~40 ~2 ~26 ~40 ~2 ~27 minecraft:redstone_ore[lit=true]
+setblock ~41 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~42 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~52 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~53 ~2 ~26 minecraft:weathered_copper_bulb[lit=true]
+setblock ~55 ~2 ~26 minecraft:copper_bulb[lit=true]
+fill ~56 ~2 ~26 ~57 ~2 ~26 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~61 ~2 ~26 minecraft:weathered_copper_bulb[lit=true]
+setblock ~62 ~2 ~26 minecraft:furnace[lit=true]
+fill ~68 ~2 ~26 ~68 ~2 ~33 minecraft:copper_bulb[lit=true]
+fill ~78 ~2 ~26 ~78 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~81 ~2 ~26 ~81 ~2 ~35 minecraft:copper_bulb[lit=true]
+fill ~87 ~2 ~26 ~87 ~2 ~34 minecraft:furnace[lit=true]
+fill ~88 ~2 ~26 ~89 ~2 ~26 minecraft:crying_obsidian
+fill ~91 ~2 ~26 ~91 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~94 ~2 ~26 ~94 ~2 ~28 minecraft:copper_bulb[lit=true]
+fill ~98 ~2 ~26 ~98 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~101 ~2 ~26 ~101 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~107 ~2 ~26 minecraft:weathered_copper_bulb[lit=true]
+fill ~108 ~2 ~26 ~108 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~26 ~114 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~125 ~2 ~26 ~126 ~2 ~26 minecraft:exposed_copper_bulb[lit=true]
+setblock ~127 ~2 ~26 minecraft:furnace[lit=true]
+fill ~5 ~2 ~27 ~6 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~11 ~2 ~27 minecraft:furnace[lit=true]
+fill ~14 ~2 ~27 ~15 ~2 ~27 minecraft:respawn_anchor[charges=3]
+setblock ~16 ~2 ~27 minecraft:exposed_copper_bulb[lit=true]
+fill ~21 ~2 ~27 ~22 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~23 ~2 ~27 minecraft:crying_obsidian
+setblock ~24 ~2 ~27 minecraft:redstone_ore[lit=true]
+setblock ~25 ~2 ~27 minecraft:exposed_copper_bulb[lit=true]
+setblock ~26 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~27 ~2 ~27 minecraft:copper_bulb[lit=true]
+setblock ~39 ~2 ~27 minecraft:furnace[lit=true]
+fill ~44 ~2 ~27 ~44 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~27 minecraft:copper_bulb[lit=true]
+setblock ~51 ~2 ~27 minecraft:respawn_anchor[charges=3]
+setblock ~52 ~2 ~27 minecraft:redstone_ore[lit=true]
+setblock ~53 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~55 ~2 ~27 ~55 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~56 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~27 minecraft:redstone_ore[lit=true]
+setblock ~61 ~2 ~27 minecraft:exposed_copper_bulb[lit=true]
+setblock ~62 ~2 ~27 minecraft:copper_bulb[lit=true]
+fill ~63 ~2 ~27 ~63 ~2 ~28 minecraft:furnace[lit=true]
+fill ~66 ~2 ~27 ~66 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+fill ~80 ~2 ~27 ~80 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~86 ~2 ~27 ~86 ~2 ~35 minecraft:furnace[lit=true]
+setblock ~89 ~2 ~27 minecraft:weathered_copper_bulb[lit=true]
+setblock ~90 ~2 ~27 minecraft:redstone_ore[lit=true]
+setblock ~106 ~2 ~27 minecraft:redstone_ore[lit=true]
+fill ~107 ~2 ~27 ~107 ~2 ~34 minecraft:copper_bulb[lit=true]
+fill ~110 ~2 ~27 ~110 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~27 minecraft:copper_bulb[lit=true]
+setblock ~121 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~27 minecraft:crying_obsidian
+fill ~7 ~2 ~28 ~8 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~14 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+setblock ~15 ~2 ~28 minecraft:redstone_ore[lit=true]
+setblock ~16 ~2 ~28 minecraft:respawn_anchor[charges=3]
+setblock ~17 ~2 ~28 minecraft:furnace[lit=true]
+fill ~18 ~2 ~28 ~20 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+fill ~21 ~2 ~28 ~22 ~2 ~28 minecraft:crying_obsidian
+fill ~23 ~2 ~28 ~24 ~2 ~28 minecraft:respawn_anchor[charges=3]
+setblock ~26 ~2 ~28 minecraft:copper_bulb[lit=true]
+fill ~34 ~2 ~28 ~37 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+setblock ~40 ~2 ~28 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+fill ~50 ~2 ~28 ~50 ~2 ~29 minecraft:respawn_anchor[charges=3]
+setblock ~51 ~2 ~28 minecraft:crying_obsidian
+setblock ~52 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+setblock ~54 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~28 minecraft:redstone_ore[lit=true]
+setblock ~60 ~2 ~28 minecraft:respawn_anchor[charges=3]
+setblock ~61 ~2 ~28 minecraft:copper_bulb[lit=true]
+fill ~62 ~2 ~28 ~62 ~2 ~29 minecraft:furnace[lit=true]
+fill ~65 ~2 ~28 ~65 ~2 ~31 minecraft:copper_bulb[lit=true]
+fill ~67 ~2 ~28 ~67 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+fill ~79 ~2 ~28 ~79 ~2 ~32 minecraft:copper_bulb[lit=true]
+setblock ~82 ~2 ~28 minecraft:furnace[lit=true]
+fill ~84 ~2 ~28 ~84 ~2 ~29 minecraft:furnace[lit=true]
+fill ~88 ~2 ~28 ~89 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~90 ~2 ~28 minecraft:respawn_anchor[charges=3]
+setblock ~91 ~2 ~28 minecraft:redstone_ore[lit=true]
+setblock ~92 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+fill ~96 ~2 ~28 ~96 ~2 ~29 minecraft:copper_bulb[lit=true]
+fill ~102 ~2 ~28 ~102 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~105 ~2 ~28 minecraft:exposed_copper_bulb[lit=true]
+setblock ~106 ~2 ~28 minecraft:crying_obsidian
+setblock ~108 ~2 ~28 minecraft:furnace[lit=true]
+fill ~109 ~2 ~28 ~109 ~2 ~30 minecraft:copper_bulb[lit=true]
+fill ~112 ~2 ~28 ~112 ~2 ~29 minecraft:furnace[lit=true]
+fill ~113 ~2 ~28 ~113 ~2 ~30 minecraft:copper_bulb[lit=true]
+fill ~122 ~2 ~28 ~122 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+setblock ~126 ~2 ~28 minecraft:furnace[lit=true]
+setblock ~127 ~2 ~28 minecraft:crying_obsidian
+fill ~14 ~2 ~29 ~14 ~2 ~32 minecraft:furnace[lit=true]
+setblock ~15 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+fill ~17 ~2 ~29 ~19 ~2 ~29 minecraft:crying_obsidian
+setblock ~21 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+setblock ~22 ~2 ~29 minecraft:respawn_anchor[charges=3]
+setblock ~24 ~2 ~29 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~29 minecraft:furnace[lit=true]
+fill ~32 ~2 ~29 ~33 ~2 ~29 minecraft:furnace[lit=true]
+fill ~39 ~2 ~29 ~40 ~2 ~31 minecraft:furnace[lit=true]
+fill ~42 ~2 ~29 ~42 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~43 ~2 ~29 ~43 ~2 ~30 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~29 minecraft:exposed_copper_bulb[lit=true]
+fill ~48 ~2 ~29 ~48 ~2 ~30 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~29 minecraft:crying_obsidian
+fill ~51 ~2 ~29 ~52 ~2 ~29 minecraft:copper_bulb[lit=true]
+fill ~53 ~2 ~29 ~53 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~29 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~58 ~2 ~29 minecraft:redstone_ore[lit=true]
+setblock ~59 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~29 minecraft:copper_bulb[lit=true]
+fill ~61 ~2 ~29 ~61 ~2 ~32 minecraft:furnace[lit=true]
+setblock ~90 ~2 ~29 minecraft:copper_bulb[lit=true]
+setblock ~91 ~2 ~29 minecraft:crying_obsidian
+setblock ~92 ~2 ~29 minecraft:redstone_ore[lit=true]
+setblock ~93 ~2 ~29 minecraft:respawn_anchor[charges=3]
+fill ~98 ~2 ~29 ~98 ~2 ~30 minecraft:copper_bulb[lit=true]
+fill ~100 ~2 ~29 ~100 ~2 ~30 minecraft:exposed_copper_bulb[lit=true]
+fill ~103 ~2 ~29 ~103 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~104 ~2 ~29 minecraft:copper_bulb[lit=true]
+setblock ~105 ~2 ~29 minecraft:crying_obsidian
+fill ~108 ~2 ~29 ~108 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~111 ~2 ~29 ~111 ~2 ~31 minecraft:furnace[lit=true]
+fill ~121 ~2 ~29 ~121 ~2 ~30 minecraft:copper_bulb[lit=true]
+setblock ~123 ~2 ~29 minecraft:furnace[lit=true]
+setblock ~127 ~2 ~29 minecraft:redstone_ore[lit=true]
+fill ~16 ~2 ~30 ~16 ~2 ~31 minecraft:furnace[lit=true]
+setblock ~17 ~2 ~30 minecraft:respawn_anchor[charges=3]
+fill ~18 ~2 ~30 ~18 ~2 ~31 minecraft:redstone_ore[lit=true]
+setblock ~19 ~2 ~30 minecraft:copper_bulb[lit=true]
+fill ~20 ~2 ~30 ~21 ~2 ~30 minecraft:furnace[lit=true]
+fill ~22 ~2 ~30 ~23 ~2 ~31 minecraft:copper_bulb[lit=true]
+fill ~25 ~2 ~30 ~28 ~2 ~30 minecraft:furnace[lit=true]
+fill ~30 ~2 ~30 ~30 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~46 ~2 ~30 minecraft:respawn_anchor[charges=3]
+setblock ~47 ~2 ~30 minecraft:crying_obsidian
+setblock ~51 ~2 ~30 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~30 minecraft:crying_obsidian
+setblock ~56 ~2 ~30 minecraft:redstone_ore[lit=true]
+setblock ~57 ~2 ~30 minecraft:exposed_copper_bulb[lit=true]
+fill ~60 ~2 ~30 ~60 ~2 ~32 minecraft:furnace[lit=true]
+fill ~67 ~2 ~30 ~67 ~2 ~36 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~30 minecraft:furnace[lit=true]
+fill ~78 ~2 ~30 ~78 ~2 ~33 minecraft:copper_bulb[lit=true]
+setblock ~90 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~93 ~2 ~30 minecraft:weathered_copper_bulb[lit=true]
+setblock ~94 ~2 ~30 minecraft:redstone_ore[lit=true]
+setblock ~96 ~2 ~30 minecraft:exposed_copper_bulb[lit=true]
+fill ~104 ~2 ~30 ~105 ~2 ~30 minecraft:exposed_copper_bulb[lit=true]
+fill ~112 ~2 ~30 ~112 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~117 ~2 ~30 minecraft:furnace[lit=true]
+setblock ~123 ~2 ~30 minecraft:respawn_anchor[charges=3]
+setblock ~127 ~2 ~30 minecraft:crying_obsidian
+setblock ~17 ~2 ~31 minecraft:furnace[lit=true]
+fill ~19 ~2 ~31 ~20 ~2 ~31 minecraft:exposed_copper_bulb[lit=true]
+setblock ~21 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~24 ~2 ~31 minecraft:copper_bulb[lit=true]
+fill ~25 ~2 ~31 ~25 ~2 ~32 minecraft:furnace[lit=true]
+fill ~26 ~2 ~31 ~28 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~29 ~2 ~31 minecraft:furnace[lit=true]
+fill ~44 ~2 ~31 ~44 ~2 ~32 minecraft:furnace[lit=true]
+setblock ~47 ~2 ~31 minecraft:respawn_anchor[charges=3]
+setblock ~48 ~2 ~31 minecraft:exposed_copper_bulb[lit=true]
+fill ~49 ~2 ~31 ~53 ~2 ~31 minecraft:respawn_anchor[charges=3]
+setblock ~54 ~2 ~31 minecraft:crying_obsidian
+setblock ~55 ~2 ~31 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~31 minecraft:furnace[lit=true]
+fill ~58 ~2 ~31 ~59 ~2 ~31 minecraft:furnace[lit=true]
+fill ~82 ~2 ~31 ~83 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~31 minecraft:furnace[lit=true]
+setblock ~89 ~2 ~31 minecraft:furnace[lit=true]
+setblock ~92 ~2 ~31 minecraft:copper_bulb[lit=true]
+fill ~95 ~2 ~31 ~95 ~2 ~32 minecraft:redstone_ore[lit=true]
+fill ~96 ~2 ~31 ~97 ~2 ~31 minecraft:crying_obsidian
+setblock ~98 ~2 ~31 minecraft:respawn_anchor[charges=3]
+setblock ~99 ~2 ~31 minecraft:furnace[lit=true]
+fill ~100 ~2 ~31 ~100 ~2 ~32 minecraft:respawn_anchor[charges=3]
+setblock ~101 ~2 ~31 minecraft:copper_bulb[lit=true]
+setblock ~104 ~2 ~31 minecraft:crying_obsidian
+fill ~106 ~2 ~31 ~106 ~2 ~34 minecraft:copper_bulb[lit=true]
+fill ~122 ~2 ~31 ~122 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~123 ~2 ~31 ~124 ~2 ~31 minecraft:exposed_copper_bulb[lit=true]
+fill ~127 ~2 ~31 ~127 ~2 ~35 minecraft:exposed_copper_bulb[lit=true]
+fill ~17 ~2 ~32 ~17 ~2 ~35 minecraft:copper_bulb[lit=true]
+setblock ~18 ~2 ~32 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~32 minecraft:redstone_ore[lit=true]
+setblock ~20 ~2 ~32 minecraft:crying_obsidian
+setblock ~21 ~2 ~32 minecraft:exposed_copper_bulb[lit=true]
+setblock ~22 ~2 ~32 minecraft:respawn_anchor[charges=3]
+fill ~23 ~2 ~32 ~24 ~2 ~32 minecraft:furnace[lit=true]
+fill ~26 ~2 ~32 ~28 ~2 ~32 minecraft:furnace[lit=true]
+fill ~38 ~2 ~32 ~38 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~40 ~2 ~32 minecraft:furnace[lit=true]
+fill ~41 ~2 ~32 ~41 ~2 ~35 minecraft:copper_bulb[lit=true]
+fill ~48 ~2 ~32 ~53 ~2 ~32 minecraft:furnace[lit=true]
+fill ~56 ~2 ~32 ~56 ~2 ~34 minecraft:copper_bulb[lit=true]
+setblock ~59 ~2 ~32 minecraft:furnace[lit=true]
+fill ~71 ~2 ~32 ~72 ~2 ~33 minecraft:copper_bulb[lit=true]
+fill ~76 ~2 ~32 ~77 ~2 ~32 minecraft:furnace[lit=true]
+fill ~83 ~2 ~32 ~83 ~2 ~33 minecraft:copper_bulb[lit=true]
+fill ~88 ~2 ~32 ~88 ~2 ~34 minecraft:copper_bulb[lit=true]
+fill ~89 ~2 ~32 ~89 ~2 ~33 minecraft:crying_obsidian
+setblock ~90 ~2 ~32 minecraft:respawn_anchor[charges=3]
+fill ~91 ~2 ~32 ~92 ~2 ~32 minecraft:exposed_copper_bulb[lit=true]
+setblock ~93 ~2 ~32 minecraft:respawn_anchor[charges=3]
+setblock ~94 ~2 ~32 minecraft:exposed_copper_bulb[lit=true]
+setblock ~96 ~2 ~32 minecraft:crying_obsidian
+fill ~97 ~2 ~32 ~98 ~2 ~32 minecraft:furnace[lit=true]
+fill ~99 ~2 ~32 ~99 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~104 ~2 ~32 minecraft:redstone_ore[lit=true]
+setblock ~124 ~2 ~32 minecraft:crying_obsidian
+fill ~16 ~2 ~33 ~16 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~19 ~2 ~33 minecraft:furnace[lit=true]
+setblock ~20 ~2 ~33 minecraft:exposed_copper_bulb[lit=true]
+fill ~21 ~2 ~33 ~22 ~2 ~33 minecraft:crying_obsidian
+fill ~23 ~2 ~33 ~25 ~2 ~33 minecraft:respawn_anchor[charges=3]
+setblock ~26 ~2 ~33 minecraft:crying_obsidian
+fill ~27 ~2 ~33 ~28 ~2 ~33 minecraft:furnace[lit=true]
+fill ~33 ~2 ~33 ~34 ~2 ~33 minecraft:copper_bulb[lit=true]
+fill ~36 ~2 ~33 ~37 ~2 ~34 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~33 minecraft:furnace[lit=true]
+fill ~70 ~2 ~33 ~70 ~2 ~36 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~33 minecraft:furnace[lit=true]
+fill ~90 ~2 ~33 ~90 ~2 ~34 minecraft:redstone_ore[lit=true]
+fill ~91 ~2 ~33 ~94 ~2 ~33 minecraft:crying_obsidian
+fill ~96 ~2 ~33 ~97 ~2 ~33 minecraft:copper_bulb[lit=true]
+setblock ~100 ~2 ~33 minecraft:exposed_copper_bulb[lit=true]
+fill ~104 ~2 ~33 ~104 ~2 ~34 minecraft:crying_obsidian
+fill ~105 ~2 ~33 ~105 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~109 ~2 ~33 ~109 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~33 ~114 ~2 ~35 minecraft:furnace[lit=true]
+setblock ~117 ~2 ~33 minecraft:copper_bulb[lit=true]
+setblock ~120 ~2 ~33 minecraft:furnace[lit=true]
+fill ~124 ~2 ~33 ~125 ~2 ~33 minecraft:exposed_copper_bulb[lit=true]
+setblock ~21 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~22 ~2 ~34 minecraft:furnace[lit=true]
+fill ~23 ~2 ~34 ~24 ~2 ~34 minecraft:crying_obsidian
+fill ~25 ~2 ~34 ~26 ~2 ~34 minecraft:furnace[lit=true]
+fill ~27 ~2 ~34 ~27 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~31 ~2 ~34 minecraft:furnace[lit=true]
+setblock ~33 ~2 ~34 minecraft:copper_bulb[lit=true]
+fill ~34 ~2 ~34 ~35 ~2 ~34 minecraft:furnace[lit=true]
+fill ~52 ~2 ~34 ~53 ~2 ~34 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~34 minecraft:copper_bulb[lit=true]
+fill ~71 ~2 ~34 ~72 ~2 ~36 minecraft:furnace[lit=true]
+setblock ~89 ~2 ~34 minecraft:exposed_copper_bulb[lit=true]
+setblock ~91 ~2 ~34 minecraft:respawn_anchor[charges=3]
+fill ~92 ~2 ~34 ~95 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~97 ~2 ~34 minecraft:furnace[lit=true]
+fill ~98 ~2 ~34 ~98 ~2 ~37 minecraft:exposed_copper_bulb[lit=true]
+fill ~103 ~2 ~34 ~103 ~2 ~36 minecraft:exposed_copper_bulb[lit=true]
+setblock ~115 ~2 ~34 minecraft:furnace[lit=true]
+fill ~119 ~2 ~34 ~119 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~121 ~2 ~34 ~121 ~2 ~40 minecraft:copper_bulb[lit=true]
+fill ~125 ~2 ~34 ~125 ~2 ~35 minecraft:crying_obsidian
+fill ~15 ~2 ~35 ~15 ~2 ~36 minecraft:exposed_copper_bulb[lit=true]
+fill ~18 ~2 ~35 ~18 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~23 ~2 ~35 minecraft:redstone_ore[lit=true]
+setblock ~24 ~2 ~35 minecraft:furnace[lit=true]
+fill ~29 ~2 ~35 ~30 ~2 ~35 minecraft:copper_bulb[lit=true]
+fill ~31 ~2 ~35 ~31 ~2 ~36 minecraft:exposed_copper_bulb[lit=true]
+fill ~33 ~2 ~35 ~34 ~2 ~35 minecraft:furnace[lit=true]
+fill ~43 ~2 ~35 ~43 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~45 ~2 ~35 ~45 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~68 ~2 ~35 minecraft:copper_bulb[lit=true]
+fill ~73 ~2 ~35 ~73 ~2 ~37 minecraft:furnace[lit=true]
+fill ~90 ~2 ~35 ~91 ~2 ~35 minecraft:crying_obsidian
+setblock ~97 ~2 ~35 minecraft:exposed_copper_bulb[lit=true]
+setblock ~99 ~2 ~35 minecraft:furnace[lit=true]
+fill ~104 ~2 ~35 ~104 ~2 ~36 minecraft:respawn_anchor[charges=3]
+setblock ~112 ~2 ~35 minecraft:respawn_anchor[charges=3]
+setblock ~116 ~2 ~35 minecraft:furnace[lit=true]
+fill ~117 ~2 ~35 ~117 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~118 ~2 ~35 minecraft:copper_bulb[lit=true]
+fill ~124 ~2 ~35 ~124 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~126 ~2 ~35 minecraft:copper_bulb[lit=true]
+setblock ~17 ~2 ~36 minecraft:furnace[lit=true]
+fill ~20 ~2 ~36 ~21 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~22 ~2 ~36 minecraft:respawn_anchor[charges=3]
+fill ~24 ~2 ~36 ~24 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~25 ~2 ~36 ~25 ~2 ~38 minecraft:furnace[lit=true]
+fill ~26 ~2 ~36 ~26 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~28 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~30 ~2 ~36 ~30 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~32 ~2 ~36 minecraft:exposed_copper_bulb[lit=true]
+fill ~35 ~2 ~36 ~36 ~2 ~37 minecraft:furnace[lit=true]
+fill ~46 ~2 ~36 ~47 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~76 ~2 ~36 ~78 ~2 ~39 minecraft:furnace[lit=true]
+setblock ~91 ~2 ~36 minecraft:weathered_copper_bulb[lit=true]
+setblock ~107 ~2 ~36 minecraft:copper_bulb[lit=true]
+fill ~111 ~2 ~36 ~111 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~112 ~2 ~36 ~112 ~2 ~37 minecraft:crying_obsidian
+fill ~113 ~2 ~36 ~114 ~2 ~36 minecraft:copper_bulb[lit=true]
+setblock ~115 ~2 ~36 minecraft:furnace[lit=true]
+fill ~123 ~2 ~36 ~123 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~125 ~2 ~36 minecraft:respawn_anchor[charges=3]
+setblock ~127 ~2 ~36 minecraft:respawn_anchor[charges=3]
+setblock ~15 ~2 ~37 minecraft:furnace[lit=true]
+fill ~16 ~2 ~37 ~17 ~2 ~37 minecraft:exposed_copper_bulb[lit=true]
+setblock ~21 ~2 ~37 minecraft:furnace[lit=true]
+setblock ~22 ~2 ~37 minecraft:weathered_copper_bulb[lit=true]
+fill ~23 ~2 ~37 ~23 ~2 ~40 minecraft:copper_bulb[lit=true]
+setblock ~32 ~2 ~37 minecraft:crying_obsidian
+setblock ~33 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~34 ~2 ~37 minecraft:furnace[lit=true]
+fill ~37 ~2 ~37 ~37 ~2 ~39 minecraft:furnace[lit=true]
+fill ~39 ~2 ~37 ~40 ~2 ~37 minecraft:respawn_anchor[charges=3]
+fill ~43 ~2 ~37 ~43 ~2 ~39 minecraft:furnace[lit=true]
+setblock ~44 ~2 ~37 minecraft:furnace[lit=true]
+fill ~54 ~2 ~37 ~55 ~2 ~41 minecraft:furnace[lit=true]
+fill ~63 ~2 ~37 ~65 ~2 ~37 minecraft:copper_bulb[lit=true]
+setblock ~67 ~2 ~37 minecraft:exposed_copper_bulb[lit=true]
+fill ~68 ~2 ~37 ~72 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~74 ~2 ~37 ~75 ~2 ~38 minecraft:furnace[lit=true]
+fill ~90 ~2 ~37 ~90 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~91 ~2 ~37 minecraft:respawn_anchor[charges=2]
+setblock ~92 ~2 ~37 minecraft:exposed_copper_bulb[lit=true]
+fill ~93 ~2 ~37 ~95 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~97 ~2 ~37 ~97 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~99 ~2 ~37 minecraft:copper_bulb[lit=true]
+fill ~103 ~2 ~37 ~103 ~2 ~38 minecraft:furnace[lit=true]
+setblock ~104 ~2 ~37 minecraft:crying_obsidian
+fill ~106 ~2 ~37 ~109 ~2 ~37 minecraft:furnace[lit=true]
+setblock ~113 ~2 ~37 minecraft:respawn_anchor[charges=3]
+setblock ~114 ~2 ~37 minecraft:furnace[lit=true]
+setblock ~116 ~2 ~37 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~37 minecraft:respawn_anchor[charges=3]
+setblock ~127 ~2 ~37 minecraft:crying_obsidian
+setblock ~16 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~17 ~2 ~38 minecraft:respawn_anchor[charges=3]
+setblock ~21 ~2 ~38 minecraft:respawn_anchor[charges=3]
+setblock ~22 ~2 ~38 minecraft:crying_obsidian
+setblock ~31 ~2 ~38 minecraft:copper_bulb[lit=true]
+setblock ~33 ~2 ~38 minecraft:crying_obsidian
+setblock ~34 ~2 ~38 minecraft:copper_bulb[lit=true]
+fill ~36 ~2 ~38 ~36 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+fill ~40 ~2 ~38 ~40 ~2 ~40 minecraft:redstone_ore[lit=true]
+fill ~41 ~2 ~38 ~41 ~2 ~39 minecraft:copper_bulb[lit=true]
+fill ~42 ~2 ~38 ~42 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+fill ~46 ~2 ~38 ~46 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~47 ~2 ~38 minecraft:furnace[lit=true]
+fill ~50 ~2 ~38 ~50 ~2 ~43 minecraft:copper_bulb[lit=true]
+fill ~51 ~2 ~38 ~51 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~38 ~57 ~2 ~39 minecraft:furnace[lit=true]
+fill ~62 ~2 ~38 ~62 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~63 ~2 ~38 minecraft:respawn_anchor[charges=3]
+fill ~64 ~2 ~38 ~65 ~2 ~38 minecraft:crying_obsidian
+fill ~66 ~2 ~38 ~66 ~2 ~40 minecraft:redstone_ore[lit=true]
+setblock ~67 ~2 ~38 minecraft:redstone_ore[lit=true]
+fill ~68 ~2 ~38 ~69 ~2 ~38 minecraft:crying_obsidian
+fill ~70 ~2 ~38 ~70 ~2 ~39 minecraft:respawn_anchor[charges=3]
+fill ~71 ~2 ~38 ~72 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~38 minecraft:furnace[lit=true]
+setblock ~91 ~2 ~38 minecraft:crying_obsidian
+setblock ~92 ~2 ~38 minecraft:redstone_ore[lit=true]
+fill ~93 ~2 ~38 ~93 ~2 ~39 minecraft:copper_bulb[lit=true]
+fill ~95 ~2 ~38 ~96 ~2 ~38 minecraft:copper_bulb[lit=true]
+setblock ~99 ~2 ~38 minecraft:furnace[lit=true]
+setblock ~104 ~2 ~38 minecraft:redstone_ore[lit=true]
+fill ~109 ~2 ~38 ~110 ~2 ~38 minecraft:furnace[lit=true]
+setblock ~111 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~112 ~2 ~38 minecraft:respawn_anchor[charges=3]
+setblock ~113 ~2 ~38 minecraft:crying_obsidian
+setblock ~114 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+fill ~118 ~2 ~38 ~118 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~122 ~2 ~38 minecraft:furnace[lit=true]
+fill ~126 ~2 ~38 ~126 ~2 ~39 minecraft:crying_obsidian
+setblock ~127 ~2 ~38 minecraft:exposed_copper_bulb[lit=true]
+setblock ~15 ~2 ~39 minecraft:furnace[lit=true]
+setblock ~18 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~21 ~2 ~39 minecraft:weathered_copper_bulb[lit=true]
+setblock ~22 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+fill ~24 ~2 ~39 ~24 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~26 ~2 ~39 minecraft:furnace[lit=true]
+fill ~28 ~2 ~39 ~29 ~2 ~43 minecraft:furnace[lit=true]
+setblock ~32 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~33 ~2 ~39 minecraft:respawn_anchor[charges=3]
+setblock ~34 ~2 ~39 minecraft:crying_obsidian
+setblock ~35 ~2 ~39 minecraft:copper_bulb[lit=true]
+fill ~38 ~2 ~39 ~38 ~2 ~40 minecraft:copper_bulb[lit=true]
+fill ~39 ~2 ~39 ~39 ~2 ~40 minecraft:furnace[lit=true]
+fill ~44 ~2 ~39 ~45 ~2 ~39 minecraft:furnace[lit=true]
+fill ~52 ~2 ~39 ~52 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+fill ~53 ~2 ~39 ~53 ~2 ~41 minecraft:copper_bulb[lit=true]
+fill ~56 ~2 ~39 ~56 ~2 ~41 minecraft:furnace[lit=true]
+fill ~63 ~2 ~39 ~65 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~67 ~2 ~39 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~69 ~2 ~39 minecraft:respawn_anchor[charges=3]
+fill ~71 ~2 ~39 ~72 ~2 ~39 minecraft:respawn_anchor[charges=3]
+fill ~73 ~2 ~39 ~74 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~92 ~2 ~39 minecraft:weathered_copper_bulb[lit=true]
+fill ~94 ~2 ~39 ~94 ~2 ~40 minecraft:copper_bulb[lit=true]
+fill ~96 ~2 ~39 ~96 ~2 ~40 minecraft:copper_bulb[lit=true]
+setblock ~98 ~2 ~39 minecraft:respawn_anchor[charges=3]
+fill ~99 ~2 ~39 ~100 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~104 ~2 ~39 minecraft:crying_obsidian
+fill ~106 ~2 ~39 ~107 ~2 ~39 minecraft:furnace[lit=true]
+fill ~109 ~2 ~39 ~109 ~2 ~44 minecraft:copper_bulb[lit=true]
+fill ~110 ~2 ~39 ~110 ~2 ~40 minecraft:exposed_copper_bulb[lit=true]
+setblock ~111 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~113 ~2 ~39 minecraft:furnace[lit=true]
+setblock ~114 ~2 ~39 minecraft:crying_obsidian
+setblock ~117 ~2 ~39 minecraft:copper_bulb[lit=true]
+setblock ~124 ~2 ~39 minecraft:exposed_copper_bulb[lit=true]
+setblock ~127 ~2 ~39 minecraft:copper_bulb[lit=true]
+fill ~15 ~2 ~40 ~15 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+setblock ~17 ~2 ~40 minecraft:exposed_copper_bulb[lit=true]
+setblock ~18 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~20 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~21 ~2 ~40 minecraft:redstone_ore[lit=true]
+setblock ~22 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~26 ~2 ~40 minecraft:respawn_anchor[charges=3]
+fill ~27 ~2 ~40 ~27 ~2 ~44 minecraft:copper_bulb[lit=true]
+fill ~34 ~2 ~40 ~35 ~2 ~40 minecraft:respawn_anchor[charges=3]
+fill ~41 ~2 ~40 ~42 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~43 ~2 ~40 minecraft:exposed_copper_bulb[lit=true]
+setblock ~44 ~2 ~40 minecraft:copper_bulb[lit=true]
+fill ~45 ~2 ~40 ~45 ~2 ~41 minecraft:furnace[lit=true]
+fill ~47 ~2 ~40 ~47 ~2 ~42 minecraft:furnace[lit=true]
+fill ~63 ~2 ~40 ~65 ~2 ~40 minecraft:copper_bulb[lit=true]
+fill ~68 ~2 ~40 ~72 ~2 ~40 minecraft:copper_bulb[lit=true]
+setblock ~92 ~2 ~40 minecraft:respawn_anchor[charges=3]
+setblock ~93 ~2 ~40 minecraft:redstone_ore[lit=true]
+fill ~95 ~2 ~40 ~95 ~2 ~42 minecraft:copper_bulb[lit=true]
+fill ~97 ~2 ~40 ~97 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~98 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~100 ~2 ~40 minecraft:exposed_copper_bulb[lit=true]
+fill ~101 ~2 ~40 ~101 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~104 ~2 ~40 minecraft:respawn_anchor[charges=3]
+setblock ~105 ~2 ~40 minecraft:exposed_copper_bulb[lit=true]
+setblock ~107 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~111 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~112 ~2 ~40 minecraft:respawn_anchor[charges=3]
+setblock ~113 ~2 ~40 minecraft:copper_bulb[lit=true]
+setblock ~114 ~2 ~40 minecraft:respawn_anchor[charges=3]
+setblock ~115 ~2 ~40 minecraft:redstone_ore[lit=true]
+fill ~116 ~2 ~40 ~118 ~2 ~40 minecraft:exposed_copper_bulb[lit=true]
+setblock ~119 ~2 ~40 minecraft:respawn_anchor[charges=3]
+setblock ~120 ~2 ~40 minecraft:furnace[lit=true]
+fill ~125 ~2 ~40 ~125 ~2 ~45 minecraft:copper_bulb[lit=true]
+fill ~126 ~2 ~40 ~127 ~2 ~40 minecraft:furnace[lit=true]
+setblock ~14 ~2 ~41 minecraft:copper_bulb[lit=true]
+fill ~16 ~2 ~41 ~17 ~2 ~41 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~20 ~2 ~41 minecraft:respawn_anchor[charges=3]
+fill ~22 ~2 ~41 ~22 ~2 ~46 minecraft:copper_bulb[lit=true]
+setblock ~23 ~2 ~41 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~41 minecraft:respawn_anchor[charges=3]
+setblock ~26 ~2 ~41 minecraft:crying_obsidian
+setblock ~34 ~2 ~41 minecraft:copper_bulb[lit=true]
+fill ~35 ~2 ~41 ~36 ~2 ~41 minecraft:crying_obsidian
+setblock ~37 ~2 ~41 minecraft:copper_bulb[lit=true]
+fill ~39 ~2 ~41 ~39 ~2 ~42 minecraft:copper_bulb[lit=true]
+setblock ~40 ~2 ~41 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+setblock ~43 ~2 ~41 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~41 minecraft:furnace[lit=true]
+fill ~64 ~2 ~41 ~64 ~2 ~43 minecraft:copper_bulb[lit=true]
+fill ~66 ~2 ~41 ~66 ~2 ~42 minecraft:respawn_anchor[charges=2]
+setblock ~68 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+fill ~69 ~2 ~41 ~74 ~2 ~41 minecraft:furnace[lit=true]
+fill ~85 ~2 ~41 ~86 ~2 ~42 minecraft:furnace[lit=true]
+fill ~92 ~2 ~41 ~92 ~2 ~42 minecraft:copper_bulb[lit=true]
+setblock ~93 ~2 ~41 minecraft:weathered_copper_bulb[lit=true]
+setblock ~94 ~2 ~41 minecraft:respawn_anchor[charges=3]
+fill ~98 ~2 ~41 ~98 ~2 ~44 minecraft:copper_bulb[lit=true]
+fill ~99 ~2 ~41 ~99 ~2 ~42 minecraft:exposed_copper_bulb[lit=true]
+setblock ~100 ~2 ~41 minecraft:furnace[lit=true]
+setblock ~102 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~104 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~105 ~2 ~41 minecraft:redstone_ore[lit=true]
+setblock ~107 ~2 ~41 minecraft:copper_bulb[lit=true]
+fill ~108 ~2 ~41 ~108 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~110 ~2 ~41 minecraft:furnace[lit=true]
+setblock ~111 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+setblock ~112 ~2 ~41 minecraft:crying_obsidian
+fill ~113 ~2 ~41 ~114 ~2 ~41 minecraft:exposed_copper_bulb[lit=true]
+setblock ~115 ~2 ~41 minecraft:furnace[lit=true]
+setblock ~118 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~120 ~2 ~41 minecraft:respawn_anchor[charges=3]
+setblock ~121 ~2 ~41 minecraft:furnace[lit=true]
+fill ~124 ~2 ~41 ~124 ~2 ~42 minecraft:respawn_anchor[charges=3]
+setblock ~126 ~2 ~41 minecraft:copper_bulb[lit=true]
+setblock ~127 ~2 ~41 minecraft:furnace[lit=true]
+setblock ~13 ~2 ~42 minecraft:copper_bulb[lit=true]
+fill ~14 ~2 ~42 ~15 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~16 ~2 ~42 minecraft:exposed_copper_bulb[lit=true]
+fill ~18 ~2 ~42 ~18 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~20 ~2 ~42 minecraft:redstone_ore[lit=true]
+setblock ~21 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~42 minecraft:weathered_copper_bulb[lit=true]
+setblock ~26 ~2 ~42 minecraft:exposed_copper_bulb[lit=true]
+setblock ~34 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~42 minecraft:crying_obsidian
+setblock ~38 ~2 ~42 minecraft:exposed_copper_bulb[lit=true]
+setblock ~42 ~2 ~42 minecraft:copper_bulb[lit=true]
+setblock ~43 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~44 ~2 ~42 minecraft:exposed_copper_bulb[lit=true]
+setblock ~45 ~2 ~42 minecraft:copper_bulb[lit=true]
+fill ~46 ~2 ~42 ~46 ~2 ~43 minecraft:furnace[lit=true]
+fill ~48 ~2 ~42 ~48 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~42 minecraft:furnace[lit=true]
+fill ~51 ~2 ~42 ~51 ~2 ~46 minecraft:respawn_anchor[charges=3]
+fill ~55 ~2 ~42 ~55 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~42 minecraft:respawn_anchor[charges=3]
+setblock ~67 ~2 ~42 minecraft:respawn_anchor[charges=3]
+setblock ~69 ~2 ~42 minecraft:respawn_anchor[charges=3]
+fill ~70 ~2 ~42 ~75 ~2 ~42 minecraft:furnace[lit=true]
+fill ~79 ~2 ~42 ~79 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~84 ~2 ~42 minecraft:furnace[lit=true]
+fill ~87 ~2 ~42 ~90 ~2 ~42 minecraft:furnace[lit=true]
+setblock ~93 ~2 ~42 minecraft:respawn_anchor[charges=3]
+setblock ~94 ~2 ~42 minecraft:weathered_copper_bulb[lit=true]
+setblock ~96 ~2 ~42 minecraft:copper_bulb[lit=true]
+fill ~100 ~2 ~42 ~100 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+fill ~101 ~2 ~42 ~102 ~2 ~42 minecraft:furnace[lit=true]
+fill ~105 ~2 ~42 ~106 ~2 ~42 minecraft:respawn_anchor[charges=3]
+setblock ~110 ~2 ~42 minecraft:copper_bulb[lit=true]
+fill ~111 ~2 ~42 ~111 ~2 ~43 minecraft:redstone_ore[lit=true]
+setblock ~112 ~2 ~42 minecraft:respawn_anchor[charges=3]
+fill ~113 ~2 ~42 ~113 ~2 ~44 minecraft:copper_bulb[lit=true]
+fill ~115 ~2 ~42 ~116 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~119 ~2 ~42 minecraft:copper_bulb[lit=true]
+fill ~121 ~2 ~42 ~121 ~2 ~43 minecraft:respawn_anchor[charges=3]
+fill ~122 ~2 ~42 ~122 ~2 ~43 minecraft:copper_bulb[lit=true]
+setblock ~123 ~2 ~42 minecraft:furnace[lit=true]
+fill ~126 ~2 ~42 ~126 ~2 ~44 minecraft:furnace[lit=true]
+setblock ~127 ~2 ~42 minecraft:copper_bulb[lit=true]
+setblock ~13 ~2 ~43 minecraft:furnace[lit=true]
+setblock ~14 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~15 ~2 ~43 minecraft:respawn_anchor[charges=3]
+setblock ~16 ~2 ~43 minecraft:furnace[lit=true]
+fill ~20 ~2 ~43 ~20 ~2 ~44 minecraft:weathered_copper_bulb[lit=true]
+fill ~21 ~2 ~43 ~21 ~2 ~51 minecraft:copper_bulb[lit=true]
+setblock ~24 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~25 ~2 ~43 minecraft:redstone_ore[lit=true]
+fill ~26 ~2 ~43 ~26 ~2 ~45 minecraft:furnace[lit=true]
+fill ~32 ~2 ~43 ~32 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~33 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~36 ~2 ~43 minecraft:copper_bulb[lit=true]
+setblock ~37 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~38 ~2 ~43 minecraft:crying_obsidian
+fill ~39 ~2 ~43 ~39 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~40 ~2 ~43 minecraft:furnace[lit=true]
+fill ~41 ~2 ~43 ~41 ~2 ~44 minecraft:crying_obsidian
+setblock ~42 ~2 ~43 minecraft:furnace[lit=true]
+fill ~43 ~2 ~43 ~43 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~44 ~2 ~43 minecraft:respawn_anchor[charges=3]
+setblock ~45 ~2 ~43 minecraft:furnace[lit=true]
+fill ~60 ~2 ~43 ~60 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+fill ~61 ~2 ~43 ~61 ~2 ~45 minecraft:copper_bulb[lit=true]
+fill ~65 ~2 ~43 ~67 ~2 ~43 minecraft:weathered_copper_bulb[lit=true]
+fill ~68 ~2 ~43 ~70 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+fill ~72 ~2 ~43 ~73 ~2 ~43 minecraft:furnace[lit=true]
+fill ~75 ~2 ~43 ~77 ~2 ~44 minecraft:furnace[lit=true]
+setblock ~78 ~2 ~43 minecraft:copper_bulb[lit=true]
+fill ~80 ~2 ~43 ~80 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~81 ~2 ~43 minecraft:copper_bulb[lit=true]
+setblock ~82 ~2 ~43 minecraft:respawn_anchor[charges=3]
+fill ~83 ~2 ~43 ~83 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+fill ~86 ~2 ~43 ~87 ~2 ~43 minecraft:furnace[lit=true]
+fill ~89 ~2 ~43 ~90 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~95 ~2 ~43 minecraft:weathered_copper_bulb[lit=true]
+setblock ~96 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~97 ~2 ~43 minecraft:copper_bulb[lit=true]
+fill ~101 ~2 ~43 ~101 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~102 ~2 ~43 minecraft:furnace[lit=true]
+fill ~103 ~2 ~43 ~103 ~2 ~49 minecraft:copper_bulb[lit=true]
+fill ~104 ~2 ~43 ~104 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~106 ~2 ~43 minecraft:crying_obsidian
+setblock ~107 ~2 ~43 minecraft:furnace[lit=true]
+setblock ~108 ~2 ~43 minecraft:copper_bulb[lit=true]
+setblock ~114 ~2 ~43 minecraft:copper_bulb[lit=true]
+fill ~117 ~2 ~43 ~118 ~2 ~44 minecraft:copper_bulb[lit=true]
+fill ~123 ~2 ~43 ~124 ~2 ~43 minecraft:exposed_copper_bulb[lit=true]
+setblock ~127 ~2 ~43 minecraft:furnace[lit=true]
+setblock ~15 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~19 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~23 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+fill ~24 ~2 ~44 ~25 ~2 ~44 minecraft:respawn_anchor[charges=3]
+fill ~29 ~2 ~44 ~29 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+fill ~35 ~2 ~44 ~35 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~37 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~40 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~42 ~2 ~44 minecraft:crying_obsidian
+setblock ~46 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~44 minecraft:furnace[lit=true]
+fill ~49 ~2 ~44 ~49 ~2 ~45 minecraft:furnace[lit=true]
+fill ~58 ~2 ~44 ~58 ~2 ~48 minecraft:copper_bulb[lit=true]
+fill ~59 ~2 ~44 ~59 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+fill ~63 ~2 ~44 ~63 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~64 ~2 ~44 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~44 minecraft:respawn_anchor[charges=2]
+setblock ~67 ~2 ~44 minecraft:redstone_ore[lit=true]
+fill ~68 ~2 ~44 ~68 ~2 ~45 minecraft:respawn_anchor[charges=2]
+setblock ~69 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~70 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~71 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~44 minecraft:copper_bulb[lit=true]
+fill ~73 ~2 ~44 ~74 ~2 ~44 minecraft:furnace[lit=true]
+fill ~78 ~2 ~44 ~78 ~2 ~49 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~84 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~85 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+fill ~87 ~2 ~44 ~88 ~2 ~44 minecraft:furnace[lit=true]
+fill ~91 ~2 ~44 ~92 ~2 ~44 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~95 ~2 ~44 minecraft:redstone_ore[lit=true]
+setblock ~96 ~2 ~44 minecraft:weathered_copper_bulb[lit=true]
+setblock ~100 ~2 ~44 minecraft:respawn_anchor[charges=3]
+fill ~102 ~2 ~44 ~102 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+setblock ~107 ~2 ~44 minecraft:crying_obsidian
+setblock ~108 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+fill ~110 ~2 ~44 ~110 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~44 minecraft:weathered_copper_bulb[lit=true]
+setblock ~112 ~2 ~44 minecraft:copper_bulb[lit=true]
+setblock ~114 ~2 ~44 minecraft:furnace[lit=true]
+setblock ~120 ~2 ~44 minecraft:exposed_copper_bulb[lit=true]
+setblock ~123 ~2 ~44 minecraft:respawn_anchor[charges=3]
+setblock ~124 ~2 ~44 minecraft:furnace[lit=true]
+fill ~13 ~2 ~45 ~13 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~15 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~45 minecraft:respawn_anchor[charges=3]
+fill ~20 ~2 ~45 ~20 ~2 ~47 minecraft:redstone_ore[lit=true]
+fill ~23 ~2 ~45 ~24 ~2 ~45 minecraft:crying_obsidian
+setblock ~25 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+fill ~27 ~2 ~45 ~27 ~2 ~47 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~45 minecraft:respawn_anchor[charges=3]
+fill ~36 ~2 ~45 ~37 ~2 ~45 minecraft:furnace[lit=true]
+fill ~41 ~2 ~45 ~42 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~45 ~2 ~45 minecraft:respawn_anchor[charges=3]
+setblock ~47 ~2 ~45 minecraft:copper_bulb[lit=true]
+fill ~54 ~2 ~45 ~54 ~2 ~50 minecraft:furnace[lit=true]
+fill ~64 ~2 ~45 ~65 ~2 ~45 minecraft:redstone_ore[lit=true]
+setblock ~66 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~67 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~69 ~2 ~45 minecraft:crying_obsidian
+setblock ~71 ~2 ~45 minecraft:crying_obsidian
+setblock ~72 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~73 ~2 ~45 minecraft:copper_bulb[lit=true]
+fill ~74 ~2 ~45 ~75 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~77 ~2 ~45 minecraft:furnace[lit=true]
+fill ~80 ~2 ~45 ~80 ~2 ~46 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~45 minecraft:respawn_anchor[charges=2]
+setblock ~82 ~2 ~45 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~45 minecraft:crying_obsidian
+setblock ~86 ~2 ~45 minecraft:respawn_anchor[charges=3]
+setblock ~87 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~88 ~2 ~45 minecraft:furnace[lit=true]
+fill ~92 ~2 ~45 ~95 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~97 ~2 ~45 minecraft:weathered_copper_bulb[lit=true]
+setblock ~98 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~99 ~2 ~45 minecraft:copper_bulb[lit=true]
+fill ~100 ~2 ~45 ~100 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+fill ~105 ~2 ~45 ~106 ~2 ~49 minecraft:copper_bulb[lit=true]
+setblock ~108 ~2 ~45 minecraft:respawn_anchor[charges=3]
+setblock ~109 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~111 ~2 ~45 minecraft:redstone_ore[lit=true]
+setblock ~112 ~2 ~45 minecraft:respawn_anchor[charges=3]
+setblock ~113 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~114 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~115 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~116 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~117 ~2 ~45 minecraft:exposed_copper_bulb[lit=true]
+setblock ~118 ~2 ~45 minecraft:furnace[lit=true]
+setblock ~119 ~2 ~45 minecraft:redstone_ore[lit=true]
+fill ~120 ~2 ~45 ~120 ~2 ~48 minecraft:sculk_catalyst[bloom=true]
+fill ~123 ~2 ~45 ~123 ~2 ~46 minecraft:crying_obsidian
+setblock ~124 ~2 ~45 minecraft:copper_bulb[lit=true]
+setblock ~12 ~2 ~46 minecraft:copper_bulb[lit=true]
+fill ~19 ~2 ~46 ~19 ~2 ~49 minecraft:crying_obsidian
+setblock ~23 ~2 ~46 minecraft:weathered_copper_bulb[lit=true]
+fill ~24 ~2 ~46 ~25 ~2 ~46 minecraft:respawn_anchor[charges=3]
+fill ~35 ~2 ~46 ~35 ~2 ~47 minecraft:respawn_anchor[charges=3]
+fill ~38 ~2 ~46 ~39 ~2 ~47 minecraft:furnace[lit=true]
+setblock ~46 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~50 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~62 ~2 ~46 minecraft:copper_bulb[lit=true]
+setblock ~63 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~64 ~2 ~46 minecraft:respawn_anchor[charges=2]
+setblock ~65 ~2 ~46 minecraft:copper_bulb[lit=true]
+fill ~67 ~2 ~46 ~68 ~2 ~46 minecraft:copper_bulb[lit=true]
+setblock ~69 ~2 ~46 minecraft:respawn_anchor[charges=2]
+fill ~70 ~2 ~46 ~70 ~2 ~47 minecraft:redstone_ore[lit=true]
+fill ~72 ~2 ~46 ~73 ~2 ~46 minecraft:respawn_anchor[charges=3]
+fill ~75 ~2 ~46 ~76 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~82 ~2 ~46 minecraft:respawn_anchor[charges=2]
+setblock ~83 ~2 ~46 minecraft:weathered_copper_bulb[lit=true]
+setblock ~84 ~2 ~46 minecraft:crying_obsidian
+setblock ~86 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+setblock ~87 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~88 ~2 ~46 minecraft:crying_obsidian
+setblock ~89 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~90 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+fill ~91 ~2 ~46 ~92 ~2 ~46 minecraft:furnace[lit=true]
+fill ~94 ~2 ~46 ~95 ~2 ~46 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~46 minecraft:copper_bulb[lit=true]
+setblock ~98 ~2 ~46 minecraft:redstone_ore[lit=true]
+setblock ~99 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+setblock ~101 ~2 ~46 minecraft:furnace[lit=true]
+fill ~107 ~2 ~46 ~107 ~2 ~49 minecraft:copper_bulb[lit=true]
+setblock ~110 ~2 ~46 minecraft:redstone_ore[lit=true]
+setblock ~112 ~2 ~46 minecraft:redstone_ore[lit=true]
+setblock ~113 ~2 ~46 minecraft:respawn_anchor[charges=2]
+setblock ~114 ~2 ~46 minecraft:respawn_anchor[charges=3]
+setblock ~115 ~2 ~46 minecraft:crying_obsidian
+fill ~116 ~2 ~46 ~116 ~2 ~47 minecraft:respawn_anchor[charges=3]
+setblock ~117 ~2 ~46 minecraft:crying_obsidian
+fill ~118 ~2 ~46 ~119 ~2 ~46 minecraft:respawn_anchor[charges=3]
+fill ~124 ~2 ~46 ~124 ~2 ~47 minecraft:crying_obsidian
+setblock ~125 ~2 ~46 minecraft:exposed_copper_bulb[lit=true]
+fill ~126 ~2 ~46 ~126 ~2 ~47 minecraft:respawn_anchor[charges=3]
+setblock ~11 ~2 ~47 minecraft:copper_bulb[lit=true]
+fill ~17 ~2 ~47 ~17 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~22 ~2 ~47 minecraft:furnace[lit=true]
+setblock ~23 ~2 ~47 minecraft:redstone_ore[lit=true]
+fill ~24 ~2 ~47 ~24 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~47 minecraft:crying_obsidian
+fill ~34 ~2 ~47 ~34 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~36 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~46 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+fill ~47 ~2 ~47 ~47 ~2 ~48 minecraft:respawn_anchor[charges=3]
+fill ~49 ~2 ~47 ~49 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~51 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+fill ~59 ~2 ~47 ~59 ~2 ~48 minecraft:respawn_anchor[charges=3]
+fill ~61 ~2 ~47 ~61 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~63 ~2 ~47 minecraft:respawn_anchor[charges=2]
+setblock ~64 ~2 ~47 minecraft:respawn_anchor[charges=3]
+fill ~67 ~2 ~47 ~67 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~47 minecraft:copper_bulb[lit=true]
+setblock ~71 ~2 ~47 minecraft:weathered_copper_bulb[lit=true]
+fill ~72 ~2 ~47 ~73 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~74 ~2 ~47 minecraft:crying_obsidian
+setblock ~75 ~2 ~47 minecraft:respawn_anchor[charges=3]
+fill ~76 ~2 ~47 ~77 ~2 ~47 minecraft:furnace[lit=true]
+fill ~80 ~2 ~47 ~80 ~2 ~49 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~47 minecraft:furnace[lit=true]
+setblock ~82 ~2 ~47 minecraft:crying_obsidian
+setblock ~83 ~2 ~47 minecraft:respawn_anchor[charges=2]
+fill ~84 ~2 ~47 ~84 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+setblock ~85 ~2 ~47 minecraft:redstone_ore[lit=true]
+setblock ~86 ~2 ~47 minecraft:crying_obsidian
+setblock ~87 ~2 ~47 minecraft:furnace[lit=true]
+fill ~88 ~2 ~47 ~89 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+fill ~90 ~2 ~47 ~90 ~2 ~48 minecraft:respawn_anchor[charges=3]
+setblock ~91 ~2 ~47 minecraft:crying_obsidian
+fill ~92 ~2 ~47 ~94 ~2 ~47 minecraft:respawn_anchor[charges=3]
+setblock ~97 ~2 ~47 minecraft:furnace[lit=true]
+setblock ~98 ~2 ~47 minecraft:copper_bulb[lit=true]
+fill ~99 ~2 ~47 ~100 ~2 ~47 minecraft:redstone_ore[lit=true]
+setblock ~101 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+fill ~102 ~2 ~47 ~102 ~2 ~48 minecraft:respawn_anchor[charges=3]
+fill ~104 ~2 ~47 ~104 ~2 ~49 minecraft:copper_bulb[lit=true]
+fill ~108 ~2 ~47 ~109 ~2 ~47 minecraft:copper_bulb[lit=true]
+setblock ~110 ~2 ~47 minecraft:crying_obsidian
+fill ~111 ~2 ~47 ~111 ~2 ~48 minecraft:copper_bulb[lit=true]
+fill ~113 ~2 ~47 ~113 ~2 ~48 minecraft:sculk_catalyst[bloom=true]
+setblock ~115 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+fill ~117 ~2 ~47 ~119 ~2 ~47 minecraft:exposed_copper_bulb[lit=true]
+setblock ~121 ~2 ~47 minecraft:respawn_anchor[charges=2]
+fill ~123 ~2 ~47 ~123 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~125 ~2 ~47 minecraft:respawn_anchor[charges=3]
+fill ~127 ~2 ~47 ~127 ~2 ~48 minecraft:redstone_ore[lit=true]
+setblock ~12 ~2 ~48 minecraft:furnace[lit=true]
+fill ~16 ~2 ~48 ~16 ~2 ~51 minecraft:furnace[lit=true]
+fill ~20 ~2 ~48 ~20 ~2 ~51 minecraft:crying_obsidian
+setblock ~22 ~2 ~48 minecraft:crying_obsidian
+setblock ~23 ~2 ~48 minecraft:respawn_anchor[charges=3]
+fill ~25 ~2 ~48 ~25 ~2 ~50 minecraft:redstone_ore[lit=true]
+fill ~27 ~2 ~48 ~27 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~36 ~2 ~48 minecraft:crying_obsidian
+fill ~39 ~2 ~48 ~41 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~46 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~48 minecraft:respawn_anchor[charges=3]
+fill ~50 ~2 ~48 ~50 ~2 ~50 minecraft:respawn_anchor[charges=3]
+fill ~51 ~2 ~48 ~52 ~2 ~48 minecraft:furnace[lit=true]
+fill ~62 ~2 ~48 ~62 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~63 ~2 ~48 minecraft:redstone_ore[lit=true]
+setblock ~64 ~2 ~48 minecraft:copper_bulb[lit=true]
+fill ~65 ~2 ~48 ~66 ~2 ~48 minecraft:furnace[lit=true]
+fill ~69 ~2 ~48 ~70 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~71 ~2 ~48 minecraft:crying_obsidian
+setblock ~72 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+setblock ~73 ~2 ~48 minecraft:crying_obsidian
+setblock ~74 ~2 ~48 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+fill ~76 ~2 ~48 ~76 ~2 ~49 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+fill ~79 ~2 ~48 ~79 ~2 ~49 minecraft:furnace[lit=true]
+fill ~82 ~2 ~48 ~82 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~83 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+setblock ~85 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+setblock ~86 ~2 ~48 minecraft:respawn_anchor[charges=2]
+fill ~87 ~2 ~48 ~88 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+fill ~91 ~2 ~48 ~93 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+fill ~94 ~2 ~48 ~95 ~2 ~48 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+setblock ~97 ~2 ~48 minecraft:respawn_anchor[charges=3]
+setblock ~98 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+setblock ~99 ~2 ~48 minecraft:redstone_ore[lit=true]
+setblock ~100 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+setblock ~101 ~2 ~48 minecraft:redstone_ore[lit=true]
+setblock ~108 ~2 ~48 minecraft:copper_bulb[lit=true]
+setblock ~109 ~2 ~48 minecraft:furnace[lit=true]
+fill ~110 ~2 ~48 ~110 ~2 ~49 minecraft:respawn_anchor[charges=3]
+fill ~112 ~2 ~48 ~112 ~2 ~49 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~48 ~115 ~2 ~48 minecraft:furnace[lit=true]
+fill ~116 ~2 ~48 ~117 ~2 ~48 minecraft:respawn_anchor[charges=2]
+setblock ~118 ~2 ~48 minecraft:weathered_copper_bulb[lit=true]
+fill ~119 ~2 ~48 ~119 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~121 ~2 ~48 minecraft:sculk_catalyst[bloom=true]
+setblock ~122 ~2 ~48 minecraft:exposed_copper_bulb[lit=true]
+setblock ~124 ~2 ~48 minecraft:respawn_anchor[charges=3]
+setblock ~126 ~2 ~48 minecraft:furnace[lit=true]
+fill ~11 ~2 ~49 ~11 ~2 ~52 minecraft:furnace[lit=true]
+fill ~22 ~2 ~49 ~22 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+setblock ~23 ~2 ~49 minecraft:furnace[lit=true]
+fill ~36 ~2 ~49 ~36 ~2 ~50 minecraft:copper_bulb[lit=true]
+setblock ~37 ~2 ~49 minecraft:crying_obsidian
+setblock ~38 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~39 ~2 ~49 minecraft:copper_bulb[lit=true]
+fill ~40 ~2 ~49 ~41 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~48 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~49 ~2 ~49 minecraft:respawn_anchor[charges=3]
+fill ~52 ~2 ~49 ~53 ~2 ~50 minecraft:furnace[lit=true]
+fill ~55 ~2 ~49 ~55 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~61 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~63 ~2 ~49 minecraft:copper_bulb[lit=true]
+setblock ~64 ~2 ~49 minecraft:respawn_anchor[charges=3]
+fill ~66 ~2 ~49 ~68 ~2 ~49 minecraft:crying_obsidian
+setblock ~69 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~71 ~2 ~49 minecraft:respawn_anchor[charges=3]
+fill ~73 ~2 ~49 ~74 ~2 ~49 minecraft:respawn_anchor[charges=2]
+setblock ~75 ~2 ~49 minecraft:crying_obsidian
+setblock ~77 ~2 ~49 minecraft:furnace[lit=true]
+fill ~81 ~2 ~49 ~81 ~2 ~50 minecraft:furnace[lit=true]
+fill ~83 ~2 ~49 ~83 ~2 ~50 minecraft:furnace[lit=true]
+setblock ~84 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~49 minecraft:respawn_anchor[charges=2]
+fill ~86 ~2 ~49 ~86 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+fill ~89 ~2 ~49 ~90 ~2 ~49 minecraft:respawn_anchor[charges=2]
+setblock ~91 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~94 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~95 ~2 ~49 minecraft:respawn_anchor[charges=2]
+setblock ~97 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~99 ~2 ~49 minecraft:crying_obsidian
+fill ~100 ~2 ~49 ~101 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~102 ~2 ~49 minecraft:furnace[lit=true]
+fill ~109 ~2 ~49 ~109 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~113 ~2 ~49 minecraft:respawn_anchor[charges=2]
+fill ~114 ~2 ~49 ~115 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~116 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+fill ~117 ~2 ~49 ~118 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~120 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~121 ~2 ~49 minecraft:redstone_ore[lit=true]
+setblock ~122 ~2 ~49 minecraft:respawn_anchor[charges=2]
+setblock ~123 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~125 ~2 ~49 minecraft:respawn_anchor[charges=3]
+setblock ~126 ~2 ~49 minecraft:weathered_copper_bulb[lit=true]
+setblock ~127 ~2 ~49 minecraft:exposed_copper_bulb[lit=true]
+setblock ~19 ~2 ~50 minecraft:respawn_anchor[charges=3]
+fill ~23 ~2 ~50 ~23 ~2 ~56 minecraft:copper_bulb[lit=true]
+fill ~26 ~2 ~50 ~26 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~38 ~2 ~50 minecraft:crying_obsidian
+fill ~42 ~2 ~50 ~43 ~2 ~51 minecraft:furnace[lit=true]
+fill ~48 ~2 ~50 ~48 ~2 ~51 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~50 minecraft:crying_obsidian
+setblock ~51 ~2 ~50 minecraft:copper_bulb[lit=true]
+fill ~58 ~2 ~50 ~58 ~2 ~51 minecraft:copper_bulb[lit=true]
+fill ~60 ~2 ~50 ~61 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+setblock ~63 ~2 ~50 minecraft:redstone_ore[lit=true]
+fill ~64 ~2 ~50 ~66 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+setblock ~67 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~50 minecraft:redstone_ore[lit=true]
+setblock ~69 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+fill ~70 ~2 ~50 ~72 ~2 ~50 minecraft:redstone_ore[lit=true]
+fill ~75 ~2 ~50 ~75 ~2 ~52 minecraft:weathered_copper_bulb[lit=true]
+fill ~76 ~2 ~50 ~76 ~2 ~51 minecraft:respawn_anchor[charges=2]
+setblock ~78 ~2 ~50 minecraft:redstone_ore[lit=true]
+setblock ~80 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~84 ~2 ~50 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~50 minecraft:redstone_ore[lit=true]
+setblock ~87 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+fill ~89 ~2 ~50 ~89 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~90 ~2 ~50 minecraft:crying_obsidian
+setblock ~91 ~2 ~50 minecraft:redstone_ore[lit=true]
+setblock ~92 ~2 ~50 minecraft:crying_obsidian
+setblock ~93 ~2 ~50 minecraft:weathered_copper_bulb[lit=true]
+fill ~94 ~2 ~50 ~94 ~2 ~51 minecraft:redstone_ore[lit=true]
+fill ~95 ~2 ~50 ~96 ~2 ~50 minecraft:respawn_anchor[charges=3]
+fill ~97 ~2 ~50 ~98 ~2 ~50 minecraft:furnace[lit=true]
+fill ~99 ~2 ~50 ~99 ~2 ~53 minecraft:copper_bulb[lit=true]
+setblock ~100 ~2 ~50 minecraft:copper_bulb[lit=true]
+fill ~101 ~2 ~50 ~102 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+fill ~110 ~2 ~50 ~110 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~50 minecraft:crying_obsidian
+setblock ~112 ~2 ~50 minecraft:furnace[lit=true]
+fill ~113 ~2 ~50 ~114 ~2 ~50 minecraft:crying_obsidian
+fill ~115 ~2 ~50 ~117 ~2 ~50 minecraft:redstone_ore[lit=true]
+fill ~118 ~2 ~50 ~119 ~2 ~53 minecraft:crying_obsidian
+fill ~120 ~2 ~50 ~121 ~2 ~50 minecraft:crying_obsidian
+setblock ~122 ~2 ~50 minecraft:sculk_catalyst[bloom=true]
+setblock ~124 ~2 ~50 minecraft:respawn_anchor[charges=3]
+setblock ~125 ~2 ~50 minecraft:redstone_ore[lit=true]
+fill ~126 ~2 ~50 ~127 ~2 ~50 minecraft:crying_obsidian
+setblock ~13 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~51 minecraft:furnace[lit=true]
+fill ~24 ~2 ~51 ~24 ~2 ~54 minecraft:copper_bulb[lit=true]
+fill ~25 ~2 ~51 ~25 ~2 ~52 minecraft:weathered_copper_bulb[lit=true]
+setblock ~28 ~2 ~51 minecraft:furnace[lit=true]
+fill ~29 ~2 ~51 ~29 ~2 ~52 minecraft:respawn_anchor[charges=3]
+fill ~30 ~2 ~51 ~33 ~2 ~51 minecraft:furnace[lit=true]
+fill ~38 ~2 ~51 ~38 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~39 ~2 ~51 minecraft:crying_obsidian
+setblock ~40 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~51 minecraft:copper_bulb[lit=true]
+fill ~44 ~2 ~51 ~45 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~51 minecraft:redstone_ore[lit=true]
+setblock ~50 ~2 ~51 minecraft:exposed_copper_bulb[lit=true]
+setblock ~53 ~2 ~51 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~51 ~57 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~51 minecraft:respawn_anchor[charges=2]
+setblock ~61 ~2 ~51 minecraft:copper_bulb[lit=true]
+fill ~62 ~2 ~51 ~62 ~2 ~52 minecraft:crying_obsidian
+setblock ~63 ~2 ~51 minecraft:respawn_anchor[charges=2]
+fill ~65 ~2 ~51 ~67 ~2 ~51 minecraft:crying_obsidian
+fill ~69 ~2 ~51 ~70 ~2 ~51 minecraft:crying_obsidian
+fill ~71 ~2 ~51 ~72 ~2 ~51 minecraft:redstone_ore[lit=true]
+fill ~73 ~2 ~51 ~74 ~2 ~51 minecraft:crying_obsidian
+setblock ~77 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~78 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~80 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+fill ~83 ~2 ~51 ~84 ~2 ~51 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~86 ~2 ~51 minecraft:redstone_ore[lit=true]
+fill ~87 ~2 ~51 ~88 ~2 ~51 minecraft:respawn_anchor[charges=2]
+setblock ~90 ~2 ~51 minecraft:exposed_copper_bulb[lit=true]
+setblock ~91 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~92 ~2 ~51 minecraft:copper_bulb[lit=true]
+setblock ~93 ~2 ~51 minecraft:redstone_ore[lit=true]
+fill ~95 ~2 ~51 ~98 ~2 ~51 minecraft:copper_bulb[lit=true]
+setblock ~100 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~113 ~2 ~51 minecraft:respawn_anchor[charges=3]
+fill ~114 ~2 ~51 ~115 ~2 ~51 minecraft:weathered_copper_bulb[lit=true]
+setblock ~120 ~2 ~51 minecraft:crying_obsidian
+fill ~121 ~2 ~51 ~122 ~2 ~51 minecraft:redstone_ore[lit=true]
+setblock ~123 ~2 ~51 minecraft:crying_obsidian
+fill ~124 ~2 ~51 ~124 ~2 ~52 minecraft:respawn_anchor[charges=2]
+setblock ~125 ~2 ~51 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~51 minecraft:respawn_anchor[charges=3]
+setblock ~127 ~2 ~51 minecraft:redstone_ore[lit=true]
+fill ~13 ~2 ~52 ~13 ~2 ~59 minecraft:copper_bulb[lit=true]
+fill ~16 ~2 ~52 ~16 ~2 ~53 minecraft:copper_bulb[lit=true]
+fill ~20 ~2 ~52 ~21 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~22 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~26 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~28 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~52 minecraft:respawn_anchor[charges=3]
+setblock ~31 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~32 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~40 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~41 ~2 ~52 minecraft:respawn_anchor[charges=3]
+setblock ~42 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~43 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~52 minecraft:crying_obsidian
+fill ~51 ~2 ~52 ~51 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~52 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~52 minecraft:respawn_anchor[charges=3]
+setblock ~55 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~52 minecraft:furnace[lit=true]
+fill ~58 ~2 ~52 ~59 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~63 ~2 ~52 minecraft:furnace[lit=true]
+fill ~64 ~2 ~52 ~67 ~2 ~52 minecraft:copper_bulb[lit=true]
+fill ~72 ~2 ~52 ~72 ~2 ~54 minecraft:furnace[lit=true]
+fill ~73 ~2 ~52 ~74 ~2 ~52 minecraft:respawn_anchor[charges=3]
+setblock ~76 ~2 ~52 minecraft:redstone_ore[lit=true]
+fill ~78 ~2 ~52 ~79 ~2 ~52 minecraft:copper_bulb[lit=true]
+fill ~80 ~2 ~52 ~80 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~83 ~2 ~52 minecraft:crying_obsidian
+setblock ~84 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~85 ~2 ~52 minecraft:respawn_anchor[charges=2]
+fill ~86 ~2 ~52 ~89 ~2 ~52 minecraft:weathered_copper_bulb[lit=true]
+setblock ~90 ~2 ~52 minecraft:respawn_anchor[charges=2]
+fill ~91 ~2 ~52 ~91 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+setblock ~92 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~93 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~94 ~2 ~52 minecraft:crying_obsidian
+setblock ~95 ~2 ~52 minecraft:furnace[lit=true]
+fill ~96 ~2 ~52 ~98 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~52 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~52 minecraft:furnace[lit=true]
+setblock ~113 ~2 ~52 minecraft:crying_obsidian
+setblock ~114 ~2 ~52 minecraft:weathered_copper_bulb[lit=true]
+setblock ~115 ~2 ~52 minecraft:respawn_anchor[charges=2]
+fill ~116 ~2 ~52 ~116 ~2 ~53 minecraft:crying_obsidian
+setblock ~117 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~121 ~2 ~52 minecraft:redstone_ore[lit=true]
+setblock ~122 ~2 ~52 minecraft:crying_obsidian
+setblock ~123 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+setblock ~127 ~2 ~52 minecraft:exposed_copper_bulb[lit=true]
+fill ~11 ~2 ~53 ~11 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+setblock ~19 ~2 ~53 minecraft:copper_bulb[lit=true]
+setblock ~20 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+fill ~21 ~2 ~53 ~22 ~2 ~53 minecraft:crying_obsidian
+setblock ~25 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~26 ~2 ~53 minecraft:respawn_anchor[charges=3]
+fill ~28 ~2 ~53 ~28 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~29 ~2 ~53 minecraft:furnace[lit=true]
+setblock ~30 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~31 ~2 ~53 minecraft:furnace[lit=true]
+setblock ~32 ~2 ~53 minecraft:copper_bulb[lit=true]
+fill ~33 ~2 ~53 ~34 ~2 ~53 minecraft:furnace[lit=true]
+setblock ~40 ~2 ~53 minecraft:copper_bulb[lit=true]
+fill ~41 ~2 ~53 ~41 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~42 ~2 ~53 minecraft:crying_obsidian
+setblock ~43 ~2 ~53 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+setblock ~45 ~2 ~53 minecraft:furnace[lit=true]
+fill ~46 ~2 ~53 ~47 ~2 ~53 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~53 minecraft:crying_obsidian
+fill ~50 ~2 ~53 ~50 ~2 ~55 minecraft:furnace[lit=true]
+fill ~52 ~2 ~53 ~53 ~2 ~53 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~53 minecraft:respawn_anchor[charges=3]
+setblock ~56 ~2 ~53 minecraft:copper_bulb[lit=true]
+setblock ~58 ~2 ~53 minecraft:furnace[lit=true]
+fill ~59 ~2 ~53 ~59 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~60 ~2 ~53 minecraft:crying_obsidian
+setblock ~61 ~2 ~53 minecraft:respawn_anchor[charges=3]
+fill ~62 ~2 ~53 ~63 ~2 ~53 minecraft:copper_bulb[lit=true]
+fill ~65 ~2 ~53 ~66 ~2 ~56 minecraft:copper_bulb[lit=true]
+fill ~71 ~2 ~53 ~71 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~53 minecraft:sculk_catalyst[bloom=true]
+setblock ~76 ~2 ~53 minecraft:respawn_anchor[charges=3]
+fill ~77 ~2 ~53 ~77 ~2 ~54 minecraft:copper_bulb[lit=true]
+fill ~78 ~2 ~53 ~79 ~2 ~58 minecraft:furnace[lit=true]
+fill ~81 ~2 ~53 ~81 ~2 ~56 minecraft:furnace[lit=true]
+fill ~82 ~2 ~53 ~84 ~2 ~53 minecraft:copper_bulb[lit=true]
+fill ~85 ~2 ~53 ~86 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+fill ~88 ~2 ~53 ~90 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+fill ~92 ~2 ~53 ~92 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~94 ~2 ~53 minecraft:furnace[lit=true]
+setblock ~95 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~96 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+fill ~97 ~2 ~53 ~98 ~2 ~53 minecraft:copper_bulb[lit=true]
+setblock ~100 ~2 ~53 minecraft:exposed_copper_bulb[lit=true]
+setblock ~101 ~2 ~53 minecraft:furnace[lit=true]
+fill ~102 ~2 ~53 ~102 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+fill ~103 ~2 ~53 ~103 ~2 ~61 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~53 minecraft:furnace[lit=true]
+setblock ~112 ~2 ~53 minecraft:respawn_anchor[charges=3]
+fill ~114 ~2 ~53 ~114 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~115 ~2 ~53 minecraft:sculk_catalyst[bloom=true]
+setblock ~120 ~2 ~53 minecraft:redstone_ore[lit=true]
+setblock ~122 ~2 ~53 minecraft:furnace[lit=true]
+fill ~123 ~2 ~53 ~123 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~124 ~2 ~53 minecraft:weathered_copper_bulb[lit=true]
+fill ~125 ~2 ~53 ~125 ~2 ~55 minecraft:respawn_anchor[charges=2]
+setblock ~126 ~2 ~53 minecraft:weathered_copper_bulb[lit=true]
+setblock ~19 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+fill ~20 ~2 ~54 ~21 ~2 ~54 minecraft:respawn_anchor[charges=3]
+setblock ~25 ~2 ~54 minecraft:respawn_anchor[charges=3]
+fill ~26 ~2 ~54 ~26 ~2 ~55 minecraft:redstone_ore[lit=true]
+fill ~30 ~2 ~54 ~30 ~2 ~55 minecraft:respawn_anchor[charges=3]
+setblock ~31 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~32 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~33 ~2 ~54 minecraft:copper_bulb[lit=true]
+fill ~34 ~2 ~54 ~35 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~42 ~2 ~54 minecraft:respawn_anchor[charges=3]
+setblock ~43 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+fill ~44 ~2 ~54 ~45 ~2 ~54 minecraft:crying_obsidian
+fill ~46 ~2 ~54 ~47 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+setblock ~48 ~2 ~54 minecraft:redstone_ore[lit=true]
+fill ~49 ~2 ~54 ~49 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~52 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~56 ~2 ~54 minecraft:crying_obsidian
+fill ~60 ~2 ~54 ~60 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~61 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~62 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~74 ~2 ~54 minecraft:crying_obsidian
+setblock ~75 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+setblock ~76 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~82 ~2 ~54 minecraft:furnace[lit=true]
+fill ~84 ~2 ~54 ~84 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~87 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~89 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+fill ~90 ~2 ~54 ~91 ~2 ~54 minecraft:furnace[lit=true]
+fill ~93 ~2 ~54 ~93 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~94 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~95 ~2 ~54 minecraft:crying_obsidian
+setblock ~96 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~97 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~98 ~2 ~54 minecraft:copper_bulb[lit=true]
+setblock ~99 ~2 ~54 minecraft:furnace[lit=true]
+setblock ~101 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+fill ~104 ~2 ~54 ~104 ~2 ~60 minecraft:copper_bulb[lit=true]
+fill ~108 ~2 ~54 ~108 ~2 ~57 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~54 minecraft:respawn_anchor[charges=3]
+setblock ~113 ~2 ~54 minecraft:respawn_anchor[charges=2]
+fill ~116 ~2 ~54 ~117 ~2 ~54 minecraft:weathered_copper_bulb[lit=true]
+fill ~118 ~2 ~54 ~119 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~120 ~2 ~54 minecraft:respawn_anchor[charges=2]
+setblock ~121 ~2 ~54 minecraft:exposed_copper_bulb[lit=true]
+fill ~122 ~2 ~54 ~122 ~2 ~57 minecraft:copper_bulb[lit=true]
+fill ~124 ~2 ~54 ~124 ~2 ~55 minecraft:crying_obsidian
+setblock ~126 ~2 ~54 minecraft:redstone_ore[lit=true]
+setblock ~127 ~2 ~54 minecraft:respawn_anchor[charges=3]
+fill ~11 ~2 ~55 ~12 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~18 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~55 minecraft:redstone_ore[lit=true]
+fill ~20 ~2 ~55 ~21 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+fill ~22 ~2 ~55 ~22 ~2 ~56 minecraft:crying_obsidian
+fill ~24 ~2 ~55 ~24 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+fill ~29 ~2 ~55 ~29 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~31 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~32 ~2 ~55 minecraft:weathered_copper_bulb[lit=true]
+setblock ~33 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~35 ~2 ~55 minecraft:furnace[lit=true]
+fill ~38 ~2 ~55 ~38 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~40 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~41 ~2 ~55 minecraft:crying_obsidian
+fill ~43 ~2 ~55 ~43 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~44 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~55 minecraft:respawn_anchor[charges=3]
+setblock ~47 ~2 ~55 minecraft:crying_obsidian
+setblock ~48 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+fill ~51 ~2 ~55 ~52 ~2 ~55 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~54 ~2 ~55 minecraft:crying_obsidian
+fill ~55 ~2 ~55 ~56 ~2 ~55 minecraft:respawn_anchor[charges=3]
+setblock ~57 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~62 ~2 ~55 minecraft:respawn_anchor[charges=3]
+fill ~63 ~2 ~55 ~64 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~73 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~74 ~2 ~55 minecraft:respawn_anchor[charges=2]
+setblock ~75 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+fill ~77 ~2 ~55 ~77 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~55 minecraft:weathered_copper_bulb[lit=true]
+setblock ~86 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~88 ~2 ~55 minecraft:respawn_anchor[charges=3]
+fill ~90 ~2 ~55 ~91 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~94 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~95 ~2 ~55 minecraft:furnace[lit=true]
+setblock ~97 ~2 ~55 minecraft:redstone_ore[lit=true]
+fill ~101 ~2 ~55 ~101 ~2 ~56 minecraft:furnace[lit=true]
+fill ~105 ~2 ~55 ~105 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~55 minecraft:furnace[lit=true]
+fill ~112 ~2 ~55 ~113 ~2 ~55 minecraft:redstone_ore[lit=true]
+setblock ~114 ~2 ~55 minecraft:crying_obsidian
+fill ~116 ~2 ~55 ~117 ~2 ~55 minecraft:crying_obsidian
+setblock ~118 ~2 ~55 minecraft:sculk_catalyst[bloom=true]
+setblock ~119 ~2 ~55 minecraft:weathered_copper_bulb[lit=true]
+setblock ~120 ~2 ~55 minecraft:furnace[lit=true]
+fill ~121 ~2 ~55 ~121 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~126 ~2 ~55 minecraft:crying_obsidian
+setblock ~127 ~2 ~55 minecraft:exposed_copper_bulb[lit=true]
+setblock ~11 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~17 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~18 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~19 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~20 ~2 ~56 ~20 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~26 ~2 ~56 minecraft:crying_obsidian
+setblock ~27 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+setblock ~28 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~31 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+setblock ~33 ~2 ~56 minecraft:respawn_anchor[charges=2]
+setblock ~34 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+setblock ~35 ~2 ~56 minecraft:copper_bulb[lit=true]
+fill ~36 ~2 ~56 ~37 ~2 ~56 minecraft:furnace[lit=true]
+fill ~39 ~2 ~56 ~40 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~41 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~42 ~2 ~56 ~42 ~2 ~57 minecraft:respawn_anchor[charges=2]
+fill ~44 ~2 ~56 ~44 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~56 minecraft:furnace[lit=true]
+setblock ~50 ~2 ~56 minecraft:copper_bulb[lit=true]
+fill ~51 ~2 ~56 ~51 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+fill ~52 ~2 ~56 ~53 ~2 ~56 minecraft:respawn_anchor[charges=3]
+setblock ~54 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~55 ~2 ~56 ~56 ~2 ~57 minecraft:copper_bulb[lit=true]
+setblock ~57 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~58 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~59 ~2 ~56 ~62 ~2 ~56 minecraft:crying_obsidian
+setblock ~67 ~2 ~56 minecraft:copper_bulb[lit=true]
+setblock ~73 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+setblock ~74 ~2 ~56 minecraft:redstone_ore[lit=true]
+fill ~76 ~2 ~56 ~76 ~2 ~60 minecraft:furnace[lit=true]
+fill ~85 ~2 ~56 ~85 ~2 ~57 minecraft:respawn_anchor[charges=2]
+setblock ~86 ~2 ~56 minecraft:crying_obsidian
+fill ~87 ~2 ~56 ~87 ~2 ~57 minecraft:copper_bulb[lit=true]
+setblock ~88 ~2 ~56 minecraft:redstone_ore[lit=true]
+fill ~90 ~2 ~56 ~90 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~91 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~92 ~2 ~56 ~93 ~2 ~56 minecraft:furnace[lit=true]
+fill ~95 ~2 ~56 ~95 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+fill ~97 ~2 ~56 ~100 ~2 ~56 minecraft:respawn_anchor[charges=3]
+fill ~102 ~2 ~56 ~102 ~2 ~58 minecraft:copper_bulb[lit=true]
+fill ~106 ~2 ~56 ~107 ~2 ~58 minecraft:copper_bulb[lit=true]
+fill ~111 ~2 ~56 ~111 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~56 minecraft:crying_obsidian
+setblock ~113 ~2 ~56 minecraft:respawn_anchor[charges=2]
+fill ~114 ~2 ~56 ~115 ~2 ~56 minecraft:exposed_copper_bulb[lit=true]
+fill ~118 ~2 ~56 ~119 ~2 ~56 minecraft:redstone_ore[lit=true]
+setblock ~120 ~2 ~56 minecraft:copper_bulb[lit=true]
+fill ~124 ~2 ~56 ~125 ~2 ~56 minecraft:weathered_copper_bulb[lit=true]
+fill ~126 ~2 ~56 ~126 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~127 ~2 ~56 minecraft:respawn_anchor[charges=3]
+fill ~14 ~2 ~57 ~14 ~2 ~59 minecraft:copper_bulb[lit=true]
+fill ~15 ~2 ~57 ~16 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~17 ~2 ~57 minecraft:crying_obsidian
+setblock ~18 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~19 ~2 ~57 minecraft:copper_bulb[lit=true]
+setblock ~21 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~26 ~2 ~57 minecraft:furnace[lit=true]
+fill ~27 ~2 ~57 ~27 ~2 ~58 minecraft:redstone_ore[lit=true]
+fill ~29 ~2 ~57 ~29 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+fill ~31 ~2 ~57 ~31 ~2 ~58 minecraft:respawn_anchor[charges=3]
+fill ~32 ~2 ~57 ~32 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~33 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~34 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+setblock ~35 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~36 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~57 minecraft:copper_bulb[lit=true]
+fill ~40 ~2 ~57 ~41 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~43 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~46 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~48 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+fill ~49 ~2 ~57 ~50 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~52 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+fill ~53 ~2 ~57 ~54 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~72 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~57 minecraft:respawn_anchor[charges=2]
+fill ~74 ~2 ~57 ~74 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~86 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~88 ~2 ~57 minecraft:respawn_anchor[charges=3]
+setblock ~89 ~2 ~57 minecraft:crying_obsidian
+fill ~91 ~2 ~57 ~91 ~2 ~58 minecraft:furnace[lit=true]
+fill ~92 ~2 ~57 ~93 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~94 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~96 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~98 ~2 ~57 minecraft:furnace[lit=true]
+fill ~99 ~2 ~57 ~100 ~2 ~57 minecraft:crying_obsidian
+fill ~101 ~2 ~57 ~101 ~2 ~66 minecraft:copper_bulb[lit=true]
+fill ~110 ~2 ~57 ~110 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~113 ~2 ~57 minecraft:sculk_catalyst[bloom=true]
+setblock ~114 ~2 ~57 minecraft:furnace[lit=true]
+fill ~115 ~2 ~57 ~115 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~117 ~2 ~57 minecraft:crying_obsidian
+setblock ~118 ~2 ~57 minecraft:exposed_copper_bulb[lit=true]
+setblock ~119 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+setblock ~121 ~2 ~57 minecraft:furnace[lit=true]
+setblock ~123 ~2 ~57 minecraft:crying_obsidian
+setblock ~124 ~2 ~57 minecraft:weathered_copper_bulb[lit=true]
+setblock ~125 ~2 ~57 minecraft:redstone_ore[lit=true]
+setblock ~127 ~2 ~57 minecraft:crying_obsidian
+setblock ~12 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~15 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~16 ~2 ~58 minecraft:respawn_anchor[charges=3]
+fill ~17 ~2 ~58 ~17 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~58 minecraft:respawn_anchor[charges=3]
+fill ~26 ~2 ~58 ~26 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~28 ~2 ~58 minecraft:crying_obsidian
+setblock ~33 ~2 ~58 minecraft:copper_bulb[lit=true]
+fill ~34 ~2 ~58 ~34 ~2 ~59 minecraft:furnace[lit=true]
+fill ~35 ~2 ~58 ~36 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~37 ~2 ~58 minecraft:respawn_anchor[charges=3]
+setblock ~40 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~41 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~42 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~43 ~2 ~58 minecraft:respawn_anchor[charges=3]
+setblock ~47 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+fill ~49 ~2 ~58 ~50 ~2 ~58 minecraft:furnace[lit=true]
+fill ~51 ~2 ~58 ~52 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~71 ~2 ~58 minecraft:respawn_anchor[charges=3]
+setblock ~72 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~73 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~58 minecraft:furnace[lit=true]
+fill ~77 ~2 ~58 ~77 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~84 ~2 ~58 minecraft:respawn_anchor[charges=3]
+setblock ~85 ~2 ~58 minecraft:weathered_copper_bulb[lit=true]
+setblock ~86 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+fill ~88 ~2 ~58 ~88 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~89 ~2 ~58 minecraft:redstone_ore[lit=true]
+setblock ~94 ~2 ~58 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+fill ~97 ~2 ~58 ~98 ~2 ~58 minecraft:crying_obsidian
+setblock ~112 ~2 ~58 minecraft:copper_bulb[lit=true]
+setblock ~113 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~114 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~116 ~2 ~58 minecraft:redstone_ore[lit=true]
+fill ~118 ~2 ~58 ~118 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~119 ~2 ~58 minecraft:respawn_anchor[charges=2]
+setblock ~123 ~2 ~58 minecraft:respawn_anchor[charges=2]
+fill ~124 ~2 ~58 ~124 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~126 ~2 ~58 minecraft:crying_obsidian
+setblock ~127 ~2 ~58 minecraft:exposed_copper_bulb[lit=true]
+setblock ~12 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~18 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~22 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+setblock ~24 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~59 minecraft:redstone_ore[lit=true]
+fill ~27 ~2 ~59 ~27 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~28 ~2 ~59 minecraft:redstone_ore[lit=true]
+fill ~30 ~2 ~59 ~31 ~2 ~59 minecraft:crying_obsidian
+fill ~33 ~2 ~59 ~33 ~2 ~61 minecraft:furnace[lit=true]
+fill ~35 ~2 ~59 ~35 ~2 ~61 minecraft:furnace[lit=true]
+setblock ~36 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+fill ~37 ~2 ~59 ~38 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~39 ~2 ~59 minecraft:crying_obsidian
+setblock ~41 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~42 ~2 ~59 minecraft:respawn_anchor[charges=3]
+setblock ~43 ~2 ~59 minecraft:weathered_copper_bulb[lit=true]
+setblock ~44 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~59 minecraft:copper_bulb[lit=true]
+fill ~47 ~2 ~59 ~48 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~70 ~2 ~59 minecraft:exposed_copper_bulb[lit=true]
+setblock ~71 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~72 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~78 ~2 ~59 minecraft:furnace[lit=true]
+fill ~80 ~2 ~59 ~80 ~2 ~62 minecraft:furnace[lit=true]
+fill ~84 ~2 ~59 ~84 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~85 ~2 ~59 minecraft:crying_obsidian
+fill ~87 ~2 ~59 ~87 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~89 ~2 ~59 minecraft:crying_obsidian
+fill ~90 ~2 ~59 ~96 ~2 ~59 minecraft:respawn_anchor[charges=3]
+fill ~97 ~2 ~59 ~98 ~2 ~59 minecraft:furnace[lit=true]
+fill ~99 ~2 ~59 ~100 ~2 ~60 minecraft:copper_bulb[lit=true]
+setblock ~102 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~106 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~108 ~2 ~59 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~113 ~2 ~59 minecraft:weathered_copper_bulb[lit=true]
+fill ~114 ~2 ~59 ~117 ~2 ~59 minecraft:crying_obsidian
+setblock ~119 ~2 ~59 minecraft:crying_obsidian
+setblock ~120 ~2 ~59 minecraft:redstone_ore[lit=true]
+setblock ~122 ~2 ~59 minecraft:weathered_copper_bulb[lit=true]
+setblock ~125 ~2 ~59 minecraft:crying_obsidian
+fill ~127 ~2 ~59 ~127 ~2 ~60 minecraft:furnace[lit=true]
+fill ~20 ~2 ~60 ~22 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~24 ~2 ~60 minecraft:crying_obsidian
+setblock ~25 ~2 ~60 minecraft:exposed_copper_bulb[lit=true]
+fill ~26 ~2 ~60 ~26 ~2 ~61 minecraft:furnace[lit=true]
+fill ~29 ~2 ~60 ~30 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~31 ~2 ~60 minecraft:respawn_anchor[charges=3]
+fill ~32 ~2 ~60 ~32 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~36 ~2 ~60 minecraft:copper_bulb[lit=true]
+fill ~37 ~2 ~60 ~37 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~38 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~40 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+fill ~41 ~2 ~60 ~41 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~42 ~2 ~60 minecraft:crying_obsidian
+setblock ~43 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~44 ~2 ~60 minecraft:exposed_copper_bulb[lit=true]
+fill ~46 ~2 ~60 ~47 ~2 ~60 minecraft:copper_bulb[lit=true]
+fill ~50 ~2 ~60 ~50 ~2 ~61 minecraft:copper_bulb[lit=true]
+fill ~52 ~2 ~60 ~53 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~60 minecraft:copper_bulb[lit=true]
+fill ~55 ~2 ~60 ~55 ~2 ~61 minecraft:furnace[lit=true]
+fill ~57 ~2 ~60 ~58 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~60 minecraft:exposed_copper_bulb[lit=true]
+fill ~61 ~2 ~60 ~61 ~2 ~61 minecraft:copper_bulb[lit=true]
+fill ~65 ~2 ~60 ~65 ~2 ~61 minecraft:copper_bulb[lit=true]
+setblock ~69 ~2 ~60 minecraft:crying_obsidian
+setblock ~70 ~2 ~60 minecraft:respawn_anchor[charges=2]
+fill ~71 ~2 ~60 ~73 ~2 ~60 minecraft:exposed_copper_bulb[lit=true]
+fill ~74 ~2 ~60 ~75 ~2 ~60 minecraft:respawn_anchor[charges=3]
+setblock ~82 ~2 ~60 minecraft:copper_bulb[lit=true]
+setblock ~83 ~2 ~60 minecraft:crying_obsidian
+fill ~86 ~2 ~60 ~86 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+setblock ~88 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~90 ~2 ~60 minecraft:respawn_anchor[charges=3]
+fill ~93 ~2 ~60 ~94 ~2 ~60 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~60 minecraft:furnace[lit=true]
+fill ~97 ~2 ~60 ~98 ~2 ~63 minecraft:copper_bulb[lit=true]
+setblock ~102 ~2 ~60 minecraft:copper_bulb[lit=true]
+fill ~110 ~2 ~60 ~110 ~2 ~61 minecraft:copper_bulb[lit=true]
+setblock ~112 ~2 ~60 minecraft:respawn_anchor[charges=3]
+setblock ~113 ~2 ~60 minecraft:redstone_ore[lit=true]
+setblock ~114 ~2 ~60 minecraft:respawn_anchor[charges=2]
+setblock ~115 ~2 ~60 minecraft:weathered_copper_bulb[lit=true]
+fill ~118 ~2 ~60 ~118 ~2 ~61 minecraft:respawn_anchor[charges=2]
+fill ~15 ~2 ~61 ~16 ~2 ~61 minecraft:furnace[lit=true]
+fill ~17 ~2 ~61 ~18 ~2 ~61 minecraft:respawn_anchor[charges=3]
+setblock ~19 ~2 ~61 minecraft:furnace[lit=true]
+fill ~20 ~2 ~61 ~21 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+fill ~23 ~2 ~61 ~23 ~2 ~62 minecraft:crying_obsidian
+setblock ~24 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+fill ~25 ~2 ~61 ~25 ~2 ~62 minecraft:copper_bulb[lit=true]
+setblock ~27 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+setblock ~30 ~2 ~61 minecraft:crying_obsidian
+setblock ~31 ~2 ~61 minecraft:redstone_ore[lit=true]
+fill ~36 ~2 ~61 ~36 ~2 ~66 minecraft:furnace[lit=true]
+fill ~38 ~2 ~61 ~38 ~2 ~65 minecraft:copper_bulb[lit=true]
+setblock ~39 ~2 ~61 minecraft:respawn_anchor[charges=3]
+fill ~40 ~2 ~61 ~40 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~42 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+setblock ~44 ~2 ~61 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~61 minecraft:furnace[lit=true]
+setblock ~46 ~2 ~61 minecraft:respawn_anchor[charges=3]
+setblock ~47 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~48 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+setblock ~49 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+fill ~53 ~2 ~61 ~54 ~2 ~61 minecraft:furnace[lit=true]
+fill ~56 ~2 ~61 ~57 ~2 ~61 minecraft:furnace[lit=true]
+setblock ~59 ~2 ~61 minecraft:furnace[lit=true]
+fill ~62 ~2 ~61 ~64 ~2 ~61 minecraft:copper_bulb[lit=true]
+fill ~69 ~2 ~61 ~69 ~2 ~62 minecraft:furnace[lit=true]
+fill ~70 ~2 ~61 ~70 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~71 ~2 ~61 minecraft:respawn_anchor[charges=2]
+fill ~72 ~2 ~61 ~73 ~2 ~61 minecraft:weathered_copper_bulb[lit=true]
+fill ~74 ~2 ~61 ~74 ~2 ~62 minecraft:respawn_anchor[charges=2]
+setblock ~75 ~2 ~61 minecraft:respawn_anchor[charges=3]
+fill ~76 ~2 ~61 ~76 ~2 ~62 minecraft:copper_bulb[lit=true]
+fill ~78 ~2 ~61 ~79 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~82 ~2 ~61 minecraft:furnace[lit=true]
+setblock ~83 ~2 ~61 minecraft:respawn_anchor[charges=2]
+setblock ~84 ~2 ~61 minecraft:crying_obsidian
+fill ~88 ~2 ~61 ~88 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+fill ~89 ~2 ~61 ~90 ~2 ~61 minecraft:furnace[lit=true]
+setblock ~91 ~2 ~61 minecraft:redstone_ore[lit=true]
+fill ~92 ~2 ~61 ~93 ~2 ~61 minecraft:copper_bulb[lit=true]
+setblock ~94 ~2 ~61 minecraft:furnace[lit=true]
+fill ~95 ~2 ~61 ~95 ~2 ~64 minecraft:copper_bulb[lit=true]
+fill ~106 ~2 ~61 ~106 ~2 ~62 minecraft:copper_bulb[lit=true]
+fill ~112 ~2 ~61 ~112 ~2 ~65 minecraft:copper_bulb[lit=true]
+setblock ~113 ~2 ~61 minecraft:respawn_anchor[charges=2]
+fill ~114 ~2 ~61 ~115 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~116 ~2 ~61 minecraft:exposed_copper_bulb[lit=true]
+fill ~120 ~2 ~61 ~120 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~121 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~122 ~2 ~61 minecraft:crying_obsidian
+fill ~123 ~2 ~61 ~124 ~2 ~61 minecraft:redstone_ore[lit=true]
+setblock ~125 ~2 ~61 minecraft:crying_obsidian
+fill ~126 ~2 ~61 ~127 ~2 ~61 minecraft:respawn_anchor[charges=3]
+fill ~13 ~2 ~62 ~14 ~2 ~63 minecraft:copper_bulb[lit=true]
+setblock ~15 ~2 ~62 minecraft:respawn_anchor[charges=3]
+fill ~16 ~2 ~62 ~17 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~18 ~2 ~62 minecraft:respawn_anchor[charges=3]
+fill ~19 ~2 ~62 ~20 ~2 ~62 minecraft:crying_obsidian
+setblock ~24 ~2 ~62 minecraft:respawn_anchor[charges=3]
+setblock ~26 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~27 ~2 ~62 minecraft:furnace[lit=true]
+fill ~29 ~2 ~62 ~30 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~31 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+fill ~33 ~2 ~62 ~33 ~2 ~63 minecraft:copper_bulb[lit=true]
+fill ~34 ~2 ~62 ~34 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~41 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~42 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~43 ~2 ~62 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~62 minecraft:crying_obsidian
+setblock ~45 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+setblock ~46 ~2 ~62 minecraft:redstone_ore[lit=true]
+fill ~47 ~2 ~62 ~47 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~48 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~50 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+fill ~54 ~2 ~62 ~58 ~2 ~62 minecraft:copper_bulb[lit=true]
+setblock ~71 ~2 ~62 minecraft:weathered_copper_bulb[lit=true]
+fill ~72 ~2 ~62 ~72 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~73 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~62 minecraft:furnace[lit=true]
+fill ~82 ~2 ~62 ~83 ~2 ~62 minecraft:redstone_ore[lit=true]
+setblock ~89 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~90 ~2 ~62 minecraft:copper_bulb[lit=true]
+setblock ~91 ~2 ~62 minecraft:crying_obsidian
+setblock ~92 ~2 ~62 minecraft:respawn_anchor[charges=3]
+setblock ~93 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~62 minecraft:copper_bulb[lit=true]
+fill ~99 ~2 ~62 ~99 ~2 ~67 minecraft:copper_bulb[lit=true]
+fill ~102 ~2 ~62 ~102 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~115 ~2 ~62 minecraft:crying_obsidian
+fill ~116 ~2 ~62 ~116 ~2 ~63 minecraft:respawn_anchor[charges=2]
+fill ~117 ~2 ~62 ~117 ~2 ~64 minecraft:redstone_ore[lit=true]
+fill ~118 ~2 ~62 ~118 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~119 ~2 ~62 minecraft:exposed_copper_bulb[lit=true]
+setblock ~121 ~2 ~62 minecraft:furnace[lit=true]
+fill ~122 ~2 ~62 ~122 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+fill ~124 ~2 ~62 ~125 ~2 ~62 minecraft:furnace[lit=true]
+setblock ~16 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~20 ~2 ~63 minecraft:copper_bulb[lit=true]
+fill ~22 ~2 ~63 ~22 ~2 ~64 minecraft:redstone_ore[lit=true]
+setblock ~23 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+fill ~24 ~2 ~63 ~25 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~28 ~2 ~63 minecraft:furnace[lit=true]
+fill ~29 ~2 ~63 ~30 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~31 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~32 ~2 ~63 minecraft:crying_obsidian
+fill ~35 ~2 ~63 ~35 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~63 minecraft:crying_obsidian
+setblock ~40 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+fill ~42 ~2 ~63 ~43 ~2 ~63 minecraft:respawn_anchor[charges=2]
+setblock ~44 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~45 ~2 ~63 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~63 minecraft:respawn_anchor[charges=3]
+fill ~50 ~2 ~63 ~50 ~2 ~64 minecraft:respawn_anchor[charges=2]
+fill ~55 ~2 ~63 ~60 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~67 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+setblock ~68 ~2 ~63 minecraft:respawn_anchor[charges=3]
+fill ~69 ~2 ~63 ~70 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~71 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+setblock ~73 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~74 ~2 ~63 minecraft:weathered_copper_bulb[lit=true]
+fill ~75 ~2 ~63 ~75 ~2 ~65 minecraft:copper_bulb[lit=true]
+setblock ~76 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~79 ~2 ~63 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~63 minecraft:copper_bulb[lit=true]
+fill ~81 ~2 ~63 ~81 ~2 ~64 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~63 minecraft:crying_obsidian
+setblock ~83 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~84 ~2 ~63 minecraft:crying_obsidian
+setblock ~86 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+fill ~87 ~2 ~63 ~90 ~2 ~63 minecraft:furnace[lit=true]
+fill ~91 ~2 ~63 ~92 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+fill ~93 ~2 ~63 ~93 ~2 ~64 minecraft:crying_obsidian
+fill ~96 ~2 ~63 ~96 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~113 ~2 ~63 minecraft:redstone_ore[lit=true]
+setblock ~114 ~2 ~63 minecraft:crying_obsidian
+setblock ~115 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~119 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~121 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~124 ~2 ~63 minecraft:exposed_copper_bulb[lit=true]
+setblock ~125 ~2 ~63 minecraft:furnace[lit=true]
+fill ~126 ~2 ~63 ~127 ~2 ~63 minecraft:respawn_anchor[charges=3]
+setblock ~14 ~2 ~64 minecraft:copper_bulb[lit=true]
+fill ~16 ~2 ~64 ~17 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~20 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~21 ~2 ~64 minecraft:redstone_ore[lit=true]
+setblock ~23 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~24 ~2 ~64 minecraft:furnace[lit=true]
+fill ~27 ~2 ~64 ~28 ~2 ~64 minecraft:respawn_anchor[charges=3]
+setblock ~29 ~2 ~64 minecraft:crying_obsidian
+fill ~30 ~2 ~64 ~30 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~31 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~32 ~2 ~64 minecraft:respawn_anchor[charges=2]
+setblock ~33 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~39 ~2 ~64 minecraft:furnace[lit=true]
+fill ~40 ~2 ~64 ~41 ~2 ~64 minecraft:respawn_anchor[charges=2]
+setblock ~42 ~2 ~64 minecraft:crying_obsidian
+fill ~43 ~2 ~64 ~44 ~2 ~64 minecraft:copper_bulb[lit=true]
+fill ~46 ~2 ~64 ~46 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~48 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~49 ~2 ~64 minecraft:crying_obsidian
+fill ~63 ~2 ~64 ~64 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~64 minecraft:respawn_anchor[charges=3]
+fill ~66 ~2 ~64 ~67 ~2 ~64 minecraft:crying_obsidian
+setblock ~68 ~2 ~64 minecraft:redstone_ore[lit=true]
+fill ~69 ~2 ~64 ~70 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~71 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~72 ~2 ~64 minecraft:crying_obsidian
+setblock ~73 ~2 ~64 minecraft:sculk_catalyst[bloom=true]
+setblock ~74 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~78 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~79 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~64 minecraft:redstone_ore[lit=true]
+fill ~82 ~2 ~64 ~83 ~2 ~64 minecraft:copper_bulb[lit=true]
+setblock ~85 ~2 ~64 minecraft:crying_obsidian
+setblock ~86 ~2 ~64 minecraft:respawn_anchor[charges=3]
+fill ~87 ~2 ~64 ~87 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~88 ~2 ~64 minecraft:respawn_anchor[charges=3]
+fill ~90 ~2 ~64 ~91 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~92 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~64 minecraft:respawn_anchor[charges=3]
+fill ~97 ~2 ~64 ~97 ~2 ~66 minecraft:copper_bulb[lit=true]
+fill ~100 ~2 ~64 ~100 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~113 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~114 ~2 ~64 minecraft:redstone_ore[lit=true]
+setblock ~115 ~2 ~64 minecraft:weathered_copper_bulb[lit=true]
+setblock ~116 ~2 ~64 minecraft:sculk_catalyst[bloom=true]
+fill ~118 ~2 ~64 ~119 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+setblock ~120 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~121 ~2 ~64 minecraft:crying_obsidian
+fill ~122 ~2 ~64 ~124 ~2 ~64 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~64 minecraft:respawn_anchor[charges=3]
+setblock ~127 ~2 ~64 minecraft:exposed_copper_bulb[lit=true]
+fill ~17 ~2 ~65 ~17 ~2 ~66 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+fill ~20 ~2 ~65 ~21 ~2 ~65 minecraft:crying_obsidian
+setblock ~22 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~23 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~24 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+fill ~25 ~2 ~65 ~27 ~2 ~65 minecraft:crying_obsidian
+fill ~28 ~2 ~65 ~29 ~2 ~65 minecraft:respawn_anchor[charges=3]
+fill ~31 ~2 ~65 ~31 ~2 ~68 minecraft:copper_bulb[lit=true]
+setblock ~32 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~33 ~2 ~65 minecraft:respawn_anchor[charges=2]
+setblock ~35 ~2 ~65 minecraft:copper_bulb[lit=true]
+setblock ~37 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~65 minecraft:respawn_anchor[charges=2]
+setblock ~40 ~2 ~65 minecraft:weathered_copper_bulb[lit=true]
+setblock ~43 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~65 minecraft:crying_obsidian
+setblock ~47 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~48 ~2 ~65 minecraft:crying_obsidian
+fill ~50 ~2 ~65 ~51 ~2 ~65 minecraft:weathered_copper_bulb[lit=true]
+fill ~52 ~2 ~65 ~54 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~56 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~65 ~58 ~2 ~65 minecraft:furnace[lit=true]
+fill ~59 ~2 ~65 ~60 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~61 ~2 ~65 minecraft:respawn_anchor[charges=3]
+fill ~62 ~2 ~65 ~64 ~2 ~65 minecraft:crying_obsidian
+setblock ~65 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~66 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~67 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~69 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~70 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~71 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~72 ~2 ~65 minecraft:respawn_anchor[charges=2]
+setblock ~73 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~74 ~2 ~65 minecraft:copper_bulb[lit=true]
+setblock ~76 ~2 ~65 minecraft:copper_bulb[lit=true]
+setblock ~78 ~2 ~65 minecraft:crying_obsidian
+setblock ~79 ~2 ~65 minecraft:respawn_anchor[charges=2]
+setblock ~80 ~2 ~65 minecraft:crying_obsidian
+setblock ~81 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~65 minecraft:copper_bulb[lit=true]
+fill ~85 ~2 ~65 ~86 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~88 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+fill ~89 ~2 ~65 ~92 ~2 ~65 minecraft:respawn_anchor[charges=3]
+setblock ~95 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+fill ~98 ~2 ~65 ~98 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~102 ~2 ~65 minecraft:furnace[lit=true]
+fill ~113 ~2 ~65 ~113 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~114 ~2 ~65 minecraft:furnace[lit=true]
+setblock ~115 ~2 ~65 minecraft:exposed_copper_bulb[lit=true]
+setblock ~116 ~2 ~65 minecraft:redstone_ore[lit=true]
+setblock ~117 ~2 ~65 minecraft:weathered_copper_bulb[lit=true]
+setblock ~118 ~2 ~65 minecraft:furnace[lit=true]
+fill ~119 ~2 ~65 ~119 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~120 ~2 ~65 minecraft:crying_obsidian
+setblock ~121 ~2 ~65 minecraft:furnace[lit=true]
+fill ~123 ~2 ~65 ~127 ~2 ~65 minecraft:furnace[lit=true]
+fill ~15 ~2 ~66 ~16 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~18 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~19 ~2 ~66 minecraft:crying_obsidian
+fill ~20 ~2 ~66 ~21 ~2 ~66 minecraft:respawn_anchor[charges=3]
+fill ~23 ~2 ~66 ~24 ~2 ~66 minecraft:crying_obsidian
+setblock ~25 ~2 ~66 minecraft:exposed_copper_bulb[lit=true]
+fill ~27 ~2 ~66 ~28 ~2 ~67 minecraft:copper_bulb[lit=true]
+fill ~29 ~2 ~66 ~29 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~30 ~2 ~66 minecraft:crying_obsidian
+setblock ~32 ~2 ~66 minecraft:furnace[lit=true]
+setblock ~33 ~2 ~66 minecraft:crying_obsidian
+setblock ~34 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+setblock ~35 ~2 ~66 minecraft:exposed_copper_bulb[lit=true]
+setblock ~38 ~2 ~66 minecraft:respawn_anchor[charges=2]
+setblock ~39 ~2 ~66 minecraft:crying_obsidian
+setblock ~40 ~2 ~66 minecraft:copper_bulb[lit=true]
+fill ~41 ~2 ~66 ~42 ~2 ~66 minecraft:furnace[lit=true]
+fill ~43 ~2 ~66 ~43 ~2 ~67 minecraft:respawn_anchor[charges=3]
+fill ~44 ~2 ~66 ~45 ~2 ~66 minecraft:exposed_copper_bulb[lit=true]
+setblock ~46 ~2 ~66 minecraft:crying_obsidian
+setblock ~47 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~48 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~50 ~2 ~66 minecraft:crying_obsidian
+setblock ~52 ~2 ~66 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~66 minecraft:exposed_copper_bulb[lit=true]
+setblock ~55 ~2 ~66 minecraft:redstone_ore[lit=true]
+setblock ~56 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~57 ~2 ~66 minecraft:respawn_anchor[charges=2]
+fill ~58 ~2 ~66 ~59 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+fill ~60 ~2 ~66 ~60 ~2 ~67 minecraft:redstone_ore[lit=true]
+fill ~61 ~2 ~66 ~62 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+fill ~63 ~2 ~66 ~64 ~2 ~67 minecraft:copper_bulb[lit=true]
+setblock ~66 ~2 ~66 minecraft:crying_obsidian
+setblock ~67 ~2 ~66 minecraft:furnace[lit=true]
+fill ~68 ~2 ~66 ~68 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+fill ~70 ~2 ~66 ~70 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~71 ~2 ~66 minecraft:sculk_catalyst[bloom=true]
+setblock ~72 ~2 ~66 minecraft:redstone_ore[lit=true]
+setblock ~73 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~74 ~2 ~66 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~66 minecraft:respawn_anchor[charges=3]
+fill ~76 ~2 ~66 ~76 ~2 ~67 minecraft:crying_obsidian
+fill ~77 ~2 ~66 ~78 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+setblock ~79 ~2 ~66 minecraft:exposed_copper_bulb[lit=true]
+setblock ~81 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~66 minecraft:respawn_anchor[charges=3]
+fill ~83 ~2 ~66 ~83 ~2 ~67 minecraft:copper_bulb[lit=true]
+setblock ~84 ~2 ~66 minecraft:furnace[lit=true]
+fill ~85 ~2 ~66 ~85 ~2 ~70 minecraft:copper_bulb[lit=true]
+fill ~86 ~2 ~66 ~88 ~2 ~66 minecraft:copper_bulb[lit=true]
+fill ~89 ~2 ~66 ~91 ~2 ~66 minecraft:furnace[lit=true]
+setblock ~95 ~2 ~66 minecraft:copper_bulb[lit=true]
+fill ~102 ~2 ~66 ~102 ~2 ~70 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~66 ~116 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~117 ~2 ~66 minecraft:respawn_anchor[charges=3]
+setblock ~120 ~2 ~66 minecraft:weathered_copper_bulb[lit=true]
+setblock ~122 ~2 ~66 minecraft:copper_bulb[lit=true]
+fill ~124 ~2 ~66 ~127 ~2 ~66 minecraft:copper_bulb[lit=true]
+setblock ~16 ~2 ~67 minecraft:copper_bulb[lit=true]
+setblock ~17 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+fill ~18 ~2 ~67 ~19 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~21 ~2 ~67 minecraft:copper_bulb[lit=true]
+fill ~22 ~2 ~67 ~23 ~2 ~67 minecraft:furnace[lit=true]
+fill ~24 ~2 ~67 ~26 ~2 ~67 minecraft:copper_bulb[lit=true]
+fill ~30 ~2 ~67 ~30 ~2 ~68 minecraft:exposed_copper_bulb[lit=true]
+setblock ~32 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+fill ~33 ~2 ~67 ~33 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+setblock ~35 ~2 ~67 minecraft:weathered_copper_bulb[lit=true]
+setblock ~36 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~37 ~2 ~67 minecraft:respawn_anchor[charges=2]
+fill ~38 ~2 ~67 ~38 ~2 ~68 minecraft:crying_obsidian
+setblock ~39 ~2 ~67 minecraft:copper_bulb[lit=true]
+fill ~40 ~2 ~67 ~40 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+setblock ~41 ~2 ~67 minecraft:respawn_anchor[charges=3]
+setblock ~45 ~2 ~67 minecraft:respawn_anchor[charges=3]
+setblock ~46 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~47 ~2 ~67 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~49 ~2 ~67 minecraft:redstone_ore[lit=true]
+fill ~57 ~2 ~67 ~57 ~2 ~68 minecraft:crying_obsidian
+setblock ~58 ~2 ~67 minecraft:weathered_copper_bulb[lit=true]
+setblock ~59 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~61 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~62 ~2 ~67 minecraft:weathered_copper_bulb[lit=true]
+setblock ~65 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~66 ~2 ~67 minecraft:weathered_copper_bulb[lit=true]
+fill ~69 ~2 ~67 ~69 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~67 minecraft:respawn_anchor[charges=3]
+fill ~73 ~2 ~67 ~73 ~2 ~69 minecraft:weathered_copper_bulb[lit=true]
+setblock ~74 ~2 ~67 minecraft:redstone_ore[lit=true]
+setblock ~75 ~2 ~67 minecraft:crying_obsidian
+setblock ~77 ~2 ~67 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~67 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~67 minecraft:respawn_anchor[charges=3]
+fill ~84 ~2 ~67 ~84 ~2 ~68 minecraft:copper_bulb[lit=true]
+fill ~87 ~2 ~67 ~88 ~2 ~69 minecraft:copper_bulb[lit=true]
+fill ~94 ~2 ~67 ~94 ~2 ~69 minecraft:furnace[lit=true]
+fill ~104 ~2 ~67 ~104 ~2 ~71 minecraft:copper_bulb[lit=true]
+setblock ~117 ~2 ~67 minecraft:furnace[lit=true]
+setblock ~120 ~2 ~67 minecraft:redstone_ore[lit=true]
+fill ~125 ~2 ~67 ~126 ~2 ~73 minecraft:copper_bulb[lit=true]
+setblock ~17 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~19 ~2 ~68 minecraft:copper_bulb[lit=true]
+fill ~21 ~2 ~68 ~22 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~28 ~2 ~68 minecraft:exposed_copper_bulb[lit=true]
+setblock ~29 ~2 ~68 minecraft:crying_obsidian
+fill ~32 ~2 ~68 ~32 ~2 ~70 minecraft:furnace[lit=true]
+fill ~34 ~2 ~68 ~36 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~68 minecraft:weathered_copper_bulb[lit=true]
+setblock ~39 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~41 ~2 ~68 minecraft:crying_obsidian
+fill ~42 ~2 ~68 ~42 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+setblock ~44 ~2 ~68 minecraft:exposed_copper_bulb[lit=true]
+fill ~45 ~2 ~68 ~45 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~46 ~2 ~68 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~68 minecraft:crying_obsidian
+setblock ~49 ~2 ~68 minecraft:respawn_anchor[charges=3]
+setblock ~50 ~2 ~68 minecraft:copper_bulb[lit=true]
+setblock ~51 ~2 ~68 minecraft:furnace[lit=true]
+fill ~53 ~2 ~68 ~53 ~2 ~70 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~68 minecraft:weathered_copper_bulb[lit=true]
+setblock ~56 ~2 ~68 minecraft:crying_obsidian
+fill ~58 ~2 ~68 ~61 ~2 ~68 minecraft:crying_obsidian
+setblock ~62 ~2 ~68 minecraft:redstone_ore[lit=true]
+fill ~63 ~2 ~68 ~64 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~68 minecraft:copper_bulb[lit=true]
+setblock ~66 ~2 ~68 minecraft:crying_obsidian
+fill ~71 ~2 ~68 ~71 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+fill ~72 ~2 ~68 ~72 ~2 ~70 minecraft:furnace[lit=true]
+fill ~75 ~2 ~68 ~75 ~2 ~71 minecraft:furnace[lit=true]
+fill ~76 ~2 ~68 ~77 ~2 ~68 minecraft:furnace[lit=true]
+fill ~78 ~2 ~68 ~79 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+fill ~80 ~2 ~68 ~81 ~2 ~68 minecraft:furnace[lit=true]
+fill ~82 ~2 ~68 ~83 ~2 ~68 minecraft:respawn_anchor[charges=3]
+fill ~86 ~2 ~68 ~86 ~2 ~70 minecraft:copper_bulb[lit=true]
+fill ~93 ~2 ~68 ~93 ~2 ~69 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~68 minecraft:furnace[lit=true]
+fill ~101 ~2 ~68 ~101 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~111 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~117 ~2 ~68 minecraft:exposed_copper_bulb[lit=true]
+fill ~118 ~2 ~68 ~118 ~2 ~70 minecraft:copper_bulb[lit=true]
+fill ~119 ~2 ~68 ~119 ~2 ~71 minecraft:respawn_anchor[charges=3]
+setblock ~120 ~2 ~68 minecraft:respawn_anchor[charges=2]
+setblock ~121 ~2 ~68 minecraft:exposed_copper_bulb[lit=true]
+fill ~127 ~2 ~68 ~127 ~2 ~70 minecraft:copper_bulb[lit=true]
+setblock ~19 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+fill ~20 ~2 ~69 ~21 ~2 ~69 minecraft:copper_bulb[lit=true]
+fill ~23 ~2 ~69 ~24 ~2 ~69 minecraft:furnace[lit=true]
+setblock ~27 ~2 ~69 minecraft:furnace[lit=true]
+fill ~28 ~2 ~69 ~29 ~2 ~69 minecraft:respawn_anchor[charges=3]
+fill ~31 ~2 ~69 ~31 ~2 ~70 minecraft:furnace[lit=true]
+fill ~34 ~2 ~69 ~34 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+setblock ~38 ~2 ~69 minecraft:sculk_catalyst[bloom=true]
+setblock ~39 ~2 ~69 minecraft:crying_obsidian
+setblock ~41 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+setblock ~43 ~2 ~69 minecraft:furnace[lit=true]
+setblock ~46 ~2 ~69 minecraft:furnace[lit=true]
+fill ~47 ~2 ~69 ~47 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+fill ~49 ~2 ~69 ~49 ~2 ~70 minecraft:redstone_ore[lit=true]
+setblock ~50 ~2 ~69 minecraft:furnace[lit=true]
+fill ~51 ~2 ~69 ~52 ~2 ~70 minecraft:copper_bulb[lit=true]
+fill ~54 ~2 ~69 ~54 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~69 minecraft:redstone_ore[lit=true]
+setblock ~56 ~2 ~69 minecraft:weathered_copper_bulb[lit=true]
+fill ~57 ~2 ~69 ~57 ~2 ~73 minecraft:sculk_catalyst[bloom=true]
+fill ~58 ~2 ~69 ~59 ~2 ~69 minecraft:respawn_anchor[charges=2]
+setblock ~60 ~2 ~69 minecraft:weathered_copper_bulb[lit=true]
+setblock ~61 ~2 ~69 minecraft:redstone_ore[lit=true]
+setblock ~62 ~2 ~69 minecraft:respawn_anchor[charges=2]
+setblock ~63 ~2 ~69 minecraft:crying_obsidian
+fill ~64 ~2 ~69 ~66 ~2 ~69 minecraft:furnace[lit=true]
+setblock ~68 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+setblock ~74 ~2 ~69 minecraft:respawn_anchor[charges=3]
+setblock ~77 ~2 ~69 minecraft:exposed_copper_bulb[lit=true]
+fill ~80 ~2 ~69 ~81 ~2 ~70 minecraft:exposed_copper_bulb[lit=true]
+setblock ~82 ~2 ~69 minecraft:copper_bulb[lit=true]
+setblock ~83 ~2 ~69 minecraft:weathered_copper_bulb[lit=true]
+fill ~89 ~2 ~69 ~89 ~2 ~74 minecraft:copper_bulb[lit=true]
+fill ~117 ~2 ~69 ~117 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~120 ~2 ~69 minecraft:redstone_ore[lit=true]
+setblock ~121 ~2 ~69 minecraft:respawn_anchor[charges=3]
+fill ~19 ~2 ~70 ~19 ~2 ~71 minecraft:copper_bulb[lit=true]
+setblock ~21 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~23 ~2 ~70 minecraft:copper_bulb[lit=true]
+fill ~24 ~2 ~70 ~24 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~27 ~2 ~70 minecraft:exposed_copper_bulb[lit=true]
+setblock ~28 ~2 ~70 minecraft:redstone_ore[lit=true]
+fill ~29 ~2 ~70 ~30 ~2 ~70 minecraft:furnace[lit=true]
+fill ~37 ~2 ~70 ~37 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~38 ~2 ~70 minecraft:exposed_copper_bulb[lit=true]
+setblock ~39 ~2 ~70 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~40 ~2 ~70 minecraft:crying_obsidian
+fill ~44 ~2 ~70 ~44 ~2 ~71 minecraft:furnace[lit=true]
+fill ~50 ~2 ~70 ~50 ~2 ~73 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~56 ~2 ~70 minecraft:redstone_ore[lit=true]
+fill ~58 ~2 ~70 ~59 ~2 ~72 minecraft:sculk_catalyst[bloom=true]
+fill ~61 ~2 ~70 ~62 ~2 ~70 minecraft:sculk_catalyst[bloom=true]
+setblock ~63 ~2 ~70 minecraft:respawn_anchor[charges=2]
+setblock ~64 ~2 ~70 minecraft:exposed_copper_bulb[lit=true]
+fill ~65 ~2 ~70 ~66 ~2 ~71 minecraft:copper_bulb[lit=true]
+setblock ~67 ~2 ~70 minecraft:weathered_copper_bulb[lit=true]
+fill ~69 ~2 ~70 ~69 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~70 minecraft:respawn_anchor[charges=2]
+setblock ~82 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~84 ~2 ~70 minecraft:redstone_ore[lit=true]
+fill ~87 ~2 ~70 ~87 ~2 ~72 minecraft:copper_bulb[lit=true]
+fill ~90 ~2 ~70 ~90 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~93 ~2 ~70 minecraft:exposed_copper_bulb[lit=true]
+setblock ~120 ~2 ~70 minecraft:crying_obsidian
+setblock ~121 ~2 ~70 minecraft:furnace[lit=true]
+setblock ~122 ~2 ~70 minecraft:exposed_copper_bulb[lit=true]
+fill ~21 ~2 ~71 ~22 ~2 ~71 minecraft:copper_bulb[lit=true]
+fill ~25 ~2 ~71 ~25 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+fill ~27 ~2 ~71 ~28 ~2 ~71 minecraft:crying_obsidian
+setblock ~29 ~2 ~71 minecraft:copper_bulb[lit=true]
+setblock ~30 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~36 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~39 ~2 ~71 minecraft:respawn_anchor[charges=2]
+setblock ~40 ~2 ~71 minecraft:sculk_catalyst[bloom=true]
+setblock ~41 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~43 ~2 ~71 minecraft:furnace[lit=true]
+fill ~46 ~2 ~71 ~46 ~2 ~72 minecraft:furnace[lit=true]
+fill ~48 ~2 ~71 ~48 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+fill ~49 ~2 ~71 ~49 ~2 ~72 minecraft:crying_obsidian
+fill ~55 ~2 ~71 ~55 ~2 ~73 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+fill ~60 ~2 ~71 ~61 ~2 ~71 minecraft:sculk_catalyst[bloom=true]
+setblock ~62 ~2 ~71 minecraft:respawn_anchor[charges=2]
+setblock ~63 ~2 ~71 minecraft:sculk_catalyst[bloom=true]
+setblock ~64 ~2 ~71 minecraft:redstone_ore[lit=true]
+fill ~67 ~2 ~71 ~68 ~2 ~71 minecraft:redstone_ore[lit=true]
+fill ~71 ~2 ~71 ~72 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~73 ~2 ~71 minecraft:weathered_copper_bulb[lit=true]
+fill ~74 ~2 ~71 ~74 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+fill ~83 ~2 ~71 ~84 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~85 ~2 ~71 minecraft:redstone_ore[lit=true]
+setblock ~86 ~2 ~71 minecraft:furnace[lit=true]
+fill ~88 ~2 ~71 ~88 ~2 ~72 minecraft:copper_bulb[lit=true]
+fill ~91 ~2 ~71 ~91 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~93 ~2 ~71 minecraft:furnace[lit=true]
+setblock ~118 ~2 ~71 minecraft:exposed_copper_bulb[lit=true]
+setblock ~120 ~2 ~71 minecraft:weathered_copper_bulb[lit=true]
+setblock ~122 ~2 ~71 minecraft:respawn_anchor[charges=3]
+setblock ~21 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~23 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+setblock ~26 ~2 ~72 minecraft:respawn_anchor[charges=3]
+setblock ~27 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+fill ~28 ~2 ~72 ~31 ~2 ~72 minecraft:furnace[lit=true]
+fill ~33 ~2 ~72 ~33 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~35 ~2 ~72 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+setblock ~39 ~2 ~72 minecraft:respawn_anchor[charges=3]
+fill ~40 ~2 ~72 ~41 ~2 ~72 minecraft:respawn_anchor[charges=2]
+setblock ~42 ~2 ~72 minecraft:furnace[lit=true]
+fill ~51 ~2 ~72 ~51 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~72 minecraft:furnace[lit=true]
+setblock ~60 ~2 ~72 minecraft:sculk_catalyst[bloom=true]
+setblock ~65 ~2 ~72 minecraft:furnace[lit=true]
+fill ~66 ~2 ~72 ~66 ~2 ~73 minecraft:copper_bulb[lit=true]
+setblock ~67 ~2 ~72 minecraft:respawn_anchor[charges=3]
+setblock ~68 ~2 ~72 minecraft:weathered_copper_bulb[lit=true]
+setblock ~71 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~72 minecraft:redstone_ore[lit=true]
+setblock ~73 ~2 ~72 minecraft:crying_obsidian
+setblock ~84 ~2 ~72 minecraft:copper_bulb[lit=true]
+fill ~85 ~2 ~72 ~85 ~2 ~74 minecraft:respawn_anchor[charges=3]
+setblock ~86 ~2 ~72 minecraft:redstone_ore[lit=true]
+setblock ~92 ~2 ~72 minecraft:furnace[lit=true]
+fill ~94 ~2 ~72 ~94 ~2 ~73 minecraft:furnace[lit=true]
+fill ~117 ~2 ~72 ~117 ~2 ~73 minecraft:respawn_anchor[charges=3]
+fill ~118 ~2 ~72 ~119 ~2 ~72 minecraft:furnace[lit=true]
+setblock ~120 ~2 ~72 minecraft:redstone_ore[lit=true]
+fill ~121 ~2 ~72 ~122 ~2 ~72 minecraft:furnace[lit=true]
+setblock ~123 ~2 ~72 minecraft:exposed_copper_bulb[lit=true]
+setblock ~124 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~23 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~24 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~25 ~2 ~73 minecraft:crying_obsidian
+setblock ~26 ~2 ~73 minecraft:redstone_ore[lit=true]
+setblock ~29 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+fill ~30 ~2 ~73 ~32 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~35 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~38 ~2 ~73 minecraft:weathered_copper_bulb[lit=true]
+fill ~39 ~2 ~73 ~40 ~2 ~73 minecraft:crying_obsidian
+setblock ~41 ~2 ~73 minecraft:respawn_anchor[charges=2]
+setblock ~42 ~2 ~73 minecraft:weathered_copper_bulb[lit=true]
+fill ~43 ~2 ~73 ~44 ~2 ~73 minecraft:crying_obsidian
+setblock ~45 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~48 ~2 ~73 minecraft:furnace[lit=true]
+fill ~49 ~2 ~73 ~49 ~2 ~74 minecraft:redstone_ore[lit=true]
+fill ~58 ~2 ~73 ~59 ~2 ~73 minecraft:crying_obsidian
+setblock ~65 ~2 ~73 minecraft:redstone_ore[lit=true]
+setblock ~67 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~68 ~2 ~73 minecraft:respawn_anchor[charges=2]
+fill ~69 ~2 ~73 ~69 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~71 ~2 ~73 minecraft:respawn_anchor[charges=3]
+setblock ~72 ~2 ~73 minecraft:respawn_anchor[charges=2]
+setblock ~73 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~73 minecraft:furnace[lit=true]
+fill ~76 ~2 ~73 ~77 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~84 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~86 ~2 ~73 minecraft:crying_obsidian
+setblock ~87 ~2 ~73 minecraft:respawn_anchor[charges=3]
+setblock ~88 ~2 ~73 minecraft:furnace[lit=true]
+fill ~92 ~2 ~73 ~93 ~2 ~74 minecraft:copper_bulb[lit=true]
+fill ~100 ~2 ~73 ~100 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~118 ~2 ~73 minecraft:copper_bulb[lit=true]
+fill ~119 ~2 ~73 ~119 ~2 ~74 minecraft:respawn_anchor[charges=3]
+fill ~120 ~2 ~73 ~120 ~2 ~76 minecraft:crying_obsidian
+setblock ~121 ~2 ~73 minecraft:exposed_copper_bulb[lit=true]
+setblock ~123 ~2 ~73 minecraft:crying_obsidian
+setblock ~24 ~2 ~74 minecraft:furnace[lit=true]
+fill ~25 ~2 ~74 ~26 ~2 ~74 minecraft:respawn_anchor[charges=3]
+fill ~27 ~2 ~74 ~28 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~31 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~74 minecraft:exposed_copper_bulb[lit=true]
+fill ~38 ~2 ~74 ~38 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~40 ~2 ~74 minecraft:respawn_anchor[charges=3]
+setblock ~41 ~2 ~74 minecraft:redstone_ore[lit=true]
+fill ~42 ~2 ~74 ~43 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~44 ~2 ~74 minecraft:crying_obsidian
+setblock ~45 ~2 ~74 minecraft:redstone_ore[lit=true]
+setblock ~46 ~2 ~74 minecraft:furnace[lit=true]
+fill ~47 ~2 ~74 ~48 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~50 ~2 ~74 minecraft:exposed_copper_bulb[lit=true]
+setblock ~55 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~56 ~2 ~74 minecraft:redstone_ore[lit=true]
+setblock ~57 ~2 ~74 minecraft:respawn_anchor[charges=2]
+setblock ~58 ~2 ~74 minecraft:redstone_ore[lit=true]
+setblock ~59 ~2 ~74 minecraft:crying_obsidian
+fill ~60 ~2 ~74 ~61 ~2 ~74 minecraft:sculk_catalyst[bloom=true]
+setblock ~66 ~2 ~74 minecraft:exposed_copper_bulb[lit=true]
+setblock ~67 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~70 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~71 ~2 ~74 minecraft:respawn_anchor[charges=2]
+setblock ~72 ~2 ~74 minecraft:crying_obsidian
+setblock ~73 ~2 ~74 minecraft:copper_bulb[lit=true]
+fill ~78 ~2 ~74 ~78 ~2 ~77 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~81 ~2 ~74 minecraft:redstone_ore[lit=true]
+fill ~82 ~2 ~74 ~83 ~2 ~74 minecraft:respawn_anchor[charges=3]
+setblock ~84 ~2 ~74 minecraft:crying_obsidian
+setblock ~86 ~2 ~74 minecraft:respawn_anchor[charges=3]
+fill ~87 ~2 ~74 ~88 ~2 ~76 minecraft:copper_bulb[lit=true]
+setblock ~90 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~91 ~2 ~74 minecraft:furnace[lit=true]
+fill ~94 ~2 ~74 ~94 ~2 ~75 minecraft:copper_bulb[lit=true]
+fill ~96 ~2 ~74 ~97 ~2 ~74 minecraft:copper_bulb[lit=true]
+fill ~99 ~2 ~74 ~99 ~2 ~75 minecraft:copper_bulb[lit=true]
+fill ~102 ~2 ~74 ~102 ~2 ~75 minecraft:copper_bulb[lit=true]
+fill ~114 ~2 ~74 ~115 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~116 ~2 ~74 minecraft:exposed_copper_bulb[lit=true]
+fill ~121 ~2 ~74 ~121 ~2 ~75 minecraft:respawn_anchor[charges=3]
+setblock ~123 ~2 ~74 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~74 minecraft:crying_obsidian
+setblock ~125 ~2 ~74 minecraft:copper_bulb[lit=true]
+fill ~126 ~2 ~74 ~127 ~2 ~75 minecraft:furnace[lit=true]
+setblock ~27 ~2 ~75 minecraft:crying_obsidian
+setblock ~28 ~2 ~75 minecraft:respawn_anchor[charges=3]
+setblock ~30 ~2 ~75 minecraft:exposed_copper_bulb[lit=true]
+setblock ~35 ~2 ~75 minecraft:exposed_copper_bulb[lit=true]
+setblock ~36 ~2 ~75 minecraft:crying_obsidian
+setblock ~37 ~2 ~75 minecraft:furnace[lit=true]
+setblock ~39 ~2 ~75 minecraft:respawn_anchor[charges=3]
+setblock ~40 ~2 ~75 minecraft:redstone_ore[lit=true]
+fill ~41 ~2 ~75 ~41 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~75 minecraft:crying_obsidian
+setblock ~46 ~2 ~75 minecraft:redstone_ore[lit=true]
+setblock ~47 ~2 ~75 minecraft:respawn_anchor[charges=3]
+setblock ~48 ~2 ~75 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~75 minecraft:furnace[lit=true]
+setblock ~50 ~2 ~75 minecraft:redstone_ore[lit=true]
+setblock ~51 ~2 ~75 minecraft:exposed_copper_bulb[lit=true]
+fill ~52 ~2 ~75 ~53 ~2 ~75 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~75 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~75 minecraft:crying_obsidian
+fill ~57 ~2 ~75 ~57 ~2 ~76 minecraft:crying_obsidian
+setblock ~58 ~2 ~75 minecraft:respawn_anchor[charges=2]
+setblock ~59 ~2 ~75 minecraft:sculk_catalyst[bloom=true]
+fill ~62 ~2 ~75 ~63 ~2 ~75 minecraft:sculk_catalyst[bloom=true]
+setblock ~66 ~2 ~75 minecraft:weathered_copper_bulb[lit=true]
+setblock ~67 ~2 ~75 minecraft:respawn_anchor[charges=3]
+fill ~68 ~2 ~75 ~68 ~2 ~77 minecraft:weathered_copper_bulb[lit=true]
+setblock ~69 ~2 ~75 minecraft:exposed_copper_bulb[lit=true]
+fill ~70 ~2 ~75 ~71 ~2 ~75 minecraft:redstone_ore[lit=true]
+setblock ~72 ~2 ~75 minecraft:respawn_anchor[charges=3]
+setblock ~73 ~2 ~75 minecraft:furnace[lit=true]
+fill ~75 ~2 ~75 ~75 ~2 ~76 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~75 minecraft:respawn_anchor[charges=3]
+setblock ~81 ~2 ~75 minecraft:crying_obsidian
+fill ~82 ~2 ~75 ~82 ~2 ~76 minecraft:copper_bulb[lit=true]
+fill ~83 ~2 ~75 ~84 ~2 ~75 minecraft:furnace[lit=true]
+fill ~85 ~2 ~75 ~86 ~2 ~77 minecraft:copper_bulb[lit=true]
+fill ~89 ~2 ~75 ~90 ~2 ~75 minecraft:furnace[lit=true]
+fill ~91 ~2 ~75 ~91 ~2 ~76 minecraft:copper_bulb[lit=true]
+setblock ~92 ~2 ~75 minecraft:furnace[lit=true]
+setblock ~93 ~2 ~75 minecraft:copper_bulb[lit=true]
+setblock ~114 ~2 ~75 minecraft:copper_bulb[lit=true]
+fill ~115 ~2 ~75 ~115 ~2 ~76 minecraft:respawn_anchor[charges=3]
+setblock ~119 ~2 ~75 minecraft:crying_obsidian
+fill ~122 ~2 ~75 ~123 ~2 ~75 minecraft:copper_bulb[lit=true]
+setblock ~124 ~2 ~75 minecraft:furnace[lit=true]
+fill ~125 ~2 ~75 ~125 ~2 ~76 minecraft:respawn_anchor[charges=3]
+setblock ~8 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~25 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~27 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~28 ~2 ~76 minecraft:exposed_copper_bulb[lit=true]
+setblock ~31 ~2 ~76 minecraft:exposed_copper_bulb[lit=true]
+fill ~33 ~2 ~76 ~33 ~2 ~77 minecraft:respawn_anchor[charges=3]
+setblock ~34 ~2 ~76 minecraft:exposed_copper_bulb[lit=true]
+fill ~35 ~2 ~76 ~36 ~2 ~76 minecraft:respawn_anchor[charges=3]
+setblock ~37 ~2 ~76 minecraft:copper_bulb[lit=true]
+setblock ~39 ~2 ~76 minecraft:respawn_anchor[charges=2]
+setblock ~40 ~2 ~76 minecraft:furnace[lit=true]
+fill ~42 ~2 ~76 ~42 ~2 ~78 minecraft:copper_bulb[lit=true]
+fill ~44 ~2 ~76 ~46 ~2 ~79 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~76 minecraft:crying_obsidian
+setblock ~49 ~2 ~76 minecraft:copper_bulb[lit=true]
+setblock ~50 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~52 ~2 ~76 minecraft:crying_obsidian
+fill ~53 ~2 ~76 ~54 ~2 ~76 minecraft:redstone_ore[lit=true]
+fill ~56 ~2 ~76 ~56 ~2 ~77 minecraft:respawn_anchor[charges=2]
+setblock ~58 ~2 ~76 minecraft:respawn_anchor[charges=3]
+setblock ~62 ~2 ~76 minecraft:redstone_ore[lit=true]
+fill ~63 ~2 ~76 ~64 ~2 ~76 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~65 ~2 ~76 minecraft:crying_obsidian
+setblock ~67 ~2 ~76 minecraft:redstone_ore[lit=true]
+setblock ~70 ~2 ~76 minecraft:respawn_anchor[charges=3]
+fill ~71 ~2 ~76 ~71 ~2 ~77 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~76 minecraft:crying_obsidian
+setblock ~73 ~2 ~76 minecraft:exposed_copper_bulb[lit=true]
+setblock ~79 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~76 minecraft:exposed_copper_bulb[lit=true]
+setblock ~81 ~2 ~76 minecraft:redstone_ore[lit=true]
+fill ~83 ~2 ~76 ~84 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~89 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~90 ~2 ~76 minecraft:copper_bulb[lit=true]
+fill ~98 ~2 ~76 ~98 ~2 ~77 minecraft:copper_bulb[lit=true]
+fill ~116 ~2 ~76 ~117 ~2 ~77 minecraft:furnace[lit=true]
+fill ~119 ~2 ~76 ~119 ~2 ~77 minecraft:exposed_copper_bulb[lit=true]
+setblock ~121 ~2 ~76 minecraft:crying_obsidian
+setblock ~122 ~2 ~76 minecraft:furnace[lit=true]
+fill ~123 ~2 ~76 ~124 ~2 ~76 minecraft:copper_bulb[lit=true]
+setblock ~126 ~2 ~76 minecraft:respawn_anchor[charges=3]
+setblock ~127 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~1 ~2 ~77 minecraft:copper_bulb[lit=true]
+setblock ~27 ~2 ~77 minecraft:exposed_copper_bulb[lit=true]
+setblock ~31 ~2 ~77 minecraft:respawn_anchor[charges=3]
+setblock ~34 ~2 ~77 minecraft:crying_obsidian
+fill ~35 ~2 ~77 ~35 ~2 ~78 minecraft:furnace[lit=true]
+setblock ~37 ~2 ~77 minecraft:furnace[lit=true]
+setblock ~38 ~2 ~77 minecraft:redstone_ore[lit=true]
+fill ~39 ~2 ~77 ~39 ~2 ~78 minecraft:weathered_copper_bulb[lit=true]
+setblock ~40 ~2 ~77 minecraft:copper_bulb[lit=true]
+fill ~43 ~2 ~77 ~43 ~2 ~79 minecraft:copper_bulb[lit=true]
+fill ~47 ~2 ~77 ~47 ~2 ~81 minecraft:copper_bulb[lit=true]
+setblock ~48 ~2 ~77 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~77 minecraft:crying_obsidian
+fill ~50 ~2 ~77 ~51 ~2 ~77 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~77 minecraft:exposed_copper_bulb[lit=true]
+fill ~57 ~2 ~77 ~58 ~2 ~77 minecraft:redstone_ore[lit=true]
+setblock ~62 ~2 ~77 minecraft:weathered_copper_bulb[lit=true]
+setblock ~63 ~2 ~77 minecraft:sculk_catalyst[bloom=true]
+fill ~65 ~2 ~77 ~66 ~2 ~77 minecraft:respawn_anchor[charges=3]
+setblock ~67 ~2 ~77 minecraft:crying_obsidian
+fill ~69 ~2 ~77 ~70 ~2 ~77 minecraft:furnace[lit=true]
+fill ~74 ~2 ~77 ~74 ~2 ~78 minecraft:exposed_copper_bulb[lit=true]
+setblock ~75 ~2 ~77 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~77 minecraft:furnace[lit=true]
+fill ~81 ~2 ~77 ~81 ~2 ~78 minecraft:weathered_copper_bulb[lit=true]
+setblock ~82 ~2 ~77 minecraft:furnace[lit=true]
+fill ~87 ~2 ~77 ~88 ~2 ~77 minecraft:furnace[lit=true]
+setblock ~94 ~2 ~77 minecraft:copper_bulb[lit=true]
+setblock ~97 ~2 ~77 minecraft:copper_bulb[lit=true]
+fill ~100 ~2 ~77 ~100 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~115 ~2 ~77 minecraft:copper_bulb[lit=true]
+setblock ~118 ~2 ~77 minecraft:furnace[lit=true]
+setblock ~120 ~2 ~77 minecraft:respawn_anchor[charges=2]
+setblock ~121 ~2 ~77 minecraft:sculk_catalyst[bloom=true]
+setblock ~123 ~2 ~77 minecraft:respawn_anchor[charges=2]
+fill ~124 ~2 ~77 ~125 ~2 ~77 minecraft:sculk_catalyst[bloom=true]
+setblock ~126 ~2 ~77 minecraft:respawn_anchor[charges=2]
+setblock ~127 ~2 ~77 minecraft:redstone_ore[lit=true]
+setblock ~27 ~2 ~78 minecraft:furnace[lit=true]
+fill ~28 ~2 ~78 ~29 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~32 ~2 ~78 minecraft:crying_obsidian
+fill ~33 ~2 ~78 ~34 ~2 ~79 minecraft:furnace[lit=true]
+fill ~36 ~2 ~78 ~36 ~2 ~79 minecraft:furnace[lit=true]
+setblock ~38 ~2 ~78 minecraft:sculk_catalyst[bloom=true]
+setblock ~40 ~2 ~78 minecraft:respawn_anchor[charges=3]
+fill ~48 ~2 ~78 ~48 ~2 ~81 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~78 minecraft:redstone_ore[lit=true]
+setblock ~50 ~2 ~78 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~78 minecraft:respawn_anchor[charges=3]
+setblock ~56 ~2 ~78 minecraft:sculk_catalyst[bloom=true]
+fill ~57 ~2 ~78 ~58 ~2 ~78 minecraft:exposed_copper_bulb[lit=true]
+fill ~59 ~2 ~78 ~61 ~2 ~78 minecraft:respawn_anchor[charges=3]
+setblock ~62 ~2 ~78 minecraft:exposed_copper_bulb[lit=true]
+setblock ~63 ~2 ~78 minecraft:furnace[lit=true]
+fill ~64 ~2 ~78 ~64 ~2 ~79 minecraft:copper_bulb[lit=true]
+setblock ~65 ~2 ~78 minecraft:crying_obsidian
+fill ~66 ~2 ~78 ~67 ~2 ~79 minecraft:respawn_anchor[charges=3]
+fill ~68 ~2 ~78 ~68 ~2 ~83 minecraft:redstone_ore[lit=true]
+fill ~69 ~2 ~78 ~69 ~2 ~83 minecraft:copper_bulb[lit=true]
+fill ~70 ~2 ~78 ~71 ~2 ~78 minecraft:furnace[lit=true]
+setblock ~72 ~2 ~78 minecraft:crying_obsidian
+setblock ~73 ~2 ~78 minecraft:exposed_copper_bulb[lit=true]
+fill ~75 ~2 ~78 ~75 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+fill ~79 ~2 ~78 ~79 ~2 ~80 minecraft:exposed_copper_bulb[lit=true]
+fill ~80 ~2 ~78 ~80 ~2 ~79 minecraft:copper_bulb[lit=true]
+fill ~82 ~2 ~78 ~82 ~2 ~79 minecraft:respawn_anchor[charges=3]
+setblock ~86 ~2 ~78 minecraft:furnace[lit=true]
+fill ~87 ~2 ~78 ~87 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~90 ~2 ~78 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~78 minecraft:copper_bulb[lit=true]
+fill ~116 ~2 ~78 ~118 ~2 ~78 minecraft:copper_bulb[lit=true]
+fill ~119 ~2 ~78 ~119 ~2 ~79 minecraft:furnace[lit=true]
+fill ~120 ~2 ~78 ~120 ~2 ~79 minecraft:crying_obsidian
+setblock ~121 ~2 ~78 minecraft:weathered_copper_bulb[lit=true]
+setblock ~122 ~2 ~78 minecraft:redstone_ore[lit=true]
+setblock ~123 ~2 ~78 minecraft:sculk_catalyst[bloom=true]
+fill ~124 ~2 ~78 ~126 ~2 ~78 minecraft:oxidized_copper_bulb[lit=true]
+setblock ~127 ~2 ~78 minecraft:sculk_catalyst[bloom=true]
+setblock ~27 ~2 ~79 minecraft:copper_bulb[lit=true]
+fill ~29 ~2 ~79 ~30 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+fill ~32 ~2 ~79 ~32 ~2 ~80 minecraft:redstone_ore[lit=true]
+fill ~35 ~2 ~79 ~35 ~2 ~80 minecraft:exposed_copper_bulb[lit=true]
+setblock ~37 ~2 ~79 minecraft:weathered_copper_bulb[lit=true]
+fill ~38 ~2 ~79 ~40 ~2 ~79 minecraft:respawn_anchor[charges=2]
+setblock ~41 ~2 ~79 minecraft:weathered_copper_bulb[lit=true]
+setblock ~42 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+setblock ~50 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+fill ~53 ~2 ~79 ~55 ~2 ~79 minecraft:furnace[lit=true]
+setblock ~56 ~2 ~79 minecraft:respawn_anchor[charges=2]
+setblock ~57 ~2 ~79 minecraft:respawn_anchor[charges=3]
+fill ~60 ~2 ~79 ~61 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~65 ~2 ~79 minecraft:respawn_anchor[charges=3]
+setblock ~70 ~2 ~79 minecraft:furnace[lit=true]
+fill ~71 ~2 ~79 ~71 ~2 ~81 minecraft:copper_bulb[lit=true]
+setblock ~72 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+setblock ~73 ~2 ~79 minecraft:respawn_anchor[charges=3]
+setblock ~74 ~2 ~79 minecraft:furnace[lit=true]
+fill ~78 ~2 ~79 ~78 ~2 ~80 minecraft:exposed_copper_bulb[lit=true]
+setblock ~81 ~2 ~79 minecraft:crying_obsidian
+setblock ~83 ~2 ~79 minecraft:copper_bulb[lit=true]
+setblock ~84 ~2 ~79 minecraft:furnace[lit=true]
+fill ~85 ~2 ~79 ~85 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~86 ~2 ~79 minecraft:copper_bulb[lit=true]
+setblock ~88 ~2 ~79 minecraft:furnace[lit=true]
+setblock ~95 ~2 ~79 minecraft:copper_bulb[lit=true]
+fill ~117 ~2 ~79 ~118 ~2 ~79 minecraft:copper_bulb[lit=true]
+setblock ~121 ~2 ~79 minecraft:crying_obsidian
+setblock ~122 ~2 ~79 minecraft:respawn_anchor[charges=3]
+setblock ~123 ~2 ~79 minecraft:exposed_copper_bulb[lit=true]
+fill ~124 ~2 ~79 ~124 ~2 ~80 minecraft:redstone_ore[lit=true]
+fill ~125 ~2 ~79 ~125 ~2 ~80 minecraft:weathered_copper_bulb[lit=true]
+setblock ~126 ~2 ~79 minecraft:redstone_ore[lit=true]
+setblock ~29 ~2 ~80 minecraft:furnace[lit=true]
+setblock ~31 ~2 ~80 minecraft:crying_obsidian
+fill ~34 ~2 ~80 ~34 ~2 ~81 minecraft:furnace[lit=true]
+fill ~36 ~2 ~80 ~37 ~2 ~80 minecraft:respawn_anchor[charges=3]
+setblock ~38 ~2 ~80 minecraft:respawn_anchor[charges=2]
+fill ~39 ~2 ~80 ~39 ~2 ~82 minecraft:sculk_catalyst[bloom=true]
+setblock ~40 ~2 ~80 minecraft:sculk_catalyst[bloom=true]
+setblock ~41 ~2 ~80 minecraft:respawn_anchor[charges=2]
+setblock ~42 ~2 ~80 minecraft:respawn_anchor[charges=3]
+setblock ~49 ~2 ~80 minecraft:crying_obsidian
+setblock ~50 ~2 ~80 minecraft:respawn_anchor[charges=3]
+setblock ~53 ~2 ~80 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~80 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~80 minecraft:weathered_copper_bulb[lit=true]
+setblock ~57 ~2 ~80 minecraft:exposed_copper_bulb[lit=true]
+setblock ~65 ~2 ~80 minecraft:crying_obsidian
+setblock ~66 ~2 ~80 minecraft:respawn_anchor[charges=3]
+fill ~67 ~2 ~80 ~67 ~2 ~81 minecraft:exposed_copper_bulb[lit=true]
+fill ~70 ~2 ~80 ~70 ~2 ~83 minecraft:copper_bulb[lit=true]
+fill ~72 ~2 ~80 ~72 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~73 ~2 ~80 minecraft:crying_obsidian
+fill ~76 ~2 ~80 ~76 ~2 ~81 minecraft:exposed_copper_bulb[lit=true]
+setblock ~80 ~2 ~80 minecraft:furnace[lit=true]
+setblock ~82 ~2 ~80 minecraft:crying_obsidian
+setblock ~84 ~2 ~80 minecraft:copper_bulb[lit=true]
+fill ~88 ~2 ~80 ~88 ~2 ~83 minecraft:copper_bulb[lit=true]
+fill ~91 ~2 ~80 ~91 ~2 ~81 minecraft:copper_bulb[lit=true]
+fill ~93 ~2 ~80 ~94 ~2 ~80 minecraft:copper_bulb[lit=true]
+setblock ~98 ~2 ~80 minecraft:copper_bulb[lit=true]
+setblock ~119 ~2 ~80 minecraft:exposed_copper_bulb[lit=true]
+setblock ~120 ~2 ~80 minecraft:respawn_anchor[charges=3]
+setblock ~122 ~2 ~80 minecraft:redstone_ore[lit=true]
+setblock ~123 ~2 ~80 minecraft:respawn_anchor[charges=3]
+fill ~126 ~2 ~80 ~127 ~2 ~80 minecraft:respawn_anchor[charges=2]
+setblock ~29 ~2 ~81 minecraft:copper_bulb[lit=true]
+setblock ~31 ~2 ~81 minecraft:redstone_ore[lit=true]
+setblock ~32 ~2 ~81 minecraft:crying_obsidian
+setblock ~33 ~2 ~81 minecraft:copper_bulb[lit=true]
+setblock ~35 ~2 ~81 minecraft:redstone_ore[lit=true]
+setblock ~36 ~2 ~81 minecraft:exposed_copper_bulb[lit=true]
+fill ~37 ~2 ~81 ~37 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~38 ~2 ~81 minecraft:weathered_copper_bulb[lit=true]
+fill ~40 ~2 ~81 ~41 ~2 ~82 minecraft:weathered_copper_bulb[lit=true]
+setblock ~42 ~2 ~81 minecraft:weathered_copper_bulb[lit=true]
+fill ~46 ~2 ~81 ~46 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~81 minecraft:redstone_ore[lit=true]
+fill ~50 ~2 ~81 ~50 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~81 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~81 minecraft:weathered_copper_bulb[lit=true]
+setblock ~56 ~2 ~81 minecraft:redstone_ore[lit=true]
+setblock ~64 ~2 ~81 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~81 minecraft:weathered_copper_bulb[lit=true]
+setblock ~66 ~2 ~81 minecraft:exposed_copper_bulb[lit=true]
+setblock ~73 ~2 ~81 minecraft:redstone_ore[lit=true]
+fill ~74 ~2 ~81 ~74 ~2 ~82 minecraft:respawn_anchor[charges=3]
+setblock ~75 ~2 ~81 minecraft:furnace[lit=true]
+fill ~78 ~2 ~81 ~79 ~2 ~81 minecraft:furnace[lit=true]
+fill ~81 ~2 ~81 ~82 ~2 ~81 minecraft:furnace[lit=true]
+fill ~83 ~2 ~81 ~83 ~2 ~82 minecraft:redstone_ore[lit=true]
+setblock ~84 ~2 ~81 minecraft:furnace[lit=true]
+setblock ~92 ~2 ~81 minecraft:copper_bulb[lit=true]
+setblock ~120 ~2 ~81 minecraft:furnace[lit=true]
+fill ~121 ~2 ~81 ~122 ~2 ~81 minecraft:exposed_copper_bulb[lit=true]
+fill ~123 ~2 ~81 ~123 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~81 minecraft:respawn_anchor[charges=3]
+setblock ~126 ~2 ~81 minecraft:sculk_catalyst[bloom=true]
+setblock ~127 ~2 ~81 minecraft:crying_obsidian
+setblock ~30 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~31 ~2 ~82 minecraft:crying_obsidian
+fill ~32 ~2 ~82 ~33 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~34 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+setblock ~35 ~2 ~82 minecraft:crying_obsidian
+fill ~36 ~2 ~82 ~36 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~38 ~2 ~82 minecraft:respawn_anchor[charges=3]
+fill ~42 ~2 ~82 ~42 ~2 ~83 minecraft:sculk_catalyst[bloom=true]
+setblock ~43 ~2 ~82 minecraft:respawn_anchor[charges=3]
+setblock ~44 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+setblock ~48 ~2 ~82 minecraft:redstone_ore[lit=true]
+setblock ~49 ~2 ~82 minecraft:weathered_copper_bulb[lit=true]
+setblock ~51 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~52 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~53 ~2 ~82 minecraft:crying_obsidian
+setblock ~54 ~2 ~82 minecraft:weathered_copper_bulb[lit=true]
+setblock ~55 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+setblock ~56 ~2 ~82 minecraft:crying_obsidian
+setblock ~59 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~63 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+setblock ~64 ~2 ~82 minecraft:respawn_anchor[charges=3]
+setblock ~65 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+fill ~66 ~2 ~82 ~67 ~2 ~82 minecraft:respawn_anchor[charges=3]
+fill ~71 ~2 ~82 ~71 ~2 ~83 minecraft:furnace[lit=true]
+setblock ~73 ~2 ~82 minecraft:crying_obsidian
+setblock ~75 ~2 ~82 minecraft:respawn_anchor[charges=3]
+setblock ~76 ~2 ~82 minecraft:crying_obsidian
+setblock ~77 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+setblock ~78 ~2 ~82 minecraft:respawn_anchor[charges=3]
+fill ~79 ~2 ~82 ~81 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+setblock ~82 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~84 ~2 ~82 minecraft:redstone_ore[lit=true]
+fill ~86 ~2 ~82 ~86 ~2 ~83 minecraft:copper_bulb[lit=true]
+fill ~89 ~2 ~82 ~90 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~121 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~122 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~124 ~2 ~82 minecraft:copper_bulb[lit=true]
+setblock ~125 ~2 ~82 minecraft:furnace[lit=true]
+setblock ~126 ~2 ~82 minecraft:exposed_copper_bulb[lit=true]
+fill ~127 ~2 ~82 ~127 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~29 ~2 ~83 minecraft:furnace[lit=true]
+setblock ~30 ~2 ~83 minecraft:crying_obsidian
+fill ~31 ~2 ~83 ~33 ~2 ~83 minecraft:exposed_copper_bulb[lit=true]
+setblock ~34 ~2 ~83 minecraft:crying_obsidian
+setblock ~38 ~2 ~83 minecraft:copper_bulb[lit=true]
+setblock ~39 ~2 ~83 minecraft:weathered_copper_bulb[lit=true]
+fill ~40 ~2 ~83 ~41 ~2 ~83 minecraft:respawn_anchor[charges=2]
+setblock ~43 ~2 ~83 minecraft:respawn_anchor[charges=2]
+setblock ~44 ~2 ~83 minecraft:redstone_ore[lit=true]
+setblock ~45 ~2 ~83 minecraft:crying_obsidian
+setblock ~46 ~2 ~83 minecraft:redstone_ore[lit=true]
+setblock ~47 ~2 ~83 minecraft:weathered_copper_bulb[lit=true]
+setblock ~49 ~2 ~83 minecraft:crying_obsidian
+setblock ~50 ~2 ~83 minecraft:weathered_copper_bulb[lit=true]
+setblock ~51 ~2 ~83 minecraft:redstone_ore[lit=true]
+setblock ~52 ~2 ~83 minecraft:weathered_copper_bulb[lit=true]
+setblock ~53 ~2 ~83 minecraft:redstone_ore[lit=true]
+setblock ~55 ~2 ~83 minecraft:respawn_anchor[charges=3]
+setblock ~56 ~2 ~83 minecraft:redstone_ore[lit=true]
+setblock ~57 ~2 ~83 minecraft:furnace[lit=true]
+setblock ~63 ~2 ~83 minecraft:weathered_copper_bulb[lit=true]
+setblock ~66 ~2 ~83 minecraft:crying_obsidian
+setblock ~67 ~2 ~83 minecraft:respawn_anchor[charges=3]
+setblock ~74 ~2 ~83 minecraft:exposed_copper_bulb[lit=true]
+setblock ~75 ~2 ~83 minecraft:furnace[lit=true]
+setblock ~76 ~2 ~83 minecraft:respawn_anchor[charges=3]
+fill ~77 ~2 ~83 ~78 ~2 ~83 minecraft:crying_obsidian
+setblock ~79 ~2 ~83 minecraft:respawn_anchor[charges=3]
+fill ~81 ~2 ~83 ~82 ~2 ~83 minecraft:respawn_anchor[charges=3]
+setblock ~83 ~2 ~83 minecraft:furnace[lit=true]
