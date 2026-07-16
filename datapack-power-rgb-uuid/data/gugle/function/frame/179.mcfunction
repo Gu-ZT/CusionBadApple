@@ -1,0 +1,22 @@
+data modify entity 6775676c-652d-4000-8000-000000298030 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-000000298031 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000002a0058 color set value "gray"
+setblock ~47 ~2 ~22 minecraft:copper_bulb[lit=true]
+fill ~75 ~2 ~22 ~75 ~2 ~23 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~22 minecraft:exposed_copper_bulb[lit=true]
+setblock ~72 ~2 ~23 minecraft:copper_bulb[lit=true]
+setblock ~56 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~74 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~83 ~2 ~24 minecraft:furnace[lit=true]
+setblock ~45 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~55 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~75 ~2 ~25 minecraft:furnace[lit=true]
+setblock ~46 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~73 ~2 ~26 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~80 ~2 ~27 minecraft:furnace[lit=true]
+setblock ~89 ~2 ~49 minecraft:furnace[lit=true]
+setblock ~86 ~2 ~69 minecraft:furnace[lit=true]
+setblock ~33 ~2 ~72 minecraft:copper_bulb[lit=true]
+setblock ~88 ~2 ~84 minecraft:copper_bulb[lit=true]
+setblock ~45 ~2 ~91 minecraft:furnace[lit=true]

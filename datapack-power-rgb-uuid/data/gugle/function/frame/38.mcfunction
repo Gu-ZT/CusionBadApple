@@ -1,0 +1,63 @@
+data modify entity 6775676c-652d-4000-8000-000000058024 color set value "light_gray"
+data modify entity 6775676c-652d-4000-8000-0000001e8036 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000001e8037 color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024804a color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000024804b color set value "white"
+data modify entity 6775676c-652d-4000-8000-00000025805e color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290050 color set value "white"
+data modify entity 6775676c-652d-4000-8000-000000290051 color set value "white"
+data modify entity 6775676c-652d-4000-8000-0000002a0037 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000002c8054 color set value "gray"
+data modify entity 6775676c-652d-4000-8000-0000002d8054 color set value "white"
+setblock ~51 ~2 ~10 minecraft:copper_bulb[lit=true]
+setblock ~52 ~2 ~10 minecraft:exposed_copper_bulb[lit=true]
+setblock ~59 ~2 ~10 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~11 minecraft:copper_bulb[lit=true]
+setblock ~53 ~2 ~11 minecraft:copper_bulb[lit=true]
+setblock ~54 ~2 ~11 minecraft:furnace[lit=true]
+setblock ~57 ~2 ~11 minecraft:exposed_copper_bulb[lit=true]
+setblock ~61 ~2 ~11 minecraft:copper_bulb[lit=true]
+setblock ~63 ~2 ~11 minecraft:furnace[lit=true]
+setblock ~64 ~2 ~11 minecraft:copper_bulb[lit=true]
+setblock ~65 ~2 ~11 minecraft:furnace[lit=true]
+setblock ~32 ~2 ~12 minecraft:copper_bulb[lit=true]
+setblock ~34 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+setblock ~55 ~2 ~12 minecraft:furnace[lit=true]
+setblock ~65 ~2 ~12 minecraft:exposed_copper_bulb[lit=true]
+fill ~69 ~2 ~13 ~69 ~2 ~14 minecraft:copper_bulb[lit=true]
+setblock ~59 ~2 ~14 minecraft:furnace[lit=true]
+setblock ~54 ~2 ~15 minecraft:copper_bulb[lit=true]
+setblock ~55 ~2 ~15 minecraft:furnace[lit=true]
+setblock ~51 ~2 ~16 minecraft:exposed_copper_bulb[lit=true]
+setblock ~52 ~2 ~17 minecraft:exposed_copper_bulb[lit=true]
+fill ~33 ~2 ~55 ~34 ~2 ~56 minecraft:copper_bulb[lit=true]
+fill ~42 ~2 ~56 ~43 ~2 ~56 minecraft:furnace[lit=true]
+fill ~45 ~2 ~57 ~47 ~2 ~57 minecraft:copper_bulb[lit=true]
+setblock ~47 ~2 ~58 minecraft:copper_bulb[lit=true]
+fill ~50 ~2 ~59 ~52 ~2 ~59 minecraft:furnace[lit=true]
+setblock ~52 ~2 ~60 minecraft:furnace[lit=true]
+fill ~35 ~2 ~61 ~35 ~2 ~62 minecraft:furnace[lit=true]
+fill ~53 ~2 ~61 ~56 ~2 ~61 minecraft:copper_bulb[lit=true]
+setblock ~36 ~2 ~62 minecraft:furnace[lit=true]
+fill ~56 ~2 ~62 ~56 ~2 ~63 minecraft:copper_bulb[lit=true]
+fill ~39 ~2 ~63 ~40 ~2 ~63 minecraft:copper_bulb[lit=true]
+fill ~49 ~2 ~65 ~49 ~2 ~66 minecraft:furnace[lit=true]
+fill ~50 ~2 ~66 ~50 ~2 ~68 minecraft:furnace[lit=true]
+fill ~52 ~2 ~67 ~53 ~2 ~67 minecraft:copper_bulb[lit=true]
+setblock ~49 ~2 ~68 minecraft:furnace[lit=true]
+setblock ~53 ~2 ~68 minecraft:copper_bulb[lit=true]
+fill ~71 ~2 ~68 ~72 ~2 ~68 minecraft:furnace[lit=true]
+fill ~72 ~2 ~69 ~73 ~2 ~69 minecraft:furnace[lit=true]
+fill ~53 ~2 ~70 ~54 ~2 ~70 minecraft:copper_bulb[lit=true]
+setblock ~73 ~2 ~70 minecraft:furnace[lit=true]
+fill ~75 ~2 ~70 ~76 ~2 ~70 minecraft:copper_bulb[lit=true]
+setblock ~97 ~2 ~73 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~74 minecraft:copper_bulb[lit=true]
+setblock ~81 ~2 ~75 minecraft:copper_bulb[lit=true]
+setblock ~96 ~2 ~76 minecraft:furnace[lit=true]
+setblock ~96 ~2 ~78 minecraft:copper_bulb[lit=true]
+setblock ~46 ~2 ~84 minecraft:copper_bulb[lit=true]
+setblock ~90 ~2 ~84 minecraft:copper_bulb[lit=true]
+setblock ~94 ~2 ~84 minecraft:copper_bulb[lit=true]
+fill ~91 ~2 ~86 ~91 ~2 ~87 minecraft:copper_bulb[lit=true]
+setblock ~92 ~2 ~89 minecraft:copper_bulb[lit=true]
