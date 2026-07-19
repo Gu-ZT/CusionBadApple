@@ -1,4 +1,10 @@
+<div align="center">
+
+<img src=".idea/icon.png" style="width: 256px; height: 256px" alt="Icon">
+
 # CusionBadApple
+
+</div>
 
 Converts a video into a Minecraft datapack that drives a redstone-lamp screen at
 20 frames per second (one frame per game tick).

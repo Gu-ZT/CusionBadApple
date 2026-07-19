@@ -1,4 +1,10 @@
+<div align="center">
+
+<img src=".idea/icon.png" style="width: 256px; height: 256px" alt="Icon">
+
 # CusionBadApple
+
+</div>
 
 在浏览器中把视频转换成 Minecraft 坐垫屏幕数据包。视频解码使用 FFmpeg WebAssembly，文件不会上传到服务器。
 
