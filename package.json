@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Browser-based video to Minecraft cushion datapack generator",
   "main": "dist/index.js",
-  "packageManager": "pnpm@11.10.0+",
+  "packageManager": "pnpm@11.10.0",
   "scripts": {
     "build": "tsc",
     "check": "tsc --noEmit && vue-tsc --noEmit -p tsconfig.web.json",
