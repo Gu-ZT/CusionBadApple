@@ -3,8 +3,7 @@ import {
     GrayscaleConversionMode,
     RgbwConversionMode,
 } from "./cli";
-import { BRIGHTNESS_TIERS, nearestBrightnessTier } from "./brightness";
-import { CUSHION_COLOR_PALETTE } from "./colors";
+import { CALIBRATED_STATES } from "./calibration";
 
 const RED_BIT = 1;
 const GREEN_BIT = 2;
@@ -123,6 +122,26 @@ function ditherFrame(
     return output;
 }
 
+const BAYER_4 = [
+    [0, 8, 2, 10],
+    [12, 4, 14, 6],
+    [3, 11, 1, 9],
+    [15, 7, 13, 5],
+] as const;
+
+function orderedFrame(gray: Uint8Array, width: number, height: number, threshold: number, invert: boolean): Uint8Array {
+    const output = new Uint8Array(gray.length);
+    for (let y = 0; y < height; y += 1) {
+        for (let x = 0; x < width; x += 1) {
+            const index = y * width + x;
+            const thresholdOffset = (BAYER_4[y % 4][x % 4] - 7.5) * 16;
+            const white = gray[index] >= threshold + thresholdOffset;
+            output[index] = white !== invert ? 1 : 0;
+        }
+    }
+    return output;
+}
+
 export function convertFrame(
     gray: Uint8Array,
     width: number,
@@ -137,7 +156,9 @@ export function convertFrame(
 
     return mode === "dither"
         ? ditherFrame(gray, width, height, threshold, invert)
-        : binaryFrame(gray, threshold, invert);
+        : mode === "ordered"
+            ? orderedFrame(gray, width, height, threshold, invert)
+            : binaryFrame(gray, threshold, invert);
 }
 
 export function convertRgbwFrame(
@@ -215,34 +236,136 @@ export function convertRgbwFrame(
     return output;
 }
 
-function nearestCushionColor(red: number, green: number, blue: number): number {
-    const clampedRed = Math.max(0, Math.min(255, red));
-    const clampedGreen = Math.max(0, Math.min(255, green));
-    const clampedBlue = Math.max(0, Math.min(255, blue));
-    const maximum = Math.max(clampedRed, clampedGreen, clampedBlue);
-    if (maximum === 0) {
-        return 0;
-    }
-    const normalizedRed = clampedRed / maximum * 255;
-    const normalizedGreen = clampedGreen / maximum * 255;
-    const normalizedBlue = clampedBlue / maximum * 255;
-    let nearestIndex = 0;
-    let nearestDistance = Number.POSITIVE_INFINITY;
+interface LabColor { l: number; a: number; b: number }
 
-    for (let index = 1; index < CUSHION_COLOR_PALETTE.length; index += 1) {
-        const color = CUSHION_COLOR_PALETTE[index];
-        const colorMaximum = Math.max(color.red, color.green, color.blue);
-        const redError = normalizedRed - color.red / colorMaximum * 255;
-        const greenError = normalizedGreen - color.green / colorMaximum * 255;
-        const blueError = normalizedBlue - color.blue / colorMaximum * 255;
-        const distance = redError * redError + greenError * greenError + blueError * blueError;
-        if (distance < nearestDistance) {
-            nearestIndex = index;
-            nearestDistance = distance;
+function rgbToLab(red: number, green: number, blue: number): LabColor {
+    const linear = (value: number): number => {
+        const normalized = Math.max(0, Math.min(255, value)) / 255;
+        return normalized <= 0.04045
+            ? normalized / 12.92
+            : Math.pow((normalized + 0.055) / 1.055, 2.4);
+    };
+    const r = linear(red);
+    const g = linear(green);
+    const b = linear(blue);
+    const x = (r * 0.4124 + g * 0.3576 + b * 0.1805) / 0.95047;
+    const y = (r * 0.2126 + g * 0.7152 + b * 0.0722) / 1.00000;
+    const z = (r * 0.0193 + g * 0.1192 + b * 0.9505) / 1.08883;
+    const f = (value: number): number => value > 0.008856 ? Math.cbrt(value) : 7.787 * value + 16 / 116;
+    const fx = f(x); const fy = f(y); const fz = f(z);
+    return { l: 116 * fy - 16, a: 500 * (fx - fy), b: 200 * (fy - fz) };
+}
+
+export function deltaE2000(first: LabColor, second: LabColor): number {
+    const deg = Math.PI / 180;
+    const c1 = Math.hypot(first.a, first.b);
+    const c2 = Math.hypot(second.a, second.b);
+    const meanC = (c1 + c2) / 2;
+    const g = 0.5 * (1 - Math.sqrt(Math.pow(meanC, 7) / (Math.pow(meanC, 7) + Math.pow(25, 7))));
+    const ap1 = (1 + g) * first.a;
+    const ap2 = (1 + g) * second.a;
+    const cp1 = Math.hypot(ap1, first.b);
+    const cp2 = Math.hypot(ap2, second.b);
+    const hp = (a: number, b: number): number => {
+        if (a === 0 && b === 0) return 0;
+        const angle = Math.atan2(b, a) / deg;
+        return angle < 0 ? angle + 360 : angle;
+    };
+    const h1 = hp(ap1, first.b); const h2 = hp(ap2, second.b);
+    const dL = second.l - first.l;
+    const dC = cp2 - cp1;
+    let dh = h2 - h1;
+    if (cp1 * cp2 === 0) dh = 0;
+    else if (dh > 180) dh -= 360;
+    else if (dh < -180) dh += 360;
+    const dH = 2 * Math.sqrt(cp1 * cp2) * Math.sin(dh * deg / 2);
+    const meanL = (first.l + second.l) / 2;
+    const meanCp = (cp1 + cp2) / 2;
+    let meanHp = h1 + h2;
+    if (cp1 * cp2 === 0) meanHp = h1 + h2;
+    else if (Math.abs(h1 - h2) <= 180) meanHp = (h1 + h2) / 2;
+    else meanHp = h1 + h2 < 360 ? (h1 + h2 + 360) / 2 : (h1 + h2 - 360) / 2;
+    const t = 1 - 0.17 * Math.cos((meanHp - 30) * deg) + 0.24 * Math.cos(2 * meanHp * deg) +
+        0.32 * Math.cos((3 * meanHp + 6) * deg) - 0.20 * Math.cos((4 * meanHp - 63) * deg);
+    const sl = 1 + 0.015 * Math.pow(meanL - 50, 2) / Math.sqrt(20 + Math.pow(meanL - 50, 2));
+    const sc = 1 + 0.045 * meanCp;
+    const sh = 1 + 0.015 * meanCp * t;
+    const rt = -2 * Math.sqrt(Math.pow(meanCp, 7) / (Math.pow(meanCp, 7) + Math.pow(25, 7))) *
+        Math.sin(60 * Math.exp(-Math.pow((meanHp - 275) / 25, 2)) * deg);
+    return Math.sqrt(Math.pow(dL / sl, 2) + Math.pow(dC / sc, 2) + Math.pow(dH / sh, 2) + rt * (dC / sc) * (dH / sh));
+}
+
+const CALIBRATED_LAB = CALIBRATED_STATES.map((color) => rgbToLab(color.red, color.green, color.blue));
+const EXACT_CALIBRATED_STATES = new Map<number, number>(
+    CALIBRATED_STATES.map((color, state) => [
+        color.red << 16 | color.green << 8 | color.blue,
+        state,
+    ]),
+);
+
+const CIEDE_LOOKUP = (() => {
+    const lookup = new Uint8Array(32 * 32 * 32);
+    for (let red = 0; red < 32; red += 1) {
+        for (let green = 0; green < 32; green += 1) {
+            for (let blue = 0; blue < 32; blue += 1) {
+                const source = rgbToLab(red * 8 + 4, green * 8 + 4, blue * 8 + 4);
+                let nearestState = 0;
+                let nearestDistance = Number.POSITIVE_INFINITY;
+                for (let state = 0; state < CALIBRATED_LAB.length; state += 1) {
+                    const distance = deltaE2000(source, CALIBRATED_LAB[state]);
+                    if (distance < nearestDistance) {
+                        nearestState = state;
+                        nearestDistance = distance;
+                    }
+                }
+                lookup[(red * 32 + green) * 32 + blue] = nearestState;
+            }
         }
     }
+    return lookup;
+})();
 
-    return nearestIndex;
+export function nearestCalibratedState(red: number, green: number, blue: number): number {
+    const clampedRed = Math.max(0, Math.min(255, Math.round(red)));
+    const clampedGreen = Math.max(0, Math.min(255, Math.round(green)));
+    const clampedBlue = Math.max(0, Math.min(255, Math.round(blue)));
+    const exact = EXACT_CALIBRATED_STATES.get(
+        clampedRed << 16 | clampedGreen << 8 | clampedBlue,
+    );
+    if (exact !== undefined) return exact;
+    const quantize = (value: number): number => Math.max(0, Math.min(255, value)) >> 3;
+    return CIEDE_LOOKUP[(quantize(red) * 32 + quantize(green)) * 32 + quantize(blue)];
+}
+
+export const COLOR_DIRTY_DELTA_E = 10;
+
+export function filterCushionColorChanges(
+    target: Uint8Array,
+    displayed: Uint8Array,
+    threshold: number = COLOR_DIRTY_DELTA_E,
+): Uint8Array {
+    if (target.length !== displayed.length) {
+        throw new Error(
+            `Color state size mismatch: target=${target.length}, displayed=${displayed.length}.`,
+        );
+    }
+    const output = displayed.slice();
+    for (let index = 0; index < target.length; index += 1) {
+        const targetState = target[index];
+        const displayedState = displayed[index];
+        const targetLab = CALIBRATED_LAB[targetState];
+        const displayedLab = CALIBRATED_LAB[displayedState];
+        if (!targetLab || !displayedLab) {
+            throw new Error(
+                `Invalid calibrated state at pixel ${index}: ` +
+                    `target=${targetState}, displayed=${displayedState}.`,
+            );
+        }
+        if (deltaE2000(targetLab, displayedLab) > threshold) {
+            output[index] = targetState;
+        }
+    }
+    return output;
 }
 
 export function convertCushionColorFrame(
@@ -264,33 +387,26 @@ export function convertCushionColorFrame(
         for (let x = 0; x < width; x += 1) {
             const outputIndex = y * width + x;
             const pixelIndex = outputIndex * 3;
-            const colorIndex = nearestCushionColor(
-                pixels[pixelIndex],
-                pixels[pixelIndex + 1],
-                pixels[pixelIndex + 2],
+            if (mode === "color-ordered") {
+                const offset = (BAYER_4[y % 4][x % 4] - 7.5) * 10;
+                pixels[pixelIndex] += offset;
+                pixels[pixelIndex + 1] += offset;
+                pixels[pixelIndex + 2] += offset;
+            }
+            const state = nearestCalibratedState(
+                pixels[pixelIndex], pixels[pixelIndex + 1], pixels[pixelIndex + 2],
             );
-            const maximumChannel = Math.max(
-                pixels[pixelIndex],
-                pixels[pixelIndex + 1],
-                pixels[pixelIndex + 2],
-            );
-            const brightnessIndex = nearestBrightnessTier(maximumChannel);
-            const displayedColorIndex = brightnessIndex === 0 ? 0 : colorIndex;
-            output[outputIndex] =
-                brightnessIndex * CUSHION_COLOR_PALETTE.length + displayedColorIndex;
+            output[outputIndex] = state;
 
             if (mode !== "color-dither") {
                 continue;
             }
 
-            const color = CUSHION_COLOR_PALETTE[displayedColorIndex];
-            const lightLevel = BRIGHTNESS_TIERS[brightnessIndex].level;
-            const colorMaximum = Math.max(color.red, color.green, color.blue) || 1;
-            const brightnessScale = lightLevel / 15;
+            const calibrated = CALIBRATED_STATES[state];
             const errors = [
-                pixels[pixelIndex] - color.red / colorMaximum * 255 * brightnessScale,
-                pixels[pixelIndex + 1] - color.green / colorMaximum * 255 * brightnessScale,
-                pixels[pixelIndex + 2] - color.blue / colorMaximum * 255 * brightnessScale,
+                pixels[pixelIndex] - calibrated.red,
+                pixels[pixelIndex + 1] - calibrated.green,
+                pixels[pixelIndex + 2] - calibrated.blue,
             ];
             const diffuse = (targetX: number, targetY: number, weight: number): void => {
                 if (targetX < 0 || targetX >= width || targetY < 0 || targetY >= height) {
@@ -302,10 +418,12 @@ export function convertCushionColorFrame(
                 }
             };
 
-            diffuse(x + 1, y, 7 / 16);
-            diffuse(x - 1, y + 1, 3 / 16);
-            diffuse(x, y + 1, 5 / 16);
-            diffuse(x + 1, y + 1, 1 / 16);
+            if (mode === "color-dither") {
+                diffuse(x + 1, y, 7 / 16);
+                diffuse(x - 1, y + 1, 3 / 16);
+                diffuse(x, y + 1, 5 / 16);
+                diffuse(x + 1, y + 1, 1 / 16);
+            }
         }
     }
 

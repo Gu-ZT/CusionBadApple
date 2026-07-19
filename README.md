@@ -54,6 +54,18 @@ Direct 16-color cushion rendering is available without RGBW subpixels:
 ```powershell
 pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-nearest
 pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-dither
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-ordered
+```
+
+`color-ordered` uses a 4x4 Bayer matrix. Color modes match against all 192
+measured color/brightness states from the calibration screenshot using
+CIEDE2000. A color pixel is emitted only when its CIEDE2000 distance from the
+last state actually written to Minecraft is greater than 10. Smaller changes
+remain pending against that displayed state, so accumulated changes can still
+cross the threshold. Combine storage macros with fixed UUID targeting when desired:
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-macro-uuid --mode color-ordered --macro-uuid
 ```
 
 These modes use one cushion per video pixel at the full screen resolution. The
@@ -93,6 +105,7 @@ Copy/install the generated `datapack/` in a world, then run these functions:
 /function gugle:stop
 /function gugle:status
 /function gugle:remove
+/function gugle:palette
 ```
 
 `start` is idempotent while the video is playing, so repeated button or command
@@ -112,3 +125,8 @@ Adjacent changes are combined into two-dimensional `fill` rectangles to reduce
 command count. `setup` also raises `max_command_forks` and
 `max_command_sequence_length` so busy frames cannot cut off the next scheduled
 tick.
+
+`palette` creates a 12-column by 16-row calibration grid at the command
+execution position. Columns use the configured brightness tiers from 0 through
+15; rows use the 16 cushion dye colors in the order shown by the command output.
+It removes only the previous palette support blocks and palette-tagged cushions.

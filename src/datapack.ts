@@ -8,6 +8,7 @@ const NAMESPACE = "gugle";
 const OBJECTIVE = "gugle_badapple";
 const ORIGIN_TAG = "gugle_badapple_origin";
 const PIXEL_TAG = "gugle_badapple_pixel";
+const PALETTE_TAG = "gugle_badapple_palette";
 const PIXEL_X_OBJECTIVE = "gugle_px";
 const PIXEL_Z_OBJECTIVE = "gugle_pz";
 const DISPATCH_LEAF_SIZE = 8;
@@ -30,6 +31,9 @@ interface BuildMetadata {
     clipEndSeconds?: number;
     macroStorage: boolean;
     uuidEntities: boolean;
+    colorMetric?: string;
+    calibration?: string;
+    dirtyDeltaE?: number;
     commands: number;
 }
 
@@ -171,9 +175,6 @@ export class DatapackBuilder {
         private readonly macroStorage: boolean,
         private readonly uuidEntities: boolean,
     ) {
-        if (macroStorage && uuidEntities) {
-            throw new Error("Macro storage and fixed-UUID rendering cannot be enabled together.");
-        }
         this.functionRoot = path.join(datapackRoot, "data", NAMESPACE, "function");
         this.temporaryRoot = path.join(datapackRoot, ".build", "function");
         this.temporaryFrameRoot = path.join(this.temporaryRoot, "frame");
@@ -277,11 +278,24 @@ export class DatapackBuilder {
             "}",
         ].join("\n");
 
-        return [
-            storageCommand,
-            `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
-                `run function ${NAMESPACE}:macro_lookup with entity @s`,
-        ];
+        if (!this.uuidEntities) {
+            return [
+                storageCommand,
+                `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
+                    `run function ${NAMESPACE}:macro_lookup with entity @s`,
+            ];
+        }
+
+        const commands = [storageCommand];
+        for (let index = 0; index < current.length; index += 1) {
+            if (current[index] === previous[index]) continue;
+            const uuid = this.pixelUuids[index];
+            if (!uuid) throw new Error(`Invalid fixed UUID at pixel index ${index}.`);
+            commands.push(
+                `execute as ${uuid.target} run function ${NAMESPACE}:macro_lookup with entity @s`,
+            );
+        }
+        return commands;
     }
 
     private uuidColorCommands(current: Uint8Array, previous: Uint8Array): string[] {
@@ -400,6 +414,7 @@ export class DatapackBuilder {
             "status",
             "tick",
             "setup_tick",
+            "palette",
         ];
         if (this.macroStorage) {
             generatedFiles.push("macro_lookup", "macro_apply");
@@ -561,6 +576,7 @@ export class DatapackBuilder {
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] run fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} minecraft:air`,
                 `kill @e[type=minecraft:cushion,tag=${PIXEL_TAG}]`,
+                `kill @e[type=minecraft:cushion,tag=${PALETTE_TAG}]`,
                 `kill @e[type=minecraft:marker,tag=${ORIGIN_TAG}]`,
             ],
             start: [
@@ -618,6 +634,7 @@ export class DatapackBuilder {
                 `execute if score $ready ${OBJECTIVE} matches 1 run tellraw @a {"text":"BadApple screen setup complete."}`,
                 `execute if score $ready ${OBJECTIVE} matches 1 if score $autostart ${OBJECTIVE} matches 1 run function ${NAMESPACE}:play`,
             ],
+            palette: this.paletteCommands(),
         };
 
         if (this.macroStorage) {
@@ -636,6 +653,29 @@ export class DatapackBuilder {
                 "utf8",
             );
         }
+    }
+
+    private paletteCommands(): string[] {
+        const colorNames = CUSHION_COLOR_PALETTE.map((color) => color.name).join(", ");
+        const brightnessLevels = BRIGHTNESS_TIERS.map((tier) => tier.level).join(", ");
+        const commands = [
+            `kill @e[type=minecraft:cushion,tag=${PALETTE_TAG}]`,
+            "fill ~ ~2 ~ ~11 ~2 ~15 minecraft:air",
+            `tellraw @s {"text":"Palette columns x=0..11 brightness: ${brightnessLevels}"}`,
+            `tellraw @s {"text":"Palette rows z=0..15: ${colorNames}"}`,
+        ];
+        for (let color = 0; color < CUSHION_COLOR_PALETTE.length; color += 1) {
+            for (let brightness = 0; brightness < BRIGHTNESS_TIERS.length; brightness += 1) {
+                const tier = BRIGHTNESS_TIERS[brightness];
+                const name = CUSHION_COLOR_PALETTE[color].name;
+                commands.push(
+                    `setblock ~${brightness} ~2 ~${color} ${tier.block}`,
+                    `summon minecraft:cushion ~${brightness} ~2.26 ~${color} ` +
+                        `{Tags:["${PALETTE_TAG}"],color:"${name}"}`,
+                );
+            }
+        }
+        return commands;
     }
 
     private async writeSetupChunks(): Promise<void> {

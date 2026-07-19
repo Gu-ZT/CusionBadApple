@@ -2,7 +2,13 @@ import * as path from "node:path";
 import { BRIGHTNESS_TIERS } from "./brightness";
 import { isCushionColorMode, isRgbwMode, parseCli, printHelp } from "./cli";
 import { CUSHION_COLOR_PALETTE } from "./colors";
-import { convertCushionColorFrame, convertFrame, convertRgbwFrame } from "./converter";
+import {
+    COLOR_DIRTY_DELTA_E,
+    convertCushionColorFrame,
+    convertFrame,
+    convertRgbwFrame,
+    filterCushionColorChanges,
+} from "./converter";
 import { DatapackBuilder, DisplayMode } from "./datapack";
 import { decodeVideo, findInputVideo } from "./video";
 
@@ -59,7 +65,7 @@ async function main(): Promise<void> {
         endSeconds: options.endSeconds,
         maxFrames: options.maxFrames,
     })) {
-        const currentFrame = isCushionColorMode(options.mode)
+        const convertedFrame = isCushionColorMode(options.mode)
             ? convertCushionColorFrame(
                 decodedFrame,
                 logicalWidth,
@@ -83,6 +89,9 @@ async function main(): Promise<void> {
                     options.threshold,
                     options.invert,
                 );
+        const currentFrame = cushionColor
+            ? filterCushionColorChanges(convertedFrame, previousFrame)
+            : convertedFrame;
         commandCount += await builder.writeFrame(frameCount, currentFrame, previousFrame);
         previousFrame = currentFrame;
         frameCount += 1;
@@ -113,6 +122,9 @@ async function main(): Promise<void> {
             : undefined,
         macroStorage: options.macroStorage,
         uuidEntities: options.uuidEntities,
+        colorMetric: cushionColor ? "CIEDE2000" : undefined,
+        calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
+        dirtyDeltaE: cushionColor ? COLOR_DIRTY_DELTA_E : undefined,
         clipStartSeconds: options.startSeconds,
         clipEndSeconds: options.endSeconds,
         commands: commandCount,

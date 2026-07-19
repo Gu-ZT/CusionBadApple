@@ -1,6 +1,6 @@
-export type GrayscaleConversionMode = "binary" | "dither";
+export type GrayscaleConversionMode = "binary" | "dither" | "ordered";
 export type RgbwConversionMode = "rgbw-nearest" | "rgbw-dither";
-export type CushionColorConversionMode = "color-nearest" | "color-dither";
+export type CushionColorConversionMode = "color-nearest" | "color-dither" | "color-ordered";
 export type ConversionMode =
     | GrayscaleConversionMode
     | RgbwConversionMode
@@ -11,7 +11,7 @@ export function isRgbwMode(mode: ConversionMode): mode is RgbwConversionMode {
 }
 
 export function isCushionColorMode(mode: ConversionMode): mode is CushionColorConversionMode {
-    return mode === "color-nearest" || mode === "color-dither";
+    return mode === "color-nearest" || mode === "color-dither" || mode === "color-ordered";
 }
 
 export interface CliOptions {
@@ -88,6 +88,10 @@ export function parseCli(args: string[]): CliOptions {
             case "--uuid-entities":
                 options.uuidEntities = true;
                 break;
+            case "--macro-uuid":
+                options.macroStorage = true;
+                options.uuidEntities = true;
+                break;
             case "--input": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
                 options.input = value;
@@ -141,14 +145,16 @@ export function parseCli(args: string[]): CliOptions {
                 if (
                     value !== "binary" &&
                     value !== "dither" &&
+                    value !== "ordered" &&
                     value !== "rgbw-nearest" &&
                     value !== "rgbw-dither" &&
                     value !== "color-nearest" &&
-                    value !== "color-dither"
+                    value !== "color-dither" &&
+                    value !== "color-ordered"
                 ) {
                     throw new Error(
-                        "--mode must be binary, dither, rgbw-nearest, rgbw-dither, " +
-                        "color-nearest, or color-dither.",
+                        "--mode must be binary, dither, ordered, rgbw-nearest, rgbw-dither, " +
+                        "color-nearest, color-dither, or color-ordered.",
                     );
                 }
                 options.mode = value;
@@ -170,13 +176,10 @@ export function parseCli(args: string[]): CliOptions {
         throw new Error("--end must be greater than --start.");
     }
     if (options.macroStorage && !isCushionColorMode(options.mode)) {
-        throw new Error("--macro-storage is only available with color-nearest or color-dither.");
+        throw new Error("--macro-storage is only available with color-nearest, color-dither, or color-ordered.");
     }
     if (options.uuidEntities && !isCushionColorMode(options.mode)) {
-        throw new Error("--uuid-entities is only available with color-nearest or color-dither.");
-    }
-    if (options.macroStorage && options.uuidEntities) {
-        throw new Error("--macro-storage and --uuid-entities cannot be used together.");
+        throw new Error("--uuid-entities is only available with color-nearest, color-dither, or color-ordered.");
     }
 
     return options;
@@ -193,8 +196,8 @@ Options:
   --output <directory> Datapack output directory (default: datapack/)
   --start <seconds>    Start time, inclusive (default: 0)
   --end <seconds>      End time, exclusive (default: end of video)
-  --mode <mode>        binary, dither, rgbw-nearest, rgbw-dither,
-                       color-nearest, or color-dither
+  --mode <mode>        binary, dither, ordered, rgbw-nearest, rgbw-dither,
+                       color-nearest, color-dither, or color-ordered
                        (default: binary)
   --threshold <0-255>  Black/white threshold; grayscale modes only (default: 128)
   --width <blocks>     Screen width (default: 128)
@@ -202,8 +205,10 @@ Options:
   --invert             Invert lit and unlit pixels
   --macro-storage      Use one entity selector and per-frame storage mappings
                        (16-color modes only)
-  --uuid-entities      Give cushions fixed UUIDs and update colors by UUID
-                       without function macros (16-color modes only)
+  --uuid-entities      Give cushions fixed UUIDs; may combine with
+                       --macro-storage (16-color modes only)
+  --macro-uuid         Enable storage macros and fixed UUID targeting together
+                       (16-color modes only)
   --max-frames <count> Convert only the first N frames (useful for testing)
   --help               Show this help
 
