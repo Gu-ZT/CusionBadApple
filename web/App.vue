@@ -3,7 +3,7 @@ import {computed, onBeforeUnmount, onMounted, ref, watch} from "vue";
 import {Message} from "@arco-design/web-vue";
 import {IconDownload, IconLanguage, IconMoon, IconSun, IconUpload} from "@arco-design/web-vue/es/icon";
 import {locale, setLocale, t, type Locale} from "./i18n";
-import {generateDatapack} from "./generator";
+import {generateDatapack, isImageFile} from "./generator";
 import {preloadFFmpeg} from "./ffmpeg";
 import type {ConversionMode} from "../src/cli";
 import {isCushionColorMode, isRgbwMode} from "../src/cli";
@@ -44,6 +44,7 @@ const modeOptions = computed(() => [
 ]);
 const stageLabel = computed(() => ({
   wasm: t.value.wasm,
+  image: t.value.imageStage,
   decode: t.value.decode,
   generate: t.value.generateStage,
   zip: t.value.zip,
@@ -51,6 +52,12 @@ const stageLabel = computed(() => ({
   idle: t.value.idle
 }[stage.value] || t.value.processing));
 const fileSize = computed(() => file.value ? `${(file.value.size / 1024 / 1024).toFixed(1)} MB` : "");
+const imageFile = computed(() => file.value ? isImageFile(file.value) : false);
+const downloadName = computed(() => {
+  if (!file.value) return "CusionBadApple.zip";
+  const baseName = file.value.name.replace(/\.[^./\\]+$/, "") || file.value.name;
+  return `${baseName}.zip`;
+});
 const colorMode = computed(() => isCushionColorMode(mode.value));
 watch([colorMode, macroStorage, uuidEntities], ([isColor, hasMacro, hasUuid]) => {
   if (!isColor || !hasMacro || !hasUuid) compactUuidMacro.value = false;
@@ -82,13 +89,13 @@ async function generate(): Promise<void> {
   if (!file.value) return void Message.warning(t.value.noFile);
   if (width.value * height.value > 32768) return void Message.error(t.value.sizeLimit);
   if (isRgbwMode(mode.value) && (width.value % 2 !== 0 || height.value % 2 !== 0)) return void Message.error(t.value.sizeLimit);
-  const clipStart = clipEnabled.value ? start.value : 0;
-  const end = clipEnabled.value && endText.value.trim() !== "" ? Number(endText.value) : undefined;
+  const clipStart = !imageFile.value && clipEnabled.value ? start.value : 0;
+  const end = !imageFile.value && clipEnabled.value && endText.value.trim() !== "" ? Number(endText.value) : undefined;
   if (end !== undefined && end <= clipStart) return void Message.error(t.value.invalidClip);
   busy.value = true;
   error.value = "";
   progress.value = 0;
-  stage.value = "wasm";
+  stage.value = imageFile.value ? "image" : "wasm";
   if (outputUrl.value) URL.revokeObjectURL(outputUrl.value);
   outputUrl.value = "";
   try {
@@ -194,11 +201,11 @@ onBeforeUnmount(() => {
             </a-input-number>
           </div>
         </div>
-        <div class="switch-row switch-row-first">
+        <div v-if="!imageFile" class="switch-row switch-row-first">
           <div><strong>{{ t.clip }}</strong><span>{{ clipEnabled ? t.clipHint : t.fullVideoHint }}</span></div>
           <a-switch v-model="clipEnabled"/>
         </div>
-        <div v-if="clipEnabled" class="field clip-fields">
+        <div v-if="!imageFile && clipEnabled" class="field clip-fields">
           <div class="two-col">
             <a-input-number v-model="start" :min="0">
               <template #prefix>{{ t.start }}</template>
@@ -213,15 +220,15 @@ onBeforeUnmount(() => {
           }}</label>
           <a-slider v-model="threshold" :min="0" :max="255" show-input/>
         </div>
-        <div class="switch-row" :class="{ muted: !colorMode }">
+        <div v-if="!imageFile" class="switch-row" :class="{ muted: !colorMode }">
           <div><strong>{{ t.macroStorage }}</strong><span>{{ t.macroStorageHint }}</span></div>
           <a-switch v-model="macroStorage" :disabled="!colorMode"/>
         </div>
-        <div class="switch-row" :class="{ muted: !colorMode }">
+        <div v-if="!imageFile" class="switch-row" :class="{ muted: !colorMode }">
           <div><strong>{{ t.uuidEntities }}</strong><span>{{ t.uuidEntitiesHint }}</span></div>
           <a-switch v-model="uuidEntities" :disabled="!colorMode"/>
         </div>
-        <div class="switch-row" :class="{ muted: !colorMode || !macroStorage || !uuidEntities }">
+        <div v-if="!imageFile" class="switch-row" :class="{ muted: !colorMode || !macroStorage || !uuidEntities }">
           <div><strong>{{ t.compactUuidMacro }}</strong><span>{{ t.compactUuidMacroHint }}</span></div>
           <a-switch v-model="compactUuidMacro" :disabled="!colorMode || !macroStorage || !uuidEntities"/>
         </div>
@@ -232,18 +239,18 @@ onBeforeUnmount(() => {
 
       <section class="content-panel">
         <div class="section-heading">
-          <div><h2>{{ t.video }}</h2>
-            <p>{{ t.local }}</p></div>
+          <div><h2>{{ imageFile ? t.image : t.video }}</h2>
+            <p>{{ imageFile ? t.imageHint : t.local }}</p></div>
           <span class="status-dot" :class="{ active: file }">{{ file ? t.selected : t.idle }}</span></div>
         <label class="drop-zone">
-          <input class="file-input" type="file" accept="video/*,.mkv,.avi" @change="chooseFile"/>
+          <input class="file-input" type="file" accept="video/*,image/*,.mkv,.avi" @change="chooseFile"/>
           <IconUpload :size="30"/>
-          <strong>{{ t.drop }}</strong>
+          <strong>{{ t.mediaDrop }}</strong>
           <span v-if="file">{{ file.name }} · {{ fileSize }}</span>
-          <span v-else>MP4 · WebM · MOV · MKV</span>
+          <span v-else>MP4 · WebM · MOV · MKV · PNG · JPG · WebP</span>
         </label>
 
-        <div class="memory-note"><strong>{{ t.memory }}</strong><span>{{ t.memoryText }}</span></div>
+        <div v-if="!imageFile" class="memory-note"><strong>{{ t.memory }}</strong><span>{{ t.memoryText }}</span></div>
 
         <div class="output-band">
           <div class="progress-copy"><strong>{{ stageLabel }}</strong><span>{{ progress }}%</span></div>
@@ -254,7 +261,7 @@ onBeforeUnmount(() => {
               <IconUpload/>
               {{ t.generate }}
             </a-button>
-            <a-button size="large" :disabled="!outputUrl" :href="outputUrl" download="CusionBadApple-datapack.zip">
+            <a-button size="large" :disabled="!outputUrl" :href="outputUrl" :download="downloadName">
               <IconDownload/>
               {{ t.download }}
             </a-button>
