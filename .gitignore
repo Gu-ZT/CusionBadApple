@@ -13,3 +13,7 @@ dist/
 
 .idea/
 input/
+datapack-wasm-cli-test/
+web-*.png
+web-output-test.zip
+vite-local.log

@@ -3,6 +3,30 @@
 Converts a video into a Minecraft datapack that drives a redstone-lamp screen at
 20 frames per second (one frame per game tick).
 
+[简体中文](README.zh_CN.md)
+
+## Web app
+
+The primary interface runs fully in the browser with Vite, Vue 3, Arco Design,
+and FFmpeg WebAssembly. Video files are never uploaded.
+
+```powershell
+pnpm install
+pnpm web:dev
+```
+
+Build and preview the production site:
+
+```powershell
+pnpm web:build
+pnpm web:preview
+```
+
+The app includes English/Chinese localization, light/dark themes, calibrated
+CIEDE2000 color matching, ordered dithering, macro plus UUID rendering, progress
+reporting, and ZIP download. It defaults to a five-second clip because a full
+video can require several GiB of browser memory.
+
 ## Generate
 
 Install dependencies, put exactly one video in `input/`, then run:
@@ -11,6 +35,9 @@ Install dependencies, put exactly one video in `input/`, then run:
 pnpm install
 pnpm start -- --mode binary
 ```
+
+The CLI also uses `@ffmpeg/core` WebAssembly. It does not require a system
+FFmpeg installation or the `ffmpeg-static` package.
 
 Floyd-Steinberg dithering is also available:
 
