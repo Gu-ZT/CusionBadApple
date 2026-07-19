@@ -38,6 +38,7 @@ async function main(): Promise<void> {
         displayMode,
         options.macroStorage,
         options.uuidEntities,
+        options.compactUuidMacro,
     );
 
     await builder.prepare();
@@ -122,6 +123,7 @@ async function main(): Promise<void> {
             : undefined,
         macroStorage: options.macroStorage,
         uuidEntities: options.uuidEntities,
+        compactUuidMacro: options.compactUuidMacro,
         colorMetric: cushionColor ? "CIEDE2000" : undefined,
         calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
         dirtyDeltaE: cushionColor ? COLOR_DIRTY_DELTA_E : undefined,

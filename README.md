@@ -101,6 +101,13 @@ cross the threshold. Combine storage macros with fixed UUID targeting when desir
 pnpm start -- --input "input/video.mp4" --output datapack-macro-uuid --mode color-ordered --macro-uuid
 ```
 
+For long videos, compact UUID macros store only each changed entity's eight-digit
+UUID suffix and state. This substantially reduces frame-function and datapack size:
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-compact --mode color-ordered --macro-uuid --compact-uuid-macro
+```
+
 These modes use one cushion per video pixel at the full screen resolution. The
 zero-brightness support blocks are stone instead of redstone lamps. Frames update only changed
 cushions with `data modify entity @s color`, using all 16 dye color values.

@@ -31,6 +31,7 @@ interface BuildMetadata {
     clipEndSeconds?: number;
     macroStorage: boolean;
     uuidEntities: boolean;
+    compactUuidMacro: boolean;
     colorMetric?: string;
     calibration?: string;
     dirtyDeltaE?: number;
@@ -165,8 +166,6 @@ export class DatapackBuilder {
     private readonly temporarySetupChunkRoot: string;
     private readonly temporarySetupDispatchRoot: string;
     private readonly temporaryMacroStateRoot: string;
-    private readonly pixelUuids: PixelUuid[];
-
     public constructor(
         private readonly datapackRoot: string,
         private readonly width: number,
@@ -174,6 +173,7 @@ export class DatapackBuilder {
         private readonly displayMode: DisplayMode,
         private readonly macroStorage: boolean,
         private readonly uuidEntities: boolean,
+        private readonly compactUuidMacro: boolean = false,
     ) {
         this.functionRoot = path.join(datapackRoot, "data", NAMESPACE, "function");
         this.temporaryRoot = path.join(datapackRoot, ".build", "function");
@@ -182,11 +182,9 @@ export class DatapackBuilder {
         this.temporarySetupChunkRoot = path.join(this.temporaryRoot, "setup_chunk");
         this.temporarySetupDispatchRoot = path.join(this.temporaryRoot, "setup_dispatch");
         this.temporaryMacroStateRoot = path.join(this.temporaryRoot, "macro_state");
-        this.pixelUuids = uuidEntities
-            ? Array.from({ length: width * height }, (_, index) =>
-                pixelUuid(index % width, Math.floor(index / width)),
-            )
-            : [];
+        if (compactUuidMacro && (!macroStorage || !uuidEntities)) {
+            throw new Error("Compact UUID macros require storage macros and fixed UUID entities.");
+        }
     }
 
     public async prepare(): Promise<void> {
@@ -250,6 +248,10 @@ export class DatapackBuilder {
         current: Uint8Array,
         previous: Uint8Array,
     ): string[] {
+        if (this.compactUuidMacro) {
+            return this.compactUuidMacroFrameCommands(current, previous);
+        }
+
         const rows: string[] = [];
 
         for (let z = 0; z < this.height; z += 1) {
@@ -289,13 +291,43 @@ export class DatapackBuilder {
         const commands = [storageCommand];
         for (let index = 0; index < current.length; index += 1) {
             if (current[index] === previous[index]) continue;
-            const uuid = this.pixelUuids[index];
-            if (!uuid) throw new Error(`Invalid fixed UUID at pixel index ${index}.`);
+            const uuid = pixelUuid(index % this.width, Math.floor(index / this.width));
             commands.push(
                 `execute as ${uuid.target} run function ${NAMESPACE}:macro_lookup with entity @s`,
             );
         }
         return commands;
+    }
+
+    private compactUuidMacroFrameCommands(
+        current: Uint8Array,
+        previous: Uint8Array,
+    ): string[] {
+        const rows: string[] = [];
+        for (let z = 0; z < this.height; z += 1) {
+            const entries: string[] = [];
+            for (let x = 0; x < this.width; x += 1) {
+                const index = z * this.width + x;
+                if (current[index] === previous[index]) continue;
+                const coordinateId = z * PIXEL_UUID_STRIDE + x;
+                entries.push(`{id:"${hexadecimal(coordinateId, 8)}",s:${current[index]}}`);
+            }
+            if (entries.length > 0) rows.push(entries.join(","));
+        }
+        if (rows.length === 0) {
+            return ["data modify storage gugle:video current set value []"];
+        }
+        const continuedRows = rows.map((row, index) =>
+            `${row}${index < rows.length - 1 ? "," : ""}\\`,
+        );
+        return [
+            [
+                "data modify storage gugle:video current set value [\\",
+                ...continuedRows,
+                "]",
+            ].join("\n"),
+            `function ${NAMESPACE}:macro_uuid_step with storage gugle:video current[0]`,
+        ];
     }
 
     private uuidColorCommands(current: Uint8Array, previous: Uint8Array): string[] {
@@ -306,8 +338,8 @@ export class DatapackBuilder {
                 continue;
             }
             const color = CUSHION_COLOR_PALETTE[colorIndex];
-            const uuid = this.pixelUuids[index];
-            if (!color || !uuid) {
+            const uuid = pixelUuid(index % this.width, Math.floor(index / this.width));
+            if (!color) {
                 throw new Error(`Invalid fixed-UUID color pixel index: ${index}.`);
             }
             commands.push(
@@ -416,11 +448,15 @@ export class DatapackBuilder {
             "setup_tick",
             "palette",
         ];
-        if (this.macroStorage) {
+        if (this.macroStorage && this.compactUuidMacro) {
+            generatedFiles.push("macro_uuid_step");
+        } else if (this.macroStorage) {
             generatedFiles.push("macro_lookup", "macro_apply");
-        } else {
-            await rm(path.join(this.functionRoot, "macro_lookup.mcfunction"), { force: true });
-            await rm(path.join(this.functionRoot, "macro_apply.mcfunction"), { force: true });
+        }
+        for (const name of ["macro_lookup", "macro_apply", "macro_uuid_step"]) {
+            if (!generatedFiles.includes(name)) {
+                await rm(path.join(this.functionRoot, `${name}.mcfunction`), { force: true });
+            }
         }
         for (const name of generatedFiles) {
             await rename(
@@ -637,7 +673,13 @@ export class DatapackBuilder {
             palette: this.paletteCommands(),
         };
 
-        if (this.macroStorage) {
+        if (this.macroStorage && this.compactUuidMacro) {
+            files.macro_uuid_step = [
+                `$execute as 6775676c-652d-4000-8000-0000$(id) run function ${NAMESPACE}:macro_state/$(s)`,
+                "data remove storage gugle:video current[0]",
+                `execute if data storage gugle:video current[0] run function ${NAMESPACE}:macro_uuid_step with storage gugle:video current[0]`,
+            ];
+        } else if (this.macroStorage) {
             files.macro_lookup = [
                 `$function ${NAMESPACE}:macro_apply with storage gugle:video current.$(CustomName)`,
             ];
@@ -686,12 +728,10 @@ export class DatapackBuilder {
                     ? rgbwCushionColor(x, z)
                     : this.displayMode === "cushion-color" ? "black" : undefined;
                 const colorNbt = color ? `,color:"${color}"` : "";
-                const macroNameNbt = this.macroStorage
+                const macroNameNbt = this.macroStorage && !this.compactUuidMacro
                     ? `,CustomName:'"p_${x}_${z}"'`
                     : "";
-                const uuid = this.uuidEntities
-                    ? this.pixelUuids[z * this.width + x]
-                    : undefined;
+                const uuid = this.uuidEntities ? pixelUuid(x, z) : undefined;
                 const uuidNbt = uuid ? `,UUID:${uuid.nbt}` : "";
                 commands.push(
                     `summon minecraft:cushion ~${x} ~2.26 ~${z} ` +

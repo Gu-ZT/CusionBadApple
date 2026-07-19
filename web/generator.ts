@@ -20,6 +20,7 @@ export interface WebGenerateOptions {
     end?: number;
     macroStorage: boolean;
     uuidEntities: boolean;
+    compactUuidMacro: boolean;
     onStage: (stage: string, progress: number) => void;
 }
 
@@ -48,7 +49,15 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
     resetVirtualFiles();
     await writeFile("output/pack.mcmeta", PACK_META);
     const displayMode: DisplayMode = cushionColor ? "cushion-color" : rgbw ? "rgbw" : "redstone";
-    const builder = new DatapackBuilder("output", options.width, options.height, displayMode, options.macroStorage, options.uuidEntities);
+    const builder = new DatapackBuilder(
+        "output",
+        options.width,
+        options.height,
+        displayMode,
+        options.macroStorage,
+        options.uuidEntities,
+        options.compactUuidMacro,
+    );
     await builder.prepare();
     let previous: Uint8Array<ArrayBufferLike> = new Uint8Array(options.width * options.height);
     let commands = 0;
@@ -79,6 +88,7 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
         clipEndSeconds: options.end,
         macroStorage: options.macroStorage,
         uuidEntities: options.uuidEntities,
+        compactUuidMacro: options.compactUuidMacro,
         colorMetric: cushionColor ? "CIEDE2000" : undefined,
         calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
         dirtyDeltaE: cushionColor ? COLOR_DIRTY_DELTA_E : undefined,

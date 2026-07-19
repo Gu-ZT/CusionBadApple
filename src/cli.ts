@@ -22,6 +22,7 @@ export interface CliOptions {
     endSeconds?: number;
     macroStorage: boolean;
     uuidEntities: boolean;
+    compactUuidMacro: boolean;
     width: number;
     height: number;
     mode: ConversionMode;
@@ -64,6 +65,7 @@ export function parseCli(args: string[]): CliOptions {
         startSeconds: 0,
         macroStorage: false,
         uuidEntities: false,
+        compactUuidMacro: false,
         width: 128,
         height: 96,
         mode: "binary",
@@ -91,6 +93,9 @@ export function parseCli(args: string[]): CliOptions {
             case "--macro-uuid":
                 options.macroStorage = true;
                 options.uuidEntities = true;
+                break;
+            case "--compact-uuid-macro":
+                options.compactUuidMacro = true;
                 break;
             case "--input": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
@@ -181,6 +186,9 @@ export function parseCli(args: string[]): CliOptions {
     if (options.uuidEntities && !isCushionColorMode(options.mode)) {
         throw new Error("--uuid-entities is only available with color-nearest, color-dither, or color-ordered.");
     }
+    if (options.compactUuidMacro && (!options.macroStorage || !options.uuidEntities)) {
+        throw new Error("--compact-uuid-macro requires --macro-storage and --uuid-entities (or --macro-uuid).");
+    }
 
     return options;
 }
@@ -209,6 +217,8 @@ Options:
                        --macro-storage (16-color modes only)
   --macro-uuid         Enable storage macros and fixed UUID targeting together
                        (16-color modes only)
+  --compact-uuid-macro Store changed UUID suffixes in a compact list and consume
+                       them with one recursive macro (requires --macro-uuid)
   --max-frames <count> Convert only the first N frames (useful for testing)
   --help               Show this help
 

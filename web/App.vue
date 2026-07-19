@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {computed, onBeforeUnmount, onMounted, ref} from "vue";
+import {computed, onBeforeUnmount, onMounted, ref, watch} from "vue";
 import {Message} from "@arco-design/web-vue";
 import {IconDownload, IconLanguage, IconMoon, IconSun, IconUpload} from "@arco-design/web-vue/es/icon";
 import {locale, setLocale, t, type Locale} from "./i18n";
@@ -20,6 +20,7 @@ const threshold = ref(128);
 const invert = ref(false);
 const macroStorage = ref(true);
 const uuidEntities = ref(true);
+const compactUuidMacro = ref(false);
 const busy = ref(false);
 const progress = ref(0);
 const stage = ref("idle");
@@ -51,6 +52,9 @@ const stageLabel = computed(() => ({
 }[stage.value] || t.value.processing));
 const fileSize = computed(() => file.value ? `${(file.value.size / 1024 / 1024).toFixed(1)} MB` : "");
 const colorMode = computed(() => isCushionColorMode(mode.value));
+watch([colorMode, macroStorage, uuidEntities], ([isColor, hasMacro, hasUuid]) => {
+  if (!isColor || !hasMacro || !hasUuid) compactUuidMacro.value = false;
+});
 
 function applyTheme(): void {
   document.body.setAttribute("arco-theme", dark.value ? "dark" : "light");
@@ -93,6 +97,7 @@ async function generate(): Promise<void> {
       threshold: threshold.value, invert: invert.value, start: clipStart, end,
       macroStorage: colorMode.value && macroStorage.value,
       uuidEntities: colorMode.value && uuidEntities.value,
+      compactUuidMacro: colorMode.value && macroStorage.value && uuidEntities.value && compactUuidMacro.value,
       onStage: (nextStage, nextProgress) => {
         stage.value = nextStage;
         progress.value = Math.round(nextProgress * 100);
@@ -215,6 +220,10 @@ onBeforeUnmount(() => {
         <div class="switch-row" :class="{ muted: !colorMode }">
           <div><strong>{{ t.uuidEntities }}</strong><span>{{ t.uuidEntitiesHint }}</span></div>
           <a-switch v-model="uuidEntities" :disabled="!colorMode"/>
+        </div>
+        <div class="switch-row" :class="{ muted: !colorMode || !macroStorage || !uuidEntities }">
+          <div><strong>{{ t.compactUuidMacro }}</strong><span>{{ t.compactUuidMacroHint }}</span></div>
+          <a-switch v-model="compactUuidMacro" :disabled="!colorMode || !macroStorage || !uuidEntities"/>
         </div>
         <div class="switch-row"><strong>{{ t.invert }}</strong>
           <a-switch v-model="invert"/>

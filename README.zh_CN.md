@@ -46,6 +46,12 @@ CLI 同样使用 `@ffmpeg/core` WebAssembly，不依赖系统 FFmpeg 或 `ffmpeg
 pnpm start -- --input "input/video.mp4" --output datapack-output --mode color-ordered --macro-uuid --start 0 --end 5
 ```
 
+闀胯棰戝彲浠ュ惎鐢ㄧ揣鍑?UUID 瀹忥紝姣忎釜鍙樺寲鍍忕礌鍙繚瀛?8 浣?UUID 鍚庣紑鍜岀姸鎬侊紝浠ュ噺灏戝抚鍑芥暟鍜屾暟鎹寘浣撶Н锛?
+
+```powershell
+pnpm start -- --input "input/video.mp4" --output datapack-compact --mode color-ordered --macro-uuid --compact-uuid-macro
+```
+
 `pnpm start --` 中，`pnpm start` 运行 `package.json` 的 `start` 脚本，末尾 `--` 把后面的参数传给生成器。
 
 主要模式：
