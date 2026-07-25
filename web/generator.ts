@@ -21,6 +21,7 @@ export interface WebGenerateOptions {
     height: number;
     threshold: number;
     dirtyDeltaE: number;
+    orderedDitherAmplitude: number;
     invert: boolean;
     start: number;
     end?: number;
@@ -100,7 +101,14 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
     options.onStage("image", 0.05);
     const rgb = await decodeImage(options.file, logicalWidth, logicalHeight);
     const converted = cushionColor
-        ? convertCushionColorFrame(rgb, logicalWidth, logicalHeight, options.mode as never, options.invert)
+        ? convertCushionColorFrame(
+            rgb,
+            logicalWidth,
+            logicalHeight,
+            options.mode as never,
+            options.invert,
+            options.orderedDitherAmplitude,
+        )
         : rgbw
             ? convertRgbwFrame(rgb, logicalWidth, logicalHeight, options.mode as never, options.invert)
             : convertFrame(
@@ -218,7 +226,14 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
     for (let frame = 0; frame < frameCount; frame += 1) {
         const decoded = raw.subarray(frame * frameSize, (frame + 1) * frameSize);
         const converted = cushionColor
-            ? convertCushionColorFrame(decoded, logicalWidth, logicalHeight, options.mode as never, options.invert)
+            ? convertCushionColorFrame(
+                decoded,
+                logicalWidth,
+                logicalHeight,
+                options.mode as never,
+                options.invert,
+                options.orderedDitherAmplitude,
+            )
             : rgbw
                 ? convertRgbwFrame(decoded, logicalWidth, logicalHeight, options.mode as never, options.invert)
                 : convertFrame(decoded, options.width, options.height, options.mode as never, options.threshold, options.invert);
@@ -248,6 +263,9 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
         colorMetric: cushionColor ? "CIEDE2000" : undefined,
         calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
         dirtyDeltaE: cushionColor ? options.dirtyDeltaE : undefined,
+        orderedDitherAmplitude: options.mode === "color-ordered"
+            ? options.orderedDitherAmplitude
+            : undefined,
         commands,
     });
     options.onStage("zip", 0.92);

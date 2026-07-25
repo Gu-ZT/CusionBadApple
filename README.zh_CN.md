@@ -71,6 +71,9 @@ color-serpentine        彩色蛇形 Floyd-Steinberg 抖动
 color-sierra-lite       彩色蛇形 Sierra Lite 抖动
 ```
 
+`color-ordered` 可使用 `--ordered-amplitude <数值>` 调整每个 Bayer 等级的 RGB
+偏移量，默认值为 `10`；设为 `0` 时关闭有序噪声。
+
 ## Minecraft 使用
 
 把 ZIP 解压到世界的 `datapacks` 目录，然后执行：

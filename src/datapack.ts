@@ -43,6 +43,7 @@ interface BuildMetadata {
     colorMetric?: string;
     calibration?: string;
     dirtyDeltaE?: number;
+    orderedDitherAmplitude?: number;
     commands: number;
 }
 

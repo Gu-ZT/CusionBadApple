@@ -101,6 +101,9 @@ last state actually written to Minecraft is greater than 10. Smaller changes
 remain pending against that displayed state, so accumulated changes can still
 cross the threshold. Combine storage macros with fixed UUID targeting when desired:
 
+Use `--ordered-amplitude <n>` to change the Bayer RGB offset per rank step
+(default `10`); `0` disables the ordered noise.
+
 ```powershell
 pnpm start -- --input "input/video.mp4" --output datapack-macro-uuid --mode color-ordered --macro-uuid
 ```

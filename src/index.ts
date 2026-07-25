@@ -72,6 +72,7 @@ async function main(): Promise<void> {
                 logicalHeight,
                 options.mode,
                 options.invert,
+                options.orderedDitherAmplitude,
             )
             : isRgbwMode(options.mode)
                 ? convertRgbwFrame(
@@ -126,6 +127,9 @@ async function main(): Promise<void> {
         colorMetric: cushionColor ? "CIEDE2000" : undefined,
         calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
         dirtyDeltaE: cushionColor ? options.dirtyDeltaE : undefined,
+        orderedDitherAmplitude: options.mode === "color-ordered"
+            ? options.orderedDitherAmplitude
+            : undefined,
         clipStartSeconds: options.startSeconds,
         clipEndSeconds: options.endSeconds,
         commands: commandCount,

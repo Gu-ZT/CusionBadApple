@@ -19,6 +19,7 @@ const endText = ref("5");
 const clipEnabled = ref(true);
 const threshold = ref(128);
 const dirtyDeltaE = ref(10);
+const orderedDitherAmplitude = ref(10);
 const invert = ref(false);
 const macroStorage = ref(true);
 const uuidEntities = ref(true);
@@ -108,6 +109,7 @@ async function generate(): Promise<void> {
     const blob = await generateDatapack({
       file: file.value, mode: mode.value, width: width.value, height: height.value,
       threshold: threshold.value, dirtyDeltaE: dirtyDeltaE.value,
+      orderedDitherAmplitude: orderedDitherAmplitude.value,
       invert: invert.value, start: clipStart, end,
       macroStorage: colorMode.value && macroStorage.value,
       uuidEntities: colorMode.value && uuidEntities.value,
@@ -237,6 +239,10 @@ onBeforeUnmount(() => {
           <label>{{ t.dirtyDeltaE }}</label>
           <a-input-number v-model="dirtyDeltaE" :min="0" :step="0.5"/>
         </div>
+        <div v-if="mode === 'color-ordered'" class="field">
+          <label>{{ t.orderedDitherAmplitude }}</label>
+          <a-input-number v-model="orderedDitherAmplitude" :min="0" :step="0.5"/>
+        </div>
         <div v-if="!imageFile" class="switch-row" :class="{ muted: !colorMode }">
           <div><strong>{{ t.macroStorage }}</strong><span>{{ t.macroStorageHint }}</span></div>
           <a-switch v-model="macroStorage" :disabled="!colorMode"/>
@@ -266,6 +272,7 @@ onBeforeUnmount(() => {
               :width="width"
               :height="height"
               :threshold="threshold"
+              :ordered-dither-amplitude="orderedDitherAmplitude"
               :invert="invert"
           />
           <a-tooltip :content="t.replaceMedia">

@@ -17,6 +17,7 @@ const props = defineProps<{
     width: number;
     height: number;
     threshold: number;
+    orderedDitherAmplitude: number;
     invert: boolean;
 }>();
 
@@ -116,7 +117,14 @@ function drawSource(source: PreviewSource): void {
     const logicalHeight = rgbw ? preview.height / 2 : preview.height;
     const rgb = sampleRgb(source, logicalWidth, logicalHeight);
     const converted = cushionColor
-        ? convertCushionColorFrame(rgb, logicalWidth, logicalHeight, props.mode, props.invert)
+        ? convertCushionColorFrame(
+            rgb,
+            logicalWidth,
+            logicalHeight,
+            props.mode,
+            props.invert,
+            props.orderedDitherAmplitude,
+        )
         : rgbw
             ? convertRgbwFrame(rgb, logicalWidth, logicalHeight, props.mode, props.invert)
             : convertFrame(
@@ -243,7 +251,14 @@ async function loadFile(): Promise<void> {
 watch(() => props.file, loadFile, { immediate: true });
 watch(frame, (value) => { if (videoFile.value && ready.value) scheduleFrame(value); });
 watch(
-    () => [props.mode, props.width, props.height, props.threshold, props.invert],
+    () => [
+        props.mode,
+        props.width,
+        props.height,
+        props.threshold,
+        props.orderedDitherAmplitude,
+        props.invert,
+    ],
     () => {
         try {
             if (!ready.value) return;

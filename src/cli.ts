@@ -52,6 +52,7 @@ export interface CliOptions {
     mode: ConversionMode;
     threshold: number;
     dirtyDeltaE: number;
+    orderedDitherAmplitude: number;
     invert: boolean;
     maxFrames?: number;
 }
@@ -96,6 +97,7 @@ export function parseCli(args: string[]): CliOptions {
         mode: "binary",
         threshold: 128,
         dirtyDeltaE: 10,
+        orderedDitherAmplitude: 10,
         invert: false,
     };
 
@@ -171,6 +173,12 @@ export function parseCli(args: string[]): CliOptions {
                 index = nextIndex;
                 break;
             }
+            case "--ordered-amplitude": {
+                const [value, nextIndex] = readValue(args, index, inlineValue, name);
+                options.orderedDitherAmplitude = decimal(value, name, 0);
+                index = nextIndex;
+                break;
+            }
             case "--max-frames": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
                 options.maxFrames = integer(value, name, 1, Number.MAX_SAFE_INTEGER);
@@ -236,6 +244,9 @@ Options:
   --threshold <0-255>  Black/white threshold; grayscale modes only (default: 128)
   --dirty-delta-e <n>  Minimum CIEDE2000 distance required to update a color
                        pixel; 0 updates every state change (default: 10)
+  --ordered-amplitude <n>
+                       RGB offset per 4x4 Bayer rank step; 0 disables ordered
+                       noise (default: 10)
   --width <blocks>     Screen width (default: 128)
   --height <blocks>    Screen height (default: 96)
   --invert             Invert lit and unlit pixels

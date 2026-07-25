@@ -388,6 +388,7 @@ export function nearestCalibratedState(red: number, green: number, blue: number)
 }
 
 export const COLOR_DIRTY_DELTA_E = 10;
+export const ORDERED_DITHER_AMPLITUDE = 10;
 
 export function filterCushionColorChanges(
     target: Uint8Array,
@@ -424,6 +425,7 @@ export function convertCushionColorFrame(
     height: number,
     mode: CushionColorConversionMode,
     invert: boolean,
+    orderedDitherAmplitude: number = ORDERED_DITHER_AMPLITUDE,
 ): Uint8Array {
     const expectedLength = width * height * 3;
     if (rgb.length !== expectedLength) {
@@ -441,7 +443,7 @@ export function convertCushionColorFrame(
             const outputIndex = y * width + x;
             const pixelIndex = outputIndex * 3;
             if (mode === "color-ordered") {
-                const offset = (BAYER_4[y % 4][x % 4] - 7.5) * 10;
+                const offset = (BAYER_4[y % 4][x % 4] - 7.5) * orderedDitherAmplitude;
                 pixels[pixelIndex] += offset;
                 pixels[pixelIndex + 1] += offset;
                 pixels[pixelIndex + 2] += offset;
