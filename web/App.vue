@@ -34,6 +34,7 @@ const ffmpegError = ref("");
 const ffmpegLoadProgress = ref(0);
 let fakeProgressTimer: ReturnType<typeof setInterval> | undefined;
 let preloadStartedAt = 0;
+const RECOMMENDED_LOGICAL_PIXELS = 128 * 96;
 
 const modeOptions = computed(() => [
   {value: "binary", label: t.value.modeBinary, hint: t.value.modeBinaryHint},
@@ -94,6 +95,15 @@ function chooseFile(event: Event): void {
     if (outputUrl.value) URL.revokeObjectURL(outputUrl.value);
     outputUrl.value = "";
   }
+}
+
+function applyRecommendedResolution(sourceWidth: number, sourceHeight: number): void {
+  if (sourceWidth <= 0 || sourceHeight <= 0) return;
+  const aspectRatio = sourceWidth / sourceHeight;
+  const recommendedWidth = Math.max(16, Math.round(Math.sqrt(RECOMMENDED_LOGICAL_PIXELS * aspectRatio)));
+  const recommendedHeight = Math.max(16, Math.round(RECOMMENDED_LOGICAL_PIXELS / recommendedWidth));
+  width.value = Math.min(recommendedWidth, maxInputDimension.value);
+  height.value = Math.min(recommendedHeight, maxInputDimension.value);
 }
 
 async function generate(): Promise<void> {
@@ -283,6 +293,7 @@ onBeforeUnmount(() => {
               :threshold="threshold"
               :ordered-dither-amplitude="orderedDitherAmplitude"
               :invert="invert"
+              @source-dimensions="applyRecommendedResolution"
           />
           <a-tooltip :content="t.replaceMedia">
             <label class="preview-replace-button">

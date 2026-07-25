@@ -15,6 +15,9 @@ const props = defineProps<{
     orderedDitherAmplitude: number;
     invert: boolean;
 }>();
+const emit = defineEmits<{
+    "source-dimensions": [width: number, height: number];
+}>();
 
 const canvas = ref<HTMLCanvasElement>();
 const video = ref<HTMLVideoElement>();
@@ -237,8 +240,19 @@ async function loadFile(): Promise<void> {
     await nextTick();
     try {
         if (isImageFile(props.file)) {
-            bitmap = await createImageBitmap(props.file);
-            if (generation !== loadGeneration) return;
+            const loadedBitmap = await createImageBitmap(props.file);
+            if (generation !== loadGeneration) {
+                loadedBitmap.close();
+                return;
+            }
+            emit("source-dimensions", loadedBitmap.width, loadedBitmap.height);
+            await nextTick();
+            if (generation !== loadGeneration) {
+                loadedBitmap.close();
+                return;
+            }
+            bitmap = loadedBitmap;
+            ready.value = true;
             await drawSource(bitmap);
             if (generation !== loadGeneration) return;
         } else {
@@ -250,16 +264,20 @@ async function loadFile(): Promise<void> {
             if (generation !== loadGeneration) return;
             duration.value = element.duration;
             frameCount.value = Math.max(1, Math.ceil(element.duration * FPS));
+            emit("source-dimensions", element.videoWidth, element.videoHeight);
+            await nextTick();
+            if (generation !== loadGeneration) return;
             if (element.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) {
                 await waitForVideoEvent(element, "loadeddata");
             }
             if (generation !== loadGeneration) return;
+            ready.value = true;
             await drawSource(element);
             if (generation !== loadGeneration) return;
         }
-        ready.value = true;
     } catch (reason) {
         if (generation === loadGeneration) {
+            ready.value = false;
             error.value = reason instanceof Error ? reason.message : String(reason);
         }
     } finally {
@@ -280,6 +298,7 @@ watch(
     ],
     () => {
         try {
+            if (!ready.value) return;
             const render = bitmap
                 ? drawSource(bitmap)
                 : video.value?.readyState && videoFile.value
