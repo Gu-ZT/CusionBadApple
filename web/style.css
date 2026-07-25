@@ -47,6 +47,7 @@ body[arco-theme="dark"] .drop-zone { background: #202226; border-color: #4e5157;
 .preview-container { position: relative; }
 .preview-stage { position: relative; min-height: 250px; display: grid; place-items: center; overflow: hidden; border: 1px solid #c9cdd4; border-radius: 6px; background: #08090a; }
 .preview-canvas { display: block; width: 100%; max-height: min(58vh, 560px); object-fit: contain; image-rendering: pixelated; image-rendering: crisp-edges; }
+.preview-canvas.is-downscaled { image-rendering: auto; }
 .preview-video { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .preview-loading { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(8, 9, 10, .42); }
 .preview-error { position: absolute; inset: auto 16px 16px; padding: 8px 10px; border-radius: 4px; background: rgba(20, 21, 24, .9); color: #ff7d7d; font-size: 12px; overflow-wrap: anywhere; }

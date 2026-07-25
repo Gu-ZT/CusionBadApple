@@ -1,12 +1,6 @@
 <script setup lang="ts">
-import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from "vue";
 import type { ConversionMode } from "../src/cli";
-import { isCushionColorMode, isRgb3Mode, isRgbwMode, screenScaleForMode } from "../src/cli";
-import { CALIBRATED_STATES } from "../src/calibration";
-import { convertCushionColorFrame, convertFrame, convertRgb3Frame, convertRgbwFrame } from "../src/converter";
-import { BRIGHTNESS_TIERS } from "../src/brightness";
-import { CUSHION_COLOR_PALETTE } from "../src/colors";
-import { RGB3_LAMP_LEVELS, rgb3Cell } from "../src/rgb3";
 import { isImageFile } from "./generator";
 import { t } from "./i18n";
 
@@ -28,6 +22,8 @@ const frame = ref(0);
 const frameCount = ref(1);
 const duration = ref(0);
 const loading = ref(true);
+const rendering = ref(false);
+const downscaled = ref(false);
 const ready = ref(false);
 const error = ref("");
 const videoFile = computed(() => !isImageFile(props.file));
@@ -41,6 +37,27 @@ let bitmap: ImageBitmap | undefined;
 let loadGeneration = 0;
 let seekGeneration = 0;
 let seekTimer: ReturnType<typeof setTimeout> | undefined;
+let renderGeneration = 0;
+let previewWorker: Worker | undefined;
+let cancelWorkerRequest: (() => void) | undefined;
+let canvasResizeObserver: ResizeObserver | undefined;
+
+interface PreviewWorkerRequest {
+    rgba: Uint8ClampedArray<ArrayBuffer>;
+    width: number;
+    height: number;
+    mode: ConversionMode;
+    threshold: number;
+    orderedDitherAmplitude: number;
+    invert: boolean;
+}
+
+interface PreviewWorkerResponse {
+    rgba?: Uint8ClampedArray<ArrayBuffer>;
+    width?: number;
+    height?: number;
+    error?: string;
+}
 
 type PreviewSource = ImageBitmap | HTMLVideoElement;
 
@@ -51,11 +68,11 @@ function sourceSize(source: PreviewSource): { width: number; height: number } {
     return { width: source.width, height: source.height };
 }
 
-function sampleRgb(
+function sampleRgba(
     source: PreviewSource,
     width: number,
     height: number,
-): Uint8Array {
+): Uint8ClampedArray<ArrayBuffer> {
     const sampleCanvas = document.createElement("canvas");
     sampleCanvas.width = width;
     sampleCanvas.height = height;
@@ -76,100 +93,88 @@ function sampleRgb(
         drawWidth,
         drawHeight,
     );
-    const rgba = context.getImageData(0, 0, width, height).data;
-    const rgb = new Uint8Array(width * height * 3);
-    for (let index = 0; index < width * height; index += 1) {
-        rgb[index * 3] = rgba[index * 4];
-        rgb[index * 3 + 1] = rgba[index * 4 + 1];
-        rgb[index * 3 + 2] = rgba[index * 4 + 2];
-    }
-    return rgb;
+    return context.getImageData(0, 0, width, height).data;
 }
 
-function rgbwColor(index: number, width: number): string {
-    const x = index % width;
-    const y = Math.floor(index / width);
-    if (y % 2 === 0) return x % 2 === 0 ? "#ff3b30" : "#34c759";
-    return x % 2 === 0 ? "#3d7eff" : "#fff";
+function cancelPreviewWorker(): void {
+    previewWorker?.terminate();
+    previewWorker = undefined;
+    cancelWorkerRequest?.();
+    cancelWorkerRequest = undefined;
 }
 
-function rgb3Color(index: number, width: number): string {
-    const cell = rgb3Cell(index % width, Math.floor(index / width));
-    const brightness = BRIGHTNESS_TIERS.findIndex((tier) => tier.level === RGB3_LAMP_LEVELS[cell.lamp]);
-    const color = CUSHION_COLOR_PALETTE.findIndex((entry) => entry.name === cell.color);
-    const calibrated = CALIBRATED_STATES[brightness * CUSHION_COLOR_PALETTE.length + color];
-    return `rgb(${calibrated.red} ${calibrated.green} ${calibrated.blue})`;
-}
-
-function drawSource(source: PreviewSource): void {
+function updateCanvasScaling(): void {
     const target = canvas.value;
     if (!target) return;
-    const rgbw = isRgbwMode(props.mode);
-    const rgb3 = isRgb3Mode(props.mode);
-    const cushionColor = isCushionColorMode(props.mode);
+    downscaled.value = target.width > target.clientWidth || target.height > target.clientHeight;
+}
+
+function runPreviewWorker(request: PreviewWorkerRequest): Promise<PreviewWorkerResponse | undefined> {
+    cancelPreviewWorker();
+    const worker = new Worker(new URL("./preview-worker.ts", import.meta.url), { type: "module" });
+    previewWorker = worker;
+    return new Promise((resolve, reject) => {
+        let settled = false;
+        const cleanup = (): void => {
+            if (previewWorker === worker) previewWorker = undefined;
+            if (cancelWorkerRequest === cancel) cancelWorkerRequest = undefined;
+            worker.terminate();
+        };
+        const cancel = (): void => {
+            if (settled) return;
+            settled = true;
+            cleanup();
+            resolve(undefined);
+        };
+        cancelWorkerRequest = cancel;
+        worker.addEventListener("message", (event: MessageEvent<PreviewWorkerResponse>) => {
+            if (settled) return;
+            settled = true;
+            cleanup();
+            resolve(event.data);
+        }, { once: true });
+        worker.addEventListener("error", (event) => {
+            if (settled) return;
+            settled = true;
+            cleanup();
+            reject(new Error(event.message || "Preview worker failed."));
+        }, { once: true });
+        worker.postMessage(request, [request.rgba.buffer]);
+    });
+}
+
+async function drawSource(source: PreviewSource): Promise<void> {
+    const target = canvas.value;
+    if (!target) return;
+    const generation = ++renderGeneration;
     const logicalWidth = props.width;
     const logicalHeight = props.height;
-    const screenScale = screenScaleForMode(props.mode);
-    const previewWidth = logicalWidth * screenScale;
-    const previewHeight = logicalHeight * screenScale;
-    const screenWidth = props.width * screenScale;
-    const screenHeight = props.height * screenScale;
-    const rgb = sampleRgb(source, logicalWidth, logicalHeight);
-    const converted = cushionColor
-        ? convertCushionColorFrame(
-            rgb,
-            logicalWidth,
-            logicalHeight,
-            props.mode,
-            props.invert,
-            props.orderedDitherAmplitude,
-        )
-        : rgbw
-            ? convertRgbwFrame(rgb, logicalWidth, logicalHeight, props.mode, props.invert)
-            : rgb3
-                ? convertRgb3Frame(rgb, logicalWidth, logicalHeight, props.mode, props.invert)
-            : convertFrame(
-                Uint8Array.from({ length: logicalWidth * logicalHeight }, (_, index) =>
-                    Math.round(
-                        rgb[index * 3] * 0.299 +
-                        rgb[index * 3 + 1] * 0.587 +
-                        rgb[index * 3 + 2] * 0.114,
-                    )),
-                logicalWidth,
-                logicalHeight,
-                props.mode,
-                props.threshold,
-                props.invert,
-            );
-
-    target.width = screenWidth;
-    target.height = screenHeight;
-    const context = target.getContext("2d");
-    if (!context) throw new Error("The browser does not provide a preview canvas context.");
-    context.imageSmoothingEnabled = false;
-    for (let index = 0; index < converted.length; index += 1) {
-        if (cushionColor) {
-            const color = CALIBRATED_STATES[converted[index]];
-            context.fillStyle = `rgb(${color.red} ${color.green} ${color.blue})`;
-        } else if (rgbw) {
-            context.fillStyle = converted[index] ? rgbwColor(index, previewWidth) : "#08090a";
-        } else if (rgb3) {
-            context.fillStyle = converted[index] ? rgb3Color(index, previewWidth) : "#08090a";
-        } else {
-            context.fillStyle = converted[index] ? "#fff" : "#08090a";
+    rendering.value = true;
+    error.value = "";
+    try {
+        const rgba = sampleRgba(source, logicalWidth, logicalHeight);
+        const response = await runPreviewWorker({
+            rgba,
+            width: logicalWidth,
+            height: logicalHeight,
+            mode: props.mode,
+            threshold: props.threshold,
+            orderedDitherAmplitude: props.orderedDitherAmplitude,
+            invert: props.invert,
+        });
+        if (!response || generation !== renderGeneration) return;
+        if (response.error) throw new Error(response.error);
+        if (!response.rgba || !response.width || !response.height) {
+            throw new Error("The preview worker returned an incomplete image.");
         }
-        const previewX = index % previewWidth;
-        const previewY = Math.floor(index / previewWidth);
-        const left = Math.floor(previewX * screenWidth / previewWidth);
-        const top = Math.floor(previewY * screenHeight / previewHeight);
-        const right = Math.floor((previewX + 1) * screenWidth / previewWidth);
-        const bottom = Math.floor((previewY + 1) * screenHeight / previewHeight);
-        context.fillRect(
-            left,
-            top,
-            right - left,
-            bottom - top,
-        );
+        target.width = response.width;
+        target.height = response.height;
+        const context = target.getContext("2d");
+        if (!context) throw new Error("The browser does not provide a preview canvas context.");
+        context.putImageData(new ImageData(response.rgba, response.width, response.height), 0, 0);
+        requestAnimationFrame(updateCanvasScaling);
+    } finally {
+        if (generation === renderGeneration) rendering.value = false;
     }
 }
 
@@ -196,7 +201,7 @@ async function seekFrame(index: number, generation: number): Promise<void> {
         await seeked;
     }
     if (generation !== seekGeneration) return;
-    drawSource(element);
+    await drawSource(element);
 }
 
 function scheduleFrame(index: number): void {
@@ -214,7 +219,10 @@ function scheduleFrame(index: number): void {
 
 async function loadFile(): Promise<void> {
     const generation = ++loadGeneration;
+    renderGeneration += 1;
+    cancelPreviewWorker();
     loading.value = true;
+    rendering.value = false;
     ready.value = false;
     error.value = "";
     frame.value = 0;
@@ -231,7 +239,8 @@ async function loadFile(): Promise<void> {
         if (isImageFile(props.file)) {
             bitmap = await createImageBitmap(props.file);
             if (generation !== loadGeneration) return;
-            drawSource(bitmap);
+            await drawSource(bitmap);
+            if (generation !== loadGeneration) return;
         } else {
             const element = video.value;
             if (!element) throw new Error("The video preview element is unavailable.");
@@ -245,7 +254,8 @@ async function loadFile(): Promise<void> {
                 await waitForVideoEvent(element, "loadeddata");
             }
             if (generation !== loadGeneration) return;
-            drawSource(element);
+            await drawSource(element);
+            if (generation !== loadGeneration) return;
         }
         ready.value = true;
     } catch (reason) {
@@ -270,19 +280,34 @@ watch(
     ],
     () => {
         try {
-            if (!ready.value) return;
-            if (bitmap) drawSource(bitmap);
-            else if (video.value?.readyState && videoFile.value) drawSource(video.value);
+            const render = bitmap
+                ? drawSource(bitmap)
+                : video.value?.readyState && videoFile.value
+                    ? drawSource(video.value)
+                    : undefined;
+            render?.catch((reason) => {
+                error.value = reason instanceof Error ? reason.message : String(reason);
+            });
         } catch (reason) {
             error.value = reason instanceof Error ? reason.message : String(reason);
         }
     },
 );
 
+onMounted(() => {
+    if (!canvas.value) return;
+    canvasResizeObserver = new ResizeObserver(updateCanvasScaling);
+    canvasResizeObserver.observe(canvas.value);
+    updateCanvasScaling();
+});
+
 onBeforeUnmount(() => {
     loadGeneration += 1;
     seekGeneration += 1;
+    renderGeneration += 1;
     clearTimeout(seekTimer);
+    cancelPreviewWorker();
+    canvasResizeObserver?.disconnect();
     bitmap?.close();
     if (objectUrl) URL.revokeObjectURL(objectUrl);
 });
@@ -291,8 +316,8 @@ onBeforeUnmount(() => {
 <template>
   <div class="media-preview">
     <div class="preview-stage">
-      <canvas ref="canvas" class="preview-canvas" :aria-label="t.preview"/>
-      <div v-if="loading" class="preview-loading"><a-spin/></div>
+      <canvas ref="canvas" class="preview-canvas" :class="{ 'is-downscaled': downscaled }" :aria-label="t.preview"/>
+      <div v-if="loading || rendering" class="preview-loading"><a-spin/></div>
       <p v-if="error" class="preview-error">{{ error }}</p>
       <video ref="video" class="preview-video" muted playsinline preload="metadata"/>
     </div>
