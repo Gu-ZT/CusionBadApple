@@ -224,7 +224,9 @@ async function loadFile(): Promise<void> {
             if (generation !== loadGeneration) return;
             duration.value = element.duration;
             frameCount.value = Math.max(1, Math.ceil(element.duration * FPS));
-            await waitForVideoEvent(element, "loadeddata");
+            if (element.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) {
+                await waitForVideoEvent(element, "loadeddata");
+            }
             if (generation !== loadGeneration) return;
             drawSource(element);
         }
