@@ -1,15 +1,17 @@
 import * as path from "node:path";
 import { BRIGHTNESS_TIERS } from "./brightness";
-import { isCushionColorMode, isRgbwMode, parseCli, printHelp } from "./cli";
+import { isCushionColorMode, isRgb3Mode, isRgbwMode, parseCli, printHelp } from "./cli";
 import { CUSHION_COLOR_PALETTE } from "./colors";
 import {
     convertCushionColorFrame,
     convertFrame,
+    convertRgb3Frame,
     convertRgbwFrame,
     filterCushionColorChanges,
 } from "./converter";
 import { DatapackBuilder, DisplayMode } from "./datapack";
 import { decodeVideo, findInputVideo } from "./video";
+import { RGB3_LAMP_LEVELS } from "./rgb3";
 
 async function main(): Promise<void> {
     const options = parseCli(process.argv.slice(2));
@@ -23,13 +25,14 @@ async function main(): Promise<void> {
         : await findInputVideo(path.resolve("input"));
     const datapackPath = path.resolve(options.output);
     const rgbw = isRgbwMode(options.mode);
+    const rgb3 = isRgb3Mode(options.mode);
     const cushionColor = isCushionColorMode(options.mode);
-    const rgbInput = rgbw || cushionColor;
-    const logicalWidth = rgbw ? options.width / 2 : options.width;
-    const logicalHeight = rgbw ? options.height / 2 : options.height;
+    const rgbInput = rgbw || rgb3 || cushionColor;
+    const logicalWidth = rgbw ? options.width / 2 : rgb3 ? options.width / 3 : options.width;
+    const logicalHeight = rgbw ? options.height / 2 : rgb3 ? options.height / 3 : options.height;
     const displayMode: DisplayMode = cushionColor
         ? "cushion-color"
-        : rgbw ? "rgbw" : "redstone";
+        : rgbw ? "rgbw" : rgb3 ? "rgb3" : "redstone";
     const builder = new DatapackBuilder(
         datapackPath,
         options.width,
@@ -82,6 +85,14 @@ async function main(): Promise<void> {
                     options.mode,
                     options.invert,
                 )
+                : isRgb3Mode(options.mode)
+                    ? convertRgb3Frame(
+                        decodedFrame,
+                        logicalWidth,
+                        logicalHeight,
+                        options.mode,
+                        options.invert,
+                    )
                 : convertFrame(
                     decodedFrame,
                     options.width,
@@ -114,13 +125,15 @@ async function main(): Promise<void> {
         inverted: options.invert,
         logicalWidth,
         logicalHeight,
-        subpixelLayout: rgbw ? "R G / B W" : undefined,
+        subpixelLayout: rgbw
+            ? "R G / B W"
+            : rgb3 ? "R0 G2 B1 / G1 B0 R2 / B2 R1 G0" : undefined,
         palette: cushionColor
             ? CUSHION_COLOR_PALETTE.map((color) => color.name)
             : undefined,
         brightnessLevels: cushionColor
             ? BRIGHTNESS_TIERS.map((tier) => tier.level)
-            : undefined,
+            : rgb3 ? [...RGB3_LAMP_LEVELS] : undefined,
         macroStorage: options.macroStorage,
         uuidEntities: options.uuidEntities,
         compactUuidMacro: options.compactUuidMacro,

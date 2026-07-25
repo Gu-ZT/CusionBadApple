@@ -7,7 +7,7 @@ import {generateDatapack, isImageFile} from "./generator";
 import {preloadFFmpeg} from "./ffmpeg";
 import MediaPreview from "./MediaPreview.vue";
 import type {ConversionMode} from "../src/cli";
-import {isCushionColorMode, isRgbwMode, MAX_SCREEN_DIMENSION, MAX_SCREEN_PIXELS} from "../src/cli";
+import {isCushionColorMode, isRgb3Mode, isRgbwMode, MAX_SCREEN_DIMENSION, MAX_SCREEN_PIXELS} from "../src/cli";
 
 const dark = ref(localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && matchMedia("(prefers-color-scheme: dark)").matches));
 const file = ref<File>();
@@ -41,6 +41,8 @@ const modeOptions = computed(() => [
   {value: "ordered", label: t.value.modeGrayOrdered, hint: t.value.modeGrayOrderedHint},
   {value: "rgbw-nearest", label: t.value.modeRgbwNearest, hint: t.value.modeRgbwNearestHint},
   {value: "rgbw-dither", label: t.value.modeRgbwDither, hint: t.value.modeRgbwDitherHint},
+  {value: "rgb-nearest", label: t.value.modeRgb3Nearest, hint: t.value.modeRgb3NearestHint},
+  {value: "rgb-dither", label: t.value.modeRgb3Dither, hint: t.value.modeRgb3DitherHint},
   {value: "color-nearest", label: t.value.modeNearest, hint: t.value.modeNearestHint},
   {value: "color-ordered", label: t.value.modeOrdered, hint: t.value.modeOrderedHint},
   {value: "color-blue-noise", label: t.value.modeBlueNoise, hint: t.value.modeBlueNoiseHint},
@@ -96,6 +98,7 @@ async function generate(): Promise<void> {
   if (!file.value) return void Message.warning(t.value.noFile);
   if (width.value * height.value > MAX_SCREEN_PIXELS) return void Message.error(t.value.sizeLimit);
   if (isRgbwMode(mode.value) && (width.value % 2 !== 0 || height.value % 2 !== 0)) return void Message.error(t.value.sizeLimit);
+  if (isRgb3Mode(mode.value) && (width.value % 3 !== 0 || height.value % 3 !== 0)) return void Message.error(t.value.rgb3Size);
   const clipStart = !imageFile.value && clipEnabled.value ? start.value : 0;
   const end = !imageFile.value && clipEnabled.value && endText.value.trim() !== "" ? Number(endText.value) : undefined;
   if (end !== undefined && end <= clipStart) return void Message.error(t.value.invalidClip);

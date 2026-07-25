@@ -3,6 +3,7 @@ import * as path from "node:path";
 import { BRIGHTNESS_TIERS } from "./brightness";
 import { ConversionMode } from "./cli";
 import { CUSHION_COLOR_PALETTE } from "./colors";
+import { RGB3_LAMP_BLOCKS, rgb3Cell } from "./rgb3";
 
 const NAMESPACE = "gugle";
 const OBJECTIVE = "gugle_badapple";
@@ -22,7 +23,7 @@ const DEFAULT_PACK_METADATA = {
     },
 };
 
-export type DisplayMode = "redstone" | "rgbw" | "cushion-color";
+export type DisplayMode = "redstone" | "rgbw" | "rgb3" | "cushion-color";
 
 interface BuildMetadata {
     input: string;
@@ -254,6 +255,8 @@ export class DatapackBuilder {
                     (state) => Math.floor(state / CUSHION_COLOR_PALETTE.length),
                 ).map((rectangle) => this.brightnessRectangleCommand(rectangle)),
             ]
+            : this.displayMode === "rgb3"
+            ? this.rgb3FrameCommands(current, previous)
             : changedRectangles(current, previous, this.width, this.height)
                 .map((rectangle) => this.redstoneRectangleCommand(rectangle));
         const contents = commands.length > 0
@@ -364,6 +367,20 @@ export class DatapackBuilder {
             commands.push(
                 `data modify entity ${uuid.target} color set value "${color.name}"`,
             );
+        }
+        return commands;
+    }
+
+    private rgb3FrameCommands(current: Uint8Array, previous: Uint8Array): string[] {
+        const commands: string[] = [];
+        for (let index = 0; index < current.length; index += 1) {
+            if (current[index] === previous[index]) continue;
+            const x = index % this.width;
+            const z = Math.floor(index / this.width);
+            const block = current[index]
+                ? RGB3_LAMP_BLOCKS[rgb3Cell(x, z).lamp]
+                : BRIGHTNESS_TIERS[0].block;
+            commands.push(`setblock ${coordinate(x)} ~2 ${coordinate(z)} ${block}`);
         }
         return commands;
     }
@@ -596,7 +613,7 @@ export class DatapackBuilder {
             `summon minecraft:marker ~ ~ ~ {Tags:["${ORIGIN_TAG}"]}`,
             `fill ~ ~1 ~ ~${this.width - 1} ~1 ~${this.height - 1} minecraft:air`,
             `fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} ` +
-                (this.displayMode === "cushion-color"
+                (this.displayMode === "cushion-color" || this.displayMode === "rgb3"
                     ? BRIGHTNESS_TIERS[0].block
                     : "minecraft:redstone_lamp"),
             `function ${NAMESPACE}:setup_tick`,
@@ -609,6 +626,12 @@ export class DatapackBuilder {
                     : []),
                 `execute as @e[type=minecraft:cushion,tag=${PIXEL_TAG}] ` +
                     "run data modify entity @s color set value \"black\"",
+                `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] ` +
+                    `run fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} ` +
+                    BRIGHTNESS_TIERS[0].block,
+            ]
+            : this.displayMode === "rgb3"
+            ? [
                 `execute at @e[type=minecraft:marker,tag=${ORIGIN_TAG},limit=1] ` +
                     `run fill ~ ~2 ~ ~${this.width - 1} ~2 ~${this.height - 1} ` +
                     BRIGHTNESS_TIERS[0].block,
@@ -747,6 +770,7 @@ export class DatapackBuilder {
             for (let x = 0; x < this.width; x += 1) {
                 const color = this.displayMode === "rgbw"
                     ? rgbwCushionColor(x, z)
+                    : this.displayMode === "rgb3" ? rgb3Cell(x, z).color
                     : this.displayMode === "cushion-color" ? "black" : undefined;
                 const colorNbt = color ? `,color:"${color}"` : "";
                 const macroNameNbt = this.macroStorage && !this.compactUuidMacro

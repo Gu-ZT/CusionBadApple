@@ -1,9 +1,11 @@
 import {
     CushionColorConversionMode,
     GrayscaleConversionMode,
+    Rgb3ConversionMode,
     RgbwConversionMode,
 } from "./cli";
 import { CALIBRATED_STATES } from "./calibration";
+import { RGB3_LAYOUT, RGB3_LAMP_LEVELS } from "./rgb3";
 
 const RED_BIT = 1;
 const GREEN_BIT = 2;
@@ -283,6 +285,88 @@ export function convertRgbwFrame(
         }
     }
 
+    return output;
+}
+
+const RGB3_LEVEL_SUM = RGB3_LAMP_LEVELS.reduce((sum, level) => sum + level, 0);
+const RGB3_QUANTIZED_LEVELS = Array.from({ length: 8 }, (_, mask) =>
+    RGB3_LAMP_LEVELS.reduce(
+        (sum, level, lamp) => sum + ((mask & 1 << lamp) !== 0 ? level : 0),
+        0,
+    ) / RGB3_LEVEL_SUM * 255,
+);
+
+function nearestRgb3Mask(value: number): number {
+    const target = Math.max(0, Math.min(255, value));
+    let nearest = 0;
+    let nearestDistance = Number.POSITIVE_INFINITY;
+    for (let mask = 0; mask < RGB3_QUANTIZED_LEVELS.length; mask += 1) {
+        const distance = Math.abs(target - RGB3_QUANTIZED_LEVELS[mask]);
+        if (distance < nearestDistance) {
+            nearest = mask;
+            nearestDistance = distance;
+        }
+    }
+    return nearest;
+}
+
+function writeRgb3Pixel(
+    output: Uint8Array,
+    logicalX: number,
+    logicalY: number,
+    logicalWidth: number,
+    masks: readonly number[],
+): void {
+    const physicalWidth = logicalWidth * 3;
+    for (let localY = 0; localY < 3; localY += 1) {
+        for (let localX = 0; localX < 3; localX += 1) {
+            const cell = RGB3_LAYOUT[localY * 3 + localX];
+            const target = (logicalY * 3 + localY) * physicalWidth + logicalX * 3 + localX;
+            output[target] = masks[cell.channel] & 1 << cell.lamp ? 1 : 0;
+        }
+    }
+}
+
+export function convertRgb3Frame(
+    rgb: Uint8Array,
+    logicalWidth: number,
+    logicalHeight: number,
+    mode: Rgb3ConversionMode,
+    invert: boolean,
+): Uint8Array {
+    const expectedLength = logicalWidth * logicalHeight * 3;
+    if (rgb.length !== expectedLength) {
+        throw new Error(`Invalid RGB frame size: expected ${expectedLength}, got ${rgb.length}.`);
+    }
+    const output = new Uint8Array(logicalWidth * logicalHeight * 9);
+    const pixels = Float32Array.from(rgb, (value) => invert ? 255 - value : value);
+    for (let y = 0; y < logicalHeight; y += 1) {
+        for (let x = 0; x < logicalWidth; x += 1) {
+            const pixelIndex = (y * logicalWidth + x) * 3;
+            const masks = [
+                nearestRgb3Mask(pixels[pixelIndex]),
+                nearestRgb3Mask(pixels[pixelIndex + 1]),
+                nearestRgb3Mask(pixels[pixelIndex + 2]),
+            ];
+            writeRgb3Pixel(output, x, y, logicalWidth, masks);
+            if (mode !== "rgb-dither") continue;
+
+            const errors = masks.map((mask, channel) =>
+                pixels[pixelIndex + channel] - RGB3_QUANTIZED_LEVELS[mask],
+            );
+            const diffuse = (targetX: number, targetY: number, weight: number): void => {
+                if (targetX < 0 || targetX >= logicalWidth || targetY < 0 || targetY >= logicalHeight) return;
+                const targetIndex = (targetY * logicalWidth + targetX) * 3;
+                for (let channel = 0; channel < 3; channel += 1) {
+                    pixels[targetIndex + channel] += errors[channel] * weight;
+                }
+            };
+            diffuse(x + 1, y, 7 / 16);
+            diffuse(x - 1, y + 1, 3 / 16);
+            diffuse(x, y + 1, 5 / 16);
+            diffuse(x + 1, y + 1, 1 / 16);
+        }
+    }
     return output;
 }
 

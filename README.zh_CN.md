@@ -62,6 +62,8 @@ dither          黑白 Floyd-Steinberg 抖动
 ordered         黑白 4×4 Bayer 有序抖动
 rgbw-nearest    2×2 红绿蓝白子像素
 rgbw-dither     RGBW 误差扩散
+rgb-nearest     3×3 RGB 三级亮度最近组合
+rgb-dither      3×3 RGB 三级亮度误差扩散
 color-nearest   CIEDE2000 最近状态
 color-dither    彩色 Floyd-Steinberg 抖动
 color-ordered   彩色 4×4 Bayer 有序抖动
@@ -73,6 +75,20 @@ color-sierra-lite       彩色蛇形 Sierra Lite 抖动
 
 `color-ordered` 可使用 `--ordered-amplitude <数值>` 调整每个 Bayer 等级的 RGB
 偏移量，默认值为 `10`；设为 `0` 时关闭有序噪声。
+
+`rgb-nearest` 和 `rgb-dither` 要求屏幕宽高均为 3 的倍数。例如 `129×96`
+方块的屏幕对应 `43×32` 个视频逻辑像素。每个逻辑像素使用以下固定排列：
+
+```text
+R0 G2 B1
+G1 B0 R2
+B2 R1 G0
+```
+
+编号 `0` 使用亮度 15 的点亮铜灯，`1` 使用亮度 12 的点亮斑驳铜灯，`2`
+使用亮度 8 的点亮锈蚀铜灯；关闭的子像素使用石头。`rgb-nearest` 为每个
+RGB 通道选择最接近的三灯组合，`rgb-dither` 还会把剩余 RGB 误差扩散到
+相邻逻辑像素。
 
 ## Minecraft 使用
 

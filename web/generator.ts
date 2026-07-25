@@ -1,11 +1,12 @@
 import JSZip from "jszip";
 import { BRIGHTNESS_TIERS } from "../src/brightness";
-import { ConversionMode, isCushionColorMode, isRgbwMode } from "../src/cli";
+import { ConversionMode, isCushionColorMode, isRgb3Mode, isRgbwMode } from "../src/cli";
 import { CUSHION_COLOR_PALETTE } from "../src/colors";
-import { convertCushionColorFrame, convertFrame, convertRgbwFrame, filterCushionColorChanges } from "../src/converter";
+import { convertCushionColorFrame, convertFrame, convertRgb3Frame, convertRgbwFrame, filterCushionColorChanges } from "../src/converter";
 import { DatapackBuilder, DisplayMode } from "../src/datapack";
 import { decodeVideoWasm } from "./ffmpeg";
 import { getVirtualFiles, resetVirtualFiles, writeFile } from "./virtual-fs";
+import { RGB3_LAMP_BLOCKS, RGB3_LAMP_LEVELS, rgb3Cell } from "../src/rgb3";
 
 const PACK_META = `{"pack":{"description":"CusionBadApple Web","min_format":110,"max_format":99999}}\n`;
 const IMAGE_TAG = "gugle_badapple_image";
@@ -95,9 +96,10 @@ function appendRuns(
 
 async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob> {
     const rgbw = isRgbwMode(options.mode);
+    const rgb3Mode = isRgb3Mode(options.mode) ? options.mode : undefined;
     const cushionColor = isCushionColorMode(options.mode);
-    const logicalWidth = rgbw ? options.width / 2 : options.width;
-    const logicalHeight = rgbw ? options.height / 2 : options.height;
+    const logicalWidth = rgbw ? options.width / 2 : rgb3Mode ? options.width / 3 : options.width;
+    const logicalHeight = rgbw ? options.height / 2 : rgb3Mode ? options.height / 3 : options.height;
     options.onStage("image", 0.05);
     const rgb = await decodeImage(options.file, logicalWidth, logicalHeight);
     const converted = cushionColor
@@ -111,6 +113,8 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
         )
         : rgbw
             ? convertRgbwFrame(rgb, logicalWidth, logicalHeight, options.mode as never, options.invert)
+            : rgb3Mode
+                ? convertRgb3Frame(rgb, logicalWidth, logicalHeight, rgb3Mode, options.invert)
             : convertFrame(
                 Uint8Array.from({ length: logicalWidth * logicalHeight }, (_, index) =>
                     Math.round(rgb[index * 3] * 0.299 + rgb[index * 3 + 1] * 0.587 + rgb[index * 3 + 2] * 0.114)),
@@ -129,7 +133,7 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
         `kill @e[type=minecraft:cushion,tag=${IMAGE_TAG}]`,
         `fill ~ ~1 ~ ${relativeCoordinate(options.width - 1)} ~1 ${relativeCoordinate(options.height - 1)} minecraft:air`,
         `fill ~ ~2 ~ ${relativeCoordinate(options.width - 1)} ~2 ${relativeCoordinate(options.height - 1)} ` +
-            (cushionColor ? BRIGHTNESS_TIERS[0].block : "minecraft:air"),
+            (cushionColor || rgb3Mode ? BRIGHTNESS_TIERS[0].block : "minecraft:air"),
     ];
 
     if (cushionColor) {
@@ -166,6 +170,22 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
         }
         appendRuns(commands, converted, options.width, options.height, 1, (state) =>
             state ? "minecraft:redstone_block" : undefined);
+    } else if (rgb3Mode) {
+        for (let z = 0; z < options.height; z += 1) {
+            for (let x = 0; x < options.width; x += 1) {
+                const cell = rgb3Cell(x, z);
+                commands.push(
+                    `summon minecraft:cushion ${relativeCoordinate(x)} ~2.26 ${relativeCoordinate(z)} ` +
+                    `{Tags:["${IMAGE_TAG}"],color:"${cell.color}"}`,
+                );
+                if (converted[z * options.width + x]) {
+                    commands.push(
+                        `setblock ${relativeCoordinate(x)} ~2 ${relativeCoordinate(z)} ` +
+                        RGB3_LAMP_BLOCKS[cell.lamp],
+                    );
+                }
+            }
+        }
     } else {
         appendRuns(commands, converted, options.width, options.height, 1, (state) =>
             state ? "minecraft:redstone_block" : undefined);
@@ -188,10 +208,11 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
 export async function generateDatapack(options: WebGenerateOptions): Promise<Blob> {
     if (isImageFile(options.file)) return generateImageDatapack(options);
     const rgbw = isRgbwMode(options.mode);
+    const rgb3Mode = isRgb3Mode(options.mode) ? options.mode : undefined;
     const cushionColor = isCushionColorMode(options.mode);
-    const logicalWidth = rgbw ? options.width / 2 : options.width;
-    const logicalHeight = rgbw ? options.height / 2 : options.height;
-    const channels = rgbw || cushionColor ? 3 : 1;
+    const logicalWidth = rgbw ? options.width / 2 : rgb3Mode ? options.width / 3 : options.width;
+    const logicalHeight = rgbw ? options.height / 2 : rgb3Mode ? options.height / 3 : options.height;
+    const channels = rgbw || rgb3Mode || cushionColor ? 3 : 1;
     options.onStage("wasm", 0);
     const raw = await decodeVideoWasm({
         file: options.file,
@@ -210,7 +231,9 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
 
     resetVirtualFiles();
     await writeFile("output/pack.mcmeta", PACK_META);
-    const displayMode: DisplayMode = cushionColor ? "cushion-color" : rgbw ? "rgbw" : "redstone";
+    const displayMode: DisplayMode = cushionColor
+        ? "cushion-color"
+        : rgbw ? "rgbw" : rgb3Mode ? "rgb3" : "redstone";
     const builder = new DatapackBuilder(
         "output",
         options.width,
@@ -236,6 +259,8 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
             )
             : rgbw
                 ? convertRgbwFrame(decoded, logicalWidth, logicalHeight, options.mode as never, options.invert)
+                : rgb3Mode
+                    ? convertRgb3Frame(decoded, logicalWidth, logicalHeight, rgb3Mode, options.invert)
                 : convertFrame(decoded, options.width, options.height, options.mode as never, options.threshold, options.invert);
         const current = cushionColor
             ? filterCushionColorChanges(converted, previous, options.dirtyDeltaE)
@@ -252,9 +277,13 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
         inverted: options.invert,
         logicalWidth,
         logicalHeight,
-        subpixelLayout: rgbw ? "R G / B W" : undefined,
+        subpixelLayout: rgbw
+            ? "R G / B W"
+            : rgb3Mode ? "R0 G2 B1 / G1 B0 R2 / B2 R1 G0" : undefined,
         palette: cushionColor ? CUSHION_COLOR_PALETTE.map((color) => color.name) : undefined,
-        brightnessLevels: cushionColor ? BRIGHTNESS_TIERS.map((tier) => tier.level) : undefined,
+        brightnessLevels: cushionColor
+            ? BRIGHTNESS_TIERS.map((tier) => tier.level)
+            : rgb3Mode ? [...RGB3_LAMP_LEVELS] : undefined,
         clipStartSeconds: options.start,
         clipEndSeconds: options.end,
         macroStorage: options.macroStorage,

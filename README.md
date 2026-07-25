@@ -58,6 +58,14 @@ pnpm start -- --mode rgbw-nearest
 pnpm start -- --mode rgbw-dither
 ```
 
+RGB 3x3 subpixels provide three brightness levels per color channel. The
+screen width and height must both be divisible by 3:
+
+```powershell
+pnpm start -- --width 129 --height 96 --mode rgb-nearest
+pnpm start -- --width 129 --height 96 --mode rgb-dither
+```
+
 Use `--input` and `--output` to select an explicit source and a separate datapack:
 
 ```powershell
@@ -134,6 +142,22 @@ The generated cushion entities use `color:"red"`, `color:"green"`,
 switch each subpixel on and off. White is represented only by the white
 subpixel; neutral grayscale pixels are dithered exclusively between white and
 off. RGB subpixels are reserved for saturated primary and secondary colors.
+
+In RGB 3x3 modes, a 129 by 96 block screen represents a 43 by 32 pixel video.
+Each logical pixel uses this fixed layout:
+
+```text
+R0 G2 B1
+G1 B0 R2
+B2 R1 G0
+```
+
+The suffix selects the lit copper bulb under that cushion: `0` is a regular
+copper bulb at light level 15, `1` is an exposed copper bulb at level 12, and
+`2` is a weathered copper bulb at level 8. An off subpixel uses stone.
+`rgb-nearest` chooses the nearest three-bulb combination independently for each
+channel, while `rgb-dither` also diffuses the remaining RGB error to neighboring
+logical pixels.
 
 The default screen is 128 by 96 blocks. Run `pnpm start -- --help` for threshold,
 size, inversion, explicit input path, and test-frame options. The converter keeps

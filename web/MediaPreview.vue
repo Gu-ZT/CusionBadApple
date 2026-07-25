@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
 import type { ConversionMode } from "../src/cli";
-import { isCushionColorMode, isRgbwMode } from "../src/cli";
+import { isCushionColorMode, isRgb3Mode, isRgbwMode } from "../src/cli";
 import { CALIBRATED_STATES } from "../src/calibration";
-import { convertCushionColorFrame, convertFrame, convertRgbwFrame } from "../src/converter";
+import { convertCushionColorFrame, convertFrame, convertRgb3Frame, convertRgbwFrame } from "../src/converter";
+import { BRIGHTNESS_TIERS } from "../src/brightness";
+import { CUSHION_COLOR_PALETTE } from "../src/colors";
+import { RGB3_LAMP_LEVELS, rgb3Cell } from "../src/rgb3";
 import { isImageFile } from "./generator";
 import { t } from "./i18n";
 
@@ -52,6 +55,9 @@ function previewDimensions(): { width: number; height: number } {
     if (isRgbwMode(props.mode)) {
         width = Math.max(2, width - width % 2);
         height = Math.max(2, height - height % 2);
+    } else if (isRgb3Mode(props.mode)) {
+        width = Math.max(3, width - width % 3);
+        height = Math.max(3, height - height % 3);
     }
     return { width, height };
 }
@@ -107,14 +113,23 @@ function rgbwColor(index: number, width: number): string {
     return x % 2 === 0 ? "#3d7eff" : "#fff";
 }
 
+function rgb3Color(index: number, width: number): string {
+    const cell = rgb3Cell(index % width, Math.floor(index / width));
+    const brightness = BRIGHTNESS_TIERS.findIndex((tier) => tier.level === RGB3_LAMP_LEVELS[cell.lamp]);
+    const color = CUSHION_COLOR_PALETTE.findIndex((entry) => entry.name === cell.color);
+    const calibrated = CALIBRATED_STATES[brightness * CUSHION_COLOR_PALETTE.length + color];
+    return `rgb(${calibrated.red} ${calibrated.green} ${calibrated.blue})`;
+}
+
 function drawSource(source: PreviewSource): void {
     const target = canvas.value;
     if (!target) return;
     const preview = previewDimensions();
     const rgbw = isRgbwMode(props.mode);
+    const rgb3 = isRgb3Mode(props.mode);
     const cushionColor = isCushionColorMode(props.mode);
-    const logicalWidth = rgbw ? preview.width / 2 : preview.width;
-    const logicalHeight = rgbw ? preview.height / 2 : preview.height;
+    const logicalWidth = rgbw ? preview.width / 2 : rgb3 ? preview.width / 3 : preview.width;
+    const logicalHeight = rgbw ? preview.height / 2 : rgb3 ? preview.height / 3 : preview.height;
     const rgb = sampleRgb(source, logicalWidth, logicalHeight);
     const converted = cushionColor
         ? convertCushionColorFrame(
@@ -127,6 +142,8 @@ function drawSource(source: PreviewSource): void {
         )
         : rgbw
             ? convertRgbwFrame(rgb, logicalWidth, logicalHeight, props.mode, props.invert)
+            : rgb3
+                ? convertRgb3Frame(rgb, logicalWidth, logicalHeight, props.mode, props.invert)
             : convertFrame(
                 Uint8Array.from({ length: logicalWidth * logicalHeight }, (_, index) =>
                     Math.round(
@@ -152,6 +169,8 @@ function drawSource(source: PreviewSource): void {
             context.fillStyle = `rgb(${color.red} ${color.green} ${color.blue})`;
         } else if (rgbw) {
             context.fillStyle = converted[index] ? rgbwColor(index, preview.width) : "#08090a";
+        } else if (rgb3) {
+            context.fillStyle = converted[index] ? rgb3Color(index, preview.width) : "#08090a";
         } else {
             context.fillStyle = converted[index] ? "#fff" : "#08090a";
         }

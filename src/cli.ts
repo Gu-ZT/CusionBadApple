@@ -1,5 +1,6 @@
 export type GrayscaleConversionMode = "binary" | "dither" | "ordered";
 export type RgbwConversionMode = "rgbw-nearest" | "rgbw-dither";
+export type Rgb3ConversionMode = "rgb-nearest" | "rgb-dither";
 export type CushionColorConversionMode =
     | "color-nearest"
     | "color-dither"
@@ -11,6 +12,7 @@ export type CushionColorConversionMode =
 export type ConversionMode =
     | GrayscaleConversionMode
     | RgbwConversionMode
+    | Rgb3ConversionMode
     | CushionColorConversionMode;
 
 export const MAX_SCREEN_DIMENSION = 4096;
@@ -21,6 +23,8 @@ const CONVERSION_MODES: readonly ConversionMode[] = [
     "ordered",
     "rgbw-nearest",
     "rgbw-dither",
+    "rgb-nearest",
+    "rgb-dither",
     "color-nearest",
     "color-dither",
     "color-ordered",
@@ -32,6 +36,10 @@ const CONVERSION_MODES: readonly ConversionMode[] = [
 
 export function isRgbwMode(mode: ConversionMode): mode is RgbwConversionMode {
     return mode === "rgbw-nearest" || mode === "rgbw-dither";
+}
+
+export function isRgb3Mode(mode: ConversionMode): mode is Rgb3ConversionMode {
+    return mode === "rgb-nearest" || mode === "rgb-dither";
 }
 
 export function isCushionColorMode(mode: ConversionMode): mode is CushionColorConversionMode {
@@ -190,7 +198,7 @@ export function parseCli(args: string[]): CliOptions {
                 if (!CONVERSION_MODES.includes(value as ConversionMode)) {
                     throw new Error(
                         "--mode must be binary, dither, ordered, rgbw-nearest, rgbw-dither, " +
-                        "color-nearest, color-dither, color-ordered, color-blue-noise, " +
+                        "rgb-nearest, rgb-dither, color-nearest, color-dither, color-ordered, color-blue-noise, " +
                         "color-serpentine, color-sierra-lite, or color-pair-blue-noise.",
                     );
                 }
@@ -208,6 +216,9 @@ export function parseCli(args: string[]): CliOptions {
     }
     if (isRgbwMode(options.mode) && (options.width % 2 !== 0 || options.height % 2 !== 0)) {
         throw new Error("RGBW modes require an even screen width and height.");
+    }
+    if (isRgb3Mode(options.mode) && (options.width % 3 !== 0 || options.height % 3 !== 0)) {
+        throw new Error("RGB 3x3 modes require screen width and height divisible by 3.");
     }
     if (options.endSeconds !== undefined && options.endSeconds <= options.startSeconds) {
         throw new Error("--end must be greater than --start.");
@@ -237,6 +248,7 @@ Options:
   --start <seconds>    Start time, inclusive (default: 0)
   --end <seconds>      End time, exclusive (default: end of video)
   --mode <mode>        binary, dither, ordered, rgbw-nearest, rgbw-dither,
+                       rgb-nearest, rgb-dither,
                        color-nearest, color-dither, color-ordered,
                        color-blue-noise, color-serpentine, color-sierra-lite,
                        or color-pair-blue-noise
@@ -262,6 +274,7 @@ Options:
   --help               Show this help
 
 RGBW modes use a 2x2 R/G/B/W cushion layout for every logical video pixel.
+RGB modes use a 3x3 R/G/B cushion layout with three copper-bulb levels.
 Color modes use one cushion per pixel and the full 16-color dye palette.
 The generated video always runs at 20 FPS: one frame per Minecraft tick.`);
 }
