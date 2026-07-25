@@ -88,6 +88,10 @@ Direct 16-color cushion rendering is available without RGBW subpixels:
 pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-nearest
 pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-dither
 pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-ordered
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-blue-noise
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-pair-blue-noise
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-serpentine
+pnpm start -- --input "input/video.mp4" --output datapack-rgb --mode color-sierra-lite
 ```
 
 `color-ordered` uses a 4x4 Bayer matrix. Color modes match against all 192

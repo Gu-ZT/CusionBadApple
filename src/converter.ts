@@ -129,6 +129,56 @@ const BAYER_4 = [
     [15, 7, 13, 5],
 ] as const;
 
+const BLUE_NOISE_SIZE = 16;
+const BLUE_NOISE_RANKS = (() => {
+    const count = BLUE_NOISE_SIZE * BLUE_NOISE_SIZE;
+    const ranks = new Int16Array(count);
+    ranks.fill(-1);
+    const selected: number[] = [];
+    for (let rank = 0; rank < count; rank += 1) {
+        let best = -1;
+        let bestDistance = -1;
+        let bestTieBreak = -1;
+        for (let candidate = 0; candidate < count; candidate += 1) {
+            if (ranks[candidate] >= 0) continue;
+            const candidateX = candidate % BLUE_NOISE_SIZE;
+            const candidateY = Math.floor(candidate / BLUE_NOISE_SIZE);
+            let minimumDistance = Number.POSITIVE_INFINITY;
+            for (const selectedIndex of selected) {
+                const selectedX = selectedIndex % BLUE_NOISE_SIZE;
+                const selectedY = Math.floor(selectedIndex / BLUE_NOISE_SIZE);
+                const rawX = Math.abs(candidateX - selectedX);
+                const rawY = Math.abs(candidateY - selectedY);
+                const distanceX = Math.min(rawX, BLUE_NOISE_SIZE - rawX);
+                const distanceY = Math.min(rawY, BLUE_NOISE_SIZE - rawY);
+                minimumDistance = Math.min(
+                    minimumDistance,
+                    distanceX * distanceX + distanceY * distanceY,
+                );
+            }
+            const tieBreak = Math.imul(candidate + 1, 0x45d9f3b) >>> 0;
+            if (
+                minimumDistance > bestDistance ||
+                (minimumDistance === bestDistance && tieBreak > bestTieBreak)
+            ) {
+                best = candidate;
+                bestDistance = minimumDistance;
+                bestTieBreak = tieBreak;
+            }
+        }
+        ranks[best] = rank;
+        selected.push(best);
+    }
+    return ranks;
+})();
+
+function blueNoiseThreshold(x: number, y: number): number {
+    const rank = BLUE_NOISE_RANKS[
+        (y % BLUE_NOISE_SIZE) * BLUE_NOISE_SIZE + x % BLUE_NOISE_SIZE
+    ];
+    return (rank + 0.5) / BLUE_NOISE_RANKS.length;
+}
+
 function orderedFrame(gray: Uint8Array, width: number, height: number, threshold: number, invert: boolean): Uint8Array {
     const output = new Uint8Array(gray.length);
     for (let y = 0; y < height; y += 1) {
@@ -384,7 +434,10 @@ export function convertCushionColorFrame(
     const pixels = Float32Array.from(rgb, (value) => invert ? 255 - value : value);
 
     for (let y = 0; y < height; y += 1) {
-        for (let x = 0; x < width; x += 1) {
+        const serpentine = mode === "color-serpentine" || mode === "color-sierra-lite";
+        const reverse = serpentine && y % 2 === 1;
+        for (let step = 0; step < width; step += 1) {
+            const x = reverse ? width - 1 - step : step;
             const outputIndex = y * width + x;
             const pixelIndex = outputIndex * 3;
             if (mode === "color-ordered") {
@@ -392,13 +445,44 @@ export function convertCushionColorFrame(
                 pixels[pixelIndex] += offset;
                 pixels[pixelIndex + 1] += offset;
                 pixels[pixelIndex + 2] += offset;
+            } else if (mode === "color-blue-noise") {
+                const offset = (blueNoiseThreshold(x, y) - 0.5) * 150;
+                pixels[pixelIndex] += offset;
+                pixels[pixelIndex + 1] += offset;
+                pixels[pixelIndex + 2] += offset;
             }
-            const state = nearestCalibratedState(
+            let state = nearestCalibratedState(
                 pixels[pixelIndex], pixels[pixelIndex + 1], pixels[pixelIndex + 2],
             );
+            if (mode === "color-pair-blue-noise") {
+                const first = CALIBRATED_STATES[state];
+                const secondState = nearestCalibratedState(
+                    pixels[pixelIndex] * 2 - first.red,
+                    pixels[pixelIndex + 1] * 2 - first.green,
+                    pixels[pixelIndex + 2] * 2 - first.blue,
+                );
+                if (secondState !== state) {
+                    const second = CALIBRATED_STATES[secondState];
+                    const vectorRed = second.red - first.red;
+                    const vectorGreen = second.green - first.green;
+                    const vectorBlue = second.blue - first.blue;
+                    const lengthSquared =
+                        vectorRed * vectorRed + vectorGreen * vectorGreen + vectorBlue * vectorBlue;
+                    const mix = lengthSquared === 0 ? 0 : Math.max(0, Math.min(1, (
+                        (pixels[pixelIndex] - first.red) * vectorRed +
+                        (pixels[pixelIndex + 1] - first.green) * vectorGreen +
+                        (pixels[pixelIndex + 2] - first.blue) * vectorBlue
+                    ) / lengthSquared));
+                    if (blueNoiseThreshold(x, y) < mix) state = secondState;
+                }
+            }
             output[outputIndex] = state;
 
-            if (mode !== "color-dither") {
+            if (
+                mode !== "color-dither" &&
+                mode !== "color-serpentine" &&
+                mode !== "color-sierra-lite"
+            ) {
                 continue;
             }
 
@@ -418,11 +502,16 @@ export function convertCushionColorFrame(
                 }
             };
 
-            if (mode === "color-dither") {
-                diffuse(x + 1, y, 7 / 16);
-                diffuse(x - 1, y + 1, 3 / 16);
+            const direction = reverse ? -1 : 1;
+            if (mode === "color-sierra-lite") {
+                diffuse(x + direction, y, 2 / 4);
+                diffuse(x - direction, y + 1, 1 / 4);
+                diffuse(x, y + 1, 1 / 4);
+            } else {
+                diffuse(x + direction, y, 7 / 16);
+                diffuse(x - direction, y + 1, 3 / 16);
                 diffuse(x, y + 1, 5 / 16);
-                diffuse(x + 1, y + 1, 1 / 16);
+                diffuse(x + direction, y + 1, 1 / 16);
             }
         }
     }

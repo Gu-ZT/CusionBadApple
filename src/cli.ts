@@ -1,6 +1,13 @@
 export type GrayscaleConversionMode = "binary" | "dither" | "ordered";
 export type RgbwConversionMode = "rgbw-nearest" | "rgbw-dither";
-export type CushionColorConversionMode = "color-nearest" | "color-dither" | "color-ordered";
+export type CushionColorConversionMode =
+    | "color-nearest"
+    | "color-dither"
+    | "color-ordered"
+    | "color-blue-noise"
+    | "color-serpentine"
+    | "color-sierra-lite"
+    | "color-pair-blue-noise";
 export type ConversionMode =
     | GrayscaleConversionMode
     | RgbwConversionMode
@@ -8,13 +15,27 @@ export type ConversionMode =
 
 export const MAX_SCREEN_DIMENSION = 4096;
 export const MAX_SCREEN_PIXELS = MAX_SCREEN_DIMENSION * MAX_SCREEN_DIMENSION;
+const CONVERSION_MODES: readonly ConversionMode[] = [
+    "binary",
+    "dither",
+    "ordered",
+    "rgbw-nearest",
+    "rgbw-dither",
+    "color-nearest",
+    "color-dither",
+    "color-ordered",
+    "color-blue-noise",
+    "color-serpentine",
+    "color-sierra-lite",
+    "color-pair-blue-noise",
+];
 
 export function isRgbwMode(mode: ConversionMode): mode is RgbwConversionMode {
     return mode === "rgbw-nearest" || mode === "rgbw-dither";
 }
 
 export function isCushionColorMode(mode: ConversionMode): mode is CushionColorConversionMode {
-    return mode === "color-nearest" || mode === "color-dither" || mode === "color-ordered";
+    return mode.startsWith("color-");
 }
 
 export interface CliOptions {
@@ -158,22 +179,14 @@ export function parseCli(args: string[]): CliOptions {
             }
             case "--mode": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
-                if (
-                    value !== "binary" &&
-                    value !== "dither" &&
-                    value !== "ordered" &&
-                    value !== "rgbw-nearest" &&
-                    value !== "rgbw-dither" &&
-                    value !== "color-nearest" &&
-                    value !== "color-dither" &&
-                    value !== "color-ordered"
-                ) {
+                if (!CONVERSION_MODES.includes(value as ConversionMode)) {
                     throw new Error(
                         "--mode must be binary, dither, ordered, rgbw-nearest, rgbw-dither, " +
-                        "color-nearest, color-dither, or color-ordered.",
+                        "color-nearest, color-dither, color-ordered, color-blue-noise, " +
+                        "color-serpentine, color-sierra-lite, or color-pair-blue-noise.",
                     );
                 }
-                options.mode = value;
+                options.mode = value as ConversionMode;
                 index = nextIndex;
                 break;
             }
@@ -192,10 +205,10 @@ export function parseCli(args: string[]): CliOptions {
         throw new Error("--end must be greater than --start.");
     }
     if (options.macroStorage && !isCushionColorMode(options.mode)) {
-        throw new Error("--macro-storage is only available with color-nearest, color-dither, or color-ordered.");
+        throw new Error("--macro-storage is only available with 16-color modes.");
     }
     if (options.uuidEntities && !isCushionColorMode(options.mode)) {
-        throw new Error("--uuid-entities is only available with color-nearest, color-dither, or color-ordered.");
+        throw new Error("--uuid-entities is only available with 16-color modes.");
     }
     if (options.compactUuidMacro && (!options.macroStorage || !options.uuidEntities)) {
         throw new Error("--compact-uuid-macro requires --macro-storage and --uuid-entities (or --macro-uuid).");
@@ -216,7 +229,9 @@ Options:
   --start <seconds>    Start time, inclusive (default: 0)
   --end <seconds>      End time, exclusive (default: end of video)
   --mode <mode>        binary, dither, ordered, rgbw-nearest, rgbw-dither,
-                       color-nearest, color-dither, or color-ordered
+                       color-nearest, color-dither, color-ordered,
+                       color-blue-noise, color-serpentine, color-sierra-lite,
+                       or color-pair-blue-noise
                        (default: binary)
   --threshold <0-255>  Black/white threshold; grayscale modes only (default: 128)
   --dirty-delta-e <n>  Minimum CIEDE2000 distance required to update a color

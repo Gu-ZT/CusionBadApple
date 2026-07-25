@@ -21,6 +21,8 @@ body[arco-theme="dark"] .settings-panel { background: #1c1e21; border-color: #34
 .settings-panel h2 { margin-bottom: 24px; }
 .field { margin-bottom: 22px; }
 .field > label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+.arco-select-dropdown .mode-option .arco-select-option-content { flex: 1; min-width: 0; overflow: visible; }
+.mode-option-label { display: block; width: calc(100% + 24px); margin: 0 -12px; padding: 0 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .switch-row { min-height: 52px; padding: 12px 0; display: grid; grid-template-columns: minmax(0, 1fr) 46px; align-items: start; column-gap: 18px; border-top: 1px solid #e5e6eb; }
 .switch-row-first { margin-top: 2px; }

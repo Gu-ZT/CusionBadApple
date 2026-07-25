@@ -34,15 +34,20 @@ let fakeProgressTimer: ReturnType<typeof setInterval> | undefined;
 let preloadStartedAt = 0;
 
 const modeOptions = computed(() => [
-  {value: "binary", label: t.value.modeBinary},
-  {value: "dither", label: t.value.modeGrayDither},
-  {value: "ordered", label: t.value.modeGrayOrdered},
-  {value: "rgbw-nearest", label: t.value.modeRgbwNearest},
-  {value: "rgbw-dither", label: t.value.modeRgbwDither},
-  {value: "color-nearest", label: t.value.modeNearest},
-  {value: "color-dither", label: t.value.modeDither},
-  {value: "color-ordered", label: t.value.modeOrdered},
+  {value: "binary", label: t.value.modeBinary, hint: t.value.modeBinaryHint},
+  {value: "dither", label: t.value.modeGrayDither, hint: t.value.modeGrayDitherHint},
+  {value: "ordered", label: t.value.modeGrayOrdered, hint: t.value.modeGrayOrderedHint},
+  {value: "rgbw-nearest", label: t.value.modeRgbwNearest, hint: t.value.modeRgbwNearestHint},
+  {value: "rgbw-dither", label: t.value.modeRgbwDither, hint: t.value.modeRgbwDitherHint},
+  {value: "color-nearest", label: t.value.modeNearest, hint: t.value.modeNearestHint},
+  {value: "color-ordered", label: t.value.modeOrdered, hint: t.value.modeOrderedHint},
+  {value: "color-blue-noise", label: t.value.modeBlueNoise, hint: t.value.modeBlueNoiseHint},
+  {value: "color-pair-blue-noise", label: t.value.modePairBlueNoise, hint: t.value.modePairBlueNoiseHint},
+  {value: "color-dither", label: t.value.modeDither, hint: t.value.modeDitherHint},
+  {value: "color-serpentine", label: t.value.modeSerpentine, hint: t.value.modeSerpentineHint},
+  {value: "color-sierra-lite", label: t.value.modeSierraLite, hint: t.value.modeSierraLiteHint},
 ]);
+const selectedModeHint = computed(() => modeOptions.value.find((item) => item.value === mode.value)?.hint || "");
 const stageLabel = computed(() => ({
   wasm: t.value.wasm,
   image: t.value.imageStage,
@@ -189,9 +194,15 @@ onBeforeUnmount(() => {
       <aside class="settings-panel">
         <h2>{{ t.settings }}</h2>
         <div class="field"><label>{{ t.mode }}</label>
-          <a-select v-model="mode">
-            <a-option v-for="item in modeOptions" :key="item.value" :value="item.value">{{ item.label }}</a-option>
-          </a-select>
+          <a-tooltip :content="selectedModeHint" position="right">
+            <a-select v-model="mode">
+              <a-option v-for="item in modeOptions" :key="item.value" :value="item.value" :label="item.label" class="mode-option">
+                <a-tooltip :content="item.hint" position="right">
+                  <span class="mode-option-label">{{ item.label }}</span>
+                </a-tooltip>
+              </a-option>
+            </a-select>
+          </a-tooltip>
         </div>
         <div class="field"><label>{{ t.resolution }}</label>
           <div class="two-col">

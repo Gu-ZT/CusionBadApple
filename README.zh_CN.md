@@ -65,6 +65,10 @@ rgbw-dither     RGBW 误差扩散
 color-nearest   CIEDE2000 最近状态
 color-dither    彩色 Floyd-Steinberg 抖动
 color-ordered   彩色 4×4 Bayer 有序抖动
+color-blue-noise        彩色固定蓝噪声抖动
+color-pair-blue-noise   彩色双状态蓝噪声混色
+color-serpentine        彩色蛇形 Floyd-Steinberg 抖动
+color-sierra-lite       彩色蛇形 Sierra Lite 抖动
 ```
 
 ## Minecraft 使用
