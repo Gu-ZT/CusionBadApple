@@ -1,6 +1,13 @@
 import * as path from "node:path";
 import { BRIGHTNESS_TIERS } from "./brightness";
-import { isCushionColorMode, isRgb3Mode, isRgbwMode, parseCli, printHelp } from "./cli";
+import {
+    isCushionColorMode,
+    isRgb3Mode,
+    isRgbwMode,
+    parseCli,
+    printHelp,
+    screenScaleForMode,
+} from "./cli";
 import { CUSHION_COLOR_PALETTE } from "./colors";
 import {
     convertCushionColorFrame,
@@ -28,15 +35,18 @@ async function main(): Promise<void> {
     const rgb3 = isRgb3Mode(options.mode);
     const cushionColor = isCushionColorMode(options.mode);
     const rgbInput = rgbw || rgb3 || cushionColor;
-    const logicalWidth = rgbw ? options.width / 2 : rgb3 ? options.width / 3 : options.width;
-    const logicalHeight = rgbw ? options.height / 2 : rgb3 ? options.height / 3 : options.height;
+    const logicalWidth = options.width;
+    const logicalHeight = options.height;
+    const screenScale = screenScaleForMode(options.mode);
+    const screenWidth = logicalWidth * screenScale;
+    const screenHeight = logicalHeight * screenScale;
     const displayMode: DisplayMode = cushionColor
         ? "cushion-color"
         : rgbw ? "rgbw" : rgb3 ? "rgb3" : "redstone";
     const builder = new DatapackBuilder(
         datapackPath,
-        options.width,
-        options.height,
+        screenWidth,
+        screenHeight,
         displayMode,
         options.macroStorage,
         options.uuidEntities,
@@ -45,14 +55,14 @@ async function main(): Promise<void> {
 
     await builder.prepare();
 
-    let previousFrame: Uint8Array = new Uint8Array(options.width * options.height);
+    let previousFrame: Uint8Array = new Uint8Array(screenWidth * screenHeight);
     let frameCount = 0;
     let commandCount = 0;
 
     console.log(`Input: ${inputPath}`);
     console.log(
-        `Converting at 20 FPS: ${options.width}x${options.height}, mode=${options.mode}` +
-        (rgbw ? `, logical=${logicalWidth}x${logicalHeight}` : "") +
+        `Converting at 20 FPS: ${logicalWidth}x${logicalHeight}, mode=${options.mode}` +
+        (screenScale > 1 ? `, screen=${screenWidth}x${screenHeight}` : "") +
         (options.startSeconds > 0 || options.endSeconds !== undefined
             ? `, clip=${options.startSeconds}s..${options.endSeconds ?? "end"}s`
             : "") +
@@ -95,8 +105,8 @@ async function main(): Promise<void> {
                     )
                 : convertFrame(
                     decodedFrame,
-                    options.width,
-                    options.height,
+                    logicalWidth,
+                    logicalHeight,
                     options.mode,
                     options.threshold,
                     options.invert,

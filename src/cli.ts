@@ -42,6 +42,12 @@ export function isRgb3Mode(mode: ConversionMode): mode is Rgb3ConversionMode {
     return mode === "rgb-nearest" || mode === "rgb-dither";
 }
 
+export function screenScaleForMode(mode: ConversionMode): 1 | 2 | 3 {
+    if (isRgbwMode(mode)) return 2;
+    if (isRgb3Mode(mode)) return 3;
+    return 1;
+}
+
 export function isCushionColorMode(mode: ConversionMode): mode is CushionColorConversionMode {
     return mode.startsWith("color-");
 }
@@ -211,14 +217,17 @@ export function parseCli(args: string[]): CliOptions {
         }
     }
 
-    if (options.width * options.height > MAX_SCREEN_PIXELS) {
-        throw new Error(`The screen may contain at most ${MAX_SCREEN_PIXELS} pixels.`);
-    }
-    if (isRgbwMode(options.mode) && (options.width % 2 !== 0 || options.height % 2 !== 0)) {
-        throw new Error("RGBW modes require an even screen width and height.");
-    }
-    if (isRgb3Mode(options.mode) && (options.width % 3 !== 0 || options.height % 3 !== 0)) {
-        throw new Error("RGB 3x3 modes require screen width and height divisible by 3.");
+    const screenScale = screenScaleForMode(options.mode);
+    const screenWidth = options.width * screenScale;
+    const screenHeight = options.height * screenScale;
+    if (
+        screenWidth > MAX_SCREEN_DIMENSION ||
+        screenHeight > MAX_SCREEN_DIMENSION ||
+        screenWidth * screenHeight > MAX_SCREEN_PIXELS
+    ) {
+        throw new Error(
+            `The output screen may be at most ${MAX_SCREEN_DIMENSION}x${MAX_SCREEN_DIMENSION} blocks.`,
+        );
     }
     if (options.endSeconds !== undefined && options.endSeconds <= options.startSeconds) {
         throw new Error("--end must be greater than --start.");
@@ -259,8 +268,8 @@ Options:
   --ordered-amplitude <n>
                        RGB offset per 4x4 Bayer rank step; 0 disables ordered
                        noise (default: 10)
-  --width <blocks>     Screen width (default: 128)
-  --height <blocks>    Screen height (default: 96)
+  --width <pixels>     Logical video width (default: 128)
+  --height <pixels>    Logical video height (default: 96)
   --invert             Invert lit and unlit pixels
   --macro-storage      Use one entity selector and per-frame storage mappings
                        (16-color modes only)
@@ -273,8 +282,8 @@ Options:
   --max-frames <count> Convert only the first N frames (useful for testing)
   --help               Show this help
 
-RGBW modes use a 2x2 R/G/B/W cushion layout for every logical video pixel.
-RGB modes use a 3x3 R/G/B cushion layout with three copper-bulb levels.
+RGBW modes multiply the requested width and height by 2 for the output screen.
+RGB modes multiply them by 3 and use three copper-bulb levels.
 Color modes use one cushion per pixel and the full 16-color dye palette.
 The generated video always runs at 20 FPS: one frame per Minecraft tick.`);
 }

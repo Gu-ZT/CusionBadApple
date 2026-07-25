@@ -1,6 +1,12 @@
 import JSZip from "jszip";
 import { BRIGHTNESS_TIERS } from "../src/brightness";
-import { ConversionMode, isCushionColorMode, isRgb3Mode, isRgbwMode } from "../src/cli";
+import {
+    ConversionMode,
+    isCushionColorMode,
+    isRgb3Mode,
+    isRgbwMode,
+    screenScaleForMode,
+} from "../src/cli";
 import { CUSHION_COLOR_PALETTE } from "../src/colors";
 import { convertCushionColorFrame, convertFrame, convertRgb3Frame, convertRgbwFrame, filterCushionColorChanges } from "../src/converter";
 import { DatapackBuilder, DisplayMode } from "../src/datapack";
@@ -98,8 +104,11 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
     const rgbw = isRgbwMode(options.mode);
     const rgb3Mode = isRgb3Mode(options.mode) ? options.mode : undefined;
     const cushionColor = isCushionColorMode(options.mode);
-    const logicalWidth = rgbw ? options.width / 2 : rgb3Mode ? options.width / 3 : options.width;
-    const logicalHeight = rgbw ? options.height / 2 : rgb3Mode ? options.height / 3 : options.height;
+    const logicalWidth = options.width;
+    const logicalHeight = options.height;
+    const screenScale = screenScaleForMode(options.mode);
+    const screenWidth = logicalWidth * screenScale;
+    const screenHeight = logicalHeight * screenScale;
     options.onStage("image", 0.05);
     const rgb = await decodeImage(options.file, logicalWidth, logicalHeight);
     const converted = cushionColor
@@ -118,8 +127,8 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
             : convertFrame(
                 Uint8Array.from({ length: logicalWidth * logicalHeight }, (_, index) =>
                     Math.round(rgb[index * 3] * 0.299 + rgb[index * 3 + 1] * 0.587 + rgb[index * 3 + 2] * 0.114)),
-                options.width,
-                options.height,
+                logicalWidth,
+                logicalHeight,
                 options.mode as never,
                 options.threshold,
                 options.invert,
@@ -131,15 +140,15 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
         "gamerule max_command_forks 2147483647",
         "gamerule max_command_sequence_length 2147483647",
         `kill @e[type=minecraft:cushion,tag=${IMAGE_TAG}]`,
-        `fill ~ ~1 ~ ${relativeCoordinate(options.width - 1)} ~1 ${relativeCoordinate(options.height - 1)} minecraft:air`,
-        `fill ~ ~2 ~ ${relativeCoordinate(options.width - 1)} ~2 ${relativeCoordinate(options.height - 1)} ` +
+        `fill ~ ~1 ~ ${relativeCoordinate(screenWidth - 1)} ~1 ${relativeCoordinate(screenHeight - 1)} minecraft:air`,
+        `fill ~ ~2 ~ ${relativeCoordinate(screenWidth - 1)} ~2 ${relativeCoordinate(screenHeight - 1)} ` +
             (cushionColor || rgb3Mode ? BRIGHTNESS_TIERS[0].block : "minecraft:air"),
     ];
 
     if (cushionColor) {
-        for (let z = 0; z < options.height; z += 1) {
-            for (let x = 0; x < options.width; x += 1) {
-                const state = converted[z * options.width + x];
+        for (let z = 0; z < screenHeight; z += 1) {
+            for (let x = 0; x < screenWidth; x += 1) {
+                const state = converted[z * screenWidth + x];
                 const color = CUSHION_COLOR_PALETTE[state % CUSHION_COLOR_PALETTE.length];
                 if (!color) throw new Error(`Invalid image color state at ${x},${z}.`);
                 commands.push(
@@ -151,8 +160,8 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
         appendRuns(
             commands,
             converted,
-            options.width,
-            options.height,
+            screenWidth,
+            screenHeight,
             2,
             (state) => {
                 const tier = BRIGHTNESS_TIERS[Math.floor(state / CUSHION_COLOR_PALETTE.length)];
@@ -160,25 +169,25 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
             },
         );
     } else if (rgbw) {
-        for (let z = 0; z < options.height; z += 1) {
-            for (let x = 0; x < options.width; x += 1) {
+        for (let z = 0; z < screenHeight; z += 1) {
+            for (let x = 0; x < screenWidth; x += 1) {
                 commands.push(
                     `summon minecraft:cushion ${relativeCoordinate(x)} ~2.26 ${relativeCoordinate(z)} ` +
                     `{Tags:["${IMAGE_TAG}"],color:"${rgbwColor(x, z)}"}`,
                 );
             }
         }
-        appendRuns(commands, converted, options.width, options.height, 1, (state) =>
+        appendRuns(commands, converted, screenWidth, screenHeight, 1, (state) =>
             state ? "minecraft:redstone_block" : undefined);
     } else if (rgb3Mode) {
-        for (let z = 0; z < options.height; z += 1) {
-            for (let x = 0; x < options.width; x += 1) {
+        for (let z = 0; z < screenHeight; z += 1) {
+            for (let x = 0; x < screenWidth; x += 1) {
                 const cell = rgb3Cell(x, z);
                 commands.push(
                     `summon minecraft:cushion ${relativeCoordinate(x)} ~2.26 ${relativeCoordinate(z)} ` +
                     `{Tags:["${IMAGE_TAG}"],color:"${cell.color}"}`,
                 );
-                if (converted[z * options.width + x]) {
+                if (converted[z * screenWidth + x]) {
                     commands.push(
                         `setblock ${relativeCoordinate(x)} ~2 ${relativeCoordinate(z)} ` +
                         RGB3_LAMP_BLOCKS[cell.lamp],
@@ -187,7 +196,7 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
             }
         }
     } else {
-        appendRuns(commands, converted, options.width, options.height, 1, (state) =>
+        appendRuns(commands, converted, screenWidth, screenHeight, 1, (state) =>
             state ? "minecraft:redstone_block" : undefined);
     }
 
@@ -210,8 +219,11 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
     const rgbw = isRgbwMode(options.mode);
     const rgb3Mode = isRgb3Mode(options.mode) ? options.mode : undefined;
     const cushionColor = isCushionColorMode(options.mode);
-    const logicalWidth = rgbw ? options.width / 2 : rgb3Mode ? options.width / 3 : options.width;
-    const logicalHeight = rgbw ? options.height / 2 : rgb3Mode ? options.height / 3 : options.height;
+    const logicalWidth = options.width;
+    const logicalHeight = options.height;
+    const screenScale = screenScaleForMode(options.mode);
+    const screenWidth = logicalWidth * screenScale;
+    const screenHeight = logicalHeight * screenScale;
     const channels = rgbw || rgb3Mode || cushionColor ? 3 : 1;
     options.onStage("wasm", 0);
     const raw = await decodeVideoWasm({
@@ -236,15 +248,15 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
         : rgbw ? "rgbw" : rgb3Mode ? "rgb3" : "redstone";
     const builder = new DatapackBuilder(
         "output",
-        options.width,
-        options.height,
+        screenWidth,
+        screenHeight,
         displayMode,
         options.macroStorage,
         options.uuidEntities,
         options.compactUuidMacro,
     );
     await builder.prepare();
-    let previous: Uint8Array<ArrayBufferLike> = new Uint8Array(options.width * options.height);
+    let previous: Uint8Array<ArrayBufferLike> = new Uint8Array(screenWidth * screenHeight);
     let commands = 0;
     for (let frame = 0; frame < frameCount; frame += 1) {
         const decoded = raw.subarray(frame * frameSize, (frame + 1) * frameSize);
@@ -261,7 +273,7 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
                 ? convertRgbwFrame(decoded, logicalWidth, logicalHeight, options.mode as never, options.invert)
                 : rgb3Mode
                     ? convertRgb3Frame(decoded, logicalWidth, logicalHeight, rgb3Mode, options.invert)
-                : convertFrame(decoded, options.width, options.height, options.mode as never, options.threshold, options.invert);
+                : convertFrame(decoded, logicalWidth, logicalHeight, options.mode as never, options.threshold, options.invert);
         const current = cushionColor
             ? filterCushionColorChanges(converted, previous, options.dirtyDeltaE)
             : converted;

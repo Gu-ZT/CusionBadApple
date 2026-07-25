@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from "vue";
 import type { ConversionMode } from "../src/cli";
-import { isCushionColorMode, isRgb3Mode, isRgbwMode } from "../src/cli";
+import { isCushionColorMode, isRgb3Mode, isRgbwMode, screenScaleForMode } from "../src/cli";
 import { CALIBRATED_STATES } from "../src/calibration";
 import { convertCushionColorFrame, convertFrame, convertRgb3Frame, convertRgbwFrame } from "../src/converter";
 import { BRIGHTNESS_TIERS } from "../src/brightness";
@@ -11,8 +11,6 @@ import { isImageFile } from "./generator";
 import { t } from "./i18n";
 
 const FPS = 20;
-const PIXEL_SIZE = 16;
-const MAX_PREVIEW_DIMENSION = 256;
 
 const props = defineProps<{
     file: File;
@@ -43,24 +41,6 @@ let bitmap: ImageBitmap | undefined;
 let loadGeneration = 0;
 let seekGeneration = 0;
 let seekTimer: ReturnType<typeof setTimeout> | undefined;
-
-function previewDimensions(): { width: number; height: number } {
-    const scale = Math.min(
-        1,
-        MAX_PREVIEW_DIMENSION / props.width,
-        MAX_PREVIEW_DIMENSION / props.height,
-    );
-    let width = Math.max(1, Math.floor(props.width * scale));
-    let height = Math.max(1, Math.floor(props.height * scale));
-    if (isRgbwMode(props.mode)) {
-        width = Math.max(2, width - width % 2);
-        height = Math.max(2, height - height % 2);
-    } else if (isRgb3Mode(props.mode)) {
-        width = Math.max(3, width - width % 3);
-        height = Math.max(3, height - height % 3);
-    }
-    return { width, height };
-}
 
 type PreviewSource = ImageBitmap | HTMLVideoElement;
 
@@ -124,12 +104,16 @@ function rgb3Color(index: number, width: number): string {
 function drawSource(source: PreviewSource): void {
     const target = canvas.value;
     if (!target) return;
-    const preview = previewDimensions();
     const rgbw = isRgbwMode(props.mode);
     const rgb3 = isRgb3Mode(props.mode);
     const cushionColor = isCushionColorMode(props.mode);
-    const logicalWidth = rgbw ? preview.width / 2 : rgb3 ? preview.width / 3 : preview.width;
-    const logicalHeight = rgbw ? preview.height / 2 : rgb3 ? preview.height / 3 : preview.height;
+    const logicalWidth = props.width;
+    const logicalHeight = props.height;
+    const screenScale = screenScaleForMode(props.mode);
+    const previewWidth = logicalWidth * screenScale;
+    const previewHeight = logicalHeight * screenScale;
+    const screenWidth = props.width * screenScale;
+    const screenHeight = props.height * screenScale;
     const rgb = sampleRgb(source, logicalWidth, logicalHeight);
     const converted = cushionColor
         ? convertCushionColorFrame(
@@ -151,15 +135,15 @@ function drawSource(source: PreviewSource): void {
                         rgb[index * 3 + 1] * 0.587 +
                         rgb[index * 3 + 2] * 0.114,
                     )),
-                preview.width,
-                preview.height,
+                logicalWidth,
+                logicalHeight,
                 props.mode,
                 props.threshold,
                 props.invert,
             );
 
-    target.width = preview.width * PIXEL_SIZE;
-    target.height = preview.height * PIXEL_SIZE;
+    target.width = screenWidth;
+    target.height = screenHeight;
     const context = target.getContext("2d");
     if (!context) throw new Error("The browser does not provide a preview canvas context.");
     context.imageSmoothingEnabled = false;
@@ -168,17 +152,23 @@ function drawSource(source: PreviewSource): void {
             const color = CALIBRATED_STATES[converted[index]];
             context.fillStyle = `rgb(${color.red} ${color.green} ${color.blue})`;
         } else if (rgbw) {
-            context.fillStyle = converted[index] ? rgbwColor(index, preview.width) : "#08090a";
+            context.fillStyle = converted[index] ? rgbwColor(index, previewWidth) : "#08090a";
         } else if (rgb3) {
-            context.fillStyle = converted[index] ? rgb3Color(index, preview.width) : "#08090a";
+            context.fillStyle = converted[index] ? rgb3Color(index, previewWidth) : "#08090a";
         } else {
             context.fillStyle = converted[index] ? "#fff" : "#08090a";
         }
+        const previewX = index % previewWidth;
+        const previewY = Math.floor(index / previewWidth);
+        const left = Math.floor(previewX * screenWidth / previewWidth);
+        const top = Math.floor(previewY * screenHeight / previewHeight);
+        const right = Math.floor((previewX + 1) * screenWidth / previewWidth);
+        const bottom = Math.floor((previewY + 1) * screenHeight / previewHeight);
         context.fillRect(
-            index % preview.width * PIXEL_SIZE,
-            Math.floor(index / preview.width) * PIXEL_SIZE,
-            PIXEL_SIZE,
-            PIXEL_SIZE,
+            left,
+            top,
+            right - left,
+            bottom - top,
         );
     }
 }

@@ -7,7 +7,7 @@ import {generateDatapack, isImageFile} from "./generator";
 import {preloadFFmpeg} from "./ffmpeg";
 import MediaPreview from "./MediaPreview.vue";
 import type {ConversionMode} from "../src/cli";
-import {isCushionColorMode, isRgb3Mode, isRgbwMode, MAX_SCREEN_DIMENSION, MAX_SCREEN_PIXELS} from "../src/cli";
+import {isCushionColorMode, MAX_SCREEN_DIMENSION, MAX_SCREEN_PIXELS, screenScaleForMode} from "../src/cli";
 
 const dark = ref(localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && matchMedia("(prefers-color-scheme: dark)").matches));
 const file = ref<File>();
@@ -68,6 +68,8 @@ const downloadName = computed(() => {
   return `${baseName}.zip`;
 });
 const colorMode = computed(() => isCushionColorMode(mode.value));
+const screenScale = computed(() => screenScaleForMode(mode.value));
+const maxInputDimension = computed(() => Math.floor(MAX_SCREEN_DIMENSION / screenScale.value));
 watch([colorMode, macroStorage, uuidEntities], ([isColor, hasMacro, hasUuid]) => {
   if (!isColor || !hasMacro || !hasUuid) compactUuidMacro.value = false;
 });
@@ -96,9 +98,13 @@ function chooseFile(event: Event): void {
 
 async function generate(): Promise<void> {
   if (!file.value) return void Message.warning(t.value.noFile);
-  if (width.value * height.value > MAX_SCREEN_PIXELS) return void Message.error(t.value.sizeLimit);
-  if (isRgbwMode(mode.value) && (width.value % 2 !== 0 || height.value % 2 !== 0)) return void Message.error(t.value.sizeLimit);
-  if (isRgb3Mode(mode.value) && (width.value % 3 !== 0 || height.value % 3 !== 0)) return void Message.error(t.value.rgb3Size);
+  const screenWidth = width.value * screenScale.value;
+  const screenHeight = height.value * screenScale.value;
+  if (
+      screenWidth > MAX_SCREEN_DIMENSION ||
+      screenHeight > MAX_SCREEN_DIMENSION ||
+      screenWidth * screenHeight > MAX_SCREEN_PIXELS
+  ) return void Message.error(t.value.sizeLimit);
   const clipStart = !imageFile.value && clipEnabled.value ? start.value : 0;
   const end = !imageFile.value && clipEnabled.value && endText.value.trim() !== "" ? Number(endText.value) : undefined;
   if (end !== undefined && end <= clipStart) return void Message.error(t.value.invalidClip);
@@ -211,10 +217,10 @@ onBeforeUnmount(() => {
         </div>
         <div class="field"><label>{{ t.resolution }}</label>
           <div class="two-col">
-            <a-input-number v-model="width" :min="16" :max="MAX_SCREEN_DIMENSION">
+            <a-input-number v-model="width" :min="16" :max="maxInputDimension">
               <template #prefix>{{ t.width }}</template>
             </a-input-number>
-            <a-input-number v-model="height" :min="16" :max="MAX_SCREEN_DIMENSION">
+            <a-input-number v-model="height" :min="16" :max="maxInputDimension">
               <template #prefix>{{ t.height }}</template>
             </a-input-number>
           </div>

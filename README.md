@@ -59,11 +59,11 @@ pnpm start -- --mode rgbw-dither
 ```
 
 RGB 3x3 subpixels provide three brightness levels per color channel. The
-screen width and height must both be divisible by 3:
+requested logical dimensions are multiplied by 3 for the block screen:
 
 ```powershell
-pnpm start -- --width 129 --height 96 --mode rgb-nearest
-pnpm start -- --width 129 --height 96 --mode rgb-dither
+pnpm start -- --width 43 --height 32 --mode rgb-nearest
+pnpm start -- --width 43 --height 32 --mode rgb-dither
 ```
 
 Use `--input` and `--output` to select an explicit source and a separate datapack:
@@ -129,7 +129,7 @@ cushions with `data modify entity @s color`, using all 16 dye color values.
 The support block also changes independently to represent light levels
 0, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, and 15.
 
-In RGBW modes, a 128 by 96 block screen represents a 64 by 48 pixel video. Each
+In RGBW modes, `--width 64 --height 48` produces a 128 by 96 block screen. Each
 logical pixel uses this fixed cushion layout:
 
 ```text
@@ -143,7 +143,7 @@ switch each subpixel on and off. White is represented only by the white
 subpixel; neutral grayscale pixels are dithered exclusively between white and
 off. RGB subpixels are reserved for saturated primary and secondary colors.
 
-In RGB 3x3 modes, a 129 by 96 block screen represents a 43 by 32 pixel video.
+In RGB 3x3 modes, `--width 43 --height 32` produces a 129 by 96 block screen.
 Each logical pixel uses this fixed layout:
 
 ```text
@@ -159,9 +159,11 @@ copper bulb at light level 15, `1` is an exposed copper bulb at level 12, and
 channel, while `rgb-dither` also diffuses the remaining RGB error to neighboring
 logical pixels.
 
-The default screen is 128 by 96 blocks. Run `pnpm start -- --help` for threshold,
-size, inversion, explicit input path, and test-frame options. The converter keeps
-the source aspect ratio and pads unused screen space with black.
+The default logical video resolution is 128 by 96 pixels. RGBW and RGB 3x3
+modes automatically multiply both output screen dimensions by 2 and 3,
+respectively. Run `pnpm start -- --help` for threshold, size, inversion,
+explicit input path, and test-frame options. The converter keeps the source
+aspect ratio and pads unused screen space with black.
 
 ## Use in Minecraft
 
