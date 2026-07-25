@@ -21,6 +21,12 @@ export async function writeFile(filePath: string, value: string | Uint8Array): P
     files.set(normalize(filePath), bytes(value));
 }
 
+export async function readFile(filePath: string, encoding?: string): Promise<Uint8Array | string> {
+    const value = files.get(normalize(filePath));
+    if (!value) throw new Error(`ENOENT: ${filePath}`);
+    return encoding ? new TextDecoder().decode(value) : value.slice();
+}
+
 export async function copyFile(source: string, destination: string): Promise<void> {
     const value = files.get(normalize(source));
     if (!value) throw new Error(`ENOENT: ${source}`);

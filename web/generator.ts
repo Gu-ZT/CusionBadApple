@@ -7,7 +7,7 @@ import { DatapackBuilder, DisplayMode } from "../src/datapack";
 import { decodeVideoWasm } from "./ffmpeg";
 import { getVirtualFiles, resetVirtualFiles, writeFile } from "./virtual-fs";
 
-const PACK_META = `{"pack":{"description":"CusionBadApple Web","min_format":110,"max_format":110}}\n`;
+const PACK_META = `{"pack":{"description":"CusionBadApple Web","min_format":110,"max_format":99999}}\n`;
 const IMAGE_TAG = "gugle_badapple_image";
 
 export function isImageFile(file: File): boolean {
@@ -114,7 +114,9 @@ async function generateImageDatapack(options: WebGenerateOptions): Promise<Blob>
 
     options.onStage("generate", 0.35);
     const commands = [
-        "gamerule max_command_sequence_length 131072",
+        "gamerule max_block_modifications 2147483647",
+        "gamerule max_command_forks 2147483647",
+        "gamerule max_command_sequence_length 2147483647",
         `kill @e[type=minecraft:cushion,tag=${IMAGE_TAG}]`,
         `fill ~ ~1 ~ ${relativeCoordinate(options.width - 1)} ~1 ${relativeCoordinate(options.height - 1)} minecraft:air`,
         `fill ~ ~2 ~ ${relativeCoordinate(options.width - 1)} ~2 ${relativeCoordinate(options.height - 1)} ` +

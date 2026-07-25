@@ -6,6 +6,9 @@ export type ConversionMode =
     | RgbwConversionMode
     | CushionColorConversionMode;
 
+export const MAX_SCREEN_DIMENSION = 4096;
+export const MAX_SCREEN_PIXELS = MAX_SCREEN_DIMENSION * MAX_SCREEN_DIMENSION;
+
 export function isRgbwMode(mode: ConversionMode): mode is RgbwConversionMode {
     return mode === "rgbw-nearest" || mode === "rgbw-dither";
 }
@@ -123,13 +126,13 @@ export function parseCli(args: string[]): CliOptions {
             }
             case "--width": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
-                options.width = integer(value, name, 1, 32768);
+                options.width = integer(value, name, 1, MAX_SCREEN_DIMENSION);
                 index = nextIndex;
                 break;
             }
             case "--height": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
-                options.height = integer(value, name, 1, 32768);
+                options.height = integer(value, name, 1, MAX_SCREEN_DIMENSION);
                 index = nextIndex;
                 break;
             }
@@ -171,8 +174,8 @@ export function parseCli(args: string[]): CliOptions {
         }
     }
 
-    if (options.width * options.height > 32768) {
-        throw new Error("The screen may contain at most 32768 blocks (Minecraft fill limit).");
+    if (options.width * options.height > MAX_SCREEN_PIXELS) {
+        throw new Error(`The screen may contain at most ${MAX_SCREEN_PIXELS} pixels.`);
     }
     if (isRgbwMode(options.mode) && (options.width % 2 !== 0 || options.height % 2 !== 0)) {
         throw new Error("RGBW modes require an even screen width and height.");

@@ -6,7 +6,7 @@ import {locale, setLocale, t, type Locale} from "./i18n";
 import {generateDatapack, isImageFile} from "./generator";
 import {preloadFFmpeg} from "./ffmpeg";
 import type {ConversionMode} from "../src/cli";
-import {isCushionColorMode, isRgbwMode} from "../src/cli";
+import {isCushionColorMode, isRgbwMode, MAX_SCREEN_DIMENSION, MAX_SCREEN_PIXELS} from "../src/cli";
 
 const dark = ref(localStorage.getItem("theme") === "dark" || (!localStorage.getItem("theme") && matchMedia("(prefers-color-scheme: dark)").matches));
 const file = ref<File>();
@@ -87,7 +87,7 @@ function chooseFile(event: Event): void {
 
 async function generate(): Promise<void> {
   if (!file.value) return void Message.warning(t.value.noFile);
-  if (width.value * height.value > 32768) return void Message.error(t.value.sizeLimit);
+  if (width.value * height.value > MAX_SCREEN_PIXELS) return void Message.error(t.value.sizeLimit);
   if (isRgbwMode(mode.value) && (width.value % 2 !== 0 || height.value % 2 !== 0)) return void Message.error(t.value.sizeLimit);
   const clipStart = !imageFile.value && clipEnabled.value ? start.value : 0;
   const end = !imageFile.value && clipEnabled.value && endText.value.trim() !== "" ? Number(endText.value) : undefined;
@@ -193,10 +193,10 @@ onBeforeUnmount(() => {
         </div>
         <div class="field"><label>{{ t.resolution }}</label>
           <div class="two-col">
-            <a-input-number v-model="width" :min="16" :max="256">
+            <a-input-number v-model="width" :min="16" :max="MAX_SCREEN_DIMENSION">
               <template #prefix>{{ t.width }}</template>
             </a-input-number>
-            <a-input-number v-model="height" :min="16" :max="256">
+            <a-input-number v-model="height" :min="16" :max="MAX_SCREEN_DIMENSION">
               <template #prefix>{{ t.height }}</template>
             </a-input-number>
           </div>

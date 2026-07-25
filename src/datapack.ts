@@ -1,4 +1,4 @@
-import { access, copyFile, mkdir, rename, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import * as path from "node:path";
 import { BRIGHTNESS_TIERS } from "./brightness";
 import { ConversionMode } from "./cli";
@@ -13,6 +13,14 @@ const PIXEL_X_OBJECTIVE = "gugle_px";
 const PIXEL_Z_OBJECTIVE = "gugle_pz";
 const DISPATCH_LEAF_SIZE = 8;
 const PIXEL_UUID_STRIDE = 32768;
+const PACK_MAX_FORMAT = 99999;
+const DEFAULT_PACK_METADATA = {
+    pack: {
+        description: "CusionBadApple",
+        min_format: 110,
+        max_format: PACK_MAX_FORMAT,
+    },
+};
 
 export type DisplayMode = "redstone" | "rgbw" | "cushion-color";
 
@@ -190,15 +198,25 @@ export class DatapackBuilder {
     public async prepare(): Promise<void> {
         await mkdir(this.datapackRoot, { recursive: true });
         const packMetadataPath = path.join(this.datapackRoot, "pack.mcmeta");
+        let packMetadataSource: string | undefined;
         try {
-            await access(packMetadataPath);
+            packMetadataSource = await readFile(packMetadataPath, "utf8");
         } catch {
             const templatePath = path.resolve("datapack", "pack.mcmeta");
-            if (path.resolve(packMetadataPath) === templatePath) {
-                throw new Error(`Missing datapack metadata template: ${templatePath}`);
+            if (path.resolve(packMetadataPath) !== templatePath) {
+                try {
+                    packMetadataSource = await readFile(templatePath, "utf8");
+                } catch {}
             }
-            await copyFile(templatePath, packMetadataPath);
         }
+        const packMetadata = packMetadataSource
+            ? JSON.parse(packMetadataSource)
+            : structuredClone(DEFAULT_PACK_METADATA);
+        if (!packMetadata.pack || typeof packMetadata.pack !== "object") {
+            throw new Error(`Invalid datapack metadata: ${packMetadataPath}`);
+        }
+        packMetadata.pack.max_format = PACK_MAX_FORMAT;
+        await writeFile(packMetadataPath, `${JSON.stringify(packMetadata)}\n`, "utf8");
         await rm(path.join(this.datapackRoot, ".build"), { recursive: true, force: true });
         await mkdir(this.temporaryFrameRoot, { recursive: true });
         await mkdir(this.temporaryDispatchRoot, { recursive: true });
@@ -551,10 +569,11 @@ export class DatapackBuilder {
 
     private async writeControlFunctions(frameCount: number): Promise<void> {
         const lastFrame = frameCount - 1;
-        const commandSequenceLimit = this.macroStorage ? 131072 : 65536;
+        const commandSequenceLimit = 2147483647;
         await this.writeSetupChunks();
         const setup: string[] = [
-            "gamerule max_command_forks 65536",
+            "gamerule max_block_modifications 2147483647",
+            "gamerule max_command_forks 2147483647",
             `gamerule max_command_sequence_length ${commandSequenceLimit}`,
             `scoreboard objectives add ${OBJECTIVE} dummy`,
             ...(this.displayMode === "cushion-color" &&
@@ -621,7 +640,8 @@ export class DatapackBuilder {
                 `execute if score $ready ${OBJECTIVE} matches 1 unless score $playing ${OBJECTIVE} matches 1 run function ${NAMESPACE}:restart`,
             ],
             restart: [
-                "gamerule max_command_forks 65536",
+                "gamerule max_block_modifications 2147483647",
+                "gamerule max_command_forks 2147483647",
                 `gamerule max_command_sequence_length ${commandSequenceLimit}`,
                 `schedule clear ${NAMESPACE}:tick`,
                 ...resetDisplay,
