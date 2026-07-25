@@ -5,6 +5,7 @@ import {IconDownload, IconLanguage, IconMoon, IconSun, IconUpload} from "@arco-d
 import {locale, setLocale, t, type Locale} from "./i18n";
 import {generateDatapack, isImageFile} from "./generator";
 import {preloadFFmpeg} from "./ffmpeg";
+import MediaPreview from "./MediaPreview.vue";
 import type {ConversionMode} from "../src/cli";
 import {isCushionColorMode, isRgbwMode, MAX_SCREEN_DIMENSION, MAX_SCREEN_PIXELS} from "../src/cli";
 
@@ -57,7 +58,6 @@ const stageLabel = computed(() => ({
   done: t.value.done,
   idle: t.value.idle
 }[stage.value] || t.value.processing));
-const fileSize = computed(() => file.value ? `${(file.value.size / 1024 / 1024).toFixed(1)} MB` : "");
 const imageFile = computed(() => file.value ? isImageFile(file.value) : false);
 const downloadName = computed(() => {
   if (!file.value) return "CusionBadApple.zip";
@@ -259,12 +259,27 @@ onBeforeUnmount(() => {
           <div><h2>{{ imageFile ? t.image : t.video }}</h2>
             <p>{{ imageFile ? t.imageHint : t.local }}</p></div>
           <span class="status-dot" :class="{ active: file }">{{ file ? t.selected : t.idle }}</span></div>
-        <label class="drop-zone">
+        <div v-if="file" class="preview-container">
+          <MediaPreview
+              :file="file"
+              :mode="mode"
+              :width="width"
+              :height="height"
+              :threshold="threshold"
+              :invert="invert"
+          />
+          <a-tooltip :content="t.replaceMedia">
+            <label class="preview-replace-button">
+              <input class="file-input" type="file" accept="video/*,image/*,.mkv,.avi" @change="chooseFile"/>
+              <IconUpload/>
+            </label>
+          </a-tooltip>
+        </div>
+        <label v-else class="drop-zone">
           <input class="file-input" type="file" accept="video/*,image/*,.mkv,.avi" @change="chooseFile"/>
           <IconUpload :size="30"/>
           <strong>{{ t.mediaDrop }}</strong>
-          <span v-if="file">{{ file.name }} · {{ fileSize }}</span>
-          <span v-else>MP4 · WebM · MOV · MKV · PNG · JPG · WebP</span>
+          <span>MP4 · WebM · MOV · MKV · PNG · JPG · WebP</span>
         </label>
 
         <div v-if="!imageFile" class="memory-note"><strong>{{ t.memory }}</strong><span>{{ t.memoryText }}</span></div>
