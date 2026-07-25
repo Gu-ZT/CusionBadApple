@@ -1,2 +1,0 @@
-data modify entity @s color set value "light_gray"
-execute at @s run setblock ~ ~ ~ minecraft:redstone_ore[lit=true]
