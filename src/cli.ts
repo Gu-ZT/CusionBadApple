@@ -30,6 +30,7 @@ export interface CliOptions {
     height: number;
     mode: ConversionMode;
     threshold: number;
+    dirtyDeltaE: number;
     invert: boolean;
     maxFrames?: number;
 }
@@ -73,6 +74,7 @@ export function parseCli(args: string[]): CliOptions {
         height: 96,
         mode: "binary",
         threshold: 128,
+        dirtyDeltaE: 10,
         invert: false,
     };
 
@@ -139,6 +141,12 @@ export function parseCli(args: string[]): CliOptions {
             case "--threshold": {
                 const [value, nextIndex] = readValue(args, index, inlineValue, name);
                 options.threshold = integer(value, name, 0, 255);
+                index = nextIndex;
+                break;
+            }
+            case "--dirty-delta-e": {
+                const [value, nextIndex] = readValue(args, index, inlineValue, name);
+                options.dirtyDeltaE = decimal(value, name, 0);
                 index = nextIndex;
                 break;
             }
@@ -211,6 +219,8 @@ Options:
                        color-nearest, color-dither, or color-ordered
                        (default: binary)
   --threshold <0-255>  Black/white threshold; grayscale modes only (default: 128)
+  --dirty-delta-e <n>  Minimum CIEDE2000 distance required to update a color
+                       pixel; 0 updates every state change (default: 10)
   --width <blocks>     Screen width (default: 128)
   --height <blocks>    Screen height (default: 96)
   --invert             Invert lit and unlit pixels

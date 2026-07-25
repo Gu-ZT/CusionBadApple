@@ -3,7 +3,6 @@ import { BRIGHTNESS_TIERS } from "./brightness";
 import { isCushionColorMode, isRgbwMode, parseCli, printHelp } from "./cli";
 import { CUSHION_COLOR_PALETTE } from "./colors";
 import {
-    COLOR_DIRTY_DELTA_E,
     convertCushionColorFrame,
     convertFrame,
     convertRgbwFrame,
@@ -91,7 +90,7 @@ async function main(): Promise<void> {
                     options.invert,
                 );
         const currentFrame = cushionColor
-            ? filterCushionColorChanges(convertedFrame, previousFrame)
+            ? filterCushionColorChanges(convertedFrame, previousFrame, options.dirtyDeltaE)
             : convertedFrame;
         commandCount += await builder.writeFrame(frameCount, currentFrame, previousFrame);
         previousFrame = currentFrame;
@@ -126,7 +125,7 @@ async function main(): Promise<void> {
         compactUuidMacro: options.compactUuidMacro,
         colorMetric: cushionColor ? "CIEDE2000" : undefined,
         calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
-        dirtyDeltaE: cushionColor ? COLOR_DIRTY_DELTA_E : undefined,
+        dirtyDeltaE: cushionColor ? options.dirtyDeltaE : undefined,
         clipStartSeconds: options.startSeconds,
         clipEndSeconds: options.endSeconds,
         commands: commandCount,

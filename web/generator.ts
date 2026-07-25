@@ -2,7 +2,7 @@ import JSZip from "jszip";
 import { BRIGHTNESS_TIERS } from "../src/brightness";
 import { ConversionMode, isCushionColorMode, isRgbwMode } from "../src/cli";
 import { CUSHION_COLOR_PALETTE } from "../src/colors";
-import { COLOR_DIRTY_DELTA_E, convertCushionColorFrame, convertFrame, convertRgbwFrame, filterCushionColorChanges } from "../src/converter";
+import { convertCushionColorFrame, convertFrame, convertRgbwFrame, filterCushionColorChanges } from "../src/converter";
 import { DatapackBuilder, DisplayMode } from "../src/datapack";
 import { decodeVideoWasm } from "./ffmpeg";
 import { getVirtualFiles, resetVirtualFiles, writeFile } from "./virtual-fs";
@@ -20,6 +20,7 @@ export interface WebGenerateOptions {
     width: number;
     height: number;
     threshold: number;
+    dirtyDeltaE: number;
     invert: boolean;
     start: number;
     end?: number;
@@ -221,7 +222,9 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
             : rgbw
                 ? convertRgbwFrame(decoded, logicalWidth, logicalHeight, options.mode as never, options.invert)
                 : convertFrame(decoded, options.width, options.height, options.mode as never, options.threshold, options.invert);
-        const current = cushionColor ? filterCushionColorChanges(converted, previous) : converted;
+        const current = cushionColor
+            ? filterCushionColorChanges(converted, previous, options.dirtyDeltaE)
+            : converted;
         commands += await builder.writeFrame(frame, current, previous);
         previous = current;
         options.onStage("generate", 0.45 + (frame + 1) / frameCount * 0.45);
@@ -244,7 +247,7 @@ export async function generateDatapack(options: WebGenerateOptions): Promise<Blo
         compactUuidMacro: options.compactUuidMacro,
         colorMetric: cushionColor ? "CIEDE2000" : undefined,
         calibration: cushionColor ? "palette screenshot, 192 median-sampled states" : undefined,
-        dirtyDeltaE: cushionColor ? COLOR_DIRTY_DELTA_E : undefined,
+        dirtyDeltaE: cushionColor ? options.dirtyDeltaE : undefined,
         commands,
     });
     options.onStage("zip", 0.92);

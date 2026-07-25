@@ -17,6 +17,7 @@ const start = ref(0);
 const endText = ref("5");
 const clipEnabled = ref(true);
 const threshold = ref(128);
+const dirtyDeltaE = ref(10);
 const invert = ref(false);
 const macroStorage = ref(true);
 const uuidEntities = ref(true);
@@ -101,7 +102,8 @@ async function generate(): Promise<void> {
   try {
     const blob = await generateDatapack({
       file: file.value, mode: mode.value, width: width.value, height: height.value,
-      threshold: threshold.value, invert: invert.value, start: clipStart, end,
+      threshold: threshold.value, dirtyDeltaE: dirtyDeltaE.value,
+      invert: invert.value, start: clipStart, end,
       macroStorage: colorMode.value && macroStorage.value,
       uuidEntities: colorMode.value && uuidEntities.value,
       compactUuidMacro: colorMode.value && macroStorage.value && uuidEntities.value && compactUuidMacro.value,
@@ -219,6 +221,10 @@ onBeforeUnmount(() => {
             t.threshold
           }}</label>
           <a-slider v-model="threshold" :min="0" :max="255" show-input/>
+        </div>
+        <div v-if="colorMode && !imageFile" class="field">
+          <label>{{ t.dirtyDeltaE }}</label>
+          <a-input-number v-model="dirtyDeltaE" :min="0" :step="0.5"/>
         </div>
         <div v-if="!imageFile" class="switch-row" :class="{ muted: !colorMode }">
           <div><strong>{{ t.macroStorage }}</strong><span>{{ t.macroStorageHint }}</span></div>
